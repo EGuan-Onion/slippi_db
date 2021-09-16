@@ -1,0 +1,33 @@
+character_id,action_state_id,state_name,state_description,state_category,attack_type,direction
+9,341,Shield Breaker Ground Start Charge,Neutral B,attack,special,Neutral
+9,342,Shield Breaker Ground Charge Loop,Neutral B,attack,special,Neutral
+9,343,Shield Breaker Ground Early Release,Neutral B,attack,special,Neutral
+9,344,Shield Breaker Ground Fully Charged,Neutral B,attack,special,Neutral
+9,345,Shield Breaker Air Start Charge,Neutral B,attack,special,Neutral
+9,346,Shield Breaker Air Charge Loop,Neutral B,attack,special,Neutral
+9,347,Shield Breaker Air Early Release,Neutral B,attack,special,Neutral
+9,348,Shield Breaker Air Fully Charged,Neutral B,attack,special,Neutral
+9,349,Dancing Blade 1 Ground,Side B,attack,special,Forward
+9,350,Dancing Blade 2 Up Ground,Side B,attack,special,Forward
+9,351,Dancing Blade 2 Side Ground,Side B,attack,special,Forward
+9,352,Dancing Blade 3 Up Ground,Side B,attack,special,Forward
+9,353,Dancing Blade 3 Side Ground,Side B,attack,special,Forward
+9,354,Dancing Blade 3 Down Ground,Side B,attack,special,Forward
+9,355,Dancing Blade 4 Up Ground,Side B,attack,special,Forward
+9,356,Dancing Blade 4 Side Ground,Side B,attack,special,Forward
+9,357,Dancing Blade 4 Down Ground,Side B,attack,special,Forward
+9,358,Dancing Blade 1 Air,Side B,attack,special,Forward
+9,359,Dancing Blade 2 Up Air,Side B,attack,special,Forward
+9,360,Dancing Blade 2 Side Air,Side B,attack,special,Forward
+9,361,Dancing Blade 3 Up Air,Side B,attack,special,Forward
+9,362,Dancing Blade 3 Side Air,Side B,attack,special,Forward
+9,363,Dancing Blade 3 Down Air,Side B,attack,special,Forward
+9,364,Dancing Blade 4 Up Air,Side B,attack,special,Forward
+9,365,Dancing Blade 4 Side Air,Side B,attack,special,Forward
+9,366,Dancing Blade 4 Down Air,Side B,attack,special,Forward
+9,367,Dolphin Slash Ground,Up B,attack,special,Up
+9,368,Dolphin Slash Air,Up B,attack,special,Up
+9,369,Counter Ground,Down B,attack,special,Down
+9,370,Counter Ground Hit,Down B,attack,special,Down
+9,371,Counter Air,Down B,attack,special,Down
+9,372,Counter Air Hit,Down B,attack,special,Down
