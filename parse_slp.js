@@ -10,35 +10,32 @@ const NAMESPACE = '00000000-0000-0000-0000-000000000000';
 
 
 console.log("running from Local Macbook")
-// get current directory
-// const replays_dir = "./replays_batch_20210710/"
-// const replays_dir = "/Users/eguan/Slippi/slippi_db/replays/Summit11/"
-// const replays_dir = "/Users/eguan/Slippi/jwu_slp/2021-05/"
 
-if (process.argv.length < 4) {
+
+// get current directory
+// Arguments
+// - db filepath
+// - replay directory filepath
+// - start index
+// - stop index
+if (process.argv.length < 5) {
 	console.log("ERR: Not Enough Argments")
 }
 
 // get file_start and file_end
-const replays_dir = process.argv[2]
+const db_filepath = process.argv[2]
+const replays_dir = process.argv[3]
 const replays_filelist_full = fs.readdirSync(replays_dir)
 
-const file_start = Math.max(parseInt(process.argv[3]), 0)
-const file_end = Math.min(parseInt(process.argv[4]), replays_filelist_full.length)
+const file_start = Math.max(parseInt(process.argv[4]), 0)
+const file_end = Math.min(parseInt(process.argv[5]), replays_filelist_full.length)
 
 
 console.log(file_start)
-
 const replays_filelist = replays_filelist_full.slice(file_start,file_end)
 
-// const db_filepath = './raw.db'
-const db_filepath = '/Volumes/T7/Slippi/slippi_db/raw.db'
 
-// //filename for testing
-// const filename_test = 'Game_20210615T212018.slp';
-// const game_test = new SlippiGame(replays_dir.concat(filename_test));
-
-// connect tp db
+// connect to db
 const db = new sqlite3.Database(db_filepath, (err) => {
   if (err) {
     console.error(err.message);
@@ -54,16 +51,14 @@ const db = new sqlite3.Database(db_filepath, (err) => {
 db.serialize(() => {
 	create_tables(db, drop=false);
 
-  db.parallelize(() => {
-		for (filename of replays_filelist) {
-			ingest_slp(db, filename);
-		}
-  })
+	for (filename of replays_filelist) {
+		ingest_slp(db, filename);
+	}
 
 
-	// check output
+	// // check output
 	// var table_name = 'raw_games';
-	// db.all(`SELECT * FROM ${table_name}`, [], (err, rows) => {
+	// db.all(`SELECT * FROM ${table_name} LIMIT 10`, [], (err, rows) => {
 	// 	rows.forEach((row) =>{
 	// 		console.log(row)
 	// 	})
@@ -113,7 +108,7 @@ function ingest_slp(db, filename) {
 
 		let gameId = uuid.v5(hashstr, NAMESPACE);
 
-		// insert games
+		//insert
 		_insert_table_games(db, game, gameId, filename)
 		_insert_table_player_games(db, game, gameId)
 		// _insert_table_player_frames_pre(db, game, gameId) #cut to save space
@@ -369,6 +364,7 @@ function _insert_table_games(db, game, gameId, filename) {
 /////////////////////////////////////////////////////////
 
 function _insert_table_player_games(db, game, gameId) {
+	db.run("BEGIN TRANSACTION")
 
 	let table_name = 'raw_player_games';
 
@@ -415,13 +411,14 @@ function _insert_table_player_games(db, game, gameId) {
 		data_obj = null
 	}
 
-
+	db.run("COMMIT")
 	return db;
 }
 
 /////////////////////////////////////////////////////////
 
 function _insert_table_player_frames_pre(db, game, gameId) {
+	db.run("BEGIN TRANSACTION") //transaction
 
 	let table_name = 'raw_player_frames_pre';
 
@@ -457,8 +454,6 @@ function _insert_table_player_frames_pre(db, game, gameId) {
 	let settings = game.getSettings();
 	let frames = game.getFrames();
 
-	db.run("BEGIN TRANSACTION") //transaction
-
 	for (frames_key of Object.keys(frames)) {
 
 		for (player of settings.players) {
@@ -490,18 +485,18 @@ function _insert_table_player_frames_pre(db, game, gameId) {
 
 			db.run(insert_sql, data_obj)
 
-			data_obj = null
+			data_obj = null //Trying to save memory. not sure if this works.
 		}
 	}
 
-	db.run("COMMIT") //transaction
-
+	db.run("COMMIT")
 	return db;
 }
 
 /////////////////////////////////////////////////////////
 
 function _insert_table_player_frames_post(db, game, gameId) {
+	db.run("BEGIN TRANSACTION") //not running in sequence
 
 	let table_name = 'raw_player_frames_post';
 
@@ -544,9 +539,6 @@ function _insert_table_player_frames_post(db, game, gameId) {
 	// let metadata = game.getMetadata();
 	let settings = game.getSettings();
 	let frames = game.getFrames();
-
-
-	db.run("BEGIN TRANSACTION")
 
 	for (frames_key of Object.keys(frames)) {
 
@@ -592,11 +584,11 @@ function _insert_table_player_frames_post(db, game, gameId) {
 
 			db.run(insert_sql, data_obj)
 
-			data_obj = null
+			data_obj = null //Trying to save memory.  not sure if this helps.
 		}
 	}
-	db.run("COMMIT")
 
+	db.run("COMMIT")
 	return db;
 }
 
