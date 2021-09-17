@@ -1,31 +1,25 @@
 import json
 import pathlib
 
-## Handle Files
+#TODO - paths.py
+DIR_PATH = "/Volumes/T7/slippi_db/"
+REPLAY_DIR_PATH = DIR_PATH + "replays/"
 
 
-# maintain a log of all .slp files in './replays'
-# All are marked as "TODO" or "Done"
 
-## get all replay directories
-
-
-# replay_dir = './replays/'
-replay_dir = './replays/Summit-11/'
+replay_dir = 'Summit-11/'
 
 
 
 ## Generate
 # all dirs, recursive
 
-def get_slp_dir(replay_dir):
-	p = pathlib.Path(replay_dir)
-
+def init_slp_dict():
 	slp_dict = {
-		str(x): {
-			'status': 'unprocessed'
-		}
-		for x in p.glob('**/*.slp')
+		'queue': [],
+		'done': [],
+		'failed': [],
+		'excluded': [],
 	}
 
 	return slp_dict
@@ -48,6 +42,35 @@ def write_log(slp_dict, filepath="slp_log.json"):
 	return
 
 
+
+
+
+def _get_new_slp(slp_dict, replay_dir='', replay_dir_path=REPLAY_DIR_PATH, recurse=True):
+	p = pathlib.Path(replay_dir_path+replay_dir)
+
+	if recurse:
+		slp_list = p.rglob('*.slp')
+	else:
+		slp_list = p.glob('*.slp')
+
+	slp_list_old = [ slp for slp_list in slp_dict.values() for slp in slp_list ]
+	slp_list_new = [ slp for slp in slp_list if slp not in slp_list_old]
+
+	return slp_list_new
+
+def queue_new_slp(slp_dict, replay_dir='', replay_dir_path=REPLAY_DIR_PATH, recurse=True, prepend=False):
+	slp_list_new = _get_new_slp(slp_dict, replay_dir='', replay_dir_path=REPLAY_DIR_PATH, recurse=True)
+	
+	if prepend:
+		slp_dict['queue'].reverse()
+		slp_dict['queue'].append(slp_list_new)
+		slp_dict['queue'].reverse()
+	else:
+		slp_dict['queue'].append(slp_list_new)
+
+	return slp_dict
+
+
 ## update new files
 def update_new_files(replay_dir, filepath="slp_log.json"):
 	old_log = read_slp_log(filepath)
@@ -59,23 +82,6 @@ def update_new_files(replay_dir, filepath="slp_log.json"):
 
 	write_log(old_log, filepath)
 	return
-
-## update queue
-def queue_all_unprocessed(slp_dict):
-	out = slp_dict
-	for key in out.keys():
-		if out[key]['status'] == 'unprocessed'
-			out[key]['status'] = 'queued'
-	return out
-
-## queue everything in a directory
-def queue_dir(slp_dict, replay_dir, force_rerun=False, recurse=False):
-	out = slp_dict
-	for key in out.keys():
-		if pathlib.Path(key).parent == replay_dir:
-			if  force_rerun || out[key]['status'] == 'unprocessed':
-				out[key]['status'] = 'queued'
-	return out
 
 
 ## update processed

@@ -4,3 +4,5 @@ TODO
 - handle folder names ending in '/'
 - track which files have been processed in parse_slp.js
 - handle subfolders in parse_slp.js
+
+- constants file?
