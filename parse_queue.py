@@ -1,15 +1,7 @@
 import json
 import pathlib
 
-#TODO - paths.py
-DIR_PATH = "/Volumes/T7/slippi_db/"
-REPLAY_DIR_PATH = DIR_PATH + "replays/"
-
-# "/Volumes/T7/slippi_db/replays/Summit-11/"
-# "/Volumes/T7/slippi_db/replays/Summit-11/Day 1"
-
-
-# replay_dir = 'Summit-11/'
+from paths import REPLAY_DIR_PATH
 
 
 class ParseQueue:
@@ -116,20 +108,3 @@ class ParseQueue:
 		return self
 
 
-
-# ## update new files
-# def update_new_files(replay_dir, filepath="slp_log.json"):
-# 	old_log = read_slp_log(filepath)
-# 	new_log = get_slp_dir(replay_dir)
-
-# 	for slp_file in new_log.keys():
-# 		if not slp_file in old_log.keys():
-# 			old_log[slp_file] = new_log[slp_file]
-
-# 	write_log(old_log, filepath)
-# 	return
-
-
-## update processed
-
-## run -- go thru queue, mark as processed when completed
