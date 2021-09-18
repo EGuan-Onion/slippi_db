@@ -8,26 +8,17 @@ const { SlippiGame } = require("@slippi/slippi-js");
 const NAMESPACE = '00000000-0000-0000-0000-000000000000';
 
 
-
-console.log("running from Local Macbook")
-
-
-// test file
-// /Volumes/T7/slippi_db/replays/Summit-11/Day 3/Game_20210718T000019.slp
-// node parse_slp_single.js '/Volumes/T7/slippi_db/db/raw.db' '/Volumes/T7/slippi_db/replays/' 'Summit-11/Day 3/Game_20210718T000019.slp'
-
 if (process.argv.length < 4) {
 	console.log("ERR: Not Enough Argments")
 }
 
-
-const db_filepath = process.argv[2] 		// '/Volumes/T7/slippi_db/db/raw.db'
-const replay_dirpath = process.argv[3] 	// '/Volumes/T7/slippi_db/replays/'
-const replay_filepath = process.argv[4]	// 'Summit-11/Day 3/Game_20210718T000019.slp'
+const db_file_path = process.argv[2] 		// '/Volumes/T7/slippi_db/db/raw.db'
+const replay_dir_path = process.argv[3] 	// '/Volumes/T7/slippi_db/replays/'
+const replay_file_path = process.argv[4]	// 'Summit-11/Day 3/Game_20210718T000019.slp'
 
 
 // connect to db
-const db = new sqlite3.Database(db_filepath, (err) => {
+const db = new sqlite3.Database(db_file_path, (err) => {
   if (err) {
     console.error(err.message);
   }
@@ -41,29 +32,29 @@ const db = new sqlite3.Database(db_filepath, (err) => {
 
 db.serialize(() => {
 	db.run("BEGIN TRANSACTION")
-	ingest_slp(db, replay_dirpath, replay_filepath);
+	ingest_slp(db, replay_dir_path, replay_file_path);
 	db.run("COMMIT")
 })
 
 
 /////////////////////////////////////////////////
 
-function ingest_slp(db, dirpath, filepath) {
-	let filepath_full = dirpath.concat(filepath); // fix dir names missing '/'
+function ingest_slp(db, dir_path, file_path) {
+	let file_path_full = dir_path.concat(file_path); // fix dir names missing '/'
 
-	let game = new SlippiGame(filepath_full);
+	let game = new SlippiGame(file_path_full);
 	let metadata = game.getMetadata();
 	let settings = game.getSettings();
 
 	// if fewer than 2 players, bail
 	if (Object.keys(settings.players).length < 2) {
-		console.log(filepath)
+		console.log(file_path)
 		console.log("ERROR - fewer than 2 players")
 		return db
 	}
 
 	else if (Object.keys(settings.players).length > 2) {
-		console.log(filepath)
+		console.log(file_path)
 		console.log("ERROR - more 2 players")
 		return db
 	}
@@ -78,12 +69,10 @@ function ingest_slp(db, dirpath, filepath) {
 		let gameId = uuid.v5(hashstr, NAMESPACE);
 
 		//insert
-		_insert_table_games(db, game, gameId, filepath_full)
+		_insert_table_games(db, game, gameId, file_path_full)
 		_insert_table_player_games(db, game, gameId)
 		// _insert_table_player_frames_pre(db, game, gameId) #cut to save space
 		_insert_table_player_frames_post(db, game, gameId)
-
-		console.log(filepath_full)
 	}
 	return db;
 }
@@ -121,7 +110,7 @@ function _insert_table_games(db, game, gameId, filename) {
 
 	let data_obj = [
 		gameId,
-		replay_filepath,
+		replay_file_path,
 		metadata.startAt,
 		metadata.lastFrame,
 		metadata.playedOn,
@@ -131,7 +120,7 @@ function _insert_table_games(db, game, gameId, filename) {
 		settings.stageId,
 		settings.scene,
 		settings.gameMode,
-		replay_dirpath,
+		replay_dir_path,
 	];
 
 	db.run(insert_sql, data_obj);

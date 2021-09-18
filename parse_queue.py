@@ -1,23 +1,20 @@
 import json
 import pathlib
 
-from paths import REPLAY_DIR_PATH
-
 
 class ParseQueue:
-	def __init__(self, filepath="slp_log.json", replay_dir_path=REPLAY_DIR_PATH):
+	def __init__(self, filepath, replay_dir_path):
 		self.filepath = filepath
 		self.replay_dir_path = replay_dir_path
 		# self.slp_dict
 		# self.init_empty_slp_dict()
 		try:
-			self.read_slp_log(filepath)
+			self.open(filepath)
 		except:
 			self.init_empty_slp_dict()
 
 		self.active_slp = None
 		return
-
 
 	def init_empty_slp_dict(self):
 		self.slp_dict = {
@@ -28,7 +25,7 @@ class ParseQueue:
 		return self
 
 	## read the current log
-	def read_slp_log(self, filepath=None):
+	def open(self, filepath=None):
 		if  not filepath:
 			filepath = self.filepath
 		f = open(filepath)
@@ -38,7 +35,7 @@ class ParseQueue:
 		return self
 
 	## save
-	def write_slp_log(self):
+	def save(self):
 		self.cleanup()
 
 		# create json object from dictionary
@@ -50,7 +47,7 @@ class ParseQueue:
 		return self
 
 	## get new .slp from a direcetory
-	def get_new_slp(self, replay_dir='', recurse=True):
+	def queue(self, replay_dir='', recurse=True, prepend=False):
 		p = pathlib.Path(self.replay_dir_path+replay_dir)
 
 		if recurse:
@@ -62,13 +59,6 @@ class ParseQueue:
 
 		slp_list_old = [ slp for slp_list in self.slp_dict.values() for slp in slp_list ]
 		slp_list_new = [ slp for slp in slp_list if slp not in slp_list_old]
-
-		self.slp_dict['new'] = slp_list_new
-
-		return self
-
-	def queue_new_slp(self, prepend=False):
-		slp_list_new = self.slp_dict.pop('new', None)
 		
 		if prepend:
 			self.slp_dict['queue'] = slp_list_new + self.slp_dict['queue']
@@ -110,7 +100,7 @@ class ParseQueue:
 
 		return self
 
-	def retry_failures(self):
+	def retry(self):
 		self.slp_dict['queue'] += self.slp_dict['failure']
 		self.slp_dict['failure'] = []
 		return self
