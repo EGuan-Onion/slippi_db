@@ -12,27 +12,18 @@ const NAMESPACE = '00000000-0000-0000-0000-000000000000';
 console.log("running from Local Macbook")
 
 
-// get current directory
-// Arguments
-// - db filepath
-// - replay directory filepath
-// - start index
-// - stop index
-if (process.argv.length < 5) {
+// test file
+// /Volumes/T7/slippi_db/replays/Summit-11/Day 3/Game_20210718T000019.slp
+// node parse_slp_single.js '/Volumes/T7/slippi_db/db/raw.db' '/Volumes/T7/slippi_db/replays/' 'Summit-11/Day 3/Game_20210718T000019.slp'
+
+if (process.argv.length < 4) {
 	console.log("ERR: Not Enough Argments")
 }
 
-// get file_start and file_end
-const db_filepath = process.argv[2]
-const replays_dir = process.argv[3]
-const replays_filelist_full = fs.readdirSync(replays_dir)
 
-const file_start = Math.max(parseInt(process.argv[4]), 0)
-const file_end = Math.min(parseInt(process.argv[5]), replays_filelist_full.length)
-
-
-console.log(file_start)
-const replays_filelist = replays_filelist_full.slice(file_start,file_end)
+const db_filepath = process.argv[2] 		// '/Volumes/T7/slippi_db/db/raw.db'
+const replay_dirpath = process.argv[3] 	// '/Volumes/T7/slippi_db/replays/'
+const replay_filepath = process.argv[4]	// 'Summit-11/Day 3/Game_20210718T000019.slp'
 
 
 // connect to db
@@ -49,52 +40,30 @@ const db = new sqlite3.Database(db_filepath, (err) => {
 /////////////////////////////////////////////////
 
 db.serialize(() => {
-	create_tables(db, drop=false);
-
-	for (filename of replays_filelist) {
-		ingest_slp(db, filename);
-	}
-
-
-	// // check output
-	// var table_name = 'raw_games';
-	// db.all(`SELECT * FROM ${table_name} LIMIT 10`, [], (err, rows) => {
-	// 	rows.forEach((row) =>{
-	// 		console.log(row)
-	// 	})
-	// })
-
-
-	db.close()
+	db.run("BEGIN TRANSACTION")
+	ingest_slp(db, replay_dirpath, replay_filepath);
+	db.run("COMMIT")
 })
 
-/////////////////////////////////////////////////
-
-function create_tables(db, drop=false) {
-	_create_table_games(db, drop);
-	_create_table_player_games(db, drop);
-	// _create_table_player_frames_pre(db, drop); #cut to save space
-	_create_table_player_frames_post(db, drop);
-	
-	return db;
-}
 
 /////////////////////////////////////////////////
 
-function ingest_slp(db, filename) {
-	let game = new SlippiGame(replays_dir.concat(filename));
+function ingest_slp(db, dirpath, filepath) {
+	let filepath_full = dirpath.concat(filepath); // fix dir names missing '/'
+
+	let game = new SlippiGame(filepath_full);
 	let metadata = game.getMetadata();
 	let settings = game.getSettings();
 
 	// if fewer than 2 players, bail
 	if (Object.keys(settings.players).length < 2) {
-		console.log(filename)
+		console.log(filepath)
 		console.log("ERROR - fewer than 2 players")
 		return db
 	}
 
 	else if (Object.keys(settings.players).length > 2) {
-		console.log(filename)
+		console.log(filepath)
 		console.log("ERROR - more 2 players")
 		return db
 	}
@@ -109,202 +78,13 @@ function ingest_slp(db, filename) {
 		let gameId = uuid.v5(hashstr, NAMESPACE);
 
 		//insert
-		_insert_table_games(db, game, gameId, filename)
+		_insert_table_games(db, game, gameId, filepath_full)
 		_insert_table_player_games(db, game, gameId)
 		// _insert_table_player_frames_pre(db, game, gameId) #cut to save space
 		_insert_table_player_frames_post(db, game, gameId)
 
-		console.log(filename)
+		console.log(filepath_full)
 	}
-	return db;
-}
-
-/////////////////////////////////////////////////
-//////////////// CREATE TABLES //////////////////
-/////////////////////////////////////////////////
-
-function _create_table_games(db, drop=false) {
-	let table_name = 'raw_games';
-
-	let create_sql = `
-		CREATE TABLE IF NOT EXISTS ${table_name} (
-			gameId TEXT
-		, filename TEXT
-		-- getMetadata()
-		, startAt TEXT
-		, lastFrame INTEGER
-		, playedOn TEXT
-		-- getSettings()
-		, slpVersion TEXT
-		, isTeams INTEGER
-		, isPAL 	INTEGER
-		, stageId INTEGER
-		, scene INTEGER
-		, gameMode INTEGER
-		, dirpath TEXT
-
-		, PRIMARY KEY (
-				gameId
-			)
-		)
-	`
-
-	db.serialize(() => {
-		if (drop) {
-		  // drop table
-		  db.run(`DROP TABLE IF EXISTS ${table_name}`)
-	  }
-
-		db.run(create_sql)
-	})
-	return db
-}
-
-/////////////////////////////////////////////////////////
-
-function _create_table_player_games(db, drop=false) {
-	let table_name = 'raw_player_games';
-
-	let create_sql = `
-		CREATE TABLE IF NOT EXISTS ${table_name} (
-			gameId TEXT
-		, playerIndex INTEGER
-		-- getSettings().players
-		, port INTEGER
-		, characterId INTEGER
-		, characterColor INTEGER
-		, startStocks INTEGER
-		, type INTEGER
-		, teamId INTEGER
-		, controllerFix TEXT
-		, nametag TEXT
-		, displayName TEXT
-		, connectCode TEXT
-
-		, PRIMARY KEY (
-				gameId
-			, playerIndex
-			)
-		)
-	`;
-
-	db.serialize(() => {
-		if (drop) {
-		  // drop table
-		  db.run(`DROP TABLE IF EXISTS ${table_name}`)
-	  }
-
-		db.run(create_sql)
-	})
-
-	return db;
-}
-
-/////////////////////////////////////////////////////////
-
-function _create_table_player_frames_pre(db, drop=false) {
-	let table_name = 'raw_player_frames_pre';
-
-	let create_sql = `
-		CREATE TABLE IF NOT EXISTS  ${table_name} (
-			gameId TEXT
-		, playerIndex INTEGER
-		, frame INTEGER
-		-- player-game-level
-		, characterId INTEGER
-		-- getFrames()[i].players[j].pre
-	  , isFollower INTEGER --may need to convert from bool
-	  , seed INTEGER
-	  , actionStateId INTEGER
-	  , positionX REAL
-	  , positionY REAL
-	  , facingDirection INTEGER
-	  , joystickX REAL
-	  , joystickY REAL
-	  , cStickX REAL
-	  , cStickY REAL
-	  , trigger REAL
-	  , buttons INTEGER
-	  , physicalButtons INTEGER
-	  , physicalLTrigger REAL
-	  , physicalRTrigger REAL
-	  , percent REAL
-		
-		, PRIMARY KEY (
-				gameId
-			, playerIndex
-			, frame
-			)
-		)
-	`
-
-	db.serialize(() => {
-		if (drop) {
-		  // drop table
-		  db.run(`DROP TABLE IF EXISTS ${table_name}`)
-	  }
-
-		db.run(create_sql)
-	})
-
-	return db;
-}
-
-/////////////////////////////////////////////////////////
-
-function _create_table_player_frames_post(db, drop=false) {
-	let table_name = 'raw_player_frames_post';
-
-	let create_sql = `
-		CREATE TABLE IF NOT EXISTS raw_player_frames_post (
-			gameId TEXT
-		, playerIndex INTEGER
-		, frame INTEGER
-		-- player-game-level
-		, characterId INTEGER
-		-- getFrames()[i].players[j].post
-	  , isFollower INTEGER
-	  , internalCharacterId INTEGER
-	  , actionStateId INTEGER
-	  , positionX REAL
-	  , positionY REAL
-	  , facingDirection INTEGER
-	  , percent REAL
-	  , shieldSize REAL
-	  , lastAttackLanded INTEGER
-	  , currentComboCount INTEGER
-	  , lastHitBy INTEGER
-	  , stocksRemaining INTEGER
-	  , actionStateCounter REAL
-	  , miscActionState INTEGER
-	  , isAirborne INTEGER
-	  , lastGroundId INTEGER
-	  , jumpsRemaining INTEGER
-	  , lCancelStatus INTEGER
-	  , hurtboxCollisionState INTEGER
-	  , selfInducedSpeedsAirX REAL
-	  , selfInducedSpeedsY REAL
-	  , selfInducedSpeedsAttackX REAL
-	  , selfInducedSpeedsAttackY REAL
-	  , selfInducedSpeedsGroundX REAL
-			
-			, PRIMARY KEY (
-					gameId
-				, playerIndex
-				, frame
-			)
-		)
-	`
-
-	db.serialize(() => {
-		if (drop) {
-		  // drop table
-		  db.run(`DROP TABLE IF EXISTS ${table_name}`)
-	  }
-
-		db.run(create_sql)
-	})
-
 	return db;
 }
 
@@ -341,7 +121,7 @@ function _insert_table_games(db, game, gameId, filename) {
 
 	let data_obj = [
 		gameId,
-		filename,
+		replay_filepath,
 		metadata.startAt,
 		metadata.lastFrame,
 		metadata.playedOn,
@@ -351,7 +131,7 @@ function _insert_table_games(db, game, gameId, filename) {
 		settings.stageId,
 		settings.scene,
 		settings.gameMode,
-		replays_dir,
+		replay_dirpath,
 	];
 
 	db.run(insert_sql, data_obj);
@@ -364,7 +144,7 @@ function _insert_table_games(db, game, gameId, filename) {
 /////////////////////////////////////////////////////////
 
 function _insert_table_player_games(db, game, gameId) {
-	db.run("BEGIN TRANSACTION")
+	// db.run("BEGIN TRANSACTION")
 
 	let table_name = 'raw_player_games';
 
@@ -411,14 +191,14 @@ function _insert_table_player_games(db, game, gameId) {
 		data_obj = null
 	}
 
-	db.run("COMMIT")
+	// db.run("COMMIT")
 	return db;
 }
 
 /////////////////////////////////////////////////////////
 
 function _insert_table_player_frames_pre(db, game, gameId) {
-	db.run("BEGIN TRANSACTION") //transaction
+	// db.run("BEGIN TRANSACTION") //transaction
 
 	let table_name = 'raw_player_frames_pre';
 
@@ -489,14 +269,14 @@ function _insert_table_player_frames_pre(db, game, gameId) {
 		}
 	}
 
-	db.run("COMMIT")
+	// db.run("COMMIT")
 	return db;
 }
 
 /////////////////////////////////////////////////////////
 
 function _insert_table_player_frames_post(db, game, gameId) {
-	db.run("BEGIN TRANSACTION") //not running in sequence
+	// db.run("BEGIN TRANSACTION") //not running in sequence
 
 	let table_name = 'raw_player_frames_post';
 
@@ -588,7 +368,7 @@ function _insert_table_player_frames_post(db, game, gameId) {
 		}
 	}
 
-	db.run("COMMIT")
+	// db.run("COMMIT")
 	return db;
 }
 

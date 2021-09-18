@@ -10,7 +10,11 @@ class ParseQueue:
 		self.replay_dir_path = replay_dir_path
 		# self.slp_dict
 		# self.init_empty_slp_dict()
-		self.read_slp_log(filepath)
+		try:
+			self.read_slp_log(filepath)
+		except:
+			self.init_empty_slp_dict()
+
 		self.active_slp = None
 		return
 
@@ -20,7 +24,6 @@ class ParseQueue:
 			'queue': [],
 			'success': [],
 			'failure': [],
-			'excluded': [],
 		}
 		return self
 
@@ -77,18 +80,18 @@ class ParseQueue:
 
 	def parse_queue_pop(self):
 		self.active_slp = self.slp_dict['queue'].pop()
-		return
+		return self
 
-	def parse_return(self, status):
+	def parse_return(self, result):
 		if not self.active_slp:
 			print("ERROR: no active parsing slp file")
 			return self
 
-		if status not in ['success', 'failure', 'excluded']:
-			print("ERROR: invalid status type.  Must be in ['success', 'failure', 'excluded']")
+		if result not in ['success', 'failure']:
+			print("ERROR: invalid result type.  Must be in ['success', 'failure']")
 			return self
 
-		self.slp_dict[status].append(self.active_slp)
+		self.slp_dict[result].append(self.active_slp)
 		self.active_slp = None
 
 		return self
@@ -107,4 +110,7 @@ class ParseQueue:
 
 		return self
 
-
+	def retry_failures(self):
+		self.slp_dict['queue'] += self.slp_dict['failure']
+		self.slp_dict['failure'] = []
+		return self
