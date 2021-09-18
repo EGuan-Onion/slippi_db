@@ -1,8 +1,10 @@
 TODO
 ----
 
-- handle folder names ending in '/'
-- track which files have been processed in parse_slp.js
-- handle subfolders in parse_slp.js
+Test
+- test database, test replays
+- smaller size, also for testing queries
 
-- constants file?
+Rename columns to snake_case
+
+build_db script
