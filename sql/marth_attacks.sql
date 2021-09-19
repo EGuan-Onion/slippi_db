@@ -15,10 +15,10 @@ with dim_action_state_marth_union as (
 
 , g as (
 	SELECT 	
-		gameId
-	,	lastFrame
-	,	stageId
-	, 	dirpath like '%Summit%' as is_summit
+		game_id
+	,	last_frame
+	,	stage_id
+	, 	dir_path like '%Summit%' as is_summit
 	from	raw_games rg 
 	WHERE TRUE
 	
@@ -26,75 +26,75 @@ with dim_action_state_marth_union as (
 
 , pg as (
 	SELECT 
-		gameId 
-	, 	playerIndex 
-	,	characterId
-	,   characterColor
+		game_id 
+	, 	player_index 
+	,	character_id
+	,   character_color
 	,	nametag
-	,	displayName
-	,	connectCode
+	,	display_name
+	,	connect_code
 	FROM  raw_player_games rpg 
 	WHERE TRUE
---		AND gameId in ('6c298400-4c88-5c07-8ca7-1902bbc0cb20', '99f7aa0e-2691-5ad2-8c26-090185cdcf06')
+--		AND game_id in ('6c298400-4c88-5c07-8ca7-1902bbc0cb20', '99f7aa0e-2691-5ad2-8c26-090185cdcf06')
 )
 
 , pgo AS (
 	SELECT 
 		pg.*
-	,	pgo.playerIndex
-	,	pgo.characterIndex
+	,	pgo.player_index
+	,	pgo.character_index
 	from  pg
 	join pg  pgo
-	on  pg.gameId = pgo.gameId
-	AND pg.playerIndex != pgo.playerIndex
+	on  pg.game_id = pgo.game_id
+	AND pg.player_index != pgo.player_index
 )
 
 
 
 , gpg as (
 	SELECT 
-		g.gameId
-	,	g.lastFrame
-	, 	g.stageId
+		g.game_id
+	,	g.last_frame
+	, 	g.stage_id
 	,	g.is_summit
-	,	pg.playerIndex
-	,	pg.characterId
-	,   pg.characterColor
-	,	pg.connectCode
-	,	pgo.playerIndex as playerIndexOpp
-	,	pgo.characterId as characterIdOpp
+	,	pg.player_index
+	,	pg.character_id
+	,   pg.character_color
+	,	pg.connect_code
+	,	pgo.player_index as player_index_opp
+	,	pgo.character_id as character_id_opp
 	FROM  g
 	
 	JOIN  pg
-	ON  g.gameId = pg.gameId
+	ON  g.game_id = pg.game_id
 	JOIN pg  pgo
 	
-	on  pg.gameId = pgo.gameId
-	AND pg.playerIndex != pgo.playerIndex
+	on  pg.game_id = pgo.game_id
+	AND pg.player_index != pgo.player_index
 	
 	-- filter down game sample size
 	WHERE TRUE
-		AND stageId in (2,3,8,28,31,32)
-		AND pg.characterId = 9 --Marth
---		AND pg.gameId in ('6c298400-4c88-5c07-8ca7-1902bbc0cb20', '99f7aa0e-2691-5ad2-8c26-090185cdcf06')
+		AND stage_id in (2,3,8,28,31,32)
+		AND pg.character_id = 9 --Marth
+--		AND pg.game_id in ('6c298400-4c88-5c07-8ca7-1902bbc0cb20', '99f7aa0e-2691-5ad2-8c26-090185cdcf06')
 )
 
 , pfp as (
 	SELECT 
-		gameId
-	,	playerIndex
+		game_id
+	,	player_index
 	,	frame
-	,	actionStateId 
-	,	actionStateCounter 
-	,	facingDirection -- 1 = right, -1 = left
-	, 	positionX 
-	,	positionY 
+	,	action_state_id 
+	,	action_state_counter 
+	,	facing_direction -- 1 = right, -1 = left
+	, 	position_x 
+	,	position_y 
 	,	percent 
-	,	stocksRemaining 
+	,	stocks_remaining 
 	FROM  raw_player_frames_post rpfp 
 	WHERE TRUE 
 		AND frame >= 0
---		AND gameId in ('6c298400-4c88-5c07-8ca7-1902bbc0cb20', '99f7aa0e-2691-5ad2-8c26-090185cdcf06')
+--		AND game_id in ('6c298400-4c88-5c07-8ca7-1902bbc0cb20', '99f7aa0e-2691-5ad2-8c26-090185cdcf06')
 )
 
 
@@ -102,24 +102,24 @@ with dim_action_state_marth_union as (
 	select
 		gpg.*
 	,   pfp.frame
-	, 	pfp.positionX as X
-	,	pfp.positionY as Y
-	,	pfp.facingDirection
-	,	pfp.stocksRemaining as stocks
-	,	pfp.actionStateId
-	,	pfp.actionStateCounter
+	, 	pfp.position_x as X
+	,	pfp.position_y as Y
+	,	pfp.facing_direction
+	,	pfp.stocks_remaining as stocks
+	,	pfp.action_state_id
+	,	pfp.action_state_counter
 	,	pfp.percent
-	,	pfpo.stocksRemaining as stocksOpp
---	,   min(pfp.stocksRemaining)=0 over (partition by gpg.gameId, gpg.playerIndex) as is_win
+	,	pfpo.stocks_remaining as stocks_opp
+--	,   min(pfp.stocks_remaining)=0 over (partition by gpg.game_id, gpg.player_index) as is_win
 	from  gpg
 	
 	join  pfp
-	on  gpg.gameId = pfp.gameId
-		AND gpg.playerIndex = pfp.playerIndex
+	on  gpg.game_id = pfp.game_id
+		AND gpg.player_index = pfp.player_index
 	
 	join  pfp as pfpo 
-	on  gpg.gameId = pfpo.gameId
-		AND gpg.playerIndexOpp = pfpo.playerIndex
+	on  gpg.game_id = pfpo.game_id
+		AND gpg.player_index_opp = pfpo.player_index
 		AND pfp.frame = pfpo.frame
 )
 
@@ -128,29 +128,29 @@ with dim_action_state_marth_union as (
 		*
 	from  frame
 	join  dim_action_state_marth_union das
-	on  frame.actionStateId = das.action_state_id
+	on  frame.action_state_id = das.action_state_id
 	where  TRUE
 		AND state_category = 'attack'
-		AND actionStateCounter = 1
+		AND action_state_counter = 1
 )
 
 , agg as (
 	select
-		stageId
+		stage_id
 	,	CASE 
-			WHEN connectCode != 'RELU#824' THEN 'Not Justin'
-		ELSE connectCode END as connectCode
+			WHEN connect_code != 'RELU#824' THEN 'Not Justin'
+		ELSE connect_code END as connect_code
 	,	is_summit
-	,	characterId
-	,   characterColor
-	,	characterIdOpp
-	,	facingDirection
+	,	character_id
+	,   character_color
+	,	character_id_opp
+	,	facing_direction
 	,	round(X/10)*10 as X
 	,	round(Y/10)*10 as Y
 --	,	stocks
-	,	actionStateId
+	,	action_state_id
 --	,	round(percent/10)*10 as percent
---	,	stocksOpp
+--	,	stocks_opp
 	,   sum(1) as rowcount
 	from  frame_attack
 	group by
@@ -172,16 +172,16 @@ with dim_action_state_marth_union as (
 	from agg a
 	
 	join dim_stage ds 
-	on	ds.stage_id = a.stageId
+	on	ds.stage_id = a.stage_id
 	
 	join dim_character dc 
-	on  dc.character_id = a.characterId
+	on  dc.character_id = a.character_id
 	
 	join dim_character dco
-	on  dco.character_id = a.characterIdOpp
+	on  dco.character_id = a.character_id_opp
 	
 	join dim_action_state_marth_union das 
-	on  das.action_state_id = a.actionStateId
+	on  das.action_state_id = a.action_state_id
 	
 	where TRUE 
 		AND dc.tier_rank <= 6
