@@ -1,3 +1,6 @@
+#Usage:
+# To build the test DB and re-populate the files
+# $python build_db.py test True
 import sys
 sys.path.append("/Users/eguan/slippi_db/")
 
@@ -65,6 +68,7 @@ def run(mode='test', populate=False):
 
 if __name__=='__main__':
 	print(__name__)
-	run(mode='test', populate=True)
+	print(sys.argv)
+	run(*sys.argv[1:3])
 
 

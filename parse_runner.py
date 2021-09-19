@@ -1,7 +1,11 @@
 #first argument, relative dir path.  If empty, uses existing queue.
-# EX: $python parse_runner.py 'jwu_slp/2021-06/'
-#second argument specifies test mode.  If any value but 'test', uses production
-# EX: $python parse_runner.py './' test
+# To add all files from 'jwu_slp/2021-06/' to the queue and begin running
+# $python parse_runner.py 'jwu_slp/2021-06/'
+# To add all files from the test replay directory
+# $python parse_runner.py './' test
+# To resume processing the current queue (either works)
+# $python parse_runner.py
+# $python parse_runner.py None production
 
 import sys
 
@@ -82,5 +86,5 @@ if __name__ == '__main__':
 	# mode = sys.argv[2] if len(sys.argv)>2 else None
 
 	print(sys.argv)
-	run(*argv[1:4])
+	run(*sys.argv[1:4])
 	# run(add_to_queue=add_to_queue, mode=mode)
