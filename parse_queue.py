@@ -1,6 +1,8 @@
 import json
 import pathlib
 
+# Example:
+# ParseQueue(filepath=PARSE_QUEUE_PATH, replay_dir_path=REPLAY_DIR_PATH)
 
 class ParseQueue:
 	def __init__(self, filepath, replay_dir_path):

@@ -1,10 +1,8 @@
 TODO
 ----
 
-Test
-- test database, test replays
-- smaller size, also for testing queries
-
 Rename columns to snake_case
 
-build_db script
+Build_db
+
+Test build_db
