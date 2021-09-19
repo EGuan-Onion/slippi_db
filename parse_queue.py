@@ -49,7 +49,7 @@ class ParseQueue:
 		return self
 
 	## get new .slp from a direcetory
-	def queue(self, replay_dir='', recurse=True, prepend=False, retry=False):
+	def queue(self, replay_dir='', recurse=True, prepend=False):
 		p = pathlib.Path(self.replay_dir_path+replay_dir)
 
 		if recurse:
@@ -61,9 +61,6 @@ class ParseQueue:
 
 		slp_list_old = [ slp for slp_list in self.slp_dict.values() for slp in slp_list ]
 		slp_list_new = [ slp for slp in slp_list if slp not in slp_list_old]
-		
-		if retry:
-			slp_list_new = slp_list
 
 		#since the queue pops from the end, 'prepending' really means putting at the end
 		if prepend:
