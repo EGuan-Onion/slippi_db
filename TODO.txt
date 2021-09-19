@@ -1,8 +1,15 @@
 TODO
 ----
 
-Rename columns to snake_case
+- Build_db script to create the database from scratch
+- Test build_db
 
-Build_db
+- Discard unwanted game data.  
+- - Requirements: 2-player, 4-stock, good stage, sufficiently long match.
+- - Q: include ragequits or nah?
 
-Test build_db
+- Table cleanup
+- - add some useful derived stuff.  maybe wait to do this until we have 
+- - winning player in `game`
+- - winner flag in `player_game`
+- - player-game-opponent table
