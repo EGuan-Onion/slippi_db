@@ -7,23 +7,23 @@ where type != 'table'
 
 create index if not exists raw_games_cover
 on raw_games (
-  	gameId
-  ,	lastFrame
-  ,	stageId
-  , dirpath
+  	game_id
+  ,	last_frame
+  ,	stage_id
+  , dir_path
 )
 ;
 
 
 create index if not exists raw_player_games_cover
 on raw_player_games (
-  	gameId 
-  , playerIndex 
-  ,	characterId
-  ,	characterColor
+  	game_id 
+  , player_index 
+  ,	character_id
+  ,	character_color
   ,	nametag
-  ,	displayName
-  ,	connectCode
+  ,	display_name
+  ,	connect_code
 )
 ;
 
@@ -31,16 +31,16 @@ on raw_player_games (
 
 create index if not exists raw_player_frames_post_cover
 on raw_player_frames_post (
-  	gameId
-  ,	playerIndex
+  	game_id
+  ,	player_index
   ,	frame
-  ,	actionStateId 
-  ,	actionStateCounter 
-  ,	facingDirection -- 1 = right, -1 = left
-  , isAirborne
-  , positionX 
-  ,	positionY 
+  ,	action_state_id 
+  ,	action_state_counter 
+  ,	facing_direction -- 1 = right, -1 = left
+  , is_airborne
+  , position_x 
+  ,	position_y 
   ,	percent 
-  ,	stocksRemaining
+  ,	stocks_remaining
 )
 

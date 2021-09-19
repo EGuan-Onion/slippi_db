@@ -1,32 +1,47 @@
-#!/usr/bin/python
+import sys
+sys.path.append("/Users/eguan/slippi_db/")
 
-# create dim tables
-# dim_character
-# dim_action_state (global action states only)
-# dim_stage
-
-import os
+import pathlib
 import sqlite3
 import pandas as pd
 
-dim_table_filepath = '/Users/eguan/Slippi/slippi_db/dim_tables/'
 
-filelist = os.listdir('/Users/eguan/Slippi/slippi_db/dim_tables')
-
-
-con = sqlite3.connect('raw.db')
-
-cur = con.cursor()
+from paths import RAW_DB_PATH, TEST_RAW_DB_PATH, DIM_TABLE_DIR_PATH
 
 
-for file in filelist:
-	filepath = dim_table_filepath+file
-	table_name = file.strip('.csv')
-	df = pd.read_csv(filepath)
-	cur.execute("DROP TABLE {}".format(table_name))
-	df.to_sql(table_name, con, if_exists='replace', index=False)
+def run(mode='test'):
+	if mode=='test':
+		db_path = TEST_RAW_DB_PATH
+	elif mode=='production':
+		db_path = RAW_DB_PATH
+	else:
+		print("unrecognized mode.  must be in ['test', 'production']")
+		return
 
-	for row in cur.execute("SELECT * FROM {}".format(table_name)):
-		print(row)
 
-con.close()
+	file_list = pathlib.Path(DIM_TABLE_DIR_PATH).glob('*.csv')
+
+	con = sqlite3.connect(db_path)
+
+
+	for file_path in file_list:
+		table_name = file_path.stem
+		print(table_name)
+
+		df = pd.read_csv(file_path)
+
+
+		# con.execute("DROP TABLE {}".format(table_name))
+		df.to_sql(name=table_name, con=con, if_exists='replace', index=False)
+
+		# # Check Result
+		# for row in con.execute("SELECT * FROM {}".format(table_name)):
+		# 	print(row)
+
+	con.close()
+
+
+
+if __name__=='__main__':
+	print(__name__)
+	run(mode='test')

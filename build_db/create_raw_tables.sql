@@ -2,120 +2,120 @@
 
 
 CREATE TABLE IF NOT EXISTS raw_games (
-	gameId TEXT
-, filename TEXT
+game_id TEXT
+, file_name TEXT
 -- getMetadata()
-, startAt TEXT
-, lastFrame INTEGER
-, playedOn TEXT
+, start_at TEXT
+, last_frame INTEGER
+, played_on TEXT
 -- getSettings()
-, slpVersion TEXT
-, isTeams INTEGER
-, isPAL 	INTEGER
-, stageId INTEGER
+, slp_version TEXT
+, is_teams INTEGER
+, is_pal 	INTEGER
+, stage_id INTEGER
 , scene INTEGER
-, gameMode INTEGER
-, dirpath TEXT
+, game_mode INTEGER
+, dir_path TEXT
 
 , PRIMARY KEY (
-		gameId
+	game_id
 	)
 )
 ;
 
 CREATE TABLE IF NOT EXISTS raw_player_games (
-	gameId TEXT
-, playerIndex INTEGER
+game_id TEXT
+, player_index INTEGER
 -- getSettings().players
 , port INTEGER
-, characterId INTEGER
-, characterColor INTEGER
-, startStocks INTEGER
+, character_id INTEGER
+, character_color INTEGER
+, start_stocks INTEGER
 , type INTEGER
-, teamId INTEGER
-, controllerFix TEXT
+, team_id INTEGER
+, controller_fix TEXT
 , nametag TEXT
-, displayName TEXT
-, connectCode TEXT
+, display_name TEXT
+, connect_code TEXT
 
 , PRIMARY KEY (
-		gameId
-	, playerIndex
+	game_id
+	, player_index
 	)
 )
 ;
 
 
 
-CREATE TABLE IF NOT EXISTS raw_player_frames_pre (
-	gameId TEXT
-, playerIndex INTEGER
-, frame INTEGER
--- player-game-level
-, characterId INTEGER
--- getFrames()[i].players[j].pre
-, isFollower INTEGER --may need to convert from bool
-, seed INTEGER
-, actionStateId INTEGER
-, positionX REAL
-, positionY REAL
-, facingDirection INTEGER
-, joystickX REAL
-, joystickY REAL
-, cStickX REAL
-, cStickY REAL
-, trigger REAL
-, buttons INTEGER
-, physicalButtons INTEGER
-, physicalLTrigger REAL
-, physicalRTrigger REAL
-, percent REAL
+-- CREATE TABLE IF NOT EXISTS raw_player_frames_pre (
+-- game_id TEXT
+-- , player_index INTEGER
+-- , frame INTEGER
+-- -- player-game-level
+-- , character_id INTEGER
+-- -- getFrames()[i].players[j].pre
+-- , is_follower INTEGER --may need to convert from bool
+-- , seed INTEGER
+-- , action_state_id INTEGER
+-- , position_x REAL
+-- , position_y REAL
+-- , facing_direction INTEGER
+-- , joystick_x REAL
+-- , joystick_y REAL
+-- , c_stick_x REAL
+-- , c_stick_y REAL
+-- , trigger REAL
+-- , buttons INTEGER
+-- , physical_buttons INTEGER
+-- , physical_l_trigger REAL
+-- , physical_r_trigger REAL
+-- , percent REAL
 
-, PRIMARY KEY (
-		gameId
-	, playerIndex
-	, frame
-	)
-)
-;
+-- , PRIMARY KEY (
+-- 	game_id
+-- 	, player_index
+-- 	, frame
+-- 	)
+-- )
+-- ;
 
 
 
 CREATE TABLE IF NOT EXISTS raw_player_frames_post (
-	gameId TEXT
-, playerIndex INTEGER
+game_id TEXT
+, player_index INTEGER
 , frame INTEGER
 -- player-game-level
-, characterId INTEGER
+, character_id INTEGER
 -- getFrames()[i].players[j].post
-, isFollower INTEGER
-, internalCharacterId INTEGER
-, actionStateId INTEGER
-, positionX REAL
-, positionY REAL
-, facingDirection INTEGER
+, is_follower INTEGER
+, internal_character_id INTEGER
+, action_state_id INTEGER
+, position_x REAL
+, position_y REAL
+, facing_direction INTEGER
 , percent REAL
-, shieldSize REAL
-, lastAttackLanded INTEGER
-, currentComboCount INTEGER
-, lastHitBy INTEGER
-, stocksRemaining INTEGER
-, actionStateCounter REAL
-, miscActionState INTEGER
-, isAirborne INTEGER
-, lastGroundId INTEGER
-, jumpsRemaining INTEGER
-, lCancelStatus INTEGER
-, hurtboxCollisionState INTEGER
-, selfInducedSpeedsAirX REAL
-, selfInducedSpeedsY REAL
-, selfInducedSpeedsAttackX REAL
-, selfInducedSpeedsAttackY REAL
-, selfInducedSpeedsGroundX REAL
+, shield_size REAL
+, last_attack_landed INTEGER
+, current_combo_count INTEGER
+, last_hit_by INTEGER
+, stocks_remaining INTEGER
+, action_state_counter REAL
+, misc_action_state INTEGER
+, is_airborne INTEGER
+, last_ground_id INTEGER
+, jumps_remaining INTEGER
+, l_cancel_status INTEGER
+, hurtbox_collision_state INTEGER
+, self_induced_speeds_air_x REAL
+, self_induced_speeds_y REAL
+, self_induced_speeds_attack_x REAL
+, self_induced_speeds_attack_y REAL
+, self_induced_speeds_ground_x REAL
 	
 , PRIMARY KEY (
-			gameId
-		, playerIndex
+		game_id
+		, player_index
 		, frame
 	)
 )

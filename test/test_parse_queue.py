@@ -1,8 +1,6 @@
 # test_parse_queue.py
 import sys
-
-# insert at 1, 0 is the script path (or '' in REPL)
-sys.path.insert(1, '../')
+sys.path.append("/Users/eguan/slippi_db/")
 
 from parse_queue import ParseQueue
 from paths import *

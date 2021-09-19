@@ -8,7 +8,7 @@ from paths import RAW_DB_PATH, SQL_DIR_PATH, SQL_OUTPUT_DIR_PATH
 
 def run():
 	con = sqlite3.connect(RAW_DB_PATH)
-	con.execute("PRAGMA cache_size=-64000")
+	con.execute("PRAGMA cache_size=-256000")
 
 
 	sql_dir_path = pathlib.Path(SQL_DIR_PATH)
@@ -36,7 +36,7 @@ def run():
 
 		#write CSV
 		print(df.head())
-		# df.to_csv(out_file_path, index=False)
+		df.to_csv(out_file_path, index=False)
 
 
 	con.close()

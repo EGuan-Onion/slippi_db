@@ -26,7 +26,8 @@ from parse_queue import ParseQueue
 
 def run(
 		add_to_queue=None, 
-		mode=None,
+		mode='production',
+		reset_queue=False,
 		):
 
 	if mode=='test':
@@ -36,17 +37,24 @@ def run(
 		db_path=TEST_RAW_DB_PATH
 		js_path=TEST_PARSE_SLP_JS_PATH
 
-	else:
+	elif mode=='production':
 		parse_queue_path=PARSE_QUEUE_PATH
 		replay_dir_path=REPLAY_DIR_PATH
 		db_path=RAW_DB_PATH
 		js_path=PARSE_SLP_JS_PATH
 
+	else:
+		print("unrecognized mode.  must be in ['test', 'production']")
+		return
+
 	pq = ParseQueue(filepath=parse_queue_path, replay_dir_path=replay_dir_path)
+
+	if reset_queue:
+		pq.init_empty_slp_dict()
 
 	if add_to_queue:
 		print("queue: {}".format(add_to_queue))
-		pq.queue(add_to_queue, prepend=True, retry=True)
+		pq.queue(add_to_queue, prepend=True)
 
 	while len(pq.slp_dict['queue']) > 0:
 		pq.parse_queue_pop()
@@ -70,8 +78,9 @@ def run(
 if __name__ == '__main__':
 	print(__name__)
 	
-	add_to_queue = sys.argv[1] if len(sys.argv)>1 else None
-	mode = sys.argv[2] if len(sys.argv)>2 else None
+	# add_to_queue = sys.argv[1] if len(sys.argv)>1 else None
+	# mode = sys.argv[2] if len(sys.argv)>2 else None
 
 	print(sys.argv)
-	run(add_to_queue=add_to_queue, mode=mode)
+	run(*argv[1:4])
+	# run(add_to_queue=add_to_queue, mode=mode)

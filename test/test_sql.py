@@ -1,16 +1,20 @@
+import sys
+sys.path.append("/Users/eguan/slippi_db/")
+
 import sqlite3
 import pandas as pd
 
-sys.path.insert(1, '../')
 
 from paths import RAW_DB_PATH, SQL_OUTPUT_DIR_PATH
 
 con = sqlite3.connect(RAW_DB_PATH)
-con.execute("PRAGMA cache_size=-64000")
+con.execute("PRAGMA cache_size=-256000")
 
+file_stem = 'tech_directions'
+sql_filepath = '../sql/' + file_stem + '.sql'
+csv_out_filepath = SQL_OUTPUT_DIR_PATH + file_stem + '.csv'
 
-sql_filepath = './sql/tech_directions.sql'
-csv_out_filepath = SQL_OUTPUT_DIR_PATH + 'tech_directions.csv'
+print(file_stem)
 
 # con.execute("""
 # 	select *
@@ -24,11 +28,9 @@ sql_string = f.read()
 f.close()
 
 
-#print 4 rows)
-for row in con.execute(sql_string).fetchmany(4):
-	print(row)
-
 df = pd.read_sql(sql_string, con)
+print(df.head())
+
 df.to_csv(csv_out_filepath, index=False)
 
 

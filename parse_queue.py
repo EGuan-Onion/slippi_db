@@ -65,10 +65,11 @@ class ParseQueue:
 		if retry:
 			slp_list_new = slp_list
 
+		#since the queue pops from the end, 'prepending' really means putting at the end
 		if prepend:
-			self.slp_dict['queue'] = slp_list_new + self.slp_dict['queue']
-		else:
 			self.slp_dict['queue'] = self.slp_dict['queue'] + slp_list_new
+		else:
+			self.slp_dict['queue'] = slp_list_new + self.slp_dict['queue']
 
 		return self
 

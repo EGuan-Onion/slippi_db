@@ -5,6 +5,9 @@ PARSE_QUEUE_PATH = DIR_PATH + "parse_queue.json"
 SQL_OUTPUT_DIR_PATH = DIR_PATH + "sql_output/"
 SQL_DIR_PATH = "./sql/"
 
+REPO_DIR_PATH = "/Users/eguan/slippi_db/"
+DIM_TABLE_DIR_PATH = REPO_DIR_PATH + "dim_tables/"
+
 
 TEST_DIR_PATH = "/Users/eguan/slippi_db/test/"
 TEST_REPLAY_DIR_PATH = TEST_DIR_PATH + "replays/"
