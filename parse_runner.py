@@ -46,7 +46,7 @@ def run(
 
 	if add_to_queue:
 		print("queue: {}".format(add_to_queue))
-		pq.queue(add_to_queue, prepend=True)
+		pq.queue(add_to_queue, prepend=True, retry=True)
 
 	while len(pq.slp_dict['queue']) > 0:
 		pq.parse_queue_pop()

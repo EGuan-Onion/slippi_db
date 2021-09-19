@@ -68,7 +68,7 @@
 	"buffers":
 	[
 		{
-			"file": "parse_runner.py",
+			"file": "/Users/eguan/slippi_db/parse_runner.py",
 			"settings":
 			{
 				"buffer_size": 1853,
@@ -116,7 +116,7 @@
 			]
 		},
 		{
-			"file": "parse_queue.py",
+			"file": "/Users/eguan/slippi_db/parse_queue.py",
 			"settings":
 			{
 				"buffer_size": 2552,
@@ -124,7 +124,7 @@
 			}
 		},
 		{
-			"file": "test/test_parse_runner.py",
+			"file": "test_parse_runner.py",
 			"settings":
 			{
 				"buffer_size": 364,
@@ -132,7 +132,7 @@
 			}
 		},
 		{
-			"file": "TODO.txt",
+			"file": "/Users/eguan/slippi_db/TODO.txt",
 			"settings":
 			{
 				"buffer_size": 64,
@@ -2320,7 +2320,7 @@
 			[
 				{
 					"buffer": 0,
-					"file": "parse_runner.py",
+					"file": "/Users/eguan/slippi_db/parse_runner.py",
 					"semi_transient": false,
 					"settings":
 					{
@@ -2351,7 +2351,7 @@
 				},
 				{
 					"buffer": 1,
-					"file": "parse_queue.py",
+					"file": "/Users/eguan/slippi_db/parse_queue.py",
 					"semi_transient": false,
 					"settings":
 					{
@@ -2382,7 +2382,7 @@
 				},
 				{
 					"buffer": 2,
-					"file": "test/test_parse_runner.py",
+					"file": "test_parse_runner.py",
 					"selected": true,
 					"semi_transient": false,
 					"settings":
@@ -2412,7 +2412,7 @@
 				},
 				{
 					"buffer": 3,
-					"file": "TODO.txt",
+					"file": "/Users/eguan/slippi_db/TODO.txt",
 					"semi_transient": false,
 					"settings":
 					{
@@ -2479,7 +2479,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "slippi_db.sublime-project",
+	"project": "/Users/eguan/slippi_db/slippi_db.sublime-project",
 	"replace":
 	{
 		"height": 80.0

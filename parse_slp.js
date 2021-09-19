@@ -69,7 +69,7 @@ function ingest_slp(db, dir_path, file_path) {
 		let gameId = uuid.v5(hashstr, NAMESPACE);
 
 		//insert
-		_insert_table_games(db, game, gameId, file_path_full)
+		_insert_table_games(db, game, gameId, file_path)
 		_insert_table_player_games(db, game, gameId)
 		// _insert_table_player_frames_pre(db, game, gameId) #cut to save space
 		_insert_table_player_frames_post(db, game, gameId)
@@ -82,25 +82,29 @@ function ingest_slp(db, dir_path, file_path) {
 /////////////////////  INSERT  //////////////////////////
 /////////////////////////////////////////////////////////
 
-function _insert_table_games(db, game, gameId, filename) {
+function _insert_table_games(db, game, gameId, file_path) {
 	let table_name = 'raw_games';
+
+	let file_path_index = file_path.lastIndexOf('/')+1
+	let file_name = file_path.substr(file_path_index)
+	let dir_path = file_path.substr(0,file_path_index)
 
 	let insert_sql = `
 		REPLACE INTO ${table_name} (
-			gameId
-		, filename
+			game_id
+		, file_name
 		-- getMetadata()
-		, startAt
-		, lastFrame
-		, playedOn
+		, start_at
+		, last_frame
+		, played_on
 		-- getSettings()
-		, slpVersion
-		, isTeams
-		, isPAL 
-		, stageId
+		, slp_version
+		, is_teams
+		, is_pal 
+		, stage_id
 		, scene
-		, gameMode
-		, dirpath
+		, game_mode
+		, dir_path
 		)
 		VALUES (?,?,?,?,?,?,?,?,?,?,?,?)
 	`;
@@ -110,7 +114,7 @@ function _insert_table_games(db, game, gameId, filename) {
 
 	let data_obj = [
 		gameId,
-		replay_file_path,
+		file_name,
 		metadata.startAt,
 		metadata.lastFrame,
 		metadata.playedOn,
@@ -120,7 +124,7 @@ function _insert_table_games(db, game, gameId, filename) {
 		settings.stageId,
 		settings.scene,
 		settings.gameMode,
-		replay_dir_path,
+		dir_path,
 	];
 
 	db.run(insert_sql, data_obj);
@@ -139,19 +143,19 @@ function _insert_table_player_games(db, game, gameId) {
 
 	let insert_sql = `
 		REPLACE INTO ${table_name} (
-			gameId
-		, playerIndex
+			game_id
+		, player_index
 		-- getSettings().players
 		, port
-		, characterId
-		, characterColor
-		, startStocks
+		, character_id
+		, character_color
+		, start_stocks
 		, type
-		, teamId
-		, controllerFix
+		, team_id
+		, controller_fix
 		, nametag
-		, displayName
-		, connectCode
+		, display_name
+		, connect_code
 		)
 		VALUES (?,?,?,?,?,?,?,?,?,?,?,?)
 	`;
@@ -193,27 +197,27 @@ function _insert_table_player_frames_pre(db, game, gameId) {
 
 	let insert_sql = `
 		REPLACE INTO ${table_name} (
-			gameId
-		, playerIndex
+			game_id
+		, player_index
 		, frame
 		-- player-game-level
-		, characterId
+		, character_id
 		-- getFrames()[i].players[j].pre
-	  , isFollower
+	  , is_follower
 	  , seed
-	  , actionStateId
-	  , positionX
-	  , positionY
-	  , facingDirection
-	  , joystickX
-	  , joystickY
-	  , cStickX
-	  , cStickY
+	  , action_state_id
+	  , position_x
+	  , position_y
+	  , facing_direction
+	  , joystick_x
+	  , joystick_y
+	  , c_stick_x
+	  , c_stick_y
 	  , trigger
 	  , buttons
-	  , physicalButtons
-	  , physicalLTrigger
-	  , physicalRTrigger
+	  , physical_buttons
+	  , physical_l_trigger
+	  , physical_r_trigger
 	  , percent
 		)
 		VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
@@ -271,36 +275,36 @@ function _insert_table_player_frames_post(db, game, gameId) {
 
 	let insert_sql = `
 		REPLACE INTO ${table_name} (
-			gameId
-		, playerIndex
+			game_id
+		, player_index
 		, frame
 		-- player-game-level
-		, characterId
+		, character_id
 		-- getFrames()[i].players[j].post
-	  , isFollower
-	  , internalCharacterId
-	  , actionStateId
-	  , positionX
-	  , positionY
-	  , facingDirection
+	  , is_follower
+	  , internal_character_id
+	  , action_state_id
+	  , position_x
+	  , position_y
+	  , facing_direction
 	  , percent
-	  , shieldSize
-	  , lastAttackLanded
-	  , currentComboCount
-	  , lastHitBy
-	  , stocksRemaining
-	  , actionStateCounter
-	  , miscActionState
-	  , isAirborne
-	  , lastGroundId
-	  , jumpsRemaining
-	  , lCancelStatus
-	  , hurtboxCollisionState
-	  , selfInducedSpeedsAirX
-	  , selfInducedSpeedsY
-	  , selfInducedSpeedsAttackX
-	  , selfInducedSpeedsAttackY
-	  , selfInducedSpeedsGroundX
+	  , shield_size
+	  , last_attack_landed
+	  , current_combo_count
+	  , last_hit_by
+	  , stocks_remaining
+	  , action_state_counter
+	  , misc_action_state
+	  , is_airborne
+	  , last_ground_id
+	  , jumps_remaining
+	  , l_cancel_status
+	  , hurtbox_collision_state
+	  , self_induced_speeds_air_x
+	  , self_induced_speeds_y
+	  , self_induced_speeds_attack_x
+	  , self_induced_speeds_attack_y
+	  , self_induced_speeds_ground_x
 		)
 		VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
 	`;
