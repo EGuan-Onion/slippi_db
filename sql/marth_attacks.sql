@@ -138,8 +138,8 @@ with dim_action_state_marth_union as (
 	select
 		stage_id
 	,	CASE 
-			WHEN connect_code != 'RELU#824' THEN 'Not Justin'
-		ELSE connect_code END as connect_code
+			WHEN connect_code in ('RELU#824', 'EG#164', 'EG#0', 'DAKO#725', 'DAK#0') THEN connect_code
+		ELSE 'Netplay Rando' END AS connect_code
 	,	is_summit
 	,	character_id
 	,   character_color

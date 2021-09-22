@@ -1,0 +1,3 @@
+character_id,action_state_id,character_id_opp,character_name,character_name_opp,stage_id,stage_name,stage_name_short,game_count_distinct,game_count,frame_count,laser_frame_count
+20,345,21,Falco,Y. Link,3,Pokemon Stadium,PS1,2,2,22072,29
+20,345,21,Falco,Y. Link,32,Final Destination,FD,1,1,11454,8

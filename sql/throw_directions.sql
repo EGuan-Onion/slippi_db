@@ -26,6 +26,10 @@ with g as (
 		game_id 
 	, 	player_index 
 	,	character_id
+	,   character_color
+	,	nametag
+	,	display_name
+	,	connect_code
 	FROM  raw_player_games rpg 
 	WHERE TRUE
 --		AND game_id in ('00287747-7d2a-562a-86d8-3347a685b462','00481323-834e-549e-a823-3da932de49af','006c3a81-0559-5ab2-9229-54a922d71bb9','007d05bc-6553-5bcd-807b-fe0e1595d40f','00ebe897-d46c-51b9-93a0-fbfd42858e7d','00f1febf-9263-596f-a7d7-2979f7150e05','01210bb3-f502-5a78-ad8f-975eaf6b3e52','013eb14f-22ee-5913-bf3a-5cde645b6ca8','0158ef10-7df5-58ed-a889-b73d49b03cc4','0199cb8c-ff5e-55fb-994e-a15d350d33de')
@@ -51,6 +55,8 @@ with g as (
 	, 	g.stage_id
 	,	pg.player_index
 	,	pg.character_id
+	,   pg.character_color
+	,	pg.connect_code
 	,	pgo.player_index as player_index_opp
 	,	pgo.character_id as character_id_opp
 	FROM  g
@@ -121,6 +127,9 @@ with g as (
 , agg as (
 	select
 		stage_id
+	,	CASE 
+			WHEN connect_code in ('RELU#824', 'EG#164', 'EG#0', 'DAKO#725', 'DAK#0') THEN connect_code
+		ELSE 'Netplay Rando' END AS connect_code
 	,	character_id
 	,	character_id_opp
 	,	round(X/5)*5 as X

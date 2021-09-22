@@ -1,0 +1,265 @@
+character_id,action_state_id,state_name,state_description,state_category,attack_type,direction
+9,341,Shield Breaker Ground Start Charge,Neutral B,attack,special,Neutral
+9,342,Shield Breaker Ground Charge Loop,Neutral B,attack,special,Neutral
+9,343,Shield Breaker Ground Early Release,Neutral B,attack,special,Neutral
+9,344,Shield Breaker Ground Fully Charged,Neutral B,attack,special,Neutral
+9,345,Shield Breaker Air Start Charge,Neutral B,attack,special,Neutral
+9,346,Shield Breaker Air Charge Loop,Neutral B,attack,special,Neutral
+9,347,Shield Breaker Air Early Release,Neutral B,attack,special,Neutral
+9,348,Shield Breaker Air Fully Charged,Neutral B,attack,special,Neutral
+9,349,Dancing Blade 1 Ground,Side B,attack,special,Forward
+9,350,Dancing Blade 2 Up Ground,Side B,attack,special,Forward
+9,351,Dancing Blade 2 Side Ground,Side B,attack,special,Forward
+9,352,Dancing Blade 3 Up Ground,Side B,attack,special,Forward
+9,353,Dancing Blade 3 Side Ground,Side B,attack,special,Forward
+9,354,Dancing Blade 3 Down Ground,Side B,attack,special,Forward
+9,355,Dancing Blade 4 Up Ground,Side B,attack,special,Forward
+9,356,Dancing Blade 4 Side Ground,Side B,attack,special,Forward
+9,357,Dancing Blade 4 Down Ground,Side B,attack,special,Forward
+9,358,Dancing Blade 1 Air,Side B,attack,special,Forward
+9,359,Dancing Blade 2 Up Air,Side B,attack,special,Forward
+9,360,Dancing Blade 2 Side Air,Side B,attack,special,Forward
+9,361,Dancing Blade 3 Up Air,Side B,attack,special,Forward
+9,362,Dancing Blade 3 Side Air,Side B,attack,special,Forward
+9,363,Dancing Blade 3 Down Air,Side B,attack,special,Forward
+9,364,Dancing Blade 4 Up Air,Side B,attack,special,Forward
+9,365,Dancing Blade 4 Side Air,Side B,attack,special,Forward
+9,366,Dancing Blade 4 Down Air,Side B,attack,special,Forward
+9,367,Dolphin Slash Ground,Up B,attack,special,Up
+9,368,Dolphin Slash Air,Up B,attack,special,Up
+9,369,Counter Ground,Down B,attack,special,Down
+9,370,Counter Ground Hit,Down B,attack,special,Down
+9,371,Counter Air,Down B,attack,special,Down
+9,372,Counter Air Hit,Down B,attack,special,Down
+2,341,Blaster Ground Startup,Neutral B,attack,special,Neutral
+2,342,Blaster Ground Loop,Neutral B,attack,special,Neutral
+2,343,Blaster Ground End,Neutral B,attack,special,Neutral
+2,344,Blaster Air Startup,Neutral B,attack,special,Neutral
+2,345,Blaster Air Loop,Neutral B,attack,special,Neutral
+2,346,Blaster Air End,Neutral B,attack,special,Neutral
+2,347,Illusion Ground Startup,Side B,attack,special,Forward
+2,348,Illusion Ground,Side B,attack,special,Forward
+2,349,Illusion Ground End,Side B,attack,special,Forward
+2,350,Illusion Startup Air,Side B,attack,special,Forward
+2,351,Illusion Air,Side B,attack,special,Forward
+2,352,Illusion Air End,Side B,attack,special,Forward
+2,353,Fire Fox Ground Startup,Up B,attack,special,Up
+2,354,Fire Fox Air Startup,Up B,attack,special,Up
+2,355,Fire Fox Ground,Up B,attack,special,Up
+2,356,Fire Fox Air,Up B,attack,special,Up
+2,357,Fire Fox Ground End,Up B,attack,special,Up
+2,358,Fire Fox Air End,Up B,attack,special,Up
+2,359,Fire Fox Bounce End,Up B,attack,special,Up
+2,360,Reflector Ground Startup,Down B,attack,special,Down
+2,361,Reflector Ground Loop,Down B,attack,special,Down
+2,362,Reflector Ground Reflect,Down B,attack,special,Down
+2,363,Reflector Ground End,Down B,attack,special,Down
+2,364,Reflector Ground Change Direction,Down B,attack,special,Down
+2,365,Reflector Air Startup,Down B,attack,special,Down
+2,366,Reflector Air Loop,Down B,attack,special,Down
+2,367,Reflector Air Reflect,Down B,attack,special,Down
+2,368,Reflector Air End,Down B,attack,special,Down
+2,369,Reflector Air Change Direction,Down B,attack,special,Down
+2,370,Smash Taunt Right Startup,Smash Taunt,taunt,,
+2,371,Smash Taunt Left Startup,Smash Taunt,taunt,,
+2,372,Smash Taunt Right Rise,Smash Taunt,taunt,,
+2,373,Smash Taunt Left Rise,Smash Taunt,taunt,,
+2,374,Smash Taunt Right Finish,Smash Taunt,taunt,,
+2,375,Smash Taunt Left Finish,Smash Taunt,taunt,,
+20,341,Blaster Ground Startup,Neutral B,attack,special,Neutral
+20,342,Blaster Ground Loop,Neutral B,attack,special,Neutral
+20,343,Blaster Ground End,Neutral B,attack,special,Neutral
+20,344,Blaster Air Startup,Neutral B,attack,special,Neutral
+20,345,Blaster Air Loop,Neutral B,attack,special,Neutral
+20,346,Blaster Air End,Neutral B,attack,special,Neutral
+20,347,Phantasm Ground Startup,Side B,attack,special,Forward
+20,348,Phantasm Ground,Side B,attack,special,Forward
+20,349,Phantasm Ground End,Side B,attack,special,Forward
+20,350,Phantasm Startup Air,Side B,attack,special,Forward
+20,351,Phantasm Air,Side B,attack,special,Forward
+20,352,Phantasm Air End,Side B,attack,special,Forward
+20,353,Fire Bird Ground Startup,Up B,attack,special,Up
+20,354,Fire Bird Air Startup,Up B,attack,special,Up
+20,355,Fire Bird Ground,Up B,attack,special,Up
+20,356,Fire Bird Air,Up B,attack,special,Up
+20,357,Fire Bird Ground End,Up B,attack,special,Up
+20,358,Fire Bird Air End,Up B,attack,special,Up
+20,359,Fire Bird Bounce End,Up B,attack,special,Up
+20,360,Reflector Ground Startup,Down B,attack,special,Down
+20,361,Reflector Ground Loop,Down B,attack,special,Down
+20,362,Reflector Ground Reflect,Down B,attack,special,Down
+20,363,Reflector Ground End,Down B,attack,special,Down
+20,364,Reflector Ground Change Direction,Down B,attack,special,Down
+20,365,Reflector Air Startup,Down B,attack,special,Down
+20,366,Reflector Air Loop,Down B,attack,special,Down
+20,367,Reflector Air Reflect,Down B,attack,special,Down
+20,368,Reflector Air End,Down B,attack,special,Down
+20,369,Reflector Air Change Direction,Down B,attack,special,Down
+20,370,Smash Taunt Right Startup,Smash Taunt,taunt,,
+20,371,Smash Taunt Left Startup,Smash Taunt,taunt,,
+20,372,Smash Taunt Right Rise,Smash Taunt,taunt,,
+20,373,Smash Taunt Left Rise,Smash Taunt,taunt,,
+20,374,Smash Taunt Right Finish,Smash Taunt,taunt,,
+20,375,Smash Taunt Left Finish,Smash Taunt,taunt,,
+19,341,Needle Storm Ground Start Charge,Neutral B,attack,special,Neutral
+19,342,Needle Storm Ground Charge Loop,Neutral B,attack,special,Neutral
+19,343,Needle Storm Ground End Charge,Neutral B,attack,special,Neutral
+19,344,Needle Storm Ground Fire,Neutral B,attack,special,Neutral
+19,345,Needle Storm Air Start Charge,Neutral B,attack,special,Neutral
+19,346,Needle Storm Air Charge Loop,Neutral B,attack,special,Neutral
+19,347,Needle Storm Air End Charge,Neutral B,attack,special,Neutral
+19,348,Needle Storm Air Fire,Neutral B,attack,special,Neutral
+19,349,Chain Ground Startup,Side B,attack,special,Forward
+19,350,Chain Ground Loop,Side B,attack,special,Forward
+19,351,Chain Ground End,Side B,attack,special,Forward
+19,352,Chain Air Startup,Side B,attack,special,Forward
+19,353,Chain Air Loop,Side B,attack,special,Forward
+19,354,Chain Air End,Side B,attack,special,Forward
+19,355,Vanish Ground Startup,Up B,attack,special,Up
+19,356,Vanish Ground Disappear,Up B,attack,special,Up
+19,357,Vanish Ground Reappear,Up B,attack,special,Up
+19,358,Vanish Air Startup,Up B,attack,special,Up
+19,359,Vanish Air Disappear,Up B,attack,special,Up
+19,360,Vanish Air Reappear,Up B,attack,special,Up
+19,361,Transform Ground,Down B,attack,special,Down
+19,362,Transform Ground Ending,Down B,attack,special,Down
+19,363,Transform Air,Down B,attack,special,Down
+19,364,Transform Air Ending,Down B,attack,special,Down
+0,347,Falcon Punch Ground,Neutral B,attack,special,Neutral
+0,348,Falcon Punch Air,Neutral B,attack,special,Neutral
+0,349,Raptor Boost Ground,Side B,attack,special,Forward
+0,350,Raptor Boost Ground Hit,Side B,attack,special,Forward
+0,351,Raptor Boost Air,Side B,attack,special,Forward
+0,352,Raptor Boost Air Hit,Side B,attack,special,Forward
+0,353,Falcon Dive Ground,Up B,attack,special,Up
+0,354,Falcon Dive Air,Up B,attack,special,Up
+0,355,Falcon Dive Catch,Up B,attack,special,Up
+0,356,Falcon Dive Ending,Up B,attack,special,Up
+0,357,Falcon Kick Ground,Down B,attack,special,Down
+0,358,Falcon Kick Ground Ending On Ground,Down B,attack,special,Down
+0,359,Falcon Kick Air,Down B,attack,special,Down
+0,360,Falcon Kick Air Ending On Ground,Down B,attack,special,Down
+0,361,Falcon Kick Air Ending In Air,Down B,attack,special,Down
+0,362,Falcon Kick Ground Ending In Air,Down B,attack,special,Down
+0,363,Falcon Kick Hit Wall,Down B,attack,special,Down
+15,341,Jump 2,Jumps,jump,,
+15,342,Jump 3,Jumps,jump,,
+15,343,Jump 4,Jumps,jump,,
+15,344,Jump 5,Jumps,jump,,
+15,345,Jump 6,Jumps,jump,,
+15,346,Rollout Ground Start Charge Right,Neutral B,attack,special,Neutral
+15,347,Rollout Ground Start Charge Left,Neutral B,attack,special,Neutral
+15,348,Rollout Ground Charge Loop,Neutral B,attack,special,Neutral
+15,349,Rollout Ground Fully Charged,Neutral B,attack,special,Neutral
+15,350,Rollout Ground Charge Release,Neutral B,attack,special,Neutral
+15,351,Rollout Ground Start Turn,Neutral B,attack,special,Neutral
+15,352,Rollout Ground End Right,Neutral B,attack,special,Neutral
+15,353,Rollout Ground End Left,Neutral B,attack,special,Neutral
+15,354,Rollout Air Start Charge Right,Neutral B,attack,special,Neutral
+15,355,Rollout Air Start Charge Left,Neutral B,attack,special,Neutral
+15,356,Rollout Air Charge Loop,Neutral B,attack,special,Neutral
+15,357,Rollout Air Fully Charged,Neutral B,attack,special,Neutral
+15,358,Rollout Air Charge Release,Neutral B,attack,special,Neutral
+15,363,Pound Ground,Side B,attack,special,Forward
+15,364,Pound Air,Side B,attack,special,Forward
+15,365,Sing Ground Left,Up B,attack,special,Up
+15,366,Sing Air Left,Up B,attack,special,Up
+15,367,Sing Ground Right,Up B,attack,special,Up
+15,368,Sing Air Right,Up B,attack,special,Up
+15,369,Rest Ground Left,Down B,attack,special,Down
+15,370,Rest Air Left,Down B,attack,special,Down
+15,371,Rest Ground Right,Down B,attack,special,Down
+15,372,Rest Air Right,Down B,attack,special,Down
+12,341,Float,Float,jump,,
+12,342,Float End Forward,Float,jump,,
+12,343,Float End Backward,Float,jump,,
+12,344,Float Nair,Float,attack,aerial,Neutral
+12,345,Float Fair,Float,attack,aerial,Forward
+12,346,Float Bair,Float,attack,aerial,Back
+12,347,Float Uair,Float,attack,aerial,Up
+12,348,Float Dair,Float,attack,aerial,Down
+12,349,Side Smash Golf Club,Regular Attacks,attack,smash,Forward
+12,350,Side Smash Frying Pan,Regular Attacks,attack,smash,Forward
+12,351,Side Smash Tennis Racket,Regular Attacks,attack,smash,Forward
+12,352,Vegetable Ground,Down B,attack,special,Down
+12,353,Vegetable Air,Can only be accessed by a runoff turnip pull,attack,special,Down
+12,354,Bomber Ground Startup,Side B,attack,special,Forward
+12,355,Bomber Ground End,Side B,attack,special,Forward
+12,357,Bomber Air Startup,Side B,attack,special,Forward
+12,358,Bomber Air End,Side B,attack,special,Forward
+12,359,Bomber Air Hit,Side B,attack,special,Forward
+12,360,Bomber Air,Side B,attack,special,Forward
+12,361,Parasol Ground Start,Up B,attack,special,Up
+12,363,Parasol Air Start,Up B,attack,special,Up
+12,365,Toad Ground,Neutral B,attack,special,Neutral
+12,366,Toad Ground Attack,Neutral B,attack,special,Neutral
+12,367,Toad Air,Neutral B,attack,special,Neutral
+12,368,Toad Air Attack,Neutral B,attack,special,Neutral
+12,369,Parasol Opening,Up B Misc,jump,,
+12,370,Parasol Open,Up B Misc,jump,,
+16,341,Bomb Jump Ground,"Jumps, this specific state is rare due to the need to land on a platform after a bomb",jump,special,Down
+16,342,Bomb Jump Air,"Jumps, this specific state is rare due to the need to land on a platform after a bomb",jump,special,Down
+16,343,Charge Shot Ground Start,Neutral B,attack,special,Neutral
+16,344,Charge Shot Ground Loop,Neutral B,attack,special,Neutral
+16,345,Charge Shot Ground End,Neutral B,attack,special,Neutral
+16,346,Charge Shot Ground Fire,Neutral B,attack,special,Neutral
+16,347,Charge Shot Air Start,Neutral B,attack,special,Neutral
+16,348,Charge Shot Air Fire,Neutral B,attack,special,Neutral
+16,349,Missile Ground,Side B,attack,special,Forward
+16,350,Missile Smash Ground,Side B,attack,special,Forward
+16,351,Missile Air,Side B,attack,special,Forward
+16,352,Missile Smash Air,Side B,attack,special,Forward
+16,353,Screw Attack Ground,Up B,attack,special,Up
+16,354,Screw Attack Air,Up B,attack,special,Up
+16,355,Bomb End Ground,Down B,attack,special,Down
+16,356,Bomb Air,Down B,attack,special,Down
+16,357,Zair,Zair,attack,aerial,Zair
+16,358,Zair Catch,Zair,attack,aerial,Zair
+22,341,Taunt R,,taunt,,
+22,342,???,Unknown,,,
+22,343,Megavitamin Ground,Neutral B,attack,special,Neutral
+22,344,Megavitamin Air,Neutral B,attack,special,Neutral
+22,345,Super Sheet Ground,Side B,attack,special,Forward
+22,346,Super Sheet Air,Side B,attack,special,Forward
+22,347,Super Jump Punch Ground,Up B,attack,special,Up
+22,348,Super Jump Punch Air,Up B,attack,special,Up
+22,349,Tornado Ground,Down B,attack,special,Down
+22,350,Tornado Air,Down B,attack,special,Down
+21,341,Side Smash 2,Regular Attacks,attack,smash,Forward
+21,342,Taunt R,,taunt,,
+21,343,Taunt L,,taunt,,
+21,344,Fire Bow Ground Charge,Neutral B,attack,special,Neutral
+21,345,Fire Bow Ground Fully Charged,Neutral B,attack,special,Neutral
+21,346,Fire Bow Ground Fire,Neutral B,attack,special,Neutral
+21,347,Fire Bow Air Charge,Neutral B,attack,special,Neutral
+21,348,Fire Bow Air Fully Charged,Neutral B,attack,special,Neutral
+21,349,Fire Bow Air Fire,Neutral B,attack,special,Neutral
+21,350,Boomerang Ground Throw,Side B,attack,special,Forward
+21,351,Boomerang Ground Catch,Side B,attack,special,Forward
+21,352,Boomerang Ground Throw Empty,Side B,attack,special,Forward
+21,353,Boomerang Air Throw,Side B,attack,special,Forward
+21,354,Boomerang Air Catch,Side B,attack,special,Forward
+21,355,Boomerang Air Throw Empty,Side B,attack,special,Forward
+21,356,Spin Attack Ground,Up B,attack,special,Up
+21,357,Spin Attack Air,Up B,attack,special,Up
+21,358,Bomb Ground,Down B,attack,special,Down
+21,359,Bomb Air,Down B,attack,special,Down
+21,360,Zair,Zair,attack,aerial,Zair
+21,361,Zair Catch,Zair,attack,aerial,Zair
+25,347,Warlock Punch Ground,Neutral B,attack,special,Neutral
+25,348,Warlock Punch Air,Neutral B,attack,special,Neutral
+25,349,Gerudo Dragon Ground,Side B,attack,special,Forward
+25,350,Gerudo Dragon Ground Hit,Side B,attack,special,Forward
+25,351,Gerudo Dragon Air,Side B,attack,special,Forward
+25,352,Gerudo Dragon Air Hit,Side B,attack,special,Forward
+25,353,Dark Dive Ground,Up B,attack,special,Up
+25,354,Dark Dive Air,Up B,attack,special,Up
+25,355,Dark Dive Catch,Up B,attack,special,Up
+25,356,Dark Dive Ending,Up B,attack,special,Up
+25,357,Wizard's Foot Ground,Down B,attack,special,Down
+25,358,Wizard's Foot Ground Ending On Ground,Down B,attack,special,Down
+25,359,Wizard's Foot Air,Down B,attack,special,Down
+25,360,Wizard's Foot Air Ending On Ground,Down B,attack,special,Down
+25,361,Wizard's Foot Air Ending In Air,Down B,attack,special,Down
+25,362,Wizard's Foot Ground Ending In Air,Down B,attack,special,Down
+25,363,Wizard's Foot Hit Wall,Down B,attack,special,Down

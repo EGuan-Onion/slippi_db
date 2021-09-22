@@ -1,15 +1,26 @@
 TODO
 ----
 
-- Build_db script to create the database from scratch
-- Test build_db
+- test mode for run_all_sql.py
 
 - Discard unwanted game data.  
 - - Requirements: 2-player, 4-stock, good stage, sufficiently long match.
 - - Q: include ragequits or nah?
 
 - Table cleanup
-- - add some useful derived stuff.  maybe wait to do this until we have 
-- - winning player in `game`
-- - winner flag in `player_game`
-- - player-game-opponent table
+
+- player-game-opponent table
+- - game length
+- - winner
+- - player, opponent (two entries per game)
+- - known player filtering (connect code)
+
+- Action State Union table
+- - character-specific action states handled
+
+
+camelCase to snake_case
+
+([a-z]+)([A-Z])
+
+$1_\l$2

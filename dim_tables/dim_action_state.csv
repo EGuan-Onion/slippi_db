@@ -49,7 +49,7 @@ action_state_id,state_name,state_description,state_category,attack_type,directio
 0047,Attack100Start,Start of a rapid jab,attack,jab,Neutral
 0048,Attack100Loop,Middle of a rapid jab,attack,jab,Neutral
 0049,Attack100End,End of a rapid jab,attack,jab,Neutral
-0050,AttackDash,Dash attack,attack,dash,Neutral
+0050,AttackDash,Dash attack,attack,dash,Dash
 0051,AttackS3Hi,High Ftilt,attack,tilt,Forward
 0052,AttackS3HiS,High-mid Ftilt,attack,tilt,Forward
 0053,AttackS3S,Mid Ftilt,attack,tilt,Forward
@@ -66,7 +66,7 @@ action_state_id,state_name,state_description,state_category,attack_type,directio
 0064,AttackLw4,Downsmash,attack,smash,Down
 0065,AttackAirN,Nair,attack,aerial,Neutral
 0066,AttackAirF,Fair,attack,aerial,Forward
-0067,AttackAirB,Bair,attack,aerial,Backward
+0067,AttackAirB,Bair,attack,aerial,Back
 0068,AttackAirHi,Uair,attack,aerial,Up
 0069,AttackAirLw,Dair,attack,aerial,Down
 0070,LandingAirN,Landing during Nair,,,
@@ -213,7 +213,7 @@ action_state_id,state_name,state_description,state_category,attack_type,directio
 0211,FuraFura,Shield-break tottering,shield,,
 0212,Catch,Grab,attack,grab,Neutral
 0213,CatchPull,Successfully grabbing a character - pulling them in,attack,,
-0214,CatchDash,,attack,grab,Neutral
+0214,CatchDash,,attack,grab,Dash
 0215,CatchDashPull,,attack,,
 0216,CatchWait,Grabbing and holding a character,attack,,
 0217,CatchAttack,Pummel,attack,,

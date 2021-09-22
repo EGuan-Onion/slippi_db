@@ -1,6 +1,7 @@
 #Usage:
 # To build the test DB and re-populate the files
 # $python build_db.py test True
+# $python build_db.py production
 import sys
 sys.path.append("/Users/eguan/slippi_db/")
 
@@ -17,7 +18,7 @@ from paths import (
 	)
 
 #in local dir
-import create_dim_tables
+import create_static_tables
 import parse_runner
 
 
@@ -51,8 +52,8 @@ def run(mode='test', populate=False):
 	run_sql('create_raw_tables.sql', con)
 
 	# # create dim tables
-	print("Creating Dim Tables")
-	create_dim_tables.run()
+	print("Creating Static Tables")
+	create_static_tables.run()
 
 	# create indexes
 	print("Creating Indexes")
