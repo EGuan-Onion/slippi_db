@@ -150,10 +150,10 @@ WITH g as (
 	,	ds.stage_name
 	,	dc.character_name
 	,	dco.character_name as character_name_opp
-	,   das.state_name
-	,	das.state_description 
-	,	das.attack_type
-	,	das.direction
+	,   dasu.state_name
+	,	dasu.state_description 
+	,	dasu.attack_type
+	,	dasu.direction
 	
 	from agg a
 	
@@ -166,9 +166,9 @@ WITH g as (
 	join dim_character dco
 	on  dco.character_id = a.character_id_opp
 	
-	join dim_action_state_union das 
-	on  das.action_state_id = a.action_state_id
-		and das.character_id = a.character_id
+	join dim_action_state_union dasu
+	on  dasu.action_state_id = a.action_state_id
+		and dasu.character_id = a.character_id
 	
 	where TRUE 
 		AND dc.tier_rank <= 6

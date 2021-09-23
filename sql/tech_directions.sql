@@ -148,8 +148,8 @@ WITH g AS (
 	,	ds.stage_name
 	,	dc.character_name
 	,	dco.character_name AS character_name_opp
-	,   das.state_name
-	,	das.state_description 
+	,   dasu.state_name
+	,	dasu.state_description 
 	
 	from agg a
 	

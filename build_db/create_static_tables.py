@@ -6,24 +6,22 @@ import sqlite3
 import pandas as pd
 
 
-from paths import RAW_DB_PATH, TEST_RAW_DB_PATH, DIM_TABLE_DIR_PATH
+from paths import Paths
+# RAW_DB_PATH, TEST_RAW_DB_PATH, DIM_TABLE_DIR_PATH
 
 
-def run(mode='test'):
-	if mode=='test':
-		db_path = TEST_RAW_DB_PATH
-		print('TEST MODE')
-	elif mode=='production':
-		db_path = RAW_DB_PATH
-	else:
-		print("unrecognized mode.  must be in ['test', 'production']")
-		return
+def run(mode):
+	p = Paths(mode=mode)
+
+	db_path = p.RAW_DB_PATH
+	static_table_dir_path = p.STATIC_TABLE_DIR_PATH
 
 
-	file_list = pathlib.Path(DIM_TABLE_DIR_PATH).glob('*.csv')
+	file_list = pathlib.Path(static_table_dir_path).glob('*.csv')
 
 	con = sqlite3.connect(db_path)
-
+	print(db_path)
+	print(static_table_dir_path)
 
 	for file_path in file_list:
 		table_name = file_path.stem

@@ -3,12 +3,16 @@ import sys
 sys.path.append("/Users/eguan/slippi_db/")
 
 from parse_queue import ParseQueue
-from paths import *
+from paths import Paths
 import parse_runner
 
 
+p = Paths(mode='test')
+parse_queue_path = p.PARSE_QUEUE_PATH
+replay_dir_path = p.REPLAY_DIR_PATH
+
 #Clear queue
-pq = ParseQueue(TEST_PARSE_QUEUE_PATH, TEST_REPLAY_DIR_PATH)
+pq = ParseQueue(parse_queue_path, replay_dir_path)
 pq.init_empty_slp_dict()
 pq.save()
 

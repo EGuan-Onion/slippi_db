@@ -5,14 +5,18 @@ import sqlite3
 import pandas as pd
 
 
-from paths import RAW_DB_PATH, SQL_OUTPUT_DIR_PATH
+from paths import Paths
 
-con = sqlite3.connect(RAW_DB_PATH)
+p = Paths(mode='test')
+raw_db_path = p.RAW_DB_PATH
+sql_output_dir_path = p.SQL_OUTPUT_DIR_PATH
+
+con = sqlite3.connect(raw_db_path)
 con.execute("PRAGMA cache_size=-256000")
 
 file_stem = 'tech_directions'
 sql_filepath = '../sql/' + file_stem + '.sql'
-csv_out_filepath = SQL_OUTPUT_DIR_PATH + file_stem + '.csv'
+csv_out_filepath = sql_output_dir_path + file_stem + '.csv'
 
 print(file_stem)
 

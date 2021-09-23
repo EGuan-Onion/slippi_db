@@ -5,7 +5,7 @@ import re
 # insert at 1, 0 is the script path (or '' in REPL)
 sys.path.insert(1, '../')
 
-from paths import RAW_DB_PATH
+from paths import Paths
 
 
 def camel_to_snake(string):
@@ -25,7 +25,11 @@ def get_column_names(table_name, con):
 	return col_list
 
 
-con = sqlite3.connect(RAW_DB_PATH)
+#which DB?
+p = Paths(mode='test')
+
+raw_db_path = p.RAW_DB_PATH
+con = sqlite3.connect(raw_db_path)
 cur = con.cursor()
 
 table_list = ['raw_games', 'raw_player_games', 'raw_player_frames_post']

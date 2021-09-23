@@ -9,19 +9,21 @@ import pathlib
 import sqlite3
 import pandas as pd
 
-from paths import (
-	RAW_DB_PATH, 
-	REPLAY_DIR_PATH,
+from paths import Paths
+# (
+# 	RAW_DB_PATH, 
+# 	REPLAY_DIR_PATH,
 
-	TEST_RAW_DB_PATH,
-	TEST_REPLAY_DIR_PATH,
-	)
+# 	TEST_RAW_DB_PATH,
+# 	TEST_REPLAY_DIR_PATH,
+# 	)
 
 #in local dir
 import create_static_tables
 import parse_runner
 
 
+#name clashes with run_sql.py
 def run_sql(sql_filepath, con):
 	f = open(sql_filepath, 'r')
 	sql_string = f.read()
@@ -32,20 +34,15 @@ def run_sql(sql_filepath, con):
 
 
 def run(mode='test', populate=False):
-	# connect to DB
-	if mode=='test':
-		db_path = TEST_RAW_DB_PATH
-		replay_path = TEST_REPLAY_DIR_PATH
-	elif mode=='production':
-		db_path = RAW_DB_PATH
-		replay_path = REPLAY_DIR_PATH
-	else:
-		print("unrecognized mode.  must be in ['test', 'production']")
-		return
+	# which DB?  test, local, production
+	p = Paths(mode=mode)
+	db_path = p.RAW_DB_PATH
+	replay_path = p.REPLAY_DIR_PATH
 
+	# connect to DB
+	print(db_path)
 	con = sqlite3.connect(db_path)
 	con.execute("PRAGMA cache_size=-256000")
-
 
 	# create raw tables
 	print("Creating Raw Tables")
@@ -53,7 +50,7 @@ def run(mode='test', populate=False):
 
 	# # create dim tables
 	print("Creating Static Tables")
-	create_static_tables.run()
+	create_static_tables.run(mode=mode)
 
 	print("Creating Action State Union")
 	run_sql('create_dim_action_state_union.sql', con)
@@ -66,7 +63,7 @@ def run(mode='test', populate=False):
 
 	if populate:
 		print("Populating Raw Tables")
-		parse_runner.run(add_to_queue='./', mode=mode, reset_queue=True)
+		parse_runner.run(add_to_queue='./', mode=mode, force_requeue=True)
 
 
 

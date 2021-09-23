@@ -1,7 +1,11 @@
 TODO
 ----
 
-- test mode for run_all_sql.py
+- Standardize argv order (test, prod, paths, etc.)
+
+- Make "local" db with ~10GB of data for mid-size testing
+- Change paths.py to more easily switch between modes
+- get rid of all those `if mode=='test'` clauses
 
 - Discard unwanted game data.  
 - - Requirements: 2-player, 4-stock, good stage, sufficiently long match.
@@ -19,7 +23,14 @@ TODO
 - - character-specific action states handled
 
 
-camelCase to snake_case
+
+UNFINISHED IDEAS
+----------------
+
+- player-aggregate table
+- - player-level aggregate
+- - games played
+- - ?player-character and player-stage, etc. as separate tables?  Or as json maps inside here?
 
 ([a-z]+)([A-Z])
 
