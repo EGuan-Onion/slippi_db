@@ -55,6 +55,9 @@ def run(mode='test', populate=False):
 	print("Creating Static Tables")
 	create_static_tables.run()
 
+	print("Creating Action State Union")
+	run_sql('create_dim_action_state_union.sql', con)
+
 	# create indexes
 	print("Creating Indexes")
 	run_sql('create_index.sql', con)

@@ -1,18 +1,4 @@
--- NOT YET DONE
-with dim_action_state_union as (
-	SELECT 
-		character_id
-	  , *
-	from  dim_action_state das 
-	
-	CROSS JOIN  dim_character dc
-	
-	where action_state_id < 341
-	  and tier_rank <= 6
-)
-
-
-, g as (
+WITH g as (
 	SELECT 	
 		game_id
 	,	last_frame
@@ -126,9 +112,9 @@ with dim_action_state_union as (
 	select
 		*
 	from  frame
-	join  dim_action_state_union das
-	on  frame.action_state_id = das.action_state_id
-	and frame.character_id = das.character_id 
+	join  dim_action_state_union dasu
+	on  frame.action_state_id = dasu.action_state_id
+	and frame.character_id = dasu.character_id 
 	where  TRUE
 		AND state_category = 'attack'
 		AND action_state_counter = 1

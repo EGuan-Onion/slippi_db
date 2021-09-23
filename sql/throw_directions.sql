@@ -165,8 +165,9 @@ with g as (
 	left join dim_character dco
 	on  dco.character_id = a.character_id_opp
 	
-	left join dim_action_state das 
-	on  das.action_state_id = a.action_state_id
+	left join dim_action_state_union dasu
+	on  dasu.action_state_id = a.action_state_id
+		and dasu.character_id = a.character_id
 )
 
 select *
