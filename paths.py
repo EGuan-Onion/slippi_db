@@ -21,6 +21,7 @@ class Paths():
 		self.REPO_DIR_PATH = "/Users/eguan/slippi_db/"
 		self.STATIC_TABLE_DIR_PATH = self.REPO_DIR_PATH + "static_tables/"
 		self.SQL_DIR_PATH = self.REPO_DIR_PATH + "sql/"
+		self.TEST_DIR_PATH = self.REPO_DIR_PATH + "test/"
 		self.PARSE_SLP_JS_PATH = self.REPO_DIR_PATH + "parse_slp.js"
 
 		if  mode=="test":

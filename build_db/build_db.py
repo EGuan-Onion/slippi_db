@@ -1,6 +1,7 @@
 #Arguments: <mode> [populate=False]
 import sys
 sys.path.append("/Users/eguan/slippi_db/")
+sys.path.append("/Users/eguan/slippi_db/build_db")
 
 import os
 import pathlib

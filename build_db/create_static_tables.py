@@ -23,8 +23,6 @@ def run(
 	file_list = pathlib.Path(static_table_dir_path).glob('*.csv')
 
 	con = sqlite3.connect(db_path)
-	print(db_path)
-	print(static_table_dir_path)
 
 	for file_path in file_list:
 		table_name = file_path.stem
@@ -32,16 +30,10 @@ def run(
 
 		df = pd.read_csv(file_path)
 
-
-		# con.execute("DROP TABLE {}".format(table_name))
 		df.to_sql(name=table_name, con=con, if_exists=if_exists, index=False)
 
-		# # Check Result
-		# for row in con.execute("SELECT * FROM {}".format(table_name)):
-		# 	print(row)
 
 	con.close()
-
 
 
 if __name__=='__main__':
