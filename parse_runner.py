@@ -1,6 +1,5 @@
-#first argument, relative dir path.  If empty, uses existing queue.
-# To add all files from 'jwu_slp/2021-06/' to the queue and begin running
-# $python parse_runner.py 'jwu_slp/2021-06/' production True
+#Arguments: <mode> [add_to_queue=None] [force_requeue=False] [reset_queue=False]
+#$python parse_runner.py test './onion_slp/' True
 
 import sys
 
@@ -14,8 +13,8 @@ from parse_queue import ParseQueue
 # return status, update queue
 
 def run(
+		mode,
 		add_to_queue=None, 
-		mode='test',
 		force_requeue=False,
 		reset_queue=False,
 		):
@@ -62,7 +61,12 @@ def run(
 
 if __name__ == '__main__':
 	print(__name__)
-	
-
 	print(sys.argv)
-	run(*sys.argv[1:5])
+	
+	if sys.argv[1] == '-help':
+		print("Arguments: <mode> [add_to_queue=None] [force_requeue=False] [reset_queue=False]")
+		print("Example: parse .slp files in './onion_slp/', forcing re-runs")
+		print("$python parse_runner.py test './onion_slp/' True")
+
+	else:
+		run(*sys.argv[1:5])

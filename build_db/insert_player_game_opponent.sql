@@ -1,4 +1,4 @@
-INSERT INTO derived_player_game_opponent
+INSERT OR REPLACE INTO derived_player_game_opponent
 
 WITH g AS (
 	SELECT 	

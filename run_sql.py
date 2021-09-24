@@ -1,8 +1,4 @@
-#Usage:
-#To run all scripts in production, refreshing the output
-# $python run_sql.py production 
-#To run tech_directions.sql specifically, on a test environment
-# $python run_sql.py test tech_directions
+#Arguments: <mode> [sql_file=None]
 import sys
 import sqlite3
 import pandas as pd
@@ -18,10 +14,6 @@ def run_one(sql_file_path, sql_dir_path, out_dir_path, con):
 	sql_file_path = sql_dir_path.joinpath(file_stem + ".sql")
 	out_file_path = out_dir_path.joinpath(file_stem + ".csv")
 
-	print(sql_file_path)
-	print(out_file_path)
-
-	# Run SQL
 	#read SQL
 	print("Read .sql file")
 	f = open(sql_file_path, 'r')
@@ -40,7 +32,11 @@ def run_one(sql_file_path, sql_dir_path, out_dir_path, con):
 	df.to_csv(out_file_path, index=False)
 
 
-def run(mode='test', sql_file=None):
+def run(
+		mode, 
+		sql_file=None,
+	):
+
 	p = Paths(mode=mode)
 	db_path = p.RAW_DB_PATH
 	sql_dir_path = pathlib.Path(p.SQL_DIR_PATH)
@@ -51,9 +47,11 @@ def run(mode='test', sql_file=None):
 
 
 	if sql_file:
+		print("Run {}".format(sql_file))
 		sql_file_path = sql_dir_path.joinpath(sql_file)
 		path_list = [sql_file_path]
 	else:
+		print("Run All SQL")
 		path_list = sql_dir_path.glob('*.sql')
 
 
@@ -66,4 +64,12 @@ def run(mode='test', sql_file=None):
 if __name__ == '__main__':
 	print(__name__)
 	print(sys.argv)
-	run(*sys.argv[1:3])
+	
+	if sys.argv[1] == '-help':
+		print("Arguments: <mode> [sql_file=None]")
+		print("  sql_file will run the specified file.  Otherwise runs all files in ./sql/")
+		print("Example: run `fox_falco_lasers.sql` in local env, write to `fox_falco_lasers.csv`")
+		print("$python run_sql.py local fox_falco_lasers")
+
+	else:
+		run(*sys.argv[1:3])

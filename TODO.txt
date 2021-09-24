@@ -1,13 +1,9 @@
 TODO
 ----
 
-- clean up and standardize sql with PGO, connect codes
-
 - tournament player mapping
 
 - make subdirectories in setup
-
-- Standardize argv order (test, prod, paths, etc.)
 
 - derived table ETLs (for PGO)
 
@@ -15,9 +11,9 @@ TODO
 
 - player-aggregate query
 - - games played, characters played, winrate by stage, etc.
-- - the kind of stuff you see on 
+- - the kind of stuff you see on stats pages
 
-UNFINISHED IDEAS
+NOTES
 ----------------
 
 - player-aggregate table

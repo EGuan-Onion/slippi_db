@@ -1,22 +1,13 @@
-#Usage:
-# To build the test DB and re-populate the files
-# $python build_db.py test True
-# $python build_db.py production
+#Arguments: <mode> [populate=False]
 import sys
 sys.path.append("/Users/eguan/slippi_db/")
 
+import os
 import pathlib
 import sqlite3
 import pandas as pd
 
 from paths import Paths
-# (
-# 	RAW_DB_PATH, 
-# 	REPLAY_DIR_PATH,
-
-# 	TEST_RAW_DB_PATH,
-# 	TEST_REPLAY_DIR_PATH,
-# 	)
 
 #in local dir
 import create_static_tables
@@ -33,11 +24,19 @@ def run_sql(sql_filepath, con):
 	return
 
 
-def run(mode='test', populate=False):
-	# which DB?  test, local, production
+def run(
+		mode, 
+		populate=False,
+		wipe=False,
+	):
+
 	p = Paths(mode=mode)
 	db_path = p.RAW_DB_PATH
 	replay_path = p.REPLAY_DIR_PATH
+
+	if wipe:
+		print("Deleting old .db file")
+		os.remove(db_path)
 
 	# connect to DB
 	print(db_path)
@@ -48,28 +47,44 @@ def run(mode='test', populate=False):
 	print("Creating Raw Tables")
 	run_sql('create_raw_tables.sql', con)
 
-	# # create dim tables
+	# create static tables
 	print("Creating Static Tables")
 	create_static_tables.run(mode=mode)
 
-	print("Creating Action State Union")
+	print("Creating dim_action_state_union")
 	run_sql('create_dim_action_state_union.sql', con)
 
 	# create indexes
 	print("Creating Indexes")
 	run_sql('create_index.sql', con)
 
-	con.close()
+	# create derived table
+	print("Creating derived_player_game_opponent")
+	run_sql('create_player_game_opponent.sql', con)
+
+
 
 	if populate:
 		print("Populating Raw Tables")
 		parse_runner.run(add_to_queue='./', mode=mode, force_requeue=True, reset_queue=True)
 
+		print("Populating Derived Tables")
+		run_sql('insert_player_game_opponent.sql', con)
+
+	con.close()
 
 
 if __name__=='__main__':
 	print(__name__)
 	print(sys.argv)
-	run(*sys.argv[1:3])
+	
+	if sys.argv[1] == '-help':
+		print("Arguments: <mode> [populate=False] [wipe=False]")
+		print("  populate will add files to tables.  Usually used for test env)")
+		print("Example: rebuild the db in test environment, and re-parsing .slp files")
+		print("$python build_db.py test True True")
+
+	else:
+		run(*sys.argv[1:4])
 
 

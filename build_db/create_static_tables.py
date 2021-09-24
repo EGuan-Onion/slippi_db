@@ -1,3 +1,4 @@
+#Arguments: <mode> [if_exists='replace']
 import sys
 sys.path.append("/Users/eguan/slippi_db/")
 
@@ -7,10 +8,12 @@ import pandas as pd
 
 
 from paths import Paths
-# RAW_DB_PATH, TEST_RAW_DB_PATH, DIM_TABLE_DIR_PATH
 
 
-def run(mode):
+def run(
+		mode,
+		if_exists='replace',
+	):
 	p = Paths(mode=mode)
 
 	db_path = p.RAW_DB_PATH
@@ -31,7 +34,7 @@ def run(mode):
 
 
 		# con.execute("DROP TABLE {}".format(table_name))
-		df.to_sql(name=table_name, con=con, if_exists='replace', index=False)
+		df.to_sql(name=table_name, con=con, if_exists=if_exists, index=False)
 
 		# # Check Result
 		# for row in con.execute("SELECT * FROM {}".format(table_name)):
@@ -43,4 +46,13 @@ def run(mode):
 
 if __name__=='__main__':
 	print(__name__)
-	run(*sys.argv[1:2])
+	print(sys.argv)
+	
+	if sys.argv[1] == '-help':
+		print("Arguments: <mode> [if_exists='replace']")
+		print("  if_exists in ('fail', 'replace', 'append')")
+		print("Example: create static tables in test environment")
+		print("$python create_static_tables.py test")
+
+	else:
+		run(*sys.argv[1:3])
