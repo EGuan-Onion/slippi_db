@@ -16,6 +16,8 @@ class ParseQueue:
 			self.init_empty_slp_dict()
 
 		self.active_slp = None
+
+		self.remove_duplicates()
 		return
 
 	def init_empty_slp_dict(self):
@@ -50,6 +52,8 @@ class ParseQueue:
 
 	## get new .slp from a direcetory
 	def queue(self, replay_dir='', recurse=True, prepend=False, force_requeue=False):
+		# if len(replay_dir)
+		# replay_path = 
 		p = pathlib.Path(self.replay_dir_path+replay_dir)
 
 		if recurse:
@@ -104,6 +108,25 @@ class ParseQueue:
 		if new_pop:
 			print("WARNING: {} files in 'new' removed".format(len(new_pop)))
 
+		return self
+
+	def remove_duplicates(self):
+		#remove dupes within each list
+		for key in ['queue', 'success', 'failure']:
+			self.slp_dict[key] = list(set(self.slp_dict[key]))
+
+		#remove queued values from success
+		self.slp_dict['success'] = [ 
+			slp for slp in self.slp_dict['success'] 
+			if slp not in self.slp_dict['queue'] 
+			]
+
+		#remove successful runs or queued runs from failures
+		self.slp_dict['failure'] = [ 
+			slp for slp in self.slp_dict['failure'] 
+			if slp not in self.slp_dict['success']  
+			if slp not in self.slp_dict['queue'] 
+			]
 		return self
 
 	def retry(self):

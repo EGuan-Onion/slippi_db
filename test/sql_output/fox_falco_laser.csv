@@ -1,0 +1,4 @@
+stage_id,connect_code,player_name,character_id,character_id_opp,action_state_id,game_count,frame_count,laser_count,character_name,character_name_opp,stage_name,stage_name_short,state_name,state_description,state_category,attack_type,direction
+3,WANN#751,,20,21,342,1,11233,24,Falco,Falco,Pokemon Stadium,PS1,Blaster Ground Loop,Neutral B,attack,special,Neutral
+3,WANN#751,,20,21,345,2,22072,360,Falco,Falco,Pokemon Stadium,PS1,Blaster Air Loop,Neutral B,attack,special,Neutral
+32,WANN#751,,20,21,345,1,11454,145,Falco,Falco,Final Destination,FD,Blaster Air Loop,Neutral B,attack,special,Neutral

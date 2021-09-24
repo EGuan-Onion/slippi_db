@@ -68,152 +68,18 @@
 	"buffers":
 	[
 		{
-			"file": "run_sql.py",
+			"file": "build_db/build_db.py",
 			"settings":
 			{
-				"buffer_size": 1575,
-				"line_ending": "Unix"
-			},
-			"undo_stack":
-			[
-			]
-		},
-		{
-			"file": "sql/attacks_sans_specials.sql",
-			"settings":
-			{
-				"buffer_size": 3465,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			},
-			"undo_stack":
-			[
-				[
-					10,
-					1,
-					"left_delete",
-					null,
-					"AQAAANgMAAAAAAAA2AwAAAAAAAABAAAAIA",
-					"AQAAAAAAAAABAAAA2QwAAAAAAADZDAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					11,
-					1,
-					"insert",
-					{
-						"characters": "u"
-					},
-					"AQAAANgMAAAAAAAA2QwAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA2AwAAAAAAADYDAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					16,
-					1,
-					"insert",
-					{
-						"characters": "u"
-					},
-					"AQAAAOIMAAAAAAAA4wwAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA4gwAAAAAAADiDAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					21,
-					1,
-					"insert",
-					{
-						"characters": "u"
-					},
-					"AQAAABENAAAAAAAAEg0AAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAEQ0AAAAAAAARDQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					26,
-					1,
-					"insert",
-					{
-						"characters": "u"
-					},
-					"AQAAAKYLAAAAAAAApwsAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAApgsAAAAAAACmCwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					29,
-					1,
-					"insert",
-					{
-						"characters": "u"
-					},
-					"AQAAALkLAAAAAAAAugsAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAuQsAAAAAAAC5CwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					32,
-					1,
-					"insert",
-					{
-						"characters": "u"
-					},
-					"AQAAANQLAAAAAAAA1QsAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA1AsAAAAAAADUCwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					35,
-					1,
-					"insert",
-					{
-						"characters": "u"
-					},
-					"AQAAAOgLAAAAAAAA6QsAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA6AsAAAAAAADoCwAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		},
-		{
-			"file": "sql/falco_laser_agg.sql",
-			"settings":
-			{
-				"buffer_size": 1357,
+				"buffer_size": 1430,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "sql/throw_directions.sql",
+			"file": "build_db/create_player_game_opponent.sql",
 			"settings":
 			{
-				"buffer_size": 18944,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			},
-			"undo_stack":
-			[
-				[
-					9,
-					1,
-					"insert",
-					{
-						"characters": "u"
-					},
-					"AQAAAG1IAAAAAAAAbkgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAbUgAAAAAAABtSAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					12,
-					1,
-					"insert",
-					{
-						"characters": "u"
-					},
-					"AQAAAIBIAAAAAAAAgUgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAgEgAAAAAAACASAAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		},
-		{
-			"file": "sql/tech_directions.sql",
-			"settings":
-			{
-				"buffer_size": 19549,
-				"encoding": "UTF-8",
+				"buffer_size": 393,
 				"line_ending": "Unix"
 			},
 			"undo_stack":
@@ -254,11 +120,11 @@
 	"expanded_folders":
 	[
 		"/Users/eguan/slippi_db",
-		"/Users/eguan/slippi_db/sandbox",
-		"/Users/eguan/slippi_db/test"
+		"/Users/eguan/slippi_db/build_db"
 	],
 	"file_history":
 	[
+		"/Users/eguan/slippi_db/build_db/create_index.sql",
 		"/Users/eguan/slippi_db/TODO.txt",
 		"/Users/eguan/slippi_db/test/test_parse_runner.py",
 		"/Users/eguan/slippi_db/parse_queue.py",
@@ -324,7 +190,7 @@
 	],
 	"find":
 	{
-		"height": 44.0
+		"height": 32.0
 	},
 	"find_in_files":
 	{
@@ -338,32 +204,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"das\\.",
-			"replay_dir_path",
-			"init_empty",
-			"_path",
-			"[^\\_]path",
-			"([^\\_])(path)",
-			"console.log",
-			"get",
-			"queue",
-			"get_new",
-			"write",
-			"read",
-			"status",
-			"write",
-			"execute_js",
-			"while",
-			"filename",
-			"dir_path",
-			"_dir",
-			"replay_dir",
-			"_dir",
-			"unprocessed",
-			"begin Transaction",
-			"out",
-			"insert_sql",
-			"filepath"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -371,7 +211,6 @@
 		"regex": true,
 		"replace_history":
 		[
-			"$1_$2"
 		],
 		"reverse": false,
 		"scrollbar_highlights": true,
@@ -388,74 +227,11 @@
 			[
 				{
 					"buffer": 0,
-					"file": "run_sql.py",
-					"selected": true,
+					"file": "build_db/build_db.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1575,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								247,
-								247
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "sql/attacks_sans_specials.sql",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3465,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3395,
-								3395
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SQL/SQL.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3382.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "sql/falco_laser_agg.sql",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1357,
+						"buffer_size": 1430,
 						"regions":
 						{
 						},
@@ -468,69 +244,7 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/SQL/SQL.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "sql/throw_directions.sql",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 18944,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								18553,
-								18553
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SQL/SQL.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3336.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "sql/tech_directions.sql",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 19549,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								59,
-								59
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SQL/SQL.sublime-syntax",
+							"syntax": "Packages/Python/Python.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": false
 						},
@@ -539,6 +253,38 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "build_db/create_player_game_opponent.sql",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 393,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								298,
+								298
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SQL/SQL.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"stack_multiselect": false,
 					"type": "text"
 				}
@@ -584,7 +330,7 @@
 	"project": "slippi_db.sublime-project",
 	"replace":
 	{
-		"height": 80.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":

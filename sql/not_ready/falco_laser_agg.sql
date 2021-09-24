@@ -1,0 +1,81 @@
+
+WITH pgo AS (
+	SELECT
+		game_id
+	,	dir_path
+	,	last_frame
+	,	stage_id
+	,	player_index
+	,	character_id
+	,	character_color
+	,	connect_code
+	,	player_name
+	,	player_index_opp
+	,	character_id_opp
+	,	is_win
+	FROM 	derived_player_game_opponent
+	WHERE	TRUE
+		AND character_id in (2,5) --Fox, Falco
+)
+
+
+, rpfp_laser AS (
+	SELECT 
+		game_id
+	,	player_index
+	,	character_id 
+	,	action_state_id
+	,	action_state_counter
+	FROM	raw_player_frames_post  rpfp
+
+	JOIN  dim_action_state_union dasu
+	
+	WHERE 	TRUE 
+	    AND action_state_id = 345 --laser
+	    AND (
+	    		(character_id = 2  AND  action_state_counter = 5) --fox
+    		OR  (character_id = 20  AND  action_state_counter = 8) --falco
+		)
+)
+
+SELECT 
+	rpfp.character_id
+,	rpfp.action_state_id
+,	rpg.character_id as character_id_opp
+,	dc.character_name
+,	dco.character_name as character_name_opp
+,	rg.stage_id
+,	ds.stage_name
+,	ds.stage_name_short
+,	count(rg.game_id) as game_count
+,	sum(rg.last_frame) as total_frame_count
+,	sum(frame_count) as laser_frame_count
+FROM  rpfp
+
+JOIN pgo
+ON  pgo.game_id = rpfp.game_id
+  AND pgo.player_index = rpfp.player_index
+
+JOIN raw_games rg
+ON  rg.game_id = rpfp.game_id
+
+JOIN dim_stage ds 
+ON  ds.stage_id = rg.stage_id
+
+JOIN dim_character dc
+ON  dc.character_id = rpfp.character_id
+
+JOIN dim_character dco
+ON  dco.character_id = rpg.character_id
+
+WHERE 	TRUE 
+    
+GROUP BY
+	rpfp.character_id
+,	rpfp.action_state_id
+,	rpg.character_id
+,	dc.character_name
+,	dco.character_name
+,	rg.stage_id
+,	ds.stage_name
+,	ds.stage_name_short

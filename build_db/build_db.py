@@ -63,7 +63,7 @@ def run(mode='test', populate=False):
 
 	if populate:
 		print("Populating Raw Tables")
-		parse_runner.run(add_to_queue='./', mode=mode, force_requeue=True)
+		parse_runner.run(add_to_queue='./', mode=mode, force_requeue=True, reset_queue=True)
 
 
 

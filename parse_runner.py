@@ -34,7 +34,8 @@ def run(
 	pq = ParseQueue(filepath=parse_queue_path, replay_dir_path=replay_dir_path)
 
 	if reset_queue:
-		pq.init_empty_slp_dict()
+		pq.slp_dict['queue'] = []
+		# pq.init_empty_slp_dict()
 
 	if add_to_queue:
 		print("queue: {}".format(add_to_queue))

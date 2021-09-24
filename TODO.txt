@@ -1,28 +1,21 @@
 TODO
 ----
 
+- clean up and standardize sql with PGO, connect codes
+
+- tournament player mapping
+
+- make subdirectories in setup
+
 - Standardize argv order (test, prod, paths, etc.)
 
-- Make "local" db with ~10GB of data for mid-size testing
-- Change paths.py to more easily switch between modes
-- get rid of all those `if mode=='test'` clauses
+- derived table ETLs (for PGO)
 
-- Discard unwanted game data.  
-- - Requirements: 2-player, 4-stock, good stage, sufficiently long match.
-- - Q: include ragequits or nah?
+- name clash of build_db.run_sql() and run_sql.py
 
-- Table cleanup
-
-- player-game-opponent table
-- - game length
-- - winner
-- - player, opponent (two entries per game)
-- - known player filtering (connect code)
-
-- Action State Union table
-- - character-specific action states handled
-
-
+- player-aggregate query
+- - games played, characters played, winrate by stage, etc.
+- - the kind of stuff you see on 
 
 UNFINISHED IDEAS
 ----------------
