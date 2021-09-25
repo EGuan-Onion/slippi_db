@@ -46,6 +46,20 @@ create index if not exists raw_player_frames_post_cover
 ;
 
 
+create index if not exists dim_character_id
+  on  dim_character (
+    character_id
+  )
+;
+
+
+create index if not exists dim_stage_id
+  on  dim_stage (
+    stage_id
+  )
+;
+
+
 create index if not exists dim_action_state_id
   on  dim_action_state (
     action_state_id

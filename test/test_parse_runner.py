@@ -13,7 +13,7 @@ replay_dir_path = p.REPLAY_DIR_PATH
 
 #Clear queue
 pq = ParseQueue(parse_queue_path, replay_dir_path)
-pq.init_empty_slp_dict()
+pq.empty_slp_dict()
 pq.save()
 
 #Parse Runner

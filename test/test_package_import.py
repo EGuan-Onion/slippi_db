@@ -7,6 +7,7 @@ import os
 import pandas
 import pathlib
 import sqlite3
+import random
 from Naked.toolshed.shell import execute_js
 
 import paths
@@ -17,3 +18,4 @@ import build_db.build_db
 
 # node.js packages
 execute_js('test/test_package_import_node.js')
+execute_js('test/test_slippi.js')

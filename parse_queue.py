@@ -1,5 +1,6 @@
 import json
 import pathlib
+import random
 
 # Example:
 # ParseQueue(filepath=PARSE_QUEUE_PATH, replay_dir_path=REPLAY_DIR_PATH)
@@ -9,24 +10,16 @@ class ParseQueue:
 		self.filepath = filepath
 		self.replay_dir_path = replay_dir_path
 		# self.slp_dict
-		# self.init_empty_slp_dict()
+		# self.empty_slp_dict()
 		try:
 			self.open(filepath)
 		except:
-			self.init_empty_slp_dict()
+			self.empty_slp_dict()
 
 		self.active_slp = None
 
 		self.remove_duplicates()
 		return
-
-	def init_empty_slp_dict(self):
-		self.slp_dict = {
-			'queue': [],
-			'success': [],
-			'failure': [],
-		}
-		return self
 
 	## read the current log
 	def open(self, filepath=None):
@@ -51,9 +44,7 @@ class ParseQueue:
 		return self
 
 	## get new .slp from a direcetory
-	def queue(self, replay_dir='', recurse=True, prepend=False, force_requeue=False):
-		# if len(replay_dir)
-		# replay_path = 
+	def queue(self, replay_dir='', recurse=True, prepend=False, force_requeue=False, shuffle=True):
 		p = pathlib.Path(self.replay_dir_path+replay_dir)
 
 		if recurse:
@@ -62,6 +53,10 @@ class ParseQueue:
 			path_list = p.glob('*.slp')
 
 		slp_list = [ str(path.relative_to(self.replay_dir_path)) for path in path_list ]
+
+		if shuffle:
+			random.seed(0)
+			random.shuffle(slp_list)
 
 		slp_list_old = [ slp for slp_list in self.slp_dict.values() for slp in slp_list ]
 		slp_list_new = [ slp for slp in slp_list if slp not in slp_list_old]
@@ -132,4 +127,17 @@ class ParseQueue:
 	def retry(self):
 		self.slp_dict['queue'] += self.slp_dict['failure']
 		self.slp_dict['failure'] = []
+		return self
+
+
+	def empty_slp_dict(self):
+		self.slp_dict = {
+			'queue': [],
+			'success': [],
+			'failure': [],
+		}
+		return self
+
+	def empty_queue(self):
+		self.slp_dict['queue'] = []
 		return self

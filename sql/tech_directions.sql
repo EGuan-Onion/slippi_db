@@ -43,7 +43,7 @@ WITH pgo AS (
 	,	pfp.stocks_remaining AS stocks
 	,	pfp.action_state_id
 	,	pfp.action_state_counter
-	,	pfp.percent
+	,	pfpo.percent AS percent_opp
 	,	pfpo.stocks_remaining AS stocks_opp
 	from  pgo
 	
@@ -85,7 +85,7 @@ WITH pgo AS (
 	,	round(Y/10)*10 AS Y
 --	,	stocks
 	,	action_state_id
-	,	round(percent/10)*10 AS percent
+	,	round(percent_opp/10)*10 AS percent_opp
 --	,	stocks_opp
 	,	is_win
 	,   sum(1) AS rowcount

@@ -11,12 +11,12 @@ replay_dir_path = p.REPLAY_DIR_PATH
 
 pq = ParseQueue(parse_queue_path, replay_dir_path)
 
-pq.init_empty_slp_dict()
-# pq.queue()
-pq.queue('')
-
+pq.empty_slp_dict()
+pq.queue(replay_dir='foo', recurse=False)
+print(pq.slp_dict)
+pq.queue(force_requeue=True, shuffle=False)
 print(pq.slp_dict)
 
 
-pq.init_empty_slp_dict()
+pq.empty_slp_dict()
 pq.save()

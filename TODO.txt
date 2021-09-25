@@ -1,23 +1,25 @@
 TODO
 ----
 
-- tournament player mapping
-
+-- Code
 - make subdirectories in setup
 
 - readme.md
 - - all required packages (python, js)
 - - setup instructions
 
-- derived table ETLs (for PGO)
+- derived table ETLs.
+- - run automatically when parsed?
 
-- name clash of build_db.run_sql() and run_sql.py
+- run_sql.py and build_db.run_sql() names clash
 
-- player-aggregate query
-- - games played, characters played, winrate by stage, etc.
-- - the kind of stuff you see on stats pages
+-- Data Stuff
+- is_win remove even ragequits to force 50-50
+- is_win remove early ragequits?
 
-- fox_falco_laser.sql may be taking too long on production
+- player_game_agg add character tier list for easy filtering
+
+- tournament vs. netplay filtering
 
 
 NOTES
@@ -28,3 +30,4 @@ NOTES
 - - games played
 - - ?player-character and player-stage, etc. as separate tables?  Or as json maps inside here?
 
+- connect code is missing getSettings() for old files

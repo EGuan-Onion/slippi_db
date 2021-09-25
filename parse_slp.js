@@ -164,9 +164,15 @@ function _insert_table_player_games(db, game, gameId) {
 	let settings = game.getSettings();
 
 	for (key of Object.keys(settings.players)) {
+		playerIndex = settings.players[key].playerIndex
+		connectCode = settings.players[key].connectCode || 
+										metadata.players[playerIndex].names.code
+		displayName = settings.players[key].displayName || 
+										metadata.players[playerIndex].names.netplay
+
 		let data_obj = [
 			gameId,
-			settings.players[key].playerIndex, 
+			playerIndex, 
 			settings.players[key].port, 
 			settings.players[key].characterId,
 			settings.players[key].characterColor,
@@ -174,9 +180,9 @@ function _insert_table_player_games(db, game, gameId) {
 			settings.players[key].type,
 			settings.players[key].teamId,
 			settings.players[key].controllerFix,
-			settings.players[key].nametag,
-			settings.players[key].displayName,
-			settings.players[key].connectCode,
+			settings.players[key].nametag, //metadata backup
+			displayName, //metadata backup
+			connectCode,  //metadata backup
 		];
 
 		db.run(insert_sql, data_obj);
