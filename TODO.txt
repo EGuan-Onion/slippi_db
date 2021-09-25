@@ -5,6 +5,10 @@ TODO
 
 - make subdirectories in setup
 
+- readme.md
+- - all required packages (python, js)
+- - setup instructions
+
 - derived table ETLs (for PGO)
 
 - name clash of build_db.run_sql() and run_sql.py
@@ -12,6 +16,9 @@ TODO
 - player-aggregate query
 - - games played, characters played, winrate by stage, etc.
 - - the kind of stuff you see on stats pages
+
+- fox_falco_laser.sql may be taking too long on production
+
 
 NOTES
 ----------------
@@ -21,6 +28,3 @@ NOTES
 - - games played
 - - ?player-character and player-stage, etc. as separate tables?  Or as json maps inside here?
 
-([a-z]+)([A-Z])
-
-$1_\l$2
