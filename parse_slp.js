@@ -89,6 +89,10 @@ function _insert_table_games(db, game, gameId, file_path) {
 	let file_name = file_path.substr(file_path_index)
 	let dir_path = file_path.substr(0,file_path_index)
 
+	// console.log(file_path)
+	// console.log(file_name)
+	// console.log(dir_path)
+
 	let insert_sql = `
 		REPLACE INTO ${table_name} (
 			game_id

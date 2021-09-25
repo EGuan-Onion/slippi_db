@@ -69,8 +69,9 @@ def run(
 		print("Populating Raw Tables")
 		parse_runner.run(add_to_queue='./', mode=mode, force_requeue=True, reset_queue=True)
 
-		print("Populating Derived Tables")
-		run_sql('insert_player_game_opponent.sql', con)
+		# # This happens in parse_runner now
+		# print("Populating Derived Tables")
+		# run_sql('insert_player_game_opponent.sql', con)
 
 	con.close()
 
