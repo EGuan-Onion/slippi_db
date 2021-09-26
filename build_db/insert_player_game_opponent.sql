@@ -10,7 +10,6 @@ WITH g AS (
 	WHERE last_frame > 30*60 --at least 30s long
 		AND stage_id in (2,3,8,28,31,32) --neutrals only
 		AND (NOT is_teams) --not teams
-		AND dir_path like '%ttn_slp%'
 )
 
 , pga AS (

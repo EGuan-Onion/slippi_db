@@ -15,29 +15,38 @@ from parse_queue import ParseQueue
 # run parse_slp.js to process the .slp file and write to the database
 # return status, update queue
 
-def insert_derived(mode, replay_file_path):
-	p = Paths(mode=mode)
-	db_path = p.RAW_DB_PATH
+
+# # Not working.  going to comment this out. just do manual bulk inserts
+# def insert_derived(mode, replay_file_path):
+# 	print('insert derived')
+# 	p = Paths(mode=mode)
+# 	db_path = p.RAW_DB_PATH
 
 
-	con = sqlite3.connect(db_path)
+# 	con = sqlite3.connect(db_path)
 
-	#TODO standardize this
-	sql_filepath = p.REPO_DIR_PATH + 'build_db/insert_player_game_opponent_args.sql'
-	f = open(sql_filepath, 'r')
-	sql_string = f.read()
-	f.close()
+# 	#TODO standardize this
+# 	sql_filepath = p.REPO_DIR_PATH + 'build_db/insert_player_game_opponent_args.sql'
+# 	f = open(sql_filepath, 'r')
+# 	sql_string = f.read()
+# 	f.close()
 
-	#SQL args?
-	replay_p = pathlib.Path(replay_file_path)
-	sql_args = {
-		'dir_path' : replay_p.parent,
-		'file_name' : replay_p.name,
-	}
+# 	#SQL args?
+# 	replay_p = pathlib.Path(replay_file_path)
+# 	# sql_args = {
+# 	# 	'dir_path' : "'" + str(replay_p.parent) + "'",
+# 	# 	'file_name' : "'" + str(replay_p.name) + "'",
+# 	# }
+# 	sql_args = {
+# 		'dir_path' : str(replay_p.parent),
+# 		'file_name' : str(replay_p.name),
+# 	}
 	
-	# print(dir_path, file_name)
-	con.execute(sql_string, sql_args)
-	return
+# 	print(sql_args)
+# 	# print(dir_path, file_name)
+# 	print(con.execute(sql_string, sql_args).fetchall())
+# 	con.close()
+# 	return
 
 
 def run(
@@ -80,8 +89,9 @@ def run(
 		result = execute_js(file_path=parse_slp_js_path, arguments=arg_str)
 		result_str = 'success' if result else 'failure'
 
-		#update derived tables with another insert operation, using replay_file_path
-		insert_derived(mode, replay_file_path)
+		# #not working.  going to comment out.  just do manual bulk inserts
+		# #update derived tables with another insert operation, using replay_file_path
+		# insert_derived(mode, replay_file_path)
 
 		pq.parse_return(result_str)
 		pq.save()

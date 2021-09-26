@@ -1,3 +1,5 @@
+-- not working.  not sure why.  going to do manual bulk inserts for now.
+
 INSERT OR REPLACE INTO derived_player_game_opponent
 
 WITH g AS (
@@ -5,13 +7,13 @@ WITH g AS (
 		game_id
 	,	last_frame
 	,	stage_id
-	, 	dir_path
+	, 	dir_path∂
 	FROM	raw_games rg 
 	WHERE last_frame > 30*60 --at least 30s long
 		AND stage_id in (2,3,8,28,31,32) --neutrals only
 		AND (NOT is_teams) --not teams
-		AND dir_path like '%:dir_path%'
-		AND file_name = ':file_name'
+		AND dir_path like ('%' || :dir_path || '%')
+		AND file_name = :file_name
 )
 
 , pga AS (

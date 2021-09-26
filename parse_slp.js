@@ -169,10 +169,19 @@ function _insert_table_player_games(db, game, gameId) {
 
 	for (key of Object.keys(settings.players)) {
 		playerIndex = settings.players[key].playerIndex
-		connectCode = settings.players[key].connectCode || 
-										metadata.players[playerIndex].names.code
-		displayName = settings.players[key].displayName || 
-										metadata.players[playerIndex].names.netplay
+
+		try {
+			connectCode = settings.players[key].connectCode || 
+											metadata.players[playerIndex].names.code
+			displayName = settings.players[key].displayName || 
+											metadata.players[playerIndex].names.netplay
+		}
+		catch (error) {
+			console.error(error.name)
+			// console.log('Continuing with empty values...')
+			connectCode = settings.players[key].connectCode
+			displayName = settings.players[key].displayName
+		}
 
 		let data_obj = [
 			gameId,

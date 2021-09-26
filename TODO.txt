@@ -1,7 +1,10 @@
 TODO
 ----
 
--- Code
+==========
+== Code ==
+==========
+
 - make subdirectories in setup
 
 - readme.md
@@ -10,9 +13,10 @@ TODO
 
 - run_sql.py and build_db.run_sql() names clash
 
-- standardize the derived table flow, paths
 
--- Data Stuff
+================
+== Data Stuff ==
+================
 - is_win remove early ragequits?
 - why more losses than wins?
 
@@ -21,6 +25,14 @@ TODO
 - tournament vs. netplay
 - local vs. netplay
 - unranked vs direct
+
+
+=============
+== On Hold ==
+=============
+- derived table inserts in parse_runner
+- derived table standardize (wait until we have 3+ derived tables)
+
 
 
 
@@ -32,4 +44,3 @@ NOTES
 - - games played
 - - ?player-character and player-stage, etc. as separate tables?  Or as json maps inside here?
 
-- connect code is missing getSettings() for old files
