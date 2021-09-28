@@ -1,10 +1,13 @@
-player_name,connect_code,dir_path,character_id,character_color,character_id_opp,stage_id,is_win,frame_sum,game_count,character_name,character_name_opp,stage_name,stage_name_short,player_label
-,JAHN#146,foo/,0,4,19,2,0,6906,1,C. Falcon,Shiek,Fountain of Dreams,FoD,Netplay Rando
-,NINJ#223,,19,1,19,2,0,10826,1,Shiek,Shiek,Fountain of Dreams,FoD,Netplay Rando
-Onion,EG#0,,19,3,19,2,1,10826,1,Shiek,Shiek,Fountain of Dreams,FoD,Onion
-Onion,EG#0,foo/,19,3,0,2,1,6906,1,Shiek,C. Falcon,Fountain of Dreams,FoD,Onion
-,WANN#751,,20,0,21,3,0,10839,1,Falco,Y. Link,Pokemon Stadium,PS1,Netplay Rando
-,WANN#751,,20,3,21,3,0,11233,1,Falco,Y. Link,Pokemon Stadium,PS1,Netplay Rando
-,WANN#751,,20,3,21,32,1,11454,1,Falco,Y. Link,Final Destination,FD,Netplay Rando
-Onion,EG#0,,21,0,20,3,1,22072,2,Y. Link,Falco,Pokemon Stadium,PS1,Onion
-Onion,EG#0,,21,0,20,32,0,11454,1,Y. Link,Falco,Final Destination,FD,Onion
+player_name,connect_code,dir_path,character_id,character_color,character_id_opp,stage_id,is_win,frame_sum,game_count,character_name,tier_rank,character_name_opp,tier_rank_opp,stage_name,stage_name_short,player_label
+,JAHN#146,foo/,0,4,19,2,0,6906,1,C. Falcon,5.0,Shiek,4.0,Fountain of Dreams,FoD,Netplay Rando
+,,foo/bar/,2,1,9,31,1,12572,1,Fox,0.0,Marth,1.0,Battlefield,BF,Netplay Rando
+,,foo/bar/,9,1,2,31,0,12572,1,Marth,1.0,Fox,0.0,Battlefield,BF,Netplay Rando
+,NINJ#223,foo/bar/,19,1,19,2,0,10826,1,Shiek,4.0,Shiek,4.0,Fountain of Dreams,FoD,Netplay Rando
+Onion,EG#0,foo/,19,3,0,2,1,6906,1,Shiek,4.0,C. Falcon,5.0,Fountain of Dreams,FoD,Onion
+Onion,EG#0,foo/bar/,19,3,19,2,1,10826,1,Shiek,4.0,Shiek,4.0,Fountain of Dreams,FoD,Onion
+,KYKY#758,,20,2,21,28,0,6616,1,Falco,3.0,Y. Link,16.0,Dreamland 64,DL64,Netplay Rando
+,LAYL#264,,20,0,21,8,1,7043,1,Falco,3.0,Y. Link,16.0,Yoshi's Story,YS,Netplay Rando
+,WANN#751,,20,3,21,32,1,11454,1,Falco,3.0,Y. Link,16.0,Final Destination,FD,Netplay Rando
+Onion,EG#0,,21,0,20,32,0,11454,1,Y. Link,16.0,Falco,3.0,Final Destination,FD,Onion
+Onion,EG#164,,21,0,20,8,0,7043,1,Y. Link,16.0,Falco,3.0,Yoshi's Story,YS,Onion
+Onion,EG#164,,21,0,20,28,1,6616,1,Y. Link,16.0,Falco,3.0,Dreamland 64,DL64,Onion

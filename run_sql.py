@@ -9,26 +9,27 @@ from paths import Paths
 #name clashes with build_db.run_sql()
 
 def run_one(sql_file_path, sql_dir_path, out_dir_path, con):
-	file_stem = sql_file_path.stem #marth_attacks
+	file_stem = sql_file_path.stem
+	print(file_stem)
 
 	sql_file_path = sql_dir_path.joinpath(file_stem + ".sql")
 	out_file_path = out_dir_path.joinpath(file_stem + ".csv")
 
 	#read SQL
-	print("Read .sql file")
+	# print("Read .sql file")
 	f = open(sql_file_path, 'r')
 	sql_string = f.read()
 	f.close()
 
 	#run SQL
-	print("Run .sql with pandas")
+	# print("Run .sql with pandas")
 	df = pd.read_sql(sql_string, con)
 
 	#write CSV
-	print("csv head")
-	print(df.head())
+	# print("csv head")
+	print(df.head(3))
 
-	print("Write")
+	# print("Write")
 	df.to_csv(out_file_path, index=False)
 
 

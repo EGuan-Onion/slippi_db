@@ -1,4 +1,5 @@
-
+--TODO tech towards / away opp
+-- X-coarseness
 
 WITH pgo AS (
 	SELECT
@@ -43,6 +44,8 @@ WITH pgo AS (
 	,	pfp.stocks_remaining AS stocks
 	,	pfp.action_state_id
 	,	pfp.action_state_counter
+	, 	pfpo.position_x AS X_opp
+	,	pfpo.position_y AS Y_opp
 	,	pfpo.percent AS percent_opp
 	,	pfpo.stocks_remaining AS stocks_opp
 	from  pgo
@@ -81,7 +84,9 @@ WITH pgo AS (
 	,	character_id
 	,	character_id_opp
 	,	facing_direction
-	,	round(X/10)*10 AS X
+	,	X > X_opp as is_right_of_opp
+	,	X > 0 as is_right_of_center
+	,	round(X/20)*20 AS X
 	,	round(Y/10)*10 AS Y
 --	,	stocks
 	,	action_state_id
@@ -91,7 +96,7 @@ WITH pgo AS (
 	,   sum(1) AS rowcount
 	from  frame_tech
 	group by
-		1,2,3,4,5,6,7,8,9,10
+		1,2,3,4,5,6,7,8,9,10,11,12
 )
 
 
@@ -144,7 +149,43 @@ WITH pgo AS (
 					WHEN 200 THEN 'Tech Left' -- facing-dependent
 					WHEN 201 THEN 'Tech Right' -- facing-dependent
 				ELSE '???' END
-		ELSE '???' END AS tech_description
+		ELSE '???' END AS tech_left_right
+	,	CASE (facing_direction * iif(is_right_of_opp, 1, -1))
+			WHEN 1 THEN	
+				CASE action_state_id
+					WHEN 183 THEN 'Miss Tech'
+					WHEN 191 THEN 'Miss Tech'
+					WHEN 199 THEN 'Tech In Place'
+					WHEN 200 THEN 'Tech Away' -- facing-dependent
+					WHEN 201 THEN 'Tech Towards' -- facing-dependent
+				ELSE '???' END
+			WHEN -1 THEN
+				CASE action_state_id
+					WHEN 183 THEN 'Miss Tech'
+					WHEN 191 THEN 'Miss Tech'
+					WHEN 199 THEN 'Tech In Place'
+					WHEN 200 THEN 'Tech Towards' -- facing-dependent
+					WHEN 201 THEN 'Tech Away' -- facing-dependent
+				ELSE '???' END
+		ELSE '???' END AS tech_towards_away
+	,	CASE (facing_direction * iif(is_right_of_center, 1, -1))
+			WHEN 1 THEN	
+				CASE action_state_id
+					WHEN 183 THEN 'Miss Tech'
+					WHEN 191 THEN 'Miss Tech'
+					WHEN 199 THEN 'Tech In Place'
+					WHEN 200 THEN 'Tech to Edge' -- facing-dependent
+					WHEN 201 THEN 'Tech to Center' -- facing-dependent
+				ELSE '???' END
+			WHEN -1 THEN
+				CASE action_state_id
+					WHEN 183 THEN 'Miss Tech'
+					WHEN 191 THEN 'Miss Tech'
+					WHEN 199 THEN 'Tech In Place'
+					WHEN 200 THEN 'Tech to Center' -- facing-dependent
+					WHEN 201 THEN 'Tech to Edge' -- facing-dependent
+				ELSE '???' END
+		ELSE '???' END AS tech_center_edge
 	FROM  dim
 )
 

@@ -24,3 +24,18 @@ stage_id,connect_code,player_name,character_id,character_id_opp,X,Y,stocks,actio
 2,JAHN#146,,0,19,20.0,0.0,4,222,0.0,4,0,1,Fountain of Dreams,C. Falcon,Shiek,ThrowLw,Down throw
 2,JAHN#146,,0,19,60.0,0.0,4,222,0.0,3,0,1,Fountain of Dreams,C. Falcon,Shiek,ThrowLw,Down throw
 2,NINJ#223,,19,19,20.0,0.0,4,222,5.0,4,0,1,Fountain of Dreams,Shiek,Shiek,ThrowLw,Down throw
+31,,,2,9,-40.0,0.0,1,221,10.0,1,1,1,Battlefield,Fox,Marth,ThrowHi,Up throw
+31,,,2,9,-40.0,20.0,4,221,35.0,4,1,1,Battlefield,Fox,Marth,ThrowHi,Up throw
+31,,,2,9,0.0,60.0,2,221,100.0,2,1,1,Battlefield,Fox,Marth,ThrowHi,Up throw
+31,,,2,9,20.0,20.0,2,221,105.0,2,1,1,Battlefield,Fox,Marth,ThrowHi,Up throw
+31,,,2,9,40.0,0.0,2,221,5.0,3,1,1,Battlefield,Fox,Marth,ThrowHi,Up throw
+31,,,9,2,-40.0,0.0,2,221,25.0,2,0,1,Battlefield,Marth,Fox,ThrowHi,Up throw
+31,,,9,2,-40.0,0.0,2,221,65.0,2,0,1,Battlefield,Marth,Fox,ThrowHi,Up throw
+31,,,9,2,-40.0,0.0,4,221,80.0,3,0,1,Battlefield,Marth,Fox,ThrowHi,Up throw
+31,,,9,2,0.0,0.0,1,219,120.0,2,0,1,Battlefield,Marth,Fox,ThrowF,Forward throw
+31,,,9,2,0.0,0.0,4,221,30.0,4,0,1,Battlefield,Marth,Fox,ThrowHi,Up throw
+31,,,9,2,20.0,0.0,2,221,110.0,2,0,1,Battlefield,Marth,Fox,ThrowHi,Up throw
+31,,,9,2,20.0,0.0,4,221,20.0,3,0,1,Battlefield,Marth,Fox,ThrowHi,Up throw
+31,,,9,2,20.0,0.0,4,221,40.0,3,0,1,Battlefield,Marth,Fox,ThrowHi,Up throw
+31,,,9,2,20.0,0.0,4,222,15.0,3,0,1,Battlefield,Marth,Fox,ThrowLw,Down throw
+31,,,9,2,40.0,0.0,1,221,40.0,1,0,1,Battlefield,Marth,Fox,ThrowHi,Up throw

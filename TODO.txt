@@ -5,6 +5,8 @@ TODO
 == Code ==
 ==========
 
+- handle boolean text arguments better.  if "False": is evaluating to True
+
 - make subdirectories in setup
 
 - remove ._ file heads from parse_runner
@@ -15,15 +17,19 @@ TODO
 
 - run_sql.py and build_db.run_sql() names clash
 
+- rename repo.  onion-melee-db?  onion-melee?  melee-onion?
 
 ================
 == Data Stuff ==
 ================
 
+<<<<<<< Updated upstream
 - add dim_attacks
 
 - add map_action_state_attack
 
+=======
+>>>>>>> Stashed changes
 - is_win remove early ragequits?
 - why more losses than wins?
 
@@ -31,8 +37,14 @@ TODO
 
 - tournament vs. netplay
 - local vs. netplay
-- unranked vs direct
 
+- rebuild production
+
+- Shiek Dthrow Techchase decision tree
+
+- Download tournament dumps
+
+- rebuild dim tables
 
 =============
 == On Hold ==
@@ -41,6 +53,8 @@ TODO
 - derived table standardize (wait until we have 3+ derived tables)
 
 
+- unranked vs direct
+- - not implemented yet
 
 
 NOTES

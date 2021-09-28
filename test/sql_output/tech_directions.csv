@@ -1,34 +1,54 @@
-stage_id,connect_code,player_name,character_id,character_id_opp,facing_direction,X,Y,action_state_id,percent_opp,is_win,rowcount,stage_name,character_name,character_name_opp,state_name,state_description,tech_description
-2,JAHN#146,,0,19,-1,-40.0,30.0,201,20.0,0,1,Fountain of Dreams,C. Falcon,Shiek,PassiveStandB,Backward tech,Tech Right
-2,JAHN#146,,0,19,-1,-20.0,0.0,199,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Passive,Neutral tech,Tech In Place
-2,JAHN#146,,0,19,-1,-10.0,0.0,200,20.0,0,2,Fountain of Dreams,C. Falcon,Shiek,PassiveStandF,Forward tech,Tech Left
-2,JAHN#146,,0,19,-1,10.0,0.0,200,10.0,0,1,Fountain of Dreams,C. Falcon,Shiek,PassiveStandF,Forward tech,Tech Left
-2,JAHN#146,,0,19,-1,20.0,0.0,201,10.0,0,1,Fountain of Dreams,C. Falcon,Shiek,PassiveStandB,Backward tech,Tech Right
-2,JAHN#146,,0,19,1,-40.0,0.0,200,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,PassiveStandF,Forward tech,Tech Right
-2,JAHN#146,,0,19,1,-30.0,0.0,183,60.0,0,1,Fountain of Dreams,C. Falcon,Shiek,DownBoundU,"The missed tech bounce, facing up",Miss Tech
-2,JAHN#146,,0,19,1,-30.0,0.0,199,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Passive,Neutral tech,Tech In Place
-2,JAHN#146,,0,19,1,0.0,0.0,201,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,PassiveStandB,Backward tech,Tech Left
-2,JAHN#146,,0,19,1,10.0,0.0,183,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,DownBoundU,"The missed tech bounce, facing up",Miss Tech
-2,JAHN#146,,0,19,1,10.0,0.0,200,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,PassiveStandF,Forward tech,Tech Right
-2,EG#0,Onion,19,0,-1,-10.0,0.0,183,60.0,1,1,Fountain of Dreams,Shiek,C. Falcon,DownBoundU,"The missed tech bounce, facing up",Miss Tech
-2,EG#0,Onion,19,0,-1,10.0,0.0,199,60.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Passive,Neutral tech,Tech In Place
-2,EG#0,Onion,19,0,-1,40.0,0.0,183,0.0,1,1,Fountain of Dreams,Shiek,C. Falcon,DownBoundU,"The missed tech bounce, facing up",Miss Tech
-2,EG#0,Onion,19,0,-1,60.0,0.0,199,0.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Passive,Neutral tech,Tech In Place
-2,EG#0,Onion,19,0,1,-10.0,0.0,191,10.0,1,1,Fountain of Dreams,Shiek,C. Falcon,DownBoundD,"The missed tech bounce, facing down",Miss Tech
-2,EG#0,Onion,19,0,1,40.0,20.0,200,90.0,1,1,Fountain of Dreams,Shiek,C. Falcon,PassiveStandF,Forward tech,Tech Right
-2,EG#0,Onion,19,19,-1,0.0,40.0,183,70.0,1,1,Fountain of Dreams,Shiek,Shiek,DownBoundU,"The missed tech bounce, facing up",Miss Tech
-2,EG#0,Onion,19,19,-1,60.0,0.0,183,40.0,1,1,Fountain of Dreams,Shiek,Shiek,DownBoundU,"The missed tech bounce, facing up",Miss Tech
-2,EG#0,Onion,19,19,-1,60.0,0.0,200,20.0,1,1,Fountain of Dreams,Shiek,Shiek,PassiveStandF,Forward tech,Tech Left
-2,EG#0,Onion,19,19,1,20.0,20.0,199,120.0,1,1,Fountain of Dreams,Shiek,Shiek,Passive,Neutral tech,Tech In Place
-2,EG#0,Onion,19,19,1,40.0,0.0,183,90.0,1,1,Fountain of Dreams,Shiek,Shiek,DownBoundU,"The missed tech bounce, facing up",Miss Tech
-2,EG#0,Onion,19,19,1,40.0,0.0,199,20.0,1,1,Fountain of Dreams,Shiek,Shiek,Passive,Neutral tech,Tech In Place
-2,NINJ#223,,19,19,-1,40.0,0.0,199,20.0,0,1,Fountain of Dreams,Shiek,Shiek,Passive,Neutral tech,Tech In Place
-2,NINJ#223,,19,19,-1,50.0,0.0,199,20.0,0,1,Fountain of Dreams,Shiek,Shiek,Passive,Neutral tech,Tech In Place
-2,NINJ#223,,19,19,-1,60.0,0.0,183,20.0,0,1,Fountain of Dreams,Shiek,Shiek,DownBoundU,"The missed tech bounce, facing up",Miss Tech
-2,NINJ#223,,19,19,1,-30.0,0.0,191,40.0,0,1,Fountain of Dreams,Shiek,Shiek,DownBoundD,"The missed tech bounce, facing down",Miss Tech
-2,NINJ#223,,19,19,1,-20.0,0.0,201,20.0,0,1,Fountain of Dreams,Shiek,Shiek,PassiveStandB,Backward tech,Tech Left
-2,NINJ#223,,19,19,1,-10.0,0.0,201,90.0,0,1,Fountain of Dreams,Shiek,Shiek,PassiveStandB,Backward tech,Tech Left
-2,NINJ#223,,19,19,1,0.0,0.0,191,20.0,0,1,Fountain of Dreams,Shiek,Shiek,DownBoundD,"The missed tech bounce, facing down",Miss Tech
-2,NINJ#223,,19,19,1,10.0,0.0,183,120.0,0,1,Fountain of Dreams,Shiek,Shiek,DownBoundU,"The missed tech bounce, facing up",Miss Tech
-2,NINJ#223,,19,19,1,10.0,0.0,200,110.0,0,1,Fountain of Dreams,Shiek,Shiek,PassiveStandF,Forward tech,Tech Right
-2,NINJ#223,,19,19,1,10.0,0.0,200,120.0,0,1,Fountain of Dreams,Shiek,Shiek,PassiveStandF,Forward tech,Tech Right
+stage_id,connect_code,player_name,character_id,character_id_opp,facing_direction,is_right_of_opp,is_right_of_center,X,Y,action_state_id,percent_opp,is_win,rowcount,stage_name,character_name,character_name_opp,state_name,state_description,tech_left_right,tech_towards_away,tech_center_edge
+2,JAHN#146,,0,19,-1,0,0,-40.0,30.0,201,20.0,0,1,Fountain of Dreams,C. Falcon,Shiek,PassiveStandB,Backward tech,Tech Right,Tech Towards,Tech to Center
+2,JAHN#146,,0,19,-1,0,0,-20.0,0.0,199,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Passive,Neutral tech,Tech In Place,Tech In Place,Tech In Place
+2,JAHN#146,,0,19,-1,0,0,-20.0,0.0,200,20.0,0,1,Fountain of Dreams,C. Falcon,Shiek,PassiveStandF,Forward tech,Tech Left,Tech Away,Tech to Edge
+2,JAHN#146,,0,19,-1,0,0,0.0,0.0,200,20.0,0,1,Fountain of Dreams,C. Falcon,Shiek,PassiveStandF,Forward tech,Tech Left,Tech Away,Tech to Edge
+2,JAHN#146,,0,19,-1,1,1,20.0,0.0,200,10.0,0,1,Fountain of Dreams,C. Falcon,Shiek,PassiveStandF,Forward tech,Tech Left,Tech Towards,Tech to Center
+2,JAHN#146,,0,19,-1,1,1,20.0,0.0,201,10.0,0,1,Fountain of Dreams,C. Falcon,Shiek,PassiveStandB,Backward tech,Tech Right,Tech Away,Tech to Edge
+2,JAHN#146,,0,19,1,0,0,-40.0,0.0,199,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Passive,Neutral tech,Tech In Place,Tech In Place,Tech In Place
+2,JAHN#146,,0,19,1,0,0,-20.0,0.0,183,60.0,0,1,Fountain of Dreams,C. Falcon,Shiek,DownBoundU,"The missed tech bounce, facing up",Miss Tech,Miss Tech,Miss Tech
+2,JAHN#146,,0,19,1,0,0,0.0,0.0,201,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,PassiveStandB,Backward tech,Tech Left,Tech Away,Tech to Edge
+2,JAHN#146,,0,19,1,0,1,0.0,0.0,183,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,DownBoundU,"The missed tech bounce, facing up",Miss Tech,Miss Tech,Miss Tech
+2,JAHN#146,,0,19,1,0,1,20.0,0.0,200,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,PassiveStandF,Forward tech,Tech Right,Tech Towards,Tech to Edge
+2,JAHN#146,,0,19,1,1,0,-40.0,0.0,200,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,PassiveStandF,Forward tech,Tech Right,Tech Away,Tech to Center
+31,,,2,9,-1,0,0,-20.0,50.0,183,100.0,1,1,Battlefield,Fox,Marth,DownBoundU,"The missed tech bounce, facing up",Miss Tech,Miss Tech,Miss Tech
+31,,,2,9,-1,0,0,-20.0,50.0,199,10.0,1,1,Battlefield,Fox,Marth,Passive,Neutral tech,Tech In Place,Tech In Place,Tech In Place
+31,,,2,9,-1,1,0,-20.0,30.0,200,20.0,1,1,Battlefield,Fox,Marth,PassiveStandF,Forward tech,Tech Left,Tech Towards,Tech to Edge
+31,,,2,9,-1,1,1,0.0,50.0,200,110.0,1,1,Battlefield,Fox,Marth,PassiveStandF,Forward tech,Tech Left,Tech Towards,Tech to Center
+31,,,2,9,-1,1,1,20.0,30.0,201,100.0,1,1,Battlefield,Fox,Marth,PassiveStandB,Backward tech,Tech Right,Tech Away,Tech to Edge
+31,,,2,9,-1,1,1,20.0,50.0,200,100.0,1,2,Battlefield,Fox,Marth,PassiveStandF,Forward tech,Tech Left,Tech Towards,Tech to Center
+31,,,2,9,-1,1,1,40.0,0.0,191,10.0,1,1,Battlefield,Fox,Marth,DownBoundD,"The missed tech bounce, facing down",Miss Tech,Miss Tech,Miss Tech
+31,,,2,9,-1,1,1,40.0,0.0,200,100.0,1,1,Battlefield,Fox,Marth,PassiveStandF,Forward tech,Tech Left,Tech Towards,Tech to Center
+31,,,2,9,-1,1,1,40.0,30.0,201,110.0,1,1,Battlefield,Fox,Marth,PassiveStandB,Backward tech,Tech Right,Tech Away,Tech to Edge
+31,,,2,9,-1,1,1,60.0,30.0,183,100.0,1,1,Battlefield,Fox,Marth,DownBoundU,"The missed tech bounce, facing up",Miss Tech,Miss Tech,Miss Tech
+31,,,2,9,-1,1,1,60.0,30.0,200,10.0,1,1,Battlefield,Fox,Marth,PassiveStandF,Forward tech,Tech Left,Tech Towards,Tech to Center
+31,,,2,9,1,0,0,-60.0,0.0,191,100.0,1,1,Battlefield,Fox,Marth,DownBoundD,"The missed tech bounce, facing down",Miss Tech,Miss Tech,Miss Tech
+31,,,2,9,1,0,0,-60.0,30.0,183,70.0,1,1,Battlefield,Fox,Marth,DownBoundU,"The missed tech bounce, facing up",Miss Tech,Miss Tech,Miss Tech
+31,,,2,9,1,0,0,-40.0,0.0,200,0.0,1,1,Battlefield,Fox,Marth,PassiveStandF,Forward tech,Tech Right,Tech Towards,Tech to Center
+31,,,2,9,1,0,0,-20.0,30.0,201,70.0,1,1,Battlefield,Fox,Marth,PassiveStandB,Backward tech,Tech Left,Tech Away,Tech to Edge
+31,,,2,9,1,0,0,0.0,0.0,201,100.0,1,1,Battlefield,Fox,Marth,PassiveStandB,Backward tech,Tech Left,Tech Away,Tech to Edge
+31,,,2,9,1,1,1,20.0,30.0,183,100.0,1,1,Battlefield,Fox,Marth,DownBoundU,"The missed tech bounce, facing up",Miss Tech,Miss Tech,Miss Tech
+31,,,9,2,-1,1,0,-40.0,30.0,183,0.0,0,1,Battlefield,Marth,Fox,DownBoundU,"The missed tech bounce, facing up",Miss Tech,Miss Tech,Miss Tech
+31,,,9,2,1,0,1,0.0,50.0,199,80.0,0,1,Battlefield,Marth,Fox,Passive,Neutral tech,Tech In Place,Tech In Place,Tech In Place
+2,EG#0,Onion,19,0,-1,1,0,0.0,0.0,183,60.0,1,1,Fountain of Dreams,Shiek,C. Falcon,DownBoundU,"The missed tech bounce, facing up",Miss Tech,Miss Tech,Miss Tech
+2,EG#0,Onion,19,0,-1,1,1,20.0,0.0,199,60.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Passive,Neutral tech,Tech In Place,Tech In Place,Tech In Place
+2,EG#0,Onion,19,0,-1,1,1,40.0,0.0,183,0.0,1,1,Fountain of Dreams,Shiek,C. Falcon,DownBoundU,"The missed tech bounce, facing up",Miss Tech,Miss Tech,Miss Tech
+2,EG#0,Onion,19,0,-1,1,1,60.0,0.0,199,0.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Passive,Neutral tech,Tech In Place,Tech In Place,Tech In Place
+2,EG#0,Onion,19,0,1,0,0,-20.0,0.0,191,10.0,1,1,Fountain of Dreams,Shiek,C. Falcon,DownBoundD,"The missed tech bounce, facing down",Miss Tech,Miss Tech,Miss Tech
+2,EG#0,Onion,19,0,1,0,1,40.0,20.0,200,90.0,1,1,Fountain of Dreams,Shiek,C. Falcon,PassiveStandF,Forward tech,Tech Right,Tech Towards,Tech to Edge
+2,EG#0,Onion,19,19,-1,1,0,0.0,40.0,183,70.0,1,1,Fountain of Dreams,Shiek,Shiek,DownBoundU,"The missed tech bounce, facing up",Miss Tech,Miss Tech,Miss Tech
+2,EG#0,Onion,19,19,-1,1,1,60.0,0.0,183,40.0,1,1,Fountain of Dreams,Shiek,Shiek,DownBoundU,"The missed tech bounce, facing up",Miss Tech,Miss Tech,Miss Tech
+2,EG#0,Onion,19,19,-1,1,1,60.0,0.0,200,20.0,1,1,Fountain of Dreams,Shiek,Shiek,PassiveStandF,Forward tech,Tech Left,Tech Towards,Tech to Center
+2,EG#0,Onion,19,19,1,0,1,20.0,20.0,199,120.0,1,1,Fountain of Dreams,Shiek,Shiek,Passive,Neutral tech,Tech In Place,Tech In Place,Tech In Place
+2,EG#0,Onion,19,19,1,0,1,40.0,0.0,183,90.0,1,1,Fountain of Dreams,Shiek,Shiek,DownBoundU,"The missed tech bounce, facing up",Miss Tech,Miss Tech,Miss Tech
+2,EG#0,Onion,19,19,1,0,1,40.0,0.0,199,20.0,1,1,Fountain of Dreams,Shiek,Shiek,Passive,Neutral tech,Tech In Place,Tech In Place,Tech In Place
+2,NINJ#223,,19,19,-1,1,1,40.0,0.0,199,20.0,0,1,Fountain of Dreams,Shiek,Shiek,Passive,Neutral tech,Tech In Place,Tech In Place,Tech In Place
+2,NINJ#223,,19,19,-1,1,1,60.0,0.0,183,20.0,0,1,Fountain of Dreams,Shiek,Shiek,DownBoundU,"The missed tech bounce, facing up",Miss Tech,Miss Tech,Miss Tech
+2,NINJ#223,,19,19,-1,1,1,60.0,0.0,199,20.0,0,1,Fountain of Dreams,Shiek,Shiek,Passive,Neutral tech,Tech In Place,Tech In Place,Tech In Place
+2,NINJ#223,,19,19,1,0,0,-20.0,0.0,191,40.0,0,1,Fountain of Dreams,Shiek,Shiek,DownBoundD,"The missed tech bounce, facing down",Miss Tech,Miss Tech,Miss Tech
+2,NINJ#223,,19,19,1,0,0,-20.0,0.0,201,20.0,0,1,Fountain of Dreams,Shiek,Shiek,PassiveStandB,Backward tech,Tech Left,Tech Away,Tech to Edge
+2,NINJ#223,,19,19,1,0,0,0.0,0.0,201,90.0,0,1,Fountain of Dreams,Shiek,Shiek,PassiveStandB,Backward tech,Tech Left,Tech Away,Tech to Edge
+2,NINJ#223,,19,19,1,0,1,0.0,0.0,183,120.0,0,1,Fountain of Dreams,Shiek,Shiek,DownBoundU,"The missed tech bounce, facing up",Miss Tech,Miss Tech,Miss Tech
+2,NINJ#223,,19,19,1,0,1,0.0,0.0,191,20.0,0,1,Fountain of Dreams,Shiek,Shiek,DownBoundD,"The missed tech bounce, facing down",Miss Tech,Miss Tech,Miss Tech
+2,NINJ#223,,19,19,1,0,1,0.0,0.0,200,120.0,0,1,Fountain of Dreams,Shiek,Shiek,PassiveStandF,Forward tech,Tech Right,Tech Towards,Tech to Edge
+2,NINJ#223,,19,19,1,1,1,20.0,0.0,200,110.0,0,1,Fountain of Dreams,Shiek,Shiek,PassiveStandF,Forward tech,Tech Right,Tech Away,Tech to Edge

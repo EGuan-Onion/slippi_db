@@ -129,7 +129,7 @@ SELECT
 ,	dir_path
 ,	player_index
 ,	character_id
-,	character_color
+,	character_color --color name? add if we start using this to tag players
 ,	connect_code
 ,	player_name
 -- ,	stocks_remaining
@@ -138,7 +138,7 @@ SELECT
 ,	character_id_opp
 -- ,	character_color_opp
 -- ,	connect_code_opp
--- ,	player_name_opp
+-- ,	player_name_opp --Add?
 -- ,	stocks_remaining_opp
 -- ,	percent_opp
 -- ,	is_win_end

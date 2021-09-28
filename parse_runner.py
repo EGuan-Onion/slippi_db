@@ -55,6 +55,7 @@ def run(
 		force_requeue=False,
 		empty_queue=False,
 		):
+	force_requeue = force_requeue=="True"
 
 	p = Paths(mode=mode)
 
@@ -69,11 +70,13 @@ def run(
 
 	pq = ParseQueue(filepath=parse_queue_path, replay_dir_path=replay_dir_path)
 
-	if empty_queue:
+	if empty_queue=="True":
+		print("empty queue")
 		pq.empty_queue()
 
 	if add_to_queue:
-		print("queue: {}".format(add_to_queue))
+		print("add to queue: {}".format(add_to_queue))
+		print("force requeue: {}".format(force_requeue))
 		pq.queue(add_to_queue, prepend=True, force_requeue=force_requeue)
 
 	while len(pq.slp_dict['queue']) > 0:

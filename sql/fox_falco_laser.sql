@@ -58,14 +58,14 @@ WITH pgo AS (
 
 , agg AS (
 	SELECT
-		stage_id
-	,	connect_code
+		connect_code
 	,	player_name
 	,	character_id
 	,	character_id_opp
+	,	stage_id
 	,	action_state_id
 	,	sum(1) as game_count
-	, sum(last_frame) as frame_count
+	,	sum(last_frame) as frame_count
 	,	sum(laser_count) as laser_count
 	FROM pgo_lasers
 	GROUP BY
@@ -94,7 +94,7 @@ WITH pgo AS (
 	ON  dc.character_id = agg.character_id
 
 	JOIN dim_character dco
-	ON  dco.character_id = agg.character_id
+	ON  dco.character_id = agg.character_id_opp
 
 	JOIN dim_action_state_union dasu
 	ON 	dasu.character_id = agg.character_id
@@ -105,3 +105,4 @@ WITH pgo AS (
 
 SELECT *
 FROM dim
+

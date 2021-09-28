@@ -1,34 +1,34 @@
-stage_id,stage_name_short,stage_name,stage_name_long,internal_stage_id,internal_stage_name
-0,Dummy,Dummy,Dummy,,
-1,TEST,TEST,TEST,,
-2,FoD,Fountain of Dreams,Fountain of Dreams (Izumi) ,12,Fountain of Dreams
-3,PS1,Pokemon Stadium,Pokémon Stadium (Pstadium),16,Pokemon Stadium
-4,PCastle,Peach's Castle,Princess Peach's Castle (Castle),2,Princess Peach's Castle
-5,KJungle,Kongo Jungle,Kongo Jungle (Kongo),4,Kongo Jungle
-6,Brinstar,Brinstar,Brinstar (Zebes),8,Brinstar
-7,Corneria,Corneria,Corneria,14,Corneria
-8,YS,Yoshi's Story,Yoshi's Story (Story),10,Yoshi's Story
-9,Onett,Onett,Onett,20,Onett
-10,Mute City,Mute City,Mute City,18,Mute City
-11,RCruise,Rainbow Cruise,Rainbow Cruise (RCruise),3,Rainbow Cruise
-12,JJapes,Jungle Japes,Jungle Japes (Garden),5,Jungle Japes
-13,GBay,Great Bay,Great Bay,6,Great Bay
-14,Hyrule,Hyrule,Hyrule Temple (Shrine),7,Hyrule Temple
-15,BDepths,Brinstar Depths,Brinstar Depths (Kraid),9,Brinstar Depths
-16,YIsland,Yoshi Island,Yoshi's Island (Yoster),11,Yoshi's Island
-17,GGreens,Green Greens,Green Greens (Greens),13,Green Greens
-18,Fourside,Fourside,Fourside,21,Fourside
-19,MK1,Mushroom Kingdom I,Mushroom Kingdom I (Inishie1),24,Mushroom Kingdom
-20,MK2,Mushroom Kingdom II,Mushroom Kingdom II (Inishie2),25,Mushroom Kingdom II
-21,Akaneia,Akaneia (Deleted Stage),Akaneia (Deleted Stage),,
-22,Venom,Venom,Venom,15,Venom
-23,Pokefloats,Pokefloats,Poké Floats (Pura),17,Poke Floats
-24,Big Blue,Big Blue,Big Blue,19,Big Blue
-25,Icicle,Icicle Mountain,Icicle Mountain,22,Icicle Mountain
-26,Icetop,Icetop,Icetop,,
-27,Flat Zone,Flat Zone,Flat Zone,27,Flat Zone
-28,DL64,Dreamland 64,Dream Land N64 (old ppp),28,Dream Land
-29,YI64,Yoshi's Island 64,Yoshi's Island N64 (old yosh),29,Yoshi's Island (64)
-30,KJ64,Kongo Jungle 64,Kongo Jungle N64 (old kong),30,Kongo Jungle (64)
-31,BF,Battlefield,Battlefield (battle),,
-32,FD,Final Destination,Final Destination (last),,
+stage_id,is_standard,stage_name_short,stage_name,stage_name_long,internal_stage_id,internal_stage_name
+0,0,Dummy,Dummy,Dummy,,
+1,0,TEST,TEST,TEST,,
+2,1,FoD,Fountain of Dreams,Fountain of Dreams (Izumi) ,12,Fountain of Dreams
+3,1,PS1,Pokemon Stadium,Pokémon Stadium (Pstadium),16,Pokemon Stadium
+4,0,PCastle,Peach's Castle,Princess Peach's Castle (Castle),2,Princess Peach's Castle
+5,0,KJungle,Kongo Jungle,Kongo Jungle (Kongo),4,Kongo Jungle
+6,0,Brinstar,Brinstar,Brinstar (Zebes),8,Brinstar
+7,0,Corneria,Corneria,Corneria,14,Corneria
+8,1,YS,Yoshi's Story,Yoshi's Story (Story),10,Yoshi's Story
+9,0,Onett,Onett,Onett,20,Onett
+10,0,Mute City,Mute City,Mute City,18,Mute City
+11,0,RCruise,Rainbow Cruise,Rainbow Cruise (RCruise),3,Rainbow Cruise
+12,0,JJapes,Jungle Japes,Jungle Japes (Garden),5,Jungle Japes
+13,0,GBay,Great Bay,Great Bay,6,Great Bay
+14,0,Hyrule,Hyrule,Hyrule Temple (Shrine),7,Hyrule Temple
+15,0,BDepths,Brinstar Depths,Brinstar Depths (Kraid),9,Brinstar Depths
+16,0,YIsland,Yoshi Island,Yoshi's Island (Yoster),11,Yoshi's Island
+17,0,GGreens,Green Greens,Green Greens (Greens),13,Green Greens
+18,0,Fourside,Fourside,Fourside,21,Fourside
+19,0,MK1,Mushroom Kingdom I,Mushroom Kingdom I (Inishie1),24,Mushroom Kingdom
+20,0,MK2,Mushroom Kingdom II,Mushroom Kingdom II (Inishie2),25,Mushroom Kingdom II
+21,0,Akaneia,Akaneia (Deleted Stage),Akaneia (Deleted Stage),,
+22,0,Venom,Venom,Venom,15,Venom
+23,0,Pokefloats,Pokefloats,Poké Floats (Pura),17,Poke Floats
+24,0,Big Blue,Big Blue,Big Blue,19,Big Blue
+25,0,Icicle,Icicle Mountain,Icicle Mountain,22,Icicle Mountain
+26,0,Icetop,Icetop,Icetop,,
+27,0,Flat Zone,Flat Zone,Flat Zone,27,Flat Zone
+28,1,DL64,Dreamland 64,Dream Land N64 (old ppp),28,Dream Land
+29,0,YI64,Yoshi's Island 64,Yoshi's Island N64 (old yosh),29,Yoshi's Island (64)
+30,0,KJ64,Kongo Jungle 64,Kongo Jungle N64 (old kong),30,Kongo Jungle (64)
+31,1,BF,Battlefield,Battlefield (battle),,
+32,1,FD,Final Destination,Final Destination (last),,

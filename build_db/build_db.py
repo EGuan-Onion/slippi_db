@@ -35,7 +35,7 @@ def run(
 	db_path = p.RAW_DB_PATH
 	replay_path = p.REPLAY_DIR_PATH
 
-	if wipe:
+	if wipe=="True":
 		print("Deleting old .db file")
 		os.remove(db_path)
 
@@ -65,13 +65,16 @@ def run(
 
 
 
-	if populate:
+	if populate=="True":
 		print("Populating Raw Tables")
 		parse_runner.run(add_to_queue='./', mode=mode, force_requeue=True, empty_queue=True)
 
 		# we want to move this to parse_runner, but weren't able to yet.
 		print("Populating Derived Tables")
 		run_sql('insert_player_game_opponent.sql', con)
+
+		print("Vacuum")
+		con.execute("VACUUM")
 
 	con.close()
 

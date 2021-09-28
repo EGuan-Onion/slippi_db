@@ -26,7 +26,7 @@ class Paths():
 		elif mode=="production":
 			self.DIR_PATH = "/Volumes/T7/slippi_db/"
 			self.REPLAY_DIR_PATH = self.DIR_PATH + "replays/"
-			self.RAW_DB_PATH = self.DIR_PATH + "db/raw.db"
+			self.RAW_DB_PATH = self.DIR_PATH + "db/raw_prod.db"
 			self.PARSE_QUEUE_PATH = self.DIR_PATH + "parse_queue.json"
 			self.SQL_OUTPUT_DIR_PATH = self.DIR_PATH + "sql_output/"
 

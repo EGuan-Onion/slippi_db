@@ -1,4 +1,8 @@
-stage_id,connect_code,player_name,character_id,character_id_opp,action_state_id,game_count,frame_count,laser_count,character_name,character_name_opp,stage_name,stage_name_short,state_name,state_description,state_category,attack_type,direction
-3,WANN#751,,20,21,342,1,11233,24,Falco,Falco,Pokemon Stadium,PS1,Blaster Ground Loop,Neutral B,attack,special,Neutral
-3,WANN#751,,20,21,345,2,22072,360,Falco,Falco,Pokemon Stadium,PS1,Blaster Air Loop,Neutral B,attack,special,Neutral
-32,WANN#751,,20,21,345,1,11454,145,Falco,Falco,Final Destination,FD,Blaster Air Loop,Neutral B,attack,special,Neutral
+connect_code,player_name,character_id,character_id_opp,stage_id,action_state_id,game_count,frame_count,laser_count,character_name,character_name_opp,stage_name,stage_name_short,state_name,state_description,state_category,attack_type,direction
+,,2,9,31,342,1,12572,10,Fox,Marth,Battlefield,BF,Blaster Ground Loop,Neutral B,attack,special,Neutral
+,,2,9,31,345,1,12572,106,Fox,Marth,Battlefield,BF,Blaster Air Loop,Neutral B,attack,special,Neutral
+KYKY#758,,20,21,28,342,1,6616,24,Falco,Y. Link,Dreamland 64,DL64,Blaster Ground Loop,Neutral B,attack,special,Neutral
+KYKY#758,,20,21,28,345,1,6616,126,Falco,Y. Link,Dreamland 64,DL64,Blaster Air Loop,Neutral B,attack,special,Neutral
+LAYL#264,,20,21,8,342,1,7043,24,Falco,Y. Link,Yoshi's Story,YS,Blaster Ground Loop,Neutral B,attack,special,Neutral
+LAYL#264,,20,21,8,345,1,7043,277,Falco,Y. Link,Yoshi's Story,YS,Blaster Air Loop,Neutral B,attack,special,Neutral
+WANN#751,,20,21,32,345,1,11454,145,Falco,Y. Link,Final Destination,FD,Blaster Air Loop,Neutral B,attack,special,Neutral
