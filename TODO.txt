@@ -1,6 +1,16 @@
 TODO
 ----
 
+
+===============
+== Overnight ==
+===============
+
+$python run_sql.py production
+
+insert_player_game_opponent in production (For new tournament data, dada's DK data)
+
+
 ==========
 == Code ==
 ==========
@@ -22,6 +32,8 @@ TODO
 ================
 == Data Stuff ==
 ================
+
+- refresh laser report
 
 - add dada, birdperson to map_connect_code_player
 

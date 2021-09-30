@@ -27,14 +27,14 @@ WITH pgo AS (
 	,	sum(1) as laser_count
 	FROM	raw_player_frames_post  rpfp
 
-	JOIN  dim_action_state_union dasu
-	ON  dasu.character_id = rpfp.character_id
-	AND dasu.action_state_id = rpfp.action_state_id
+	-- JOIN  dim_action_state_union dasu
+	-- ON  dasu.character_id = rpfp.character_id
+	-- AND dasu.action_state_id = rpfp.action_state_id
 	
 	WHERE TRUE 
-		AND state_name like 'Blaster%Loop'
-		-- AND rpfp.character_id in (2,20) --Fox, Falco
-		-- AND rpfp.action_state_id in (342, 345) --Ground laser, air laser
+		-- AND state_name like 'Blaster%Loop'
+		AND rpfp.character_id in (2,20) --Fox, Falco
+		AND rpfp.action_state_id in (342, 345) --Ground laser, air laser
 		AND (	(rpfp.character_id = 2  AND  action_state_counter = 5) --fox laser comes out on frame 5
 			OR  (rpfp.character_id = 20  AND  action_state_counter = 8) --falco falco laser comes out on frame 8
 		)
@@ -47,10 +47,10 @@ WITH pgo AS (
 , pgo_lasers AS (
 	SELECT 
 		pgo.*
-	,	laser_count
+	,	coalesce(laser_count,0) as laser_count
 	FROM pgo
 
-	JOIN  lasers
+	LEFT JOIN  lasers
 	ON  pgo.game_id = lasers.game_id
 	  AND pgo.player_index = lasers.player_index
 )
@@ -84,12 +84,19 @@ WITH pgo AS (
 	-- ,	dasu.state_category
 	-- ,	dasu.attack_type
 	-- ,	dasu.direction
-  , coalesce(player_name,
-      CASE
-        WHEN dir_path like '%tournament%' THEN 'Tourney Rando'
-        WHEN connect_code is not null THEN 'Netplay Rando'
-      ELSE '???' END
-    ) as player_label
+	,	coalesce(player_name,
+			CASE
+			WHEN dir_path like '%tournament%' THEN 'Tourney Rando'
+			WHEN connect_code is not null THEN 'Netplay Rando'
+			WHEN dir_path like '%home/%' and connect_code is null 
+				THEN  SUBSTR(dir_path,
+					INSTR(dir_path, 'home/') + length('home/'),
+					INSTR(SUBSTR(dir_path,
+						INSTR(dir_path, 'home/') + length('home/')
+					), '/')-1
+				) || ' local play'
+			ELSE '???' END
+		) as player_label
 	FROM agg
 
 	JOIN dim_stage ds 

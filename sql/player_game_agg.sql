@@ -40,27 +40,18 @@ WITH agg AS (
   SELECT
   	dim.*
   , coalesce(player_name,
-      CASE
-        -- WHEN dir_path like '%summit%' 
-        -- 	THEN CASE
-        -- 		WHEN character_name = 'Fox' THEN 'Mango/iBDW/SFAT/Aklo/moky/Plup'
-        -- 		WHEN character_name = 'Falco' THEN 'Yingling/Mango'
-        -- 		WHEN character_name = 'Marth' THEN 'Zain/Kodorin/LSD/Tai'
-        -- 		WHEN character_name = 'C. Falcon' THEN 'Wizzrobe/n0ne/Vish?'
-        -- 		WHEN character_name = 'Jiggs' THEN 'HBox/2saint'
-        -- 		WHEN character_name = 'Shiek' THEN 'Plup'
-        -- 		WHEN character_name = 'Pikachu' THEN 'Axe'
-        -- 		WHEN character_name = 'Yoshi' THEN 'aMSa'
-        -- 		WHEN character_name = 'Samus' THEN 'Plup'
-        -- 		WHEN character_name = 'Link' THEN 'Alko'
-        -- 		WHEN character_name = 'DK' THEN 'Ringler'
-        -- 		--TODO -- label 'em
-        -- 	ELSE 'Summit Rando' END
-        WHEN dir_path like '%summit%' THEN 'Summit-11'
-        WHEN dir_path like '%tournament%' THEN 'Tourney Rando'
-        WHEN connect_code is not null THEN 'Netplay Rando'
+    CASE
+    WHEN dir_path like '%tournament%' THEN 'Tourney Rando'
+    WHEN connect_code is not null THEN 'Netplay Rando'
+    WHEN dir_path like '%home/%' and connect_code is null 
+      THEN  SUBSTR(dir_path,
+        INSTR(dir_path, 'home/') + length('home/'),
+        INSTR(SUBSTR(dir_path,
+          INSTR(dir_path, 'home/') + length('home/')
+        ), '/')-1
+        ) || ' local play'
       ELSE '???' END
-    ) as player_label
+      ) as player_label
   FROM  dim
 )
 

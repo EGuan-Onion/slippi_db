@@ -73,7 +73,8 @@ WITH pgo AS (
 
 , agg as (
 	select
-		stage_id
+		dir_path
+	,	stage_id
 	,	connect_code
 	,	player_name
 	,	character_id
@@ -88,7 +89,7 @@ WITH pgo AS (
 	,   sum(1) as rowcount
 	from  frame_throws
 	group by
-		1,2,3,4,5,6,7,8,9,10
+		1,2,3,4,5,6,7,8,9,10,11
 )
 
 
@@ -100,6 +101,19 @@ WITH pgo AS (
 	,	dco.character_name as character_name_opp
 	,   dasu.state_name
 	,	dasu.state_description 
+	,	coalesce(player_name,
+		CASE
+		WHEN dir_path like '%tournament%' THEN 'Tourney Rando'
+		WHEN connect_code is not null THEN 'Netplay Rando'
+		WHEN dir_path like '%home/%' and connect_code is null 
+			THEN  SUBSTR(dir_path,
+				INSTR(dir_path, 'home/') + length('home/'),
+				INSTR(SUBSTR(dir_path,
+					INSTR(dir_path, 'home/') + length('home/')
+				), '/')-1
+			  ) || ' local play'
+	    ELSE '???' END
+	    ) as player_label
 	
 	from agg a
 	

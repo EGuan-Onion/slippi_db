@@ -1,567 +1,567 @@
-stage_id,connect_code,player_name,is_summit,character_id,character_color,character_id_opp,facing_direction,action_state_id,stocks_opp,percent_opp,is_win,rowcount,stage_name,character_name,character_name_opp,state_name,state_description,attack_type,direction
-2,EG#0,Onion,0,19,3,0,-1,44,2,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Attack11,Jab 1,jab,Neutral
-2,EG#0,Onion,0,19,3,0,-1,44,3,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Attack11,Jab 1,jab,Neutral
-2,EG#0,Onion,0,19,3,0,-1,44,3,30.0,1,2,Fountain of Dreams,Shiek,C. Falcon,Attack11,Jab 1,jab,Neutral
-2,EG#0,Onion,0,19,3,0,-1,44,4,0.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Attack11,Jab 1,jab,Neutral
-2,EG#0,Onion,0,19,3,0,-1,50,2,30.0,1,4,Fountain of Dreams,Shiek,C. Falcon,AttackDash,Dash attack,dash,Dash
-2,EG#0,Onion,0,19,3,0,-1,50,2,60.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackDash,Dash attack,dash,Dash
-2,EG#0,Onion,0,19,3,0,-1,50,3,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackDash,Dash attack,dash,Dash
-2,EG#0,Onion,0,19,3,0,-1,50,3,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackDash,Dash attack,dash,Dash
-2,EG#0,Onion,0,19,3,0,-1,50,4,10.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackDash,Dash attack,dash,Dash
-2,EG#0,Onion,0,19,3,0,-1,50,4,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackDash,Dash attack,dash,Dash
-2,EG#0,Onion,0,19,3,0,-1,53,4,10.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackS3S,Mid Ftilt,tilt,Forward
-2,EG#0,Onion,0,19,3,0,-1,53,4,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackS3S,Mid Ftilt,tilt,Forward
-2,EG#0,Onion,0,19,3,0,-1,56,3,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackHi3,Uptilt,tilt,Up
-2,EG#0,Onion,0,19,3,0,-1,60,2,60.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackS4S,Mid Fsmash,smash,Forward
-2,EG#0,Onion,0,19,3,0,-1,60,4,40.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackS4S,Mid Fsmash,smash,Forward
-2,EG#0,Onion,0,19,3,0,-1,64,3,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackLw4,Downsmash,smash,Down
-2,EG#0,Onion,0,19,3,0,-1,65,2,40.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirN,Nair,aerial,Neutral
-2,EG#0,Onion,0,19,3,0,-1,65,2,60.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirN,Nair,aerial,Neutral
-2,EG#0,Onion,0,19,3,0,-1,65,3,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirN,Nair,aerial,Neutral
-2,EG#0,Onion,0,19,3,0,-1,66,2,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirF,Fair,aerial,Forward
-2,EG#0,Onion,0,19,3,0,-1,66,3,20.0,1,2,Fountain of Dreams,Shiek,C. Falcon,AttackAirF,Fair,aerial,Forward
-2,EG#0,Onion,0,19,3,0,-1,66,3,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirF,Fair,aerial,Forward
-2,EG#0,Onion,0,19,3,0,-1,66,4,0.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirF,Fair,aerial,Forward
-2,EG#0,Onion,0,19,3,0,-1,66,4,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirF,Fair,aerial,Forward
-2,EG#0,Onion,0,19,3,0,-1,67,1,70.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirB,Bair,aerial,Back
-2,EG#0,Onion,0,19,3,0,-1,67,2,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirB,Bair,aerial,Back
-2,EG#0,Onion,0,19,3,0,-1,67,2,60.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirB,Bair,aerial,Back
-2,EG#0,Onion,0,19,3,0,-1,67,4,0.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirB,Bair,aerial,Back
-2,EG#0,Onion,0,19,3,0,-1,67,4,10.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirB,Bair,aerial,Back
-2,EG#0,Onion,0,19,3,0,-1,67,4,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirB,Bair,aerial,Back
-2,EG#0,Onion,0,19,3,0,-1,69,4,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirLw,Dair,aerial,Down
-2,EG#0,Onion,0,19,3,0,-1,212,2,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Catch,Grab,grab,Neutral
-2,EG#0,Onion,0,19,3,0,-1,212,2,40.0,1,2,Fountain of Dreams,Shiek,C. Falcon,Catch,Grab,grab,Neutral
-2,EG#0,Onion,0,19,3,0,-1,214,2,30.0,1,3,Fountain of Dreams,Shiek,C. Falcon,CatchDash,,grab,Dash
-2,EG#0,Onion,0,19,3,0,-1,345,2,60.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Needle Storm Air Start Charge,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,0,-1,345,3,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Needle Storm Air Start Charge,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,0,-1,346,2,60.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Needle Storm Air Charge Loop,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,0,-1,348,2,60.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Needle Storm Air Fire,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,0,-1,348,3,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Needle Storm Air Fire,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,0,-1,358,2,60.0,1,2,Fountain of Dreams,Shiek,C. Falcon,Vanish Air Startup,Up B,special,Up
-2,EG#0,Onion,0,19,3,0,-1,358,3,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Vanish Air Startup,Up B,special,Up
-2,EG#0,Onion,0,19,3,0,-1,358,4,80.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Vanish Air Startup,Up B,special,Up
-2,EG#0,Onion,0,19,3,0,-1,360,4,80.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Vanish Air Reappear,Up B,special,Up
-2,EG#0,Onion,0,19,3,0,1,44,4,10.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Attack11,Jab 1,jab,Neutral
-2,EG#0,Onion,0,19,3,0,1,44,4,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Attack11,Jab 1,jab,Neutral
-2,EG#0,Onion,0,19,3,0,1,50,1,90.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackDash,Dash attack,dash,Dash
-2,EG#0,Onion,0,19,3,0,1,50,2,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackDash,Dash attack,dash,Dash
-2,EG#0,Onion,0,19,3,0,1,50,3,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackDash,Dash attack,dash,Dash
-2,EG#0,Onion,0,19,3,0,1,50,3,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackDash,Dash attack,dash,Dash
-2,EG#0,Onion,0,19,3,0,1,50,4,10.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackDash,Dash attack,dash,Dash
-2,EG#0,Onion,0,19,3,0,1,50,4,40.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackDash,Dash attack,dash,Dash
-2,EG#0,Onion,0,19,3,0,1,57,4,10.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackLw3,Downtilt,tilt,Down
-2,EG#0,Onion,0,19,3,0,1,64,4,30.0,1,2,Fountain of Dreams,Shiek,C. Falcon,AttackLw4,Downsmash,smash,Down
-2,EG#0,Onion,0,19,3,0,1,65,2,30.0,1,2,Fountain of Dreams,Shiek,C. Falcon,AttackAirN,Nair,aerial,Neutral
-2,EG#0,Onion,0,19,3,0,1,67,2,30.0,1,2,Fountain of Dreams,Shiek,C. Falcon,AttackAirB,Bair,aerial,Back
-2,EG#0,Onion,0,19,3,0,1,67,4,10.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirB,Bair,aerial,Back
-2,EG#0,Onion,0,19,3,0,1,67,4,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirB,Bair,aerial,Back
-2,EG#0,Onion,0,19,3,0,1,212,3,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Catch,Grab,grab,Neutral
-2,EG#0,Onion,0,19,3,0,1,212,3,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Catch,Grab,grab,Neutral
-2,EG#0,Onion,0,19,3,0,1,212,4,10.0,1,2,Fountain of Dreams,Shiek,C. Falcon,Catch,Grab,grab,Neutral
-2,EG#0,Onion,0,19,3,0,1,214,1,90.0,1,1,Fountain of Dreams,Shiek,C. Falcon,CatchDash,,grab,Dash
-2,EG#0,Onion,0,19,3,0,1,214,3,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,CatchDash,,grab,Dash
-2,EG#0,Onion,0,19,3,0,1,214,4,10.0,1,2,Fountain of Dreams,Shiek,C. Falcon,CatchDash,,grab,Dash
-2,EG#0,Onion,0,19,3,0,1,341,4,0.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Needle Storm Ground Start Charge,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,0,1,342,4,0.0,1,3,Fountain of Dreams,Shiek,C. Falcon,Needle Storm Ground Charge Loop,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,0,1,344,4,0.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Needle Storm Ground Fire,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,0,1,345,4,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Needle Storm Air Start Charge,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,0,1,347,4,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Needle Storm Air End Charge,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,0,1,358,4,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Vanish Air Startup,Up B,special,Up
-2,EG#0,Onion,0,19,3,0,1,360,1,60.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Vanish Air Reappear,Up B,special,Up
-2,EG#0,Onion,0,19,3,0,1,360,2,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Vanish Air Reappear,Up B,special,Up
-2,EG#0,Onion,0,19,3,19,-1,44,1,70.0,1,1,Fountain of Dreams,Shiek,Shiek,Attack11,Jab 1,jab,Neutral
-2,EG#0,Onion,0,19,3,19,-1,44,2,30.0,1,1,Fountain of Dreams,Shiek,Shiek,Attack11,Jab 1,jab,Neutral
-2,EG#0,Onion,0,19,3,19,-1,44,4,20.0,1,1,Fountain of Dreams,Shiek,Shiek,Attack11,Jab 1,jab,Neutral
-2,EG#0,Onion,0,19,3,19,-1,50,1,90.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash
-2,EG#0,Onion,0,19,3,19,-1,50,2,30.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash
-2,EG#0,Onion,0,19,3,19,-1,50,3,140.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash
-2,EG#0,Onion,0,19,3,19,-1,50,4,20.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash
-2,EG#0,Onion,0,19,3,19,-1,53,3,20.0,1,2,Fountain of Dreams,Shiek,Shiek,AttackS3S,Mid Ftilt,tilt,Forward
-2,EG#0,Onion,0,19,3,19,-1,53,4,20.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackS3S,Mid Ftilt,tilt,Forward
-2,EG#0,Onion,0,19,3,19,-1,56,2,30.0,1,2,Fountain of Dreams,Shiek,Shiek,AttackHi3,Uptilt,tilt,Up
-2,EG#0,Onion,0,19,3,19,-1,56,3,110.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackHi3,Uptilt,tilt,Up
-2,EG#0,Onion,0,19,3,19,-1,60,3,0.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackS4S,Mid Fsmash,smash,Forward
-2,EG#0,Onion,0,19,3,19,-1,63,3,20.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackHi4,Upsmash,smash,Up
-2,EG#0,Onion,0,19,3,19,-1,64,4,40.0,1,2,Fountain of Dreams,Shiek,Shiek,AttackLw4,Downsmash,smash,Down
-2,EG#0,Onion,0,19,3,19,-1,64,4,90.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackLw4,Downsmash,smash,Down
-2,EG#0,Onion,0,19,3,19,-1,66,1,70.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward
-2,EG#0,Onion,0,19,3,19,-1,66,1,110.0,1,3,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward
-2,EG#0,Onion,0,19,3,19,-1,66,3,20.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward
-2,EG#0,Onion,0,19,3,19,-1,66,3,120.0,1,2,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward
-2,EG#0,Onion,0,19,3,19,-1,66,4,90.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward
-2,EG#0,Onion,0,19,3,19,-1,67,1,70.0,1,2,Fountain of Dreams,Shiek,Shiek,AttackAirB,Bair,aerial,Back
-2,EG#0,Onion,0,19,3,19,-1,67,2,20.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirB,Bair,aerial,Back
-2,EG#0,Onion,0,19,3,19,-1,67,2,30.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirB,Bair,aerial,Back
-2,EG#0,Onion,0,19,3,19,-1,67,3,0.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirB,Bair,aerial,Back
-2,EG#0,Onion,0,19,3,19,-1,67,4,50.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirB,Bair,aerial,Back
-2,EG#0,Onion,0,19,3,19,-1,68,2,30.0,1,2,Fountain of Dreams,Shiek,Shiek,AttackAirHi,Uair,aerial,Up
-2,EG#0,Onion,0,19,3,19,-1,68,4,90.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirHi,Uair,aerial,Up
-2,EG#0,Onion,0,19,3,19,-1,69,1,70.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirLw,Dair,aerial,Down
-2,EG#0,Onion,0,19,3,19,-1,69,2,20.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirLw,Dair,aerial,Down
-2,EG#0,Onion,0,19,3,19,-1,69,3,120.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirLw,Dair,aerial,Down
-2,EG#0,Onion,0,19,3,19,-1,69,4,70.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirLw,Dair,aerial,Down
-2,EG#0,Onion,0,19,3,19,-1,212,1,90.0,1,2,Fountain of Dreams,Shiek,Shiek,Catch,Grab,grab,Neutral
-2,EG#0,Onion,0,19,3,19,-1,212,3,110.0,1,1,Fountain of Dreams,Shiek,Shiek,Catch,Grab,grab,Neutral
-2,EG#0,Onion,0,19,3,19,-1,212,3,120.0,1,1,Fountain of Dreams,Shiek,Shiek,Catch,Grab,grab,Neutral
-2,EG#0,Onion,0,19,3,19,-1,212,4,20.0,1,2,Fountain of Dreams,Shiek,Shiek,Catch,Grab,grab,Neutral
-2,EG#0,Onion,0,19,3,19,-1,214,4,20.0,1,1,Fountain of Dreams,Shiek,Shiek,CatchDash,,grab,Dash
-2,EG#0,Onion,0,19,3,19,-1,341,1,90.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Start Charge,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,-1,341,4,90.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Start Charge,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,-1,342,2,20.0,1,3,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Charge Loop,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,-1,342,3,20.0,1,2,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Charge Loop,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,-1,342,3,90.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Charge Loop,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,-1,342,4,90.0,1,3,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Charge Loop,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,-1,343,2,20.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground End Charge,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,-1,343,3,90.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground End Charge,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,-1,344,1,90.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Fire,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,-1,344,1,110.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Fire,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,-1,344,4,90.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Fire,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,-1,345,1,110.0,1,2,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Start Charge,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,-1,345,3,20.0,1,3,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Start Charge,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,-1,345,3,90.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Start Charge,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,-1,345,4,40.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Start Charge,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,-1,346,1,110.0,1,3,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Charge Loop,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,-1,346,3,20.0,1,3,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Charge Loop,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,-1,346,3,90.0,1,2,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Charge Loop,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,-1,346,4,40.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Charge Loop,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,-1,347,1,110.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air End Charge,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,-1,347,3,20.0,1,2,Fountain of Dreams,Shiek,Shiek,Needle Storm Air End Charge,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,-1,355,1,110.0,1,2,Fountain of Dreams,Shiek,Shiek,Vanish Ground Startup,Up B,special,Up
-2,EG#0,Onion,0,19,3,19,-1,356,1,110.0,1,1,Fountain of Dreams,Shiek,Shiek,Vanish Ground Disappear,Up B,special,Up
-2,EG#0,Onion,0,19,3,19,-1,358,2,30.0,1,2,Fountain of Dreams,Shiek,Shiek,Vanish Air Startup,Up B,special,Up
-2,EG#0,Onion,0,19,3,19,-1,358,3,110.0,1,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Startup,Up B,special,Up
-2,EG#0,Onion,0,19,3,19,-1,358,3,120.0,1,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Startup,Up B,special,Up
-2,EG#0,Onion,0,19,3,19,-1,358,3,150.0,1,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Startup,Up B,special,Up
-2,EG#0,Onion,0,19,3,19,-1,358,4,90.0,1,2,Fountain of Dreams,Shiek,Shiek,Vanish Air Startup,Up B,special,Up
-2,EG#0,Onion,0,19,3,19,-1,360,3,120.0,1,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Reappear,Up B,special,Up
-2,EG#0,Onion,0,19,3,19,-1,360,3,150.0,1,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Reappear,Up B,special,Up
-2,EG#0,Onion,0,19,3,19,-1,360,4,90.0,1,2,Fountain of Dreams,Shiek,Shiek,Vanish Air Reappear,Up B,special,Up
-2,EG#0,Onion,0,19,3,19,-1,361,1,110.0,1,1,Fountain of Dreams,Shiek,Shiek,Transform Ground,Down B,special,Down
-2,EG#0,Onion,0,19,3,19,-1,362,1,110.0,1,1,Fountain of Dreams,Shiek,Shiek,Transform Ground Ending,Down B,special,Down
-2,EG#0,Onion,0,19,3,19,1,44,4,20.0,1,1,Fountain of Dreams,Shiek,Shiek,Attack11,Jab 1,jab,Neutral
-2,EG#0,Onion,0,19,3,19,1,44,4,90.0,1,1,Fountain of Dreams,Shiek,Shiek,Attack11,Jab 1,jab,Neutral
-2,EG#0,Onion,0,19,3,19,1,50,1,80.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash
-2,EG#0,Onion,0,19,3,19,1,50,2,20.0,1,2,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash
-2,EG#0,Onion,0,19,3,19,1,50,3,20.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash
-2,EG#0,Onion,0,19,3,19,1,50,3,110.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash
-2,EG#0,Onion,0,19,3,19,1,50,3,120.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash
-2,EG#0,Onion,0,19,3,19,1,50,4,20.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash
-2,EG#0,Onion,0,19,3,19,1,50,4,90.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash
-2,EG#0,Onion,0,19,3,19,1,53,1,110.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackS3S,Mid Ftilt,tilt,Forward
-2,EG#0,Onion,0,19,3,19,1,53,2,20.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackS3S,Mid Ftilt,tilt,Forward
-2,EG#0,Onion,0,19,3,19,1,53,4,90.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackS3S,Mid Ftilt,tilt,Forward
-2,EG#0,Onion,0,19,3,19,1,56,3,0.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackHi3,Uptilt,tilt,Up
-2,EG#0,Onion,0,19,3,19,1,57,1,90.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackLw3,Downtilt,tilt,Down
-2,EG#0,Onion,0,19,3,19,1,57,4,90.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackLw3,Downtilt,tilt,Down
-2,EG#0,Onion,0,19,3,19,1,60,2,20.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackS4S,Mid Fsmash,smash,Forward
-2,EG#0,Onion,0,19,3,19,1,60,3,120.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackS4S,Mid Fsmash,smash,Forward
-2,EG#0,Onion,0,19,3,19,1,60,4,90.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackS4S,Mid Fsmash,smash,Forward
-2,EG#0,Onion,0,19,3,19,1,64,1,90.0,1,2,Fountain of Dreams,Shiek,Shiek,AttackLw4,Downsmash,smash,Down
-2,EG#0,Onion,0,19,3,19,1,64,3,20.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackLw4,Downsmash,smash,Down
-2,EG#0,Onion,0,19,3,19,1,66,1,110.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward
-2,EG#0,Onion,0,19,3,19,1,66,2,40.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward
-2,EG#0,Onion,0,19,3,19,1,66,3,20.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward
-2,EG#0,Onion,0,19,3,19,1,67,2,20.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirB,Bair,aerial,Back
-2,EG#0,Onion,0,19,3,19,1,67,3,20.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirB,Bair,aerial,Back
-2,EG#0,Onion,0,19,3,19,1,68,3,0.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirHi,Uair,aerial,Up
-2,EG#0,Onion,0,19,3,19,1,69,3,130.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirLw,Dair,aerial,Down
-2,EG#0,Onion,0,19,3,19,1,69,3,140.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirLw,Dair,aerial,Down
-2,EG#0,Onion,0,19,3,19,1,212,2,20.0,1,2,Fountain of Dreams,Shiek,Shiek,Catch,Grab,grab,Neutral
-2,EG#0,Onion,0,19,3,19,1,212,3,110.0,1,3,Fountain of Dreams,Shiek,Shiek,Catch,Grab,grab,Neutral
-2,EG#0,Onion,0,19,3,19,1,214,2,20.0,1,2,Fountain of Dreams,Shiek,Shiek,CatchDash,,grab,Dash
-2,EG#0,Onion,0,19,3,19,1,214,4,90.0,1,1,Fountain of Dreams,Shiek,Shiek,CatchDash,,grab,Dash
-2,EG#0,Onion,0,19,3,19,1,341,3,20.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Start Charge,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,1,342,3,20.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Charge Loop,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,1,343,3,20.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground End Charge,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,1,345,3,20.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Start Charge,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,1,345,4,90.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Start Charge,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,1,346,3,20.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Charge Loop,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,1,346,4,90.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Charge Loop,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,1,347,3,20.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air End Charge,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,1,347,4,90.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air End Charge,Neutral B,special,Neutral
-2,EG#0,Onion,0,19,3,19,1,358,3,20.0,1,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Startup,Up B,special,Up
-2,JAHN#146,,0,0,4,19,-1,44,3,0.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Attack11,Jab 1,jab,Neutral
-2,JAHN#146,,0,0,4,19,-1,44,4,20.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Attack11,Jab 1,jab,Neutral
-2,JAHN#146,,0,0,4,19,-1,44,4,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Attack11,Jab 1,jab,Neutral
-2,JAHN#146,,0,0,4,19,-1,45,4,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Attack12,Jab 2,jab,Neutral
-2,JAHN#146,,0,0,4,19,-1,60,3,50.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackS4S,Mid Fsmash,smash,Forward
-2,JAHN#146,,0,0,4,19,-1,65,3,20.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirN,Nair,aerial,Neutral
-2,JAHN#146,,0,0,4,19,-1,65,3,40.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirN,Nair,aerial,Neutral
-2,JAHN#146,,0,0,4,19,-1,65,3,60.0,0,2,Fountain of Dreams,C. Falcon,Shiek,AttackAirN,Nair,aerial,Neutral
-2,JAHN#146,,0,0,4,19,-1,66,4,20.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirF,Fair,aerial,Forward
-2,JAHN#146,,0,0,4,19,-1,67,3,60.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirB,Bair,aerial,Back
-2,JAHN#146,,0,0,4,19,-1,67,3,70.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirB,Bair,aerial,Back
-2,JAHN#146,,0,0,4,19,-1,67,3,90.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirB,Bair,aerial,Back
-2,JAHN#146,,0,0,4,19,-1,68,3,0.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirHi,Uair,aerial,Up
-2,JAHN#146,,0,0,4,19,-1,68,4,60.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirHi,Uair,aerial,Up
-2,JAHN#146,,0,0,4,19,-1,69,3,0.0,0,2,Fountain of Dreams,C. Falcon,Shiek,AttackAirLw,Dair,aerial,Down
-2,JAHN#146,,0,0,4,19,-1,69,3,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirLw,Dair,aerial,Down
-2,JAHN#146,,0,0,4,19,-1,69,3,40.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirLw,Dair,aerial,Down
-2,JAHN#146,,0,0,4,19,-1,69,3,90.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirLw,Dair,aerial,Down
-2,JAHN#146,,0,0,4,19,-1,212,3,0.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Catch,Grab,grab,Neutral
-2,JAHN#146,,0,0,4,19,-1,212,3,90.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Catch,Grab,grab,Neutral
-2,JAHN#146,,0,0,4,19,-1,351,3,0.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Raptor Boost Air,Side B,special,Forward
-2,JAHN#146,,0,0,4,19,-1,354,3,10.0,0,2,Fountain of Dreams,C. Falcon,Shiek,Falcon Dive Air,Up B,special,Up
-2,JAHN#146,,0,0,4,19,-1,354,3,90.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Falcon Dive Air,Up B,special,Up
-2,JAHN#146,,0,0,4,19,-1,355,3,10.0,0,4,Fountain of Dreams,C. Falcon,Shiek,Falcon Dive Catch,Up B,special,Up
-2,JAHN#146,,0,0,4,19,-1,356,3,10.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Falcon Dive Ending,Up B,special,Up
-2,JAHN#146,,0,0,4,19,1,65,3,40.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirN,Nair,aerial,Neutral
-2,JAHN#146,,0,0,4,19,1,65,4,0.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirN,Nair,aerial,Neutral
-2,JAHN#146,,0,0,4,19,1,65,4,70.0,0,2,Fountain of Dreams,C. Falcon,Shiek,AttackAirN,Nair,aerial,Neutral
-2,JAHN#146,,0,0,4,19,1,66,3,0.0,0,4,Fountain of Dreams,C. Falcon,Shiek,AttackAirF,Fair,aerial,Forward
-2,JAHN#146,,0,0,4,19,1,66,3,60.0,0,3,Fountain of Dreams,C. Falcon,Shiek,AttackAirF,Fair,aerial,Forward
-2,JAHN#146,,0,0,4,19,1,66,4,70.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirF,Fair,aerial,Forward
-2,JAHN#146,,0,0,4,19,1,67,3,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirB,Bair,aerial,Back
-2,JAHN#146,,0,0,4,19,1,67,4,0.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirB,Bair,aerial,Back
-2,JAHN#146,,0,0,4,19,1,68,3,0.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirHi,Uair,aerial,Up
-2,JAHN#146,,0,0,4,19,1,68,3,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirHi,Uair,aerial,Up
-2,JAHN#146,,0,0,4,19,1,68,4,70.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirHi,Uair,aerial,Up
-2,JAHN#146,,0,0,4,19,1,69,3,0.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirLw,Dair,aerial,Down
-2,JAHN#146,,0,0,4,19,1,69,3,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirLw,Dair,aerial,Down
-2,JAHN#146,,0,0,4,19,1,69,3,40.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirLw,Dair,aerial,Down
-2,JAHN#146,,0,0,4,19,1,69,3,60.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirLw,Dair,aerial,Down
-2,JAHN#146,,0,0,4,19,1,69,3,150.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirLw,Dair,aerial,Down
-2,JAHN#146,,0,0,4,19,1,69,4,0.0,0,2,Fountain of Dreams,C. Falcon,Shiek,AttackAirLw,Dair,aerial,Down
-2,JAHN#146,,0,0,4,19,1,69,4,70.0,0,3,Fountain of Dreams,C. Falcon,Shiek,AttackAirLw,Dair,aerial,Down
-2,JAHN#146,,0,0,4,19,1,212,3,0.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Catch,Grab,grab,Neutral
-2,JAHN#146,,0,0,4,19,1,212,4,0.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Catch,Grab,grab,Neutral
-2,JAHN#146,,0,0,4,19,1,349,3,10.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Raptor Boost Ground,Side B,special,Forward
-2,JAHN#146,,0,0,4,19,1,354,3,70.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Falcon Dive Air,Up B,special,Up
-2,JAHN#146,,0,0,4,19,1,354,3,80.0,0,2,Fountain of Dreams,C. Falcon,Shiek,Falcon Dive Air,Up B,special,Up
-2,JAHN#146,,0,0,4,19,1,354,3,130.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Falcon Dive Air,Up B,special,Up
-2,JAHN#146,,0,0,4,19,1,357,3,10.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Falcon Kick Ground,Down B,special,Down
-2,JAHN#146,,0,0,4,19,1,357,3,60.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Falcon Kick Ground,Down B,special,Down
-2,JAHN#146,,0,0,4,19,1,358,3,10.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Falcon Kick Ground Ending On Ground,Down B,special,Down
-2,JAHN#146,,0,0,4,19,1,358,3,60.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Falcon Kick Ground Ending On Ground,Down B,special,Down
-2,NINJ#223,,0,19,1,19,-1,50,3,70.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash
-2,NINJ#223,,0,19,1,19,-1,50,4,0.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash
-2,NINJ#223,,0,19,1,19,-1,50,4,70.0,0,2,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash
-2,NINJ#223,,0,19,1,19,-1,53,3,20.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackS3S,Mid Ftilt,tilt,Forward
-2,NINJ#223,,0,19,1,19,-1,53,3,30.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackS3S,Mid Ftilt,tilt,Forward
-2,NINJ#223,,0,19,1,19,-1,53,4,0.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackS3S,Mid Ftilt,tilt,Forward
-2,NINJ#223,,0,19,1,19,-1,53,4,70.0,0,3,Fountain of Dreams,Shiek,Shiek,AttackS3S,Mid Ftilt,tilt,Forward
-2,NINJ#223,,0,19,1,19,-1,56,3,0.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackHi3,Uptilt,tilt,Up
-2,NINJ#223,,0,19,1,19,-1,56,3,70.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackHi3,Uptilt,tilt,Up
-2,NINJ#223,,0,19,1,19,-1,56,4,70.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackHi3,Uptilt,tilt,Up
-2,NINJ#223,,0,19,1,19,-1,57,3,40.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackLw3,Downtilt,tilt,Down
-2,NINJ#223,,0,19,1,19,-1,60,4,0.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackS4S,Mid Fsmash,smash,Forward
-2,NINJ#223,,0,19,1,19,-1,64,3,0.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackLw4,Downsmash,smash,Down
-2,NINJ#223,,0,19,1,19,-1,64,3,20.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackLw4,Downsmash,smash,Down
-2,NINJ#223,,0,19,1,19,-1,64,3,60.0,0,2,Fountain of Dreams,Shiek,Shiek,AttackLw4,Downsmash,smash,Down
-2,NINJ#223,,0,19,1,19,-1,64,3,80.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackLw4,Downsmash,smash,Down
-2,NINJ#223,,0,19,1,19,-1,64,4,70.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackLw4,Downsmash,smash,Down
-2,NINJ#223,,0,19,1,19,-1,65,3,60.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirN,Nair,aerial,Neutral
-2,NINJ#223,,0,19,1,19,-1,66,3,10.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward
-2,NINJ#223,,0,19,1,19,-1,66,3,80.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward
-2,NINJ#223,,0,19,1,19,-1,66,3,120.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward
-2,NINJ#223,,0,19,1,19,-1,66,4,0.0,0,2,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward
-2,NINJ#223,,0,19,1,19,-1,66,4,70.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward
-2,NINJ#223,,0,19,1,19,-1,67,3,0.0,0,2,Fountain of Dreams,Shiek,Shiek,AttackAirB,Bair,aerial,Back
-2,NINJ#223,,0,19,1,19,-1,67,3,20.0,0,5,Fountain of Dreams,Shiek,Shiek,AttackAirB,Bair,aerial,Back
-2,NINJ#223,,0,19,1,19,-1,67,4,70.0,0,3,Fountain of Dreams,Shiek,Shiek,AttackAirB,Bair,aerial,Back
-2,NINJ#223,,0,19,1,19,-1,68,4,70.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirHi,Uair,aerial,Up
-2,NINJ#223,,0,19,1,19,-1,69,3,110.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirLw,Dair,aerial,Down
-2,NINJ#223,,0,19,1,19,-1,69,4,70.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirLw,Dair,aerial,Down
-2,NINJ#223,,0,19,1,19,-1,212,3,30.0,0,1,Fountain of Dreams,Shiek,Shiek,Catch,Grab,grab,Neutral
-2,NINJ#223,,0,19,1,19,-1,212,4,70.0,0,2,Fountain of Dreams,Shiek,Shiek,Catch,Grab,grab,Neutral
-2,NINJ#223,,0,19,1,19,-1,214,4,0.0,0,1,Fountain of Dreams,Shiek,Shiek,CatchDash,,grab,Dash
-2,NINJ#223,,0,19,1,19,-1,341,4,70.0,0,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Start Charge,Neutral B,special,Neutral
-2,NINJ#223,,0,19,1,19,-1,342,3,70.0,0,5,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Charge Loop,Neutral B,special,Neutral
-2,NINJ#223,,0,19,1,19,-1,342,4,70.0,0,2,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Charge Loop,Neutral B,special,Neutral
-2,NINJ#223,,0,19,1,19,-1,343,3,70.0,0,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground End Charge,Neutral B,special,Neutral
-2,NINJ#223,,0,19,1,19,-1,345,4,70.0,0,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Start Charge,Neutral B,special,Neutral
-2,NINJ#223,,0,19,1,19,-1,345,4,80.0,0,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Start Charge,Neutral B,special,Neutral
-2,NINJ#223,,0,19,1,19,-1,346,4,80.0,0,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Charge Loop,Neutral B,special,Neutral
-2,NINJ#223,,0,19,1,19,-1,348,4,70.0,0,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Fire,Neutral B,special,Neutral
-2,NINJ#223,,0,19,1,19,-1,348,4,80.0,0,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Fire,Neutral B,special,Neutral
-2,NINJ#223,,0,19,1,19,-1,358,3,90.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Startup,Up B,special,Up
-2,NINJ#223,,0,19,1,19,-1,358,3,110.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Startup,Up B,special,Up
-2,NINJ#223,,0,19,1,19,-1,358,3,120.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Startup,Up B,special,Up
-2,NINJ#223,,0,19,1,19,-1,358,3,130.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Startup,Up B,special,Up
-2,NINJ#223,,0,19,1,19,-1,358,4,100.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Startup,Up B,special,Up
-2,NINJ#223,,0,19,1,19,-1,360,3,110.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Reappear,Up B,special,Up
-2,NINJ#223,,0,19,1,19,-1,360,3,120.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Reappear,Up B,special,Up
-2,NINJ#223,,0,19,1,19,-1,360,3,140.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Reappear,Up B,special,Up
-2,NINJ#223,,0,19,1,19,-1,360,4,100.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Reappear,Up B,special,Up
-2,NINJ#223,,0,19,1,19,1,44,3,80.0,0,1,Fountain of Dreams,Shiek,Shiek,Attack11,Jab 1,jab,Neutral
-2,NINJ#223,,0,19,1,19,1,44,4,50.0,0,1,Fountain of Dreams,Shiek,Shiek,Attack11,Jab 1,jab,Neutral
-2,NINJ#223,,0,19,1,19,1,45,3,80.0,0,1,Fountain of Dreams,Shiek,Shiek,Attack12,Jab 2,jab,Neutral
-2,NINJ#223,,0,19,1,19,1,47,3,80.0,0,1,Fountain of Dreams,Shiek,Shiek,Attack100Start,Start of a rapid jab,jab,Neutral
-2,NINJ#223,,0,19,1,19,1,50,3,0.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash
-2,NINJ#223,,0,19,1,19,1,50,3,20.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash
-2,NINJ#223,,0,19,1,19,1,50,4,0.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash
-2,NINJ#223,,0,19,1,19,1,50,4,70.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash
-2,NINJ#223,,0,19,1,19,1,53,3,0.0,0,2,Fountain of Dreams,Shiek,Shiek,AttackS3S,Mid Ftilt,tilt,Forward
-2,NINJ#223,,0,19,1,19,1,53,3,80.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackS3S,Mid Ftilt,tilt,Forward
-2,NINJ#223,,0,19,1,19,1,53,4,50.0,0,2,Fountain of Dreams,Shiek,Shiek,AttackS3S,Mid Ftilt,tilt,Forward
-2,NINJ#223,,0,19,1,19,1,56,3,0.0,0,2,Fountain of Dreams,Shiek,Shiek,AttackHi3,Uptilt,tilt,Up
-2,NINJ#223,,0,19,1,19,1,56,3,10.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackHi3,Uptilt,tilt,Up
-2,NINJ#223,,0,19,1,19,1,56,3,70.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackHi3,Uptilt,tilt,Up
-2,NINJ#223,,0,19,1,19,1,56,4,70.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackHi3,Uptilt,tilt,Up
-2,NINJ#223,,0,19,1,19,1,60,3,30.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackS4S,Mid Fsmash,smash,Forward
-2,NINJ#223,,0,19,1,19,1,60,4,50.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackS4S,Mid Fsmash,smash,Forward
-2,NINJ#223,,0,19,1,19,1,64,3,50.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackLw4,Downsmash,smash,Down
-2,NINJ#223,,0,19,1,19,1,64,4,0.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackLw4,Downsmash,smash,Down
-2,NINJ#223,,0,19,1,19,1,64,4,40.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackLw4,Downsmash,smash,Down
-2,NINJ#223,,0,19,1,19,1,65,4,50.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirN,Nair,aerial,Neutral
-2,NINJ#223,,0,19,1,19,1,66,3,0.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward
-2,NINJ#223,,0,19,1,19,1,66,3,10.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward
-2,NINJ#223,,0,19,1,19,1,66,4,20.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward
-2,NINJ#223,,0,19,1,19,1,66,4,40.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward
-2,NINJ#223,,0,19,1,19,1,66,4,70.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward
-2,NINJ#223,,0,19,1,19,1,67,3,20.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirB,Bair,aerial,Back
-2,NINJ#223,,0,19,1,19,1,67,3,70.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirB,Bair,aerial,Back
-2,NINJ#223,,0,19,1,19,1,67,3,100.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirB,Bair,aerial,Back
-2,NINJ#223,,0,19,1,19,1,68,3,0.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirHi,Uair,aerial,Up
-2,NINJ#223,,0,19,1,19,1,69,3,90.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirLw,Dair,aerial,Down
-2,NINJ#223,,0,19,1,19,1,212,4,60.0,0,1,Fountain of Dreams,Shiek,Shiek,Catch,Grab,grab,Neutral
-2,NINJ#223,,0,19,1,19,1,214,3,60.0,0,1,Fountain of Dreams,Shiek,Shiek,CatchDash,,grab,Dash
-2,NINJ#223,,0,19,1,19,1,341,4,40.0,0,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Start Charge,Neutral B,special,Neutral
-2,NINJ#223,,0,19,1,19,1,342,4,40.0,0,4,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Charge Loop,Neutral B,special,Neutral
-2,NINJ#223,,0,19,1,19,1,343,4,40.0,0,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground End Charge,Neutral B,special,Neutral
-2,NINJ#223,,0,19,1,19,1,345,3,100.0,0,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Start Charge,Neutral B,special,Neutral
-2,NINJ#223,,0,19,1,19,1,345,4,0.0,0,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Start Charge,Neutral B,special,Neutral
-2,NINJ#223,,0,19,1,19,1,345,4,70.0,0,2,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Start Charge,Neutral B,special,Neutral
-2,NINJ#223,,0,19,1,19,1,346,4,70.0,0,2,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Charge Loop,Neutral B,special,Neutral
-2,NINJ#223,,0,19,1,19,1,348,3,100.0,0,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Fire,Neutral B,special,Neutral
-2,NINJ#223,,0,19,1,19,1,348,4,0.0,0,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Fire,Neutral B,special,Neutral
-2,NINJ#223,,0,19,1,19,1,348,4,70.0,0,2,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Fire,Neutral B,special,Neutral
-2,NINJ#223,,0,19,1,19,1,352,3,130.0,0,1,Fountain of Dreams,Shiek,Shiek,Chain Air Startup,Side B,special,Forward
-2,NINJ#223,,0,19,1,19,1,354,3,130.0,0,1,Fountain of Dreams,Shiek,Shiek,Chain Air End,Side B,special,Forward
-2,NINJ#223,,0,19,1,19,1,357,4,70.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Ground Reappear,Up B,special,Up
-2,NINJ#223,,0,19,1,19,1,358,3,100.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Startup,Up B,special,Up
-2,NINJ#223,,0,19,1,19,1,358,4,40.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Startup,Up B,special,Up
-2,NINJ#223,,0,19,1,19,1,358,4,70.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Startup,Up B,special,Up
-2,NINJ#223,,0,19,1,19,1,360,3,100.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Reappear,Up B,special,Up
-2,NINJ#223,,0,19,1,19,1,360,4,40.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Reappear,Up B,special,Up
-2,NINJ#223,,0,19,1,19,1,363,3,120.0,0,1,Fountain of Dreams,Shiek,Shiek,Transform Air,Down B,special,Down
-31,,,0,2,1,9,-1,44,3,10.0,1,1,Battlefield,Fox,Marth,Attack11,Jab 1,jab,Neutral
-31,,,0,2,1,9,-1,50,3,10.0,1,1,Battlefield,Fox,Marth,AttackDash,Dash attack,dash,Dash
-31,,,0,2,1,9,-1,60,4,40.0,1,1,Battlefield,Fox,Marth,AttackS4S,Mid Fsmash,smash,Forward
-31,,,0,2,1,9,-1,63,4,40.0,1,1,Battlefield,Fox,Marth,AttackHi4,Upsmash,smash,Up
-31,,,0,2,1,9,-1,65,1,10.0,1,1,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral
-31,,,0,2,1,9,-1,65,2,30.0,1,1,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral
-31,,,0,2,1,9,-1,65,2,40.0,1,1,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral
-31,,,0,2,1,9,-1,65,2,50.0,1,1,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral
-31,,,0,2,1,9,-1,65,3,10.0,1,1,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral
-31,,,0,2,1,9,-1,65,4,0.0,1,1,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral
-31,,,0,2,1,9,-1,65,4,30.0,1,1,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral
-31,,,0,2,1,9,-1,65,4,40.0,1,2,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral
-31,,,0,2,1,9,-1,67,1,70.0,1,1,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back
-31,,,0,2,1,9,-1,67,2,30.0,1,3,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back
-31,,,0,2,1,9,-1,67,2,40.0,1,1,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back
-31,,,0,2,1,9,-1,67,2,50.0,1,1,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back
-31,,,0,2,1,9,-1,67,2,110.0,1,2,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back
-31,,,0,2,1,9,-1,67,3,30.0,1,2,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back
-31,,,0,2,1,9,-1,67,4,0.0,1,1,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back
-31,,,0,2,1,9,-1,67,4,40.0,1,2,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back
-31,,,0,2,1,9,-1,68,1,70.0,1,1,Battlefield,Fox,Marth,AttackAirHi,Uair,aerial,Up
-31,,,0,2,1,9,-1,68,3,0.0,1,3,Battlefield,Fox,Marth,AttackAirHi,Uair,aerial,Up
-31,,,0,2,1,9,-1,68,4,80.0,1,1,Battlefield,Fox,Marth,AttackAirHi,Uair,aerial,Up
-31,,,0,2,1,9,-1,69,1,0.0,1,1,Battlefield,Fox,Marth,AttackAirLw,Dair,aerial,Down
-31,,,0,2,1,9,-1,69,1,120.0,1,1,Battlefield,Fox,Marth,AttackAirLw,Dair,aerial,Down
-31,,,0,2,1,9,-1,69,2,30.0,1,1,Battlefield,Fox,Marth,AttackAirLw,Dair,aerial,Down
-31,,,0,2,1,9,-1,69,4,0.0,1,1,Battlefield,Fox,Marth,AttackAirLw,Dair,aerial,Down
-31,,,0,2,1,9,-1,212,1,20.0,1,2,Battlefield,Fox,Marth,Catch,Grab,grab,Neutral
-31,,,0,2,1,9,-1,212,2,110.0,1,1,Battlefield,Fox,Marth,Catch,Grab,grab,Neutral
-31,,,0,2,1,9,-1,212,4,80.0,1,1,Battlefield,Fox,Marth,Catch,Grab,grab,Neutral
-31,,,0,2,1,9,-1,341,3,10.0,1,1,Battlefield,Fox,Marth,Blaster Ground Startup,Neutral B,special,Neutral
-31,,,0,2,1,9,-1,342,3,10.0,1,1,Battlefield,Fox,Marth,Blaster Ground Loop,Neutral B,special,Neutral
-31,,,0,2,1,9,-1,343,3,10.0,1,1,Battlefield,Fox,Marth,Blaster Ground End,Neutral B,special,Neutral
-31,,,0,2,1,9,-1,344,1,0.0,1,1,Battlefield,Fox,Marth,Blaster Air Startup,Neutral B,special,Neutral
-31,,,0,2,1,9,-1,344,1,10.0,1,1,Battlefield,Fox,Marth,Blaster Air Startup,Neutral B,special,Neutral
-31,,,0,2,1,9,-1,344,1,150.0,1,1,Battlefield,Fox,Marth,Blaster Air Startup,Neutral B,special,Neutral
-31,,,0,2,1,9,-1,344,2,30.0,1,2,Battlefield,Fox,Marth,Blaster Air Startup,Neutral B,special,Neutral
-31,,,0,2,1,9,-1,344,4,0.0,1,1,Battlefield,Fox,Marth,Blaster Air Startup,Neutral B,special,Neutral
-31,,,0,2,1,9,-1,345,1,0.0,1,1,Battlefield,Fox,Marth,Blaster Air Loop,Neutral B,special,Neutral
-31,,,0,2,1,9,-1,345,1,10.0,1,1,Battlefield,Fox,Marth,Blaster Air Loop,Neutral B,special,Neutral
-31,,,0,2,1,9,-1,345,1,150.0,1,4,Battlefield,Fox,Marth,Blaster Air Loop,Neutral B,special,Neutral
-31,,,0,2,1,9,-1,345,2,30.0,1,2,Battlefield,Fox,Marth,Blaster Air Loop,Neutral B,special,Neutral
-31,,,0,2,1,9,-1,345,4,0.0,1,1,Battlefield,Fox,Marth,Blaster Air Loop,Neutral B,special,Neutral
-31,,,0,2,1,9,-1,346,1,150.0,1,1,Battlefield,Fox,Marth,Blaster Air End,Neutral B,special,Neutral
-31,,,0,2,1,9,-1,350,2,110.0,1,1,Battlefield,Fox,Marth,Illusion Startup Air,Side B,special,Forward
-31,,,0,2,1,9,-1,350,4,120.0,1,1,Battlefield,Fox,Marth,Illusion Startup Air,Side B,special,Forward
-31,,,0,2,1,9,-1,350,4,130.0,1,1,Battlefield,Fox,Marth,Illusion Startup Air,Side B,special,Forward
-31,,,0,2,1,9,-1,351,2,110.0,1,1,Battlefield,Fox,Marth,Illusion Air,Side B,special,Forward
-31,,,0,2,1,9,-1,351,4,120.0,1,1,Battlefield,Fox,Marth,Illusion Air,Side B,special,Forward
-31,,,0,2,1,9,-1,351,4,130.0,1,1,Battlefield,Fox,Marth,Illusion Air,Side B,special,Forward
-31,,,0,2,1,9,-1,352,2,110.0,1,1,Battlefield,Fox,Marth,Illusion Air End,Side B,special,Forward
-31,,,0,2,1,9,-1,352,4,130.0,1,1,Battlefield,Fox,Marth,Illusion Air End,Side B,special,Forward
-31,,,0,2,1,9,-1,354,1,140.0,1,1,Battlefield,Fox,Marth,Fire Fox Air Startup,Up B,special,Up
-31,,,0,2,1,9,-1,354,4,80.0,1,1,Battlefield,Fox,Marth,Fire Fox Air Startup,Up B,special,Up
-31,,,0,2,1,9,-1,354,4,140.0,1,1,Battlefield,Fox,Marth,Fire Fox Air Startup,Up B,special,Up
-31,,,0,2,1,9,-1,356,4,80.0,1,1,Battlefield,Fox,Marth,Fire Fox Air,Up B,special,Up
-31,,,0,2,1,9,-1,358,4,80.0,1,1,Battlefield,Fox,Marth,Fire Fox Air End,Up B,special,Up
-31,,,0,2,1,9,-1,360,1,20.0,1,4,Battlefield,Fox,Marth,Reflector Ground Startup,Down B,special,Down
-31,,,0,2,1,9,-1,360,2,30.0,1,1,Battlefield,Fox,Marth,Reflector Ground Startup,Down B,special,Down
-31,,,0,2,1,9,-1,360,2,40.0,1,4,Battlefield,Fox,Marth,Reflector Ground Startup,Down B,special,Down
-31,,,0,2,1,9,-1,360,3,30.0,1,1,Battlefield,Fox,Marth,Reflector Ground Startup,Down B,special,Down
-31,,,0,2,1,9,-1,360,4,0.0,1,4,Battlefield,Fox,Marth,Reflector Ground Startup,Down B,special,Down
-31,,,0,2,1,9,-1,360,4,40.0,1,4,Battlefield,Fox,Marth,Reflector Ground Startup,Down B,special,Down
-31,,,0,2,1,9,-1,361,2,30.0,1,1,Battlefield,Fox,Marth,Reflector Ground Loop,Down B,special,Down
-31,,,0,2,1,9,-1,361,4,0.0,1,1,Battlefield,Fox,Marth,Reflector Ground Loop,Down B,special,Down
-31,,,0,2,1,9,-1,369,1,70.0,1,1,Battlefield,Fox,Marth,Reflector Air Change Direction,Down B,special,Down
-31,,,0,2,1,9,1,57,4,0.0,1,1,Battlefield,Fox,Marth,AttackLw3,Downtilt,tilt,Down
-31,,,0,2,1,9,1,63,4,0.0,1,1,Battlefield,Fox,Marth,AttackHi4,Upsmash,smash,Up
-31,,,0,2,1,9,1,65,1,70.0,1,1,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral
-31,,,0,2,1,9,1,65,1,120.0,1,1,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral
-31,,,0,2,1,9,1,65,2,30.0,1,1,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral
-31,,,0,2,1,9,1,65,2,40.0,1,3,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral
-31,,,0,2,1,9,1,65,3,0.0,1,1,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral
-31,,,0,2,1,9,1,65,3,30.0,1,2,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral
-31,,,0,2,1,9,1,65,4,0.0,1,5,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral
-31,,,0,2,1,9,1,65,4,10.0,1,2,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral
-31,,,0,2,1,9,1,65,4,20.0,1,1,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral
-31,,,0,2,1,9,1,66,2,50.0,1,1,Battlefield,Fox,Marth,AttackAirF,Fair,aerial,Forward
-31,,,0,2,1,9,1,67,1,0.0,1,1,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back
-31,,,0,2,1,9,1,67,2,50.0,1,3,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back
-31,,,0,2,1,9,1,67,2,110.0,1,1,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back
-31,,,0,2,1,9,1,67,2,120.0,1,2,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back
-31,,,0,2,1,9,1,67,3,10.0,1,2,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back
-31,,,0,2,1,9,1,67,4,0.0,1,4,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back
-31,,,0,2,1,9,1,67,4,10.0,1,1,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back
-31,,,0,2,1,9,1,67,4,40.0,1,1,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back
-31,,,0,2,1,9,1,68,1,20.0,1,1,Battlefield,Fox,Marth,AttackAirHi,Uair,aerial,Up
-31,,,0,2,1,9,1,68,2,50.0,1,2,Battlefield,Fox,Marth,AttackAirHi,Uair,aerial,Up
-31,,,0,2,1,9,1,68,2,110.0,1,2,Battlefield,Fox,Marth,AttackAirHi,Uair,aerial,Up
-31,,,0,2,1,9,1,68,3,0.0,1,1,Battlefield,Fox,Marth,AttackAirHi,Uair,aerial,Up
-31,,,0,2,1,9,1,68,4,0.0,1,2,Battlefield,Fox,Marth,AttackAirHi,Uair,aerial,Up
-31,,,0,2,1,9,1,69,2,30.0,1,1,Battlefield,Fox,Marth,AttackAirLw,Dair,aerial,Down
-31,,,0,2,1,9,1,69,3,0.0,1,1,Battlefield,Fox,Marth,AttackAirLw,Dair,aerial,Down
-31,,,0,2,1,9,1,212,2,110.0,1,1,Battlefield,Fox,Marth,Catch,Grab,grab,Neutral
-31,,,0,2,1,9,1,212,3,0.0,1,1,Battlefield,Fox,Marth,Catch,Grab,grab,Neutral
-31,,,0,2,1,9,1,212,4,0.0,1,1,Battlefield,Fox,Marth,Catch,Grab,grab,Neutral
-31,,,0,2,1,9,1,344,3,0.0,1,1,Battlefield,Fox,Marth,Blaster Air Startup,Neutral B,special,Neutral
-31,,,0,2,1,9,1,344,3,30.0,1,1,Battlefield,Fox,Marth,Blaster Air Startup,Neutral B,special,Neutral
-31,,,0,2,1,9,1,344,4,0.0,1,1,Battlefield,Fox,Marth,Blaster Air Startup,Neutral B,special,Neutral
-31,,,0,2,1,9,1,344,4,10.0,1,1,Battlefield,Fox,Marth,Blaster Air Startup,Neutral B,special,Neutral
-31,,,0,2,1,9,1,345,3,0.0,1,1,Battlefield,Fox,Marth,Blaster Air Loop,Neutral B,special,Neutral
-31,,,0,2,1,9,1,345,3,30.0,1,1,Battlefield,Fox,Marth,Blaster Air Loop,Neutral B,special,Neutral
-31,,,0,2,1,9,1,345,4,0.0,1,1,Battlefield,Fox,Marth,Blaster Air Loop,Neutral B,special,Neutral
-31,,,0,2,1,9,1,345,4,10.0,1,1,Battlefield,Fox,Marth,Blaster Air Loop,Neutral B,special,Neutral
-31,,,0,2,1,9,1,350,4,110.0,1,1,Battlefield,Fox,Marth,Illusion Startup Air,Side B,special,Forward
-31,,,0,2,1,9,1,351,4,110.0,1,1,Battlefield,Fox,Marth,Illusion Air,Side B,special,Forward
-31,,,0,2,1,9,1,352,4,110.0,1,1,Battlefield,Fox,Marth,Illusion Air End,Side B,special,Forward
-31,,,0,2,1,9,1,354,4,80.0,1,1,Battlefield,Fox,Marth,Fire Fox Air Startup,Up B,special,Up
-31,,,0,2,1,9,1,354,4,100.0,1,1,Battlefield,Fox,Marth,Fire Fox Air Startup,Up B,special,Up
-31,,,0,2,1,9,1,354,4,110.0,1,2,Battlefield,Fox,Marth,Fire Fox Air Startup,Up B,special,Up
-31,,,0,2,1,9,1,356,4,80.0,1,1,Battlefield,Fox,Marth,Fire Fox Air,Up B,special,Up
-31,,,0,2,1,9,1,356,4,100.0,1,1,Battlefield,Fox,Marth,Fire Fox Air,Up B,special,Up
-31,,,0,2,1,9,1,358,4,80.0,1,1,Battlefield,Fox,Marth,Fire Fox Air End,Up B,special,Up
-31,,,0,2,1,9,1,358,4,100.0,1,1,Battlefield,Fox,Marth,Fire Fox Air End,Up B,special,Up
-31,,,0,2,1,9,1,360,1,20.0,1,5,Battlefield,Fox,Marth,Reflector Ground Startup,Down B,special,Down
-31,,,0,2,1,9,1,360,1,120.0,1,1,Battlefield,Fox,Marth,Reflector Ground Startup,Down B,special,Down
-31,,,0,2,1,9,1,360,2,30.0,1,1,Battlefield,Fox,Marth,Reflector Ground Startup,Down B,special,Down
-31,,,0,2,1,9,1,360,2,40.0,1,4,Battlefield,Fox,Marth,Reflector Ground Startup,Down B,special,Down
-31,,,0,2,1,9,1,360,2,50.0,1,1,Battlefield,Fox,Marth,Reflector Ground Startup,Down B,special,Down
-31,,,0,2,1,9,1,360,3,0.0,1,5,Battlefield,Fox,Marth,Reflector Ground Startup,Down B,special,Down
-31,,,0,2,1,9,1,360,4,0.0,1,1,Battlefield,Fox,Marth,Reflector Ground Startup,Down B,special,Down
-31,,,0,2,1,9,1,361,1,20.0,1,1,Battlefield,Fox,Marth,Reflector Ground Loop,Down B,special,Down
-31,,,0,2,1,9,1,361,1,120.0,1,1,Battlefield,Fox,Marth,Reflector Ground Loop,Down B,special,Down
-31,,,0,2,1,9,1,361,2,30.0,1,1,Battlefield,Fox,Marth,Reflector Ground Loop,Down B,special,Down
-31,,,0,2,1,9,1,361,2,50.0,1,1,Battlefield,Fox,Marth,Reflector Ground Loop,Down B,special,Down
-31,,,0,2,1,9,1,361,3,0.0,1,1,Battlefield,Fox,Marth,Reflector Ground Loop,Down B,special,Down
-31,,,0,2,1,9,1,364,3,30.0,1,1,Battlefield,Fox,Marth,Reflector Ground Change Direction,Down B,special,Down
-31,,,0,2,1,9,1,365,1,70.0,1,4,Battlefield,Fox,Marth,Reflector Air Startup,Down B,special,Down
-31,,,0,9,1,2,-1,44,4,100.0,0,1,Battlefield,Marth,Fox,Attack11,Jab 1,jab,Neutral
-31,,,0,9,1,2,-1,45,4,100.0,0,1,Battlefield,Marth,Fox,Attack12,Jab 2,jab,Neutral
-31,,,0,9,1,2,-1,56,1,10.0,0,1,Battlefield,Marth,Fox,AttackHi3,Uptilt,tilt,Up
-31,,,0,9,1,2,-1,56,3,100.0,0,1,Battlefield,Marth,Fox,AttackHi3,Uptilt,tilt,Up
-31,,,0,9,1,2,-1,57,2,40.0,0,1,Battlefield,Marth,Fox,AttackLw3,Downtilt,tilt,Down
-31,,,0,9,1,2,-1,57,2,70.0,0,1,Battlefield,Marth,Fox,AttackLw3,Downtilt,tilt,Down
-31,,,0,9,1,2,-1,57,2,100.0,0,1,Battlefield,Marth,Fox,AttackLw3,Downtilt,tilt,Down
-31,,,0,9,1,2,-1,60,4,100.0,0,2,Battlefield,Marth,Fox,AttackS4S,Mid Fsmash,smash,Forward
-31,,,0,9,1,2,-1,65,1,0.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral
-31,,,0,9,1,2,-1,65,2,70.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral
-31,,,0,9,1,2,-1,65,4,0.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral
-31,,,0,9,1,2,-1,65,4,60.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral
-31,,,0,9,1,2,-1,66,2,0.0,0,2,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward
-31,,,0,9,1,2,-1,66,2,20.0,0,2,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward
-31,,,0,9,1,2,-1,66,2,40.0,0,4,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward
-31,,,0,9,1,2,-1,66,2,50.0,0,1,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward
-31,,,0,9,1,2,-1,66,2,70.0,0,1,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward
-31,,,0,9,1,2,-1,66,2,100.0,0,7,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward
-31,,,0,9,1,2,-1,66,2,110.0,0,1,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward
-31,,,0,9,1,2,-1,66,3,100.0,0,1,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward
-31,,,0,9,1,2,-1,66,4,60.0,0,3,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward
-31,,,0,9,1,2,-1,66,4,70.0,0,2,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward
-31,,,0,9,1,2,-1,66,4,100.0,0,4,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward
-31,,,0,9,1,2,-1,68,1,10.0,0,2,Battlefield,Marth,Fox,AttackAirHi,Uair,aerial,Up
-31,,,0,9,1,2,-1,68,2,0.0,0,1,Battlefield,Marth,Fox,AttackAirHi,Uair,aerial,Up
-31,,,0,9,1,2,-1,68,2,100.0,0,3,Battlefield,Marth,Fox,AttackAirHi,Uair,aerial,Up
-31,,,0,9,1,2,-1,68,3,100.0,0,2,Battlefield,Marth,Fox,AttackAirHi,Uair,aerial,Up
-31,,,0,9,1,2,-1,68,4,100.0,0,1,Battlefield,Marth,Fox,AttackAirHi,Uair,aerial,Up
-31,,,0,9,1,2,-1,69,2,100.0,0,1,Battlefield,Marth,Fox,AttackAirLw,Dair,aerial,Down
-31,,,0,9,1,2,-1,212,1,10.0,0,1,Battlefield,Marth,Fox,Catch,Grab,grab,Neutral
-31,,,0,9,1,2,-1,212,2,0.0,0,2,Battlefield,Marth,Fox,Catch,Grab,grab,Neutral
-31,,,0,9,1,2,-1,212,2,20.0,0,1,Battlefield,Marth,Fox,Catch,Grab,grab,Neutral
-31,,,0,9,1,2,-1,212,2,50.0,0,1,Battlefield,Marth,Fox,Catch,Grab,grab,Neutral
-31,,,0,9,1,2,-1,212,2,100.0,0,2,Battlefield,Marth,Fox,Catch,Grab,grab,Neutral
-31,,,0,9,1,2,-1,212,3,100.0,0,2,Battlefield,Marth,Fox,Catch,Grab,grab,Neutral
-31,,,0,9,1,2,-1,212,4,60.0,0,2,Battlefield,Marth,Fox,Catch,Grab,grab,Neutral
-31,,,0,9,1,2,-1,349,2,70.0,0,1,Battlefield,Marth,Fox,Dancing Blade 1 Ground,Side B,special,Forward
-31,,,0,9,1,2,-1,358,1,40.0,0,1,Battlefield,Marth,Fox,Dancing Blade 1 Air,Side B,special,Forward
-31,,,0,9,1,2,-1,358,2,0.0,0,1,Battlefield,Marth,Fox,Dancing Blade 1 Air,Side B,special,Forward
-31,,,0,9,1,2,-1,358,2,80.0,0,1,Battlefield,Marth,Fox,Dancing Blade 1 Air,Side B,special,Forward
-31,,,0,9,1,2,-1,358,2,100.0,0,2,Battlefield,Marth,Fox,Dancing Blade 1 Air,Side B,special,Forward
-31,,,0,9,1,2,-1,358,2,110.0,0,3,Battlefield,Marth,Fox,Dancing Blade 1 Air,Side B,special,Forward
-31,,,0,9,1,2,-1,368,1,40.0,0,1,Battlefield,Marth,Fox,Dolphin Slash Air,Up B,special,Up
-31,,,0,9,1,2,-1,368,2,100.0,0,1,Battlefield,Marth,Fox,Dolphin Slash Air,Up B,special,Up
-31,,,0,9,1,2,-1,368,2,110.0,0,1,Battlefield,Marth,Fox,Dolphin Slash Air,Up B,special,Up
-31,,,0,9,1,2,-1,368,4,100.0,0,1,Battlefield,Marth,Fox,Dolphin Slash Air,Up B,special,Up
-31,,,0,9,1,2,1,53,2,20.0,0,1,Battlefield,Marth,Fox,AttackS3S,Mid Ftilt,tilt,Forward
-31,,,0,9,1,2,1,57,1,0.0,0,2,Battlefield,Marth,Fox,AttackLw3,Downtilt,tilt,Down
-31,,,0,9,1,2,1,57,1,10.0,0,1,Battlefield,Marth,Fox,AttackLw3,Downtilt,tilt,Down
-31,,,0,9,1,2,1,57,2,0.0,0,1,Battlefield,Marth,Fox,AttackLw3,Downtilt,tilt,Down
-31,,,0,9,1,2,1,57,2,30.0,0,2,Battlefield,Marth,Fox,AttackLw3,Downtilt,tilt,Down
-31,,,0,9,1,2,1,57,3,100.0,0,1,Battlefield,Marth,Fox,AttackLw3,Downtilt,tilt,Down
-31,,,0,9,1,2,1,57,3,110.0,0,1,Battlefield,Marth,Fox,AttackLw3,Downtilt,tilt,Down
-31,,,0,9,1,2,1,57,4,0.0,0,2,Battlefield,Marth,Fox,AttackLw3,Downtilt,tilt,Down
-31,,,0,9,1,2,1,60,2,100.0,0,1,Battlefield,Marth,Fox,AttackS4S,Mid Fsmash,smash,Forward
-31,,,0,9,1,2,1,65,1,0.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral
-31,,,0,9,1,2,1,65,1,10.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral
-31,,,0,9,1,2,1,65,2,0.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral
-31,,,0,9,1,2,1,65,2,30.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral
-31,,,0,9,1,2,1,65,2,60.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral
-31,,,0,9,1,2,1,65,2,70.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral
-31,,,0,9,1,2,1,65,2,100.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral
-31,,,0,9,1,2,1,65,3,100.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral
-31,,,0,9,1,2,1,65,4,0.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral
-31,,,0,9,1,2,1,65,4,60.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral
-31,,,0,9,1,2,1,65,4,70.0,0,2,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral
-31,,,0,9,1,2,1,65,4,100.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral
-31,,,0,9,1,2,1,66,1,0.0,0,1,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward
-31,,,0,9,1,2,1,66,2,0.0,0,3,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward
-31,,,0,9,1,2,1,66,2,30.0,0,2,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward
-31,,,0,9,1,2,1,66,2,60.0,0,1,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward
-31,,,0,9,1,2,1,66,2,70.0,0,2,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward
-31,,,0,9,1,2,1,66,2,100.0,0,1,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward
-31,,,0,9,1,2,1,66,3,100.0,0,2,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward
-31,,,0,9,1,2,1,66,3,110.0,0,3,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward
-31,,,0,9,1,2,1,66,4,0.0,0,1,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward
-31,,,0,9,1,2,1,66,4,70.0,0,1,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward
-31,,,0,9,1,2,1,67,3,110.0,0,1,Battlefield,Marth,Fox,AttackAirB,Bair,aerial,Back
-31,,,0,9,1,2,1,68,1,10.0,0,1,Battlefield,Marth,Fox,AttackAirHi,Uair,aerial,Up
-31,,,0,9,1,2,1,68,2,100.0,0,1,Battlefield,Marth,Fox,AttackAirHi,Uair,aerial,Up
-31,,,0,9,1,2,1,68,3,110.0,0,1,Battlefield,Marth,Fox,AttackAirHi,Uair,aerial,Up
-31,,,0,9,1,2,1,68,4,100.0,0,1,Battlefield,Marth,Fox,AttackAirHi,Uair,aerial,Up
-31,,,0,9,1,2,1,69,2,100.0,0,1,Battlefield,Marth,Fox,AttackAirLw,Dair,aerial,Down
-31,,,0,9,1,2,1,212,2,40.0,0,1,Battlefield,Marth,Fox,Catch,Grab,grab,Neutral
-31,,,0,9,1,2,1,212,2,100.0,0,1,Battlefield,Marth,Fox,Catch,Grab,grab,Neutral
-31,,,0,9,1,2,1,212,3,100.0,0,1,Battlefield,Marth,Fox,Catch,Grab,grab,Neutral
-31,,,0,9,1,2,1,212,3,110.0,0,1,Battlefield,Marth,Fox,Catch,Grab,grab,Neutral
-31,,,0,9,1,2,1,212,4,70.0,0,1,Battlefield,Marth,Fox,Catch,Grab,grab,Neutral
-31,,,0,9,1,2,1,358,2,80.0,0,1,Battlefield,Marth,Fox,Dancing Blade 1 Air,Side B,special,Forward
-31,,,0,9,1,2,1,358,2,90.0,0,2,Battlefield,Marth,Fox,Dancing Blade 1 Air,Side B,special,Forward
-31,,,0,9,1,2,1,358,2,120.0,0,3,Battlefield,Marth,Fox,Dancing Blade 1 Air,Side B,special,Forward
-31,,,0,9,1,2,1,358,2,130.0,0,2,Battlefield,Marth,Fox,Dancing Blade 1 Air,Side B,special,Forward
-31,,,0,9,1,2,1,358,4,100.0,0,1,Battlefield,Marth,Fox,Dancing Blade 1 Air,Side B,special,Forward
-31,,,0,9,1,2,1,367,2,0.0,0,1,Battlefield,Marth,Fox,Dolphin Slash Ground,Up B,special,Up
-31,,,0,9,1,2,1,368,2,90.0,0,1,Battlefield,Marth,Fox,Dolphin Slash Air,Up B,special,Up
-31,,,0,9,1,2,1,368,2,120.0,0,1,Battlefield,Marth,Fox,Dolphin Slash Air,Up B,special,Up
-31,,,0,9,1,2,1,368,2,130.0,0,1,Battlefield,Marth,Fox,Dolphin Slash Air,Up B,special,Up
-31,,,0,9,1,2,1,368,3,100.0,0,1,Battlefield,Marth,Fox,Dolphin Slash Air,Up B,special,Up
-31,,,0,9,1,2,1,368,3,110.0,0,1,Battlefield,Marth,Fox,Dolphin Slash Air,Up B,special,Up
-31,,,0,9,1,2,1,368,4,20.0,0,1,Battlefield,Marth,Fox,Dolphin Slash Air,Up B,special,Up
-31,,,0,9,1,2,1,368,4,100.0,0,2,Battlefield,Marth,Fox,Dolphin Slash Air,Up B,special,Up
+dir_path,stage_id,connect_code,player_name,is_summit,character_id,character_color,character_id_opp,facing_direction,action_state_id,stocks_opp,percent_opp,is_win,rowcount,stage_name,character_name,character_name_opp,state_name,state_description,attack_type,direction,player_label
+foo/,2,EG#0,Onion,0,19,3,0,-1,44,2,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Attack11,Jab 1,jab,Neutral,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,44,3,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Attack11,Jab 1,jab,Neutral,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,44,3,30.0,1,2,Fountain of Dreams,Shiek,C. Falcon,Attack11,Jab 1,jab,Neutral,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,44,4,0.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Attack11,Jab 1,jab,Neutral,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,50,2,30.0,1,4,Fountain of Dreams,Shiek,C. Falcon,AttackDash,Dash attack,dash,Dash,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,50,2,60.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackDash,Dash attack,dash,Dash,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,50,3,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackDash,Dash attack,dash,Dash,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,50,3,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackDash,Dash attack,dash,Dash,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,50,4,10.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackDash,Dash attack,dash,Dash,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,50,4,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackDash,Dash attack,dash,Dash,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,53,4,10.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackS3S,Mid Ftilt,tilt,Forward,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,53,4,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackS3S,Mid Ftilt,tilt,Forward,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,56,3,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackHi3,Uptilt,tilt,Up,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,60,2,60.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackS4S,Mid Fsmash,smash,Forward,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,60,4,40.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackS4S,Mid Fsmash,smash,Forward,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,64,3,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackLw4,Downsmash,smash,Down,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,65,2,40.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirN,Nair,aerial,Neutral,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,65,2,60.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirN,Nair,aerial,Neutral,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,65,3,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirN,Nair,aerial,Neutral,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,66,2,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirF,Fair,aerial,Forward,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,66,3,20.0,1,2,Fountain of Dreams,Shiek,C. Falcon,AttackAirF,Fair,aerial,Forward,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,66,3,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirF,Fair,aerial,Forward,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,66,4,0.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirF,Fair,aerial,Forward,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,66,4,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirF,Fair,aerial,Forward,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,67,1,70.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirB,Bair,aerial,Back,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,67,2,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirB,Bair,aerial,Back,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,67,2,60.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirB,Bair,aerial,Back,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,67,4,0.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirB,Bair,aerial,Back,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,67,4,10.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirB,Bair,aerial,Back,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,67,4,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirB,Bair,aerial,Back,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,69,4,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirLw,Dair,aerial,Down,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,212,2,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Catch,Grab,grab,Neutral,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,212,2,40.0,1,2,Fountain of Dreams,Shiek,C. Falcon,Catch,Grab,grab,Neutral,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,214,2,30.0,1,3,Fountain of Dreams,Shiek,C. Falcon,CatchDash,,grab,Dash,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,345,2,60.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Needle Storm Air Start Charge,Neutral B,special,Neutral,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,345,3,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Needle Storm Air Start Charge,Neutral B,special,Neutral,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,346,2,60.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Needle Storm Air Charge Loop,Neutral B,special,Neutral,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,348,2,60.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Needle Storm Air Fire,Neutral B,special,Neutral,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,348,3,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Needle Storm Air Fire,Neutral B,special,Neutral,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,358,2,60.0,1,2,Fountain of Dreams,Shiek,C. Falcon,Vanish Air Startup,Up B,special,Up,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,358,3,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Vanish Air Startup,Up B,special,Up,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,358,4,80.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Vanish Air Startup,Up B,special,Up,Onion
+foo/,2,EG#0,Onion,0,19,3,0,-1,360,4,80.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Vanish Air Reappear,Up B,special,Up,Onion
+foo/,2,EG#0,Onion,0,19,3,0,1,44,4,10.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Attack11,Jab 1,jab,Neutral,Onion
+foo/,2,EG#0,Onion,0,19,3,0,1,44,4,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Attack11,Jab 1,jab,Neutral,Onion
+foo/,2,EG#0,Onion,0,19,3,0,1,50,1,90.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackDash,Dash attack,dash,Dash,Onion
+foo/,2,EG#0,Onion,0,19,3,0,1,50,2,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackDash,Dash attack,dash,Dash,Onion
+foo/,2,EG#0,Onion,0,19,3,0,1,50,3,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackDash,Dash attack,dash,Dash,Onion
+foo/,2,EG#0,Onion,0,19,3,0,1,50,3,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackDash,Dash attack,dash,Dash,Onion
+foo/,2,EG#0,Onion,0,19,3,0,1,50,4,10.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackDash,Dash attack,dash,Dash,Onion
+foo/,2,EG#0,Onion,0,19,3,0,1,50,4,40.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackDash,Dash attack,dash,Dash,Onion
+foo/,2,EG#0,Onion,0,19,3,0,1,57,4,10.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackLw3,Downtilt,tilt,Down,Onion
+foo/,2,EG#0,Onion,0,19,3,0,1,64,4,30.0,1,2,Fountain of Dreams,Shiek,C. Falcon,AttackLw4,Downsmash,smash,Down,Onion
+foo/,2,EG#0,Onion,0,19,3,0,1,65,2,30.0,1,2,Fountain of Dreams,Shiek,C. Falcon,AttackAirN,Nair,aerial,Neutral,Onion
+foo/,2,EG#0,Onion,0,19,3,0,1,67,2,30.0,1,2,Fountain of Dreams,Shiek,C. Falcon,AttackAirB,Bair,aerial,Back,Onion
+foo/,2,EG#0,Onion,0,19,3,0,1,67,4,10.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirB,Bair,aerial,Back,Onion
+foo/,2,EG#0,Onion,0,19,3,0,1,67,4,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,AttackAirB,Bair,aerial,Back,Onion
+foo/,2,EG#0,Onion,0,19,3,0,1,212,3,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Catch,Grab,grab,Neutral,Onion
+foo/,2,EG#0,Onion,0,19,3,0,1,212,3,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Catch,Grab,grab,Neutral,Onion
+foo/,2,EG#0,Onion,0,19,3,0,1,212,4,10.0,1,2,Fountain of Dreams,Shiek,C. Falcon,Catch,Grab,grab,Neutral,Onion
+foo/,2,EG#0,Onion,0,19,3,0,1,214,1,90.0,1,1,Fountain of Dreams,Shiek,C. Falcon,CatchDash,,grab,Dash,Onion
+foo/,2,EG#0,Onion,0,19,3,0,1,214,3,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,CatchDash,,grab,Dash,Onion
+foo/,2,EG#0,Onion,0,19,3,0,1,214,4,10.0,1,2,Fountain of Dreams,Shiek,C. Falcon,CatchDash,,grab,Dash,Onion
+foo/,2,EG#0,Onion,0,19,3,0,1,341,4,0.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Needle Storm Ground Start Charge,Neutral B,special,Neutral,Onion
+foo/,2,EG#0,Onion,0,19,3,0,1,342,4,0.0,1,3,Fountain of Dreams,Shiek,C. Falcon,Needle Storm Ground Charge Loop,Neutral B,special,Neutral,Onion
+foo/,2,EG#0,Onion,0,19,3,0,1,344,4,0.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Needle Storm Ground Fire,Neutral B,special,Neutral,Onion
+foo/,2,EG#0,Onion,0,19,3,0,1,345,4,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Needle Storm Air Start Charge,Neutral B,special,Neutral,Onion
+foo/,2,EG#0,Onion,0,19,3,0,1,347,4,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Needle Storm Air End Charge,Neutral B,special,Neutral,Onion
+foo/,2,EG#0,Onion,0,19,3,0,1,358,4,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Vanish Air Startup,Up B,special,Up,Onion
+foo/,2,EG#0,Onion,0,19,3,0,1,360,1,60.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Vanish Air Reappear,Up B,special,Up,Onion
+foo/,2,EG#0,Onion,0,19,3,0,1,360,2,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Vanish Air Reappear,Up B,special,Up,Onion
+foo/,2,JAHN#146,,0,0,4,19,-1,44,3,0.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Attack11,Jab 1,jab,Neutral,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,-1,44,4,20.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Attack11,Jab 1,jab,Neutral,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,-1,44,4,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Attack11,Jab 1,jab,Neutral,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,-1,45,4,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Attack12,Jab 2,jab,Neutral,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,-1,60,3,50.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackS4S,Mid Fsmash,smash,Forward,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,-1,65,3,20.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,-1,65,3,40.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,-1,65,3,60.0,0,2,Fountain of Dreams,C. Falcon,Shiek,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,-1,66,4,20.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,-1,67,3,60.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirB,Bair,aerial,Back,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,-1,67,3,70.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirB,Bair,aerial,Back,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,-1,67,3,90.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirB,Bair,aerial,Back,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,-1,68,3,0.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirHi,Uair,aerial,Up,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,-1,68,4,60.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirHi,Uair,aerial,Up,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,-1,69,3,0.0,0,2,Fountain of Dreams,C. Falcon,Shiek,AttackAirLw,Dair,aerial,Down,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,-1,69,3,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirLw,Dair,aerial,Down,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,-1,69,3,40.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirLw,Dair,aerial,Down,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,-1,69,3,90.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirLw,Dair,aerial,Down,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,-1,212,3,0.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Catch,Grab,grab,Neutral,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,-1,212,3,90.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Catch,Grab,grab,Neutral,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,-1,351,3,0.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Raptor Boost Air,Side B,special,Forward,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,-1,354,3,10.0,0,2,Fountain of Dreams,C. Falcon,Shiek,Falcon Dive Air,Up B,special,Up,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,-1,354,3,90.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Falcon Dive Air,Up B,special,Up,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,-1,355,3,10.0,0,4,Fountain of Dreams,C. Falcon,Shiek,Falcon Dive Catch,Up B,special,Up,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,-1,356,3,10.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Falcon Dive Ending,Up B,special,Up,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,1,65,3,40.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,1,65,4,0.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,1,65,4,70.0,0,2,Fountain of Dreams,C. Falcon,Shiek,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,1,66,3,0.0,0,4,Fountain of Dreams,C. Falcon,Shiek,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,1,66,3,60.0,0,3,Fountain of Dreams,C. Falcon,Shiek,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,1,66,4,70.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,1,67,3,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirB,Bair,aerial,Back,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,1,67,4,0.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirB,Bair,aerial,Back,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,1,68,3,0.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirHi,Uair,aerial,Up,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,1,68,3,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirHi,Uair,aerial,Up,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,1,68,4,70.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirHi,Uair,aerial,Up,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,1,69,3,0.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirLw,Dair,aerial,Down,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,1,69,3,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirLw,Dair,aerial,Down,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,1,69,3,40.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirLw,Dair,aerial,Down,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,1,69,3,60.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirLw,Dair,aerial,Down,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,1,69,3,150.0,0,1,Fountain of Dreams,C. Falcon,Shiek,AttackAirLw,Dair,aerial,Down,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,1,69,4,0.0,0,2,Fountain of Dreams,C. Falcon,Shiek,AttackAirLw,Dair,aerial,Down,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,1,69,4,70.0,0,3,Fountain of Dreams,C. Falcon,Shiek,AttackAirLw,Dair,aerial,Down,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,1,212,3,0.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Catch,Grab,grab,Neutral,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,1,212,4,0.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Catch,Grab,grab,Neutral,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,1,349,3,10.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Raptor Boost Ground,Side B,special,Forward,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,1,354,3,70.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Falcon Dive Air,Up B,special,Up,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,1,354,3,80.0,0,2,Fountain of Dreams,C. Falcon,Shiek,Falcon Dive Air,Up B,special,Up,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,1,354,3,130.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Falcon Dive Air,Up B,special,Up,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,1,357,3,10.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Falcon Kick Ground,Down B,special,Down,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,1,357,3,60.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Falcon Kick Ground,Down B,special,Down,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,1,358,3,10.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Falcon Kick Ground Ending On Ground,Down B,special,Down,Netplay Rando
+foo/,2,JAHN#146,,0,0,4,19,1,358,3,60.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Falcon Kick Ground Ending On Ground,Down B,special,Down,Netplay Rando
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,44,1,70.0,1,1,Fountain of Dreams,Shiek,Shiek,Attack11,Jab 1,jab,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,44,2,30.0,1,1,Fountain of Dreams,Shiek,Shiek,Attack11,Jab 1,jab,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,44,4,20.0,1,1,Fountain of Dreams,Shiek,Shiek,Attack11,Jab 1,jab,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,50,1,90.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,50,2,30.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,50,3,140.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,50,4,20.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,53,3,20.0,1,2,Fountain of Dreams,Shiek,Shiek,AttackS3S,Mid Ftilt,tilt,Forward,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,53,4,20.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackS3S,Mid Ftilt,tilt,Forward,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,56,2,30.0,1,2,Fountain of Dreams,Shiek,Shiek,AttackHi3,Uptilt,tilt,Up,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,56,3,110.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackHi3,Uptilt,tilt,Up,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,60,3,0.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackS4S,Mid Fsmash,smash,Forward,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,63,3,20.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackHi4,Upsmash,smash,Up,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,64,4,40.0,1,2,Fountain of Dreams,Shiek,Shiek,AttackLw4,Downsmash,smash,Down,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,64,4,90.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackLw4,Downsmash,smash,Down,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,66,1,70.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,66,1,110.0,1,3,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,66,3,20.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,66,3,120.0,1,2,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,66,4,90.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,67,1,70.0,1,2,Fountain of Dreams,Shiek,Shiek,AttackAirB,Bair,aerial,Back,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,67,2,20.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirB,Bair,aerial,Back,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,67,2,30.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirB,Bair,aerial,Back,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,67,3,0.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirB,Bair,aerial,Back,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,67,4,50.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirB,Bair,aerial,Back,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,68,2,30.0,1,2,Fountain of Dreams,Shiek,Shiek,AttackAirHi,Uair,aerial,Up,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,68,4,90.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirHi,Uair,aerial,Up,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,69,1,70.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirLw,Dair,aerial,Down,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,69,2,20.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirLw,Dair,aerial,Down,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,69,3,120.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirLw,Dair,aerial,Down,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,69,4,70.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirLw,Dair,aerial,Down,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,212,1,90.0,1,2,Fountain of Dreams,Shiek,Shiek,Catch,Grab,grab,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,212,3,110.0,1,1,Fountain of Dreams,Shiek,Shiek,Catch,Grab,grab,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,212,3,120.0,1,1,Fountain of Dreams,Shiek,Shiek,Catch,Grab,grab,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,212,4,20.0,1,2,Fountain of Dreams,Shiek,Shiek,Catch,Grab,grab,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,214,4,20.0,1,1,Fountain of Dreams,Shiek,Shiek,CatchDash,,grab,Dash,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,341,1,90.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Start Charge,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,341,4,90.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Start Charge,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,342,2,20.0,1,3,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Charge Loop,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,342,3,20.0,1,2,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Charge Loop,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,342,3,90.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Charge Loop,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,342,4,90.0,1,3,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Charge Loop,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,343,2,20.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground End Charge,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,343,3,90.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground End Charge,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,344,1,90.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Fire,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,344,1,110.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Fire,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,344,4,90.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Fire,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,345,1,110.0,1,2,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Start Charge,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,345,3,20.0,1,3,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Start Charge,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,345,3,90.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Start Charge,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,345,4,40.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Start Charge,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,346,1,110.0,1,3,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Charge Loop,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,346,3,20.0,1,3,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Charge Loop,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,346,3,90.0,1,2,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Charge Loop,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,346,4,40.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Charge Loop,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,347,1,110.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air End Charge,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,347,3,20.0,1,2,Fountain of Dreams,Shiek,Shiek,Needle Storm Air End Charge,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,355,1,110.0,1,2,Fountain of Dreams,Shiek,Shiek,Vanish Ground Startup,Up B,special,Up,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,356,1,110.0,1,1,Fountain of Dreams,Shiek,Shiek,Vanish Ground Disappear,Up B,special,Up,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,358,2,30.0,1,2,Fountain of Dreams,Shiek,Shiek,Vanish Air Startup,Up B,special,Up,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,358,3,110.0,1,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Startup,Up B,special,Up,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,358,3,120.0,1,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Startup,Up B,special,Up,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,358,3,150.0,1,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Startup,Up B,special,Up,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,358,4,90.0,1,2,Fountain of Dreams,Shiek,Shiek,Vanish Air Startup,Up B,special,Up,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,360,3,120.0,1,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Reappear,Up B,special,Up,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,360,3,150.0,1,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Reappear,Up B,special,Up,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,360,4,90.0,1,2,Fountain of Dreams,Shiek,Shiek,Vanish Air Reappear,Up B,special,Up,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,361,1,110.0,1,1,Fountain of Dreams,Shiek,Shiek,Transform Ground,Down B,special,Down,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,-1,362,1,110.0,1,1,Fountain of Dreams,Shiek,Shiek,Transform Ground Ending,Down B,special,Down,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,44,4,20.0,1,1,Fountain of Dreams,Shiek,Shiek,Attack11,Jab 1,jab,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,44,4,90.0,1,1,Fountain of Dreams,Shiek,Shiek,Attack11,Jab 1,jab,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,50,1,80.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,50,2,20.0,1,2,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,50,3,20.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,50,3,110.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,50,3,120.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,50,4,20.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,50,4,90.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,53,1,110.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackS3S,Mid Ftilt,tilt,Forward,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,53,2,20.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackS3S,Mid Ftilt,tilt,Forward,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,53,4,90.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackS3S,Mid Ftilt,tilt,Forward,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,56,3,0.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackHi3,Uptilt,tilt,Up,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,57,1,90.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackLw3,Downtilt,tilt,Down,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,57,4,90.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackLw3,Downtilt,tilt,Down,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,60,2,20.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackS4S,Mid Fsmash,smash,Forward,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,60,3,120.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackS4S,Mid Fsmash,smash,Forward,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,60,4,90.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackS4S,Mid Fsmash,smash,Forward,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,64,1,90.0,1,2,Fountain of Dreams,Shiek,Shiek,AttackLw4,Downsmash,smash,Down,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,64,3,20.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackLw4,Downsmash,smash,Down,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,66,1,110.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,66,2,40.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,66,3,20.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,67,2,20.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirB,Bair,aerial,Back,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,67,3,20.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirB,Bair,aerial,Back,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,68,3,0.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirHi,Uair,aerial,Up,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,69,3,130.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirLw,Dair,aerial,Down,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,69,3,140.0,1,1,Fountain of Dreams,Shiek,Shiek,AttackAirLw,Dair,aerial,Down,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,212,2,20.0,1,2,Fountain of Dreams,Shiek,Shiek,Catch,Grab,grab,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,212,3,110.0,1,3,Fountain of Dreams,Shiek,Shiek,Catch,Grab,grab,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,214,2,20.0,1,2,Fountain of Dreams,Shiek,Shiek,CatchDash,,grab,Dash,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,214,4,90.0,1,1,Fountain of Dreams,Shiek,Shiek,CatchDash,,grab,Dash,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,341,3,20.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Start Charge,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,342,3,20.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Charge Loop,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,343,3,20.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground End Charge,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,345,3,20.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Start Charge,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,345,4,90.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Start Charge,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,346,3,20.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Charge Loop,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,346,4,90.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Charge Loop,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,347,3,20.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air End Charge,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,347,4,90.0,1,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air End Charge,Neutral B,special,Neutral,Onion
+foo/bar/,2,EG#0,Onion,0,19,3,19,1,358,3,20.0,1,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Startup,Up B,special,Up,Onion
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,50,3,70.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,50,4,0.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,50,4,70.0,0,2,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,53,3,20.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackS3S,Mid Ftilt,tilt,Forward,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,53,3,30.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackS3S,Mid Ftilt,tilt,Forward,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,53,4,0.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackS3S,Mid Ftilt,tilt,Forward,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,53,4,70.0,0,3,Fountain of Dreams,Shiek,Shiek,AttackS3S,Mid Ftilt,tilt,Forward,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,56,3,0.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackHi3,Uptilt,tilt,Up,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,56,3,70.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackHi3,Uptilt,tilt,Up,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,56,4,70.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackHi3,Uptilt,tilt,Up,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,57,3,40.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackLw3,Downtilt,tilt,Down,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,60,4,0.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackS4S,Mid Fsmash,smash,Forward,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,64,3,0.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackLw4,Downsmash,smash,Down,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,64,3,20.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackLw4,Downsmash,smash,Down,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,64,3,60.0,0,2,Fountain of Dreams,Shiek,Shiek,AttackLw4,Downsmash,smash,Down,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,64,3,80.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackLw4,Downsmash,smash,Down,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,64,4,70.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackLw4,Downsmash,smash,Down,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,65,3,60.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,66,3,10.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,66,3,80.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,66,3,120.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,66,4,0.0,0,2,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,66,4,70.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,67,3,0.0,0,2,Fountain of Dreams,Shiek,Shiek,AttackAirB,Bair,aerial,Back,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,67,3,20.0,0,5,Fountain of Dreams,Shiek,Shiek,AttackAirB,Bair,aerial,Back,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,67,4,70.0,0,3,Fountain of Dreams,Shiek,Shiek,AttackAirB,Bair,aerial,Back,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,68,4,70.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirHi,Uair,aerial,Up,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,69,3,110.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirLw,Dair,aerial,Down,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,69,4,70.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirLw,Dair,aerial,Down,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,212,3,30.0,0,1,Fountain of Dreams,Shiek,Shiek,Catch,Grab,grab,Neutral,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,212,4,70.0,0,2,Fountain of Dreams,Shiek,Shiek,Catch,Grab,grab,Neutral,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,214,4,0.0,0,1,Fountain of Dreams,Shiek,Shiek,CatchDash,,grab,Dash,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,341,4,70.0,0,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Start Charge,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,342,3,70.0,0,5,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Charge Loop,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,342,4,70.0,0,2,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Charge Loop,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,343,3,70.0,0,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground End Charge,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,345,4,70.0,0,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Start Charge,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,345,4,80.0,0,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Start Charge,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,346,4,80.0,0,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Charge Loop,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,348,4,70.0,0,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Fire,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,348,4,80.0,0,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Fire,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,358,3,90.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Startup,Up B,special,Up,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,358,3,110.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Startup,Up B,special,Up,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,358,3,120.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Startup,Up B,special,Up,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,358,3,130.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Startup,Up B,special,Up,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,358,4,100.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Startup,Up B,special,Up,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,360,3,110.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Reappear,Up B,special,Up,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,360,3,120.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Reappear,Up B,special,Up,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,360,3,140.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Reappear,Up B,special,Up,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,-1,360,4,100.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Reappear,Up B,special,Up,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,44,3,80.0,0,1,Fountain of Dreams,Shiek,Shiek,Attack11,Jab 1,jab,Neutral,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,44,4,50.0,0,1,Fountain of Dreams,Shiek,Shiek,Attack11,Jab 1,jab,Neutral,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,45,3,80.0,0,1,Fountain of Dreams,Shiek,Shiek,Attack12,Jab 2,jab,Neutral,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,47,3,80.0,0,1,Fountain of Dreams,Shiek,Shiek,Attack100Start,Start of a rapid jab,jab,Neutral,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,50,3,0.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,50,3,20.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,50,4,0.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,50,4,70.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackDash,Dash attack,dash,Dash,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,53,3,0.0,0,2,Fountain of Dreams,Shiek,Shiek,AttackS3S,Mid Ftilt,tilt,Forward,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,53,3,80.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackS3S,Mid Ftilt,tilt,Forward,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,53,4,50.0,0,2,Fountain of Dreams,Shiek,Shiek,AttackS3S,Mid Ftilt,tilt,Forward,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,56,3,0.0,0,2,Fountain of Dreams,Shiek,Shiek,AttackHi3,Uptilt,tilt,Up,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,56,3,10.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackHi3,Uptilt,tilt,Up,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,56,3,70.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackHi3,Uptilt,tilt,Up,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,56,4,70.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackHi3,Uptilt,tilt,Up,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,60,3,30.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackS4S,Mid Fsmash,smash,Forward,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,60,4,50.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackS4S,Mid Fsmash,smash,Forward,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,64,3,50.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackLw4,Downsmash,smash,Down,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,64,4,0.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackLw4,Downsmash,smash,Down,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,64,4,40.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackLw4,Downsmash,smash,Down,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,65,4,50.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,66,3,0.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,66,3,10.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,66,4,20.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,66,4,40.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,66,4,70.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,67,3,20.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirB,Bair,aerial,Back,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,67,3,70.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirB,Bair,aerial,Back,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,67,3,100.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirB,Bair,aerial,Back,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,68,3,0.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirHi,Uair,aerial,Up,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,69,3,90.0,0,1,Fountain of Dreams,Shiek,Shiek,AttackAirLw,Dair,aerial,Down,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,212,4,60.0,0,1,Fountain of Dreams,Shiek,Shiek,Catch,Grab,grab,Neutral,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,214,3,60.0,0,1,Fountain of Dreams,Shiek,Shiek,CatchDash,,grab,Dash,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,341,4,40.0,0,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Start Charge,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,342,4,40.0,0,4,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground Charge Loop,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,343,4,40.0,0,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Ground End Charge,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,345,3,100.0,0,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Start Charge,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,345,4,0.0,0,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Start Charge,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,345,4,70.0,0,2,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Start Charge,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,346,4,70.0,0,2,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Charge Loop,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,348,3,100.0,0,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Fire,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,348,4,0.0,0,1,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Fire,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,348,4,70.0,0,2,Fountain of Dreams,Shiek,Shiek,Needle Storm Air Fire,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,352,3,130.0,0,1,Fountain of Dreams,Shiek,Shiek,Chain Air Startup,Side B,special,Forward,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,354,3,130.0,0,1,Fountain of Dreams,Shiek,Shiek,Chain Air End,Side B,special,Forward,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,357,4,70.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Ground Reappear,Up B,special,Up,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,358,3,100.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Startup,Up B,special,Up,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,358,4,40.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Startup,Up B,special,Up,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,358,4,70.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Startup,Up B,special,Up,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,360,3,100.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Reappear,Up B,special,Up,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,360,4,40.0,0,1,Fountain of Dreams,Shiek,Shiek,Vanish Air Reappear,Up B,special,Up,Netplay Rando
+foo/bar/,2,NINJ#223,,0,19,1,19,1,363,3,120.0,0,1,Fountain of Dreams,Shiek,Shiek,Transform Air,Down B,special,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,44,3,10.0,1,1,Battlefield,Fox,Marth,Attack11,Jab 1,jab,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,50,3,10.0,1,1,Battlefield,Fox,Marth,AttackDash,Dash attack,dash,Dash,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,60,4,40.0,1,1,Battlefield,Fox,Marth,AttackS4S,Mid Fsmash,smash,Forward,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,63,4,40.0,1,1,Battlefield,Fox,Marth,AttackHi4,Upsmash,smash,Up,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,65,1,10.0,1,1,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,65,2,30.0,1,1,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,65,2,40.0,1,1,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,65,2,50.0,1,1,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,65,3,10.0,1,1,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,65,4,0.0,1,1,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,65,4,30.0,1,1,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,65,4,40.0,1,2,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,67,1,70.0,1,1,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,67,2,30.0,1,3,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,67,2,40.0,1,1,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,67,2,50.0,1,1,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,67,2,110.0,1,2,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,67,3,30.0,1,2,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,67,4,0.0,1,1,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,67,4,40.0,1,2,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,68,1,70.0,1,1,Battlefield,Fox,Marth,AttackAirHi,Uair,aerial,Up,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,68,3,0.0,1,3,Battlefield,Fox,Marth,AttackAirHi,Uair,aerial,Up,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,68,4,80.0,1,1,Battlefield,Fox,Marth,AttackAirHi,Uair,aerial,Up,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,69,1,0.0,1,1,Battlefield,Fox,Marth,AttackAirLw,Dair,aerial,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,69,1,120.0,1,1,Battlefield,Fox,Marth,AttackAirLw,Dair,aerial,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,69,2,30.0,1,1,Battlefield,Fox,Marth,AttackAirLw,Dair,aerial,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,69,4,0.0,1,1,Battlefield,Fox,Marth,AttackAirLw,Dair,aerial,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,212,1,20.0,1,2,Battlefield,Fox,Marth,Catch,Grab,grab,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,212,2,110.0,1,1,Battlefield,Fox,Marth,Catch,Grab,grab,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,212,4,80.0,1,1,Battlefield,Fox,Marth,Catch,Grab,grab,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,341,3,10.0,1,1,Battlefield,Fox,Marth,Blaster Ground Startup,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,342,3,10.0,1,1,Battlefield,Fox,Marth,Blaster Ground Loop,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,343,3,10.0,1,1,Battlefield,Fox,Marth,Blaster Ground End,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,344,1,0.0,1,1,Battlefield,Fox,Marth,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,344,1,10.0,1,1,Battlefield,Fox,Marth,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,344,1,150.0,1,1,Battlefield,Fox,Marth,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,344,2,30.0,1,2,Battlefield,Fox,Marth,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,344,4,0.0,1,1,Battlefield,Fox,Marth,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,345,1,0.0,1,1,Battlefield,Fox,Marth,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,345,1,10.0,1,1,Battlefield,Fox,Marth,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,345,1,150.0,1,4,Battlefield,Fox,Marth,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,345,2,30.0,1,2,Battlefield,Fox,Marth,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,345,4,0.0,1,1,Battlefield,Fox,Marth,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,346,1,150.0,1,1,Battlefield,Fox,Marth,Blaster Air End,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,350,2,110.0,1,1,Battlefield,Fox,Marth,Illusion Startup Air,Side B,special,Forward,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,350,4,120.0,1,1,Battlefield,Fox,Marth,Illusion Startup Air,Side B,special,Forward,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,350,4,130.0,1,1,Battlefield,Fox,Marth,Illusion Startup Air,Side B,special,Forward,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,351,2,110.0,1,1,Battlefield,Fox,Marth,Illusion Air,Side B,special,Forward,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,351,4,120.0,1,1,Battlefield,Fox,Marth,Illusion Air,Side B,special,Forward,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,351,4,130.0,1,1,Battlefield,Fox,Marth,Illusion Air,Side B,special,Forward,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,352,2,110.0,1,1,Battlefield,Fox,Marth,Illusion Air End,Side B,special,Forward,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,352,4,130.0,1,1,Battlefield,Fox,Marth,Illusion Air End,Side B,special,Forward,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,354,1,140.0,1,1,Battlefield,Fox,Marth,Fire Fox Air Startup,Up B,special,Up,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,354,4,80.0,1,1,Battlefield,Fox,Marth,Fire Fox Air Startup,Up B,special,Up,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,354,4,140.0,1,1,Battlefield,Fox,Marth,Fire Fox Air Startup,Up B,special,Up,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,356,4,80.0,1,1,Battlefield,Fox,Marth,Fire Fox Air,Up B,special,Up,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,358,4,80.0,1,1,Battlefield,Fox,Marth,Fire Fox Air End,Up B,special,Up,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,360,1,20.0,1,4,Battlefield,Fox,Marth,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,360,2,30.0,1,1,Battlefield,Fox,Marth,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,360,2,40.0,1,4,Battlefield,Fox,Marth,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,360,3,30.0,1,1,Battlefield,Fox,Marth,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,360,4,0.0,1,4,Battlefield,Fox,Marth,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,360,4,40.0,1,4,Battlefield,Fox,Marth,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,361,2,30.0,1,1,Battlefield,Fox,Marth,Reflector Ground Loop,Down B,special,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,361,4,0.0,1,1,Battlefield,Fox,Marth,Reflector Ground Loop,Down B,special,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,-1,369,1,70.0,1,1,Battlefield,Fox,Marth,Reflector Air Change Direction,Down B,special,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,57,4,0.0,1,1,Battlefield,Fox,Marth,AttackLw3,Downtilt,tilt,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,63,4,0.0,1,1,Battlefield,Fox,Marth,AttackHi4,Upsmash,smash,Up,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,65,1,70.0,1,1,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,65,1,120.0,1,1,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,65,2,30.0,1,1,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,65,2,40.0,1,3,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,65,3,0.0,1,1,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,65,3,30.0,1,2,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,65,4,0.0,1,5,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,65,4,10.0,1,2,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,65,4,20.0,1,1,Battlefield,Fox,Marth,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,66,2,50.0,1,1,Battlefield,Fox,Marth,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,67,1,0.0,1,1,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,67,2,50.0,1,3,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,67,2,110.0,1,1,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,67,2,120.0,1,2,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,67,3,10.0,1,2,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,67,4,0.0,1,4,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,67,4,10.0,1,1,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,67,4,40.0,1,1,Battlefield,Fox,Marth,AttackAirB,Bair,aerial,Back,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,68,1,20.0,1,1,Battlefield,Fox,Marth,AttackAirHi,Uair,aerial,Up,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,68,2,50.0,1,2,Battlefield,Fox,Marth,AttackAirHi,Uair,aerial,Up,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,68,2,110.0,1,2,Battlefield,Fox,Marth,AttackAirHi,Uair,aerial,Up,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,68,3,0.0,1,1,Battlefield,Fox,Marth,AttackAirHi,Uair,aerial,Up,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,68,4,0.0,1,2,Battlefield,Fox,Marth,AttackAirHi,Uair,aerial,Up,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,69,2,30.0,1,1,Battlefield,Fox,Marth,AttackAirLw,Dair,aerial,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,69,3,0.0,1,1,Battlefield,Fox,Marth,AttackAirLw,Dair,aerial,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,212,2,110.0,1,1,Battlefield,Fox,Marth,Catch,Grab,grab,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,212,3,0.0,1,1,Battlefield,Fox,Marth,Catch,Grab,grab,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,212,4,0.0,1,1,Battlefield,Fox,Marth,Catch,Grab,grab,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,344,3,0.0,1,1,Battlefield,Fox,Marth,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,344,3,30.0,1,1,Battlefield,Fox,Marth,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,344,4,0.0,1,1,Battlefield,Fox,Marth,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,344,4,10.0,1,1,Battlefield,Fox,Marth,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,345,3,0.0,1,1,Battlefield,Fox,Marth,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,345,3,30.0,1,1,Battlefield,Fox,Marth,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,345,4,0.0,1,1,Battlefield,Fox,Marth,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,345,4,10.0,1,1,Battlefield,Fox,Marth,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,350,4,110.0,1,1,Battlefield,Fox,Marth,Illusion Startup Air,Side B,special,Forward,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,351,4,110.0,1,1,Battlefield,Fox,Marth,Illusion Air,Side B,special,Forward,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,352,4,110.0,1,1,Battlefield,Fox,Marth,Illusion Air End,Side B,special,Forward,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,354,4,80.0,1,1,Battlefield,Fox,Marth,Fire Fox Air Startup,Up B,special,Up,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,354,4,100.0,1,1,Battlefield,Fox,Marth,Fire Fox Air Startup,Up B,special,Up,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,354,4,110.0,1,2,Battlefield,Fox,Marth,Fire Fox Air Startup,Up B,special,Up,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,356,4,80.0,1,1,Battlefield,Fox,Marth,Fire Fox Air,Up B,special,Up,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,356,4,100.0,1,1,Battlefield,Fox,Marth,Fire Fox Air,Up B,special,Up,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,358,4,80.0,1,1,Battlefield,Fox,Marth,Fire Fox Air End,Up B,special,Up,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,358,4,100.0,1,1,Battlefield,Fox,Marth,Fire Fox Air End,Up B,special,Up,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,360,1,20.0,1,5,Battlefield,Fox,Marth,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,360,1,120.0,1,1,Battlefield,Fox,Marth,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,360,2,30.0,1,1,Battlefield,Fox,Marth,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,360,2,40.0,1,4,Battlefield,Fox,Marth,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,360,2,50.0,1,1,Battlefield,Fox,Marth,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,360,3,0.0,1,5,Battlefield,Fox,Marth,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,360,4,0.0,1,1,Battlefield,Fox,Marth,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,361,1,20.0,1,1,Battlefield,Fox,Marth,Reflector Ground Loop,Down B,special,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,361,1,120.0,1,1,Battlefield,Fox,Marth,Reflector Ground Loop,Down B,special,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,361,2,30.0,1,1,Battlefield,Fox,Marth,Reflector Ground Loop,Down B,special,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,361,2,50.0,1,1,Battlefield,Fox,Marth,Reflector Ground Loop,Down B,special,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,361,3,0.0,1,1,Battlefield,Fox,Marth,Reflector Ground Loop,Down B,special,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,364,3,30.0,1,1,Battlefield,Fox,Marth,Reflector Ground Change Direction,Down B,special,Down,Netplay Rando
+foo/bar/,31,,,0,2,1,9,1,365,1,70.0,1,4,Battlefield,Fox,Marth,Reflector Air Startup,Down B,special,Down,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,44,4,100.0,0,1,Battlefield,Marth,Fox,Attack11,Jab 1,jab,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,45,4,100.0,0,1,Battlefield,Marth,Fox,Attack12,Jab 2,jab,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,56,1,10.0,0,1,Battlefield,Marth,Fox,AttackHi3,Uptilt,tilt,Up,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,56,3,100.0,0,1,Battlefield,Marth,Fox,AttackHi3,Uptilt,tilt,Up,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,57,2,40.0,0,1,Battlefield,Marth,Fox,AttackLw3,Downtilt,tilt,Down,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,57,2,70.0,0,1,Battlefield,Marth,Fox,AttackLw3,Downtilt,tilt,Down,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,57,2,100.0,0,1,Battlefield,Marth,Fox,AttackLw3,Downtilt,tilt,Down,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,60,4,100.0,0,2,Battlefield,Marth,Fox,AttackS4S,Mid Fsmash,smash,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,65,1,0.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,65,2,70.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,65,4,0.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,65,4,60.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,66,2,0.0,0,2,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,66,2,20.0,0,2,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,66,2,40.0,0,4,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,66,2,50.0,0,1,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,66,2,70.0,0,1,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,66,2,100.0,0,7,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,66,2,110.0,0,1,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,66,3,100.0,0,1,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,66,4,60.0,0,3,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,66,4,70.0,0,2,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,66,4,100.0,0,4,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,68,1,10.0,0,2,Battlefield,Marth,Fox,AttackAirHi,Uair,aerial,Up,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,68,2,0.0,0,1,Battlefield,Marth,Fox,AttackAirHi,Uair,aerial,Up,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,68,2,100.0,0,3,Battlefield,Marth,Fox,AttackAirHi,Uair,aerial,Up,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,68,3,100.0,0,2,Battlefield,Marth,Fox,AttackAirHi,Uair,aerial,Up,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,68,4,100.0,0,1,Battlefield,Marth,Fox,AttackAirHi,Uair,aerial,Up,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,69,2,100.0,0,1,Battlefield,Marth,Fox,AttackAirLw,Dair,aerial,Down,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,212,1,10.0,0,1,Battlefield,Marth,Fox,Catch,Grab,grab,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,212,2,0.0,0,2,Battlefield,Marth,Fox,Catch,Grab,grab,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,212,2,20.0,0,1,Battlefield,Marth,Fox,Catch,Grab,grab,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,212,2,50.0,0,1,Battlefield,Marth,Fox,Catch,Grab,grab,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,212,2,100.0,0,2,Battlefield,Marth,Fox,Catch,Grab,grab,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,212,3,100.0,0,2,Battlefield,Marth,Fox,Catch,Grab,grab,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,212,4,60.0,0,2,Battlefield,Marth,Fox,Catch,Grab,grab,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,349,2,70.0,0,1,Battlefield,Marth,Fox,Dancing Blade 1 Ground,Side B,special,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,358,1,40.0,0,1,Battlefield,Marth,Fox,Dancing Blade 1 Air,Side B,special,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,358,2,0.0,0,1,Battlefield,Marth,Fox,Dancing Blade 1 Air,Side B,special,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,358,2,80.0,0,1,Battlefield,Marth,Fox,Dancing Blade 1 Air,Side B,special,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,358,2,100.0,0,2,Battlefield,Marth,Fox,Dancing Blade 1 Air,Side B,special,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,358,2,110.0,0,3,Battlefield,Marth,Fox,Dancing Blade 1 Air,Side B,special,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,368,1,40.0,0,1,Battlefield,Marth,Fox,Dolphin Slash Air,Up B,special,Up,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,368,2,100.0,0,1,Battlefield,Marth,Fox,Dolphin Slash Air,Up B,special,Up,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,368,2,110.0,0,1,Battlefield,Marth,Fox,Dolphin Slash Air,Up B,special,Up,Netplay Rando
+foo/bar/,31,,,0,9,1,2,-1,368,4,100.0,0,1,Battlefield,Marth,Fox,Dolphin Slash Air,Up B,special,Up,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,53,2,20.0,0,1,Battlefield,Marth,Fox,AttackS3S,Mid Ftilt,tilt,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,57,1,0.0,0,2,Battlefield,Marth,Fox,AttackLw3,Downtilt,tilt,Down,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,57,1,10.0,0,1,Battlefield,Marth,Fox,AttackLw3,Downtilt,tilt,Down,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,57,2,0.0,0,1,Battlefield,Marth,Fox,AttackLw3,Downtilt,tilt,Down,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,57,2,30.0,0,2,Battlefield,Marth,Fox,AttackLw3,Downtilt,tilt,Down,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,57,3,100.0,0,1,Battlefield,Marth,Fox,AttackLw3,Downtilt,tilt,Down,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,57,3,110.0,0,1,Battlefield,Marth,Fox,AttackLw3,Downtilt,tilt,Down,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,57,4,0.0,0,2,Battlefield,Marth,Fox,AttackLw3,Downtilt,tilt,Down,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,60,2,100.0,0,1,Battlefield,Marth,Fox,AttackS4S,Mid Fsmash,smash,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,65,1,0.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,65,1,10.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,65,2,0.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,65,2,30.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,65,2,60.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,65,2,70.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,65,2,100.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,65,3,100.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,65,4,0.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,65,4,60.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,65,4,70.0,0,2,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,65,4,100.0,0,1,Battlefield,Marth,Fox,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,66,1,0.0,0,1,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,66,2,0.0,0,3,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,66,2,30.0,0,2,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,66,2,60.0,0,1,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,66,2,70.0,0,2,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,66,2,100.0,0,1,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,66,3,100.0,0,2,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,66,3,110.0,0,3,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,66,4,0.0,0,1,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,66,4,70.0,0,1,Battlefield,Marth,Fox,AttackAirF,Fair,aerial,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,67,3,110.0,0,1,Battlefield,Marth,Fox,AttackAirB,Bair,aerial,Back,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,68,1,10.0,0,1,Battlefield,Marth,Fox,AttackAirHi,Uair,aerial,Up,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,68,2,100.0,0,1,Battlefield,Marth,Fox,AttackAirHi,Uair,aerial,Up,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,68,3,110.0,0,1,Battlefield,Marth,Fox,AttackAirHi,Uair,aerial,Up,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,68,4,100.0,0,1,Battlefield,Marth,Fox,AttackAirHi,Uair,aerial,Up,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,69,2,100.0,0,1,Battlefield,Marth,Fox,AttackAirLw,Dair,aerial,Down,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,212,2,40.0,0,1,Battlefield,Marth,Fox,Catch,Grab,grab,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,212,2,100.0,0,1,Battlefield,Marth,Fox,Catch,Grab,grab,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,212,3,100.0,0,1,Battlefield,Marth,Fox,Catch,Grab,grab,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,212,3,110.0,0,1,Battlefield,Marth,Fox,Catch,Grab,grab,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,212,4,70.0,0,1,Battlefield,Marth,Fox,Catch,Grab,grab,Neutral,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,358,2,80.0,0,1,Battlefield,Marth,Fox,Dancing Blade 1 Air,Side B,special,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,358,2,90.0,0,2,Battlefield,Marth,Fox,Dancing Blade 1 Air,Side B,special,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,358,2,120.0,0,3,Battlefield,Marth,Fox,Dancing Blade 1 Air,Side B,special,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,358,2,130.0,0,2,Battlefield,Marth,Fox,Dancing Blade 1 Air,Side B,special,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,358,4,100.0,0,1,Battlefield,Marth,Fox,Dancing Blade 1 Air,Side B,special,Forward,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,367,2,0.0,0,1,Battlefield,Marth,Fox,Dolphin Slash Ground,Up B,special,Up,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,368,2,90.0,0,1,Battlefield,Marth,Fox,Dolphin Slash Air,Up B,special,Up,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,368,2,120.0,0,1,Battlefield,Marth,Fox,Dolphin Slash Air,Up B,special,Up,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,368,2,130.0,0,1,Battlefield,Marth,Fox,Dolphin Slash Air,Up B,special,Up,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,368,3,100.0,0,1,Battlefield,Marth,Fox,Dolphin Slash Air,Up B,special,Up,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,368,3,110.0,0,1,Battlefield,Marth,Fox,Dolphin Slash Air,Up B,special,Up,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,368,4,20.0,0,1,Battlefield,Marth,Fox,Dolphin Slash Air,Up B,special,Up,Netplay Rando
+foo/bar/,31,,,0,9,1,2,1,368,4,100.0,0,2,Battlefield,Marth,Fox,Dolphin Slash Air,Up B,special,Up,Netplay Rando
