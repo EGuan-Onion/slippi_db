@@ -23,13 +23,8 @@ TODO
 == Data Stuff ==
 ================
 
-<<<<<<< Updated upstream
-- add dim_attacks
+- add dada, birdperson to map_connect_code_player
 
-- add map_action_state_attack
-
-=======
->>>>>>> Stashed changes
 - is_win remove early ragequits?
 - why more losses than wins?
 

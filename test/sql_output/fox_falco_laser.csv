@@ -1,8 +1,5 @@
-connect_code,player_name,character_id,character_id_opp,stage_id,action_state_id,game_count,frame_count,laser_count,character_name,character_name_opp,stage_name,stage_name_short,state_name,state_description,state_category,attack_type,direction
-,,2,9,31,342,1,12572,10,Fox,Marth,Battlefield,BF,Blaster Ground Loop,Neutral B,attack,special,Neutral
-,,2,9,31,345,1,12572,106,Fox,Marth,Battlefield,BF,Blaster Air Loop,Neutral B,attack,special,Neutral
-KYKY#758,,20,21,28,342,1,6616,24,Falco,Y. Link,Dreamland 64,DL64,Blaster Ground Loop,Neutral B,attack,special,Neutral
-KYKY#758,,20,21,28,345,1,6616,126,Falco,Y. Link,Dreamland 64,DL64,Blaster Air Loop,Neutral B,attack,special,Neutral
-LAYL#264,,20,21,8,342,1,7043,24,Falco,Y. Link,Yoshi's Story,YS,Blaster Ground Loop,Neutral B,attack,special,Neutral
-LAYL#264,,20,21,8,345,1,7043,277,Falco,Y. Link,Yoshi's Story,YS,Blaster Air Loop,Neutral B,attack,special,Neutral
-WANN#751,,20,21,32,345,1,11454,145,Falco,Y. Link,Final Destination,FD,Blaster Air Loop,Neutral B,attack,special,Neutral
+dir_path,connect_code,player_name,character_id,character_id_opp,stage_id,game_count,frame_count,laser_count,character_name,character_name_opp,stage_name,stage_name_short,player_label
+,LAYL#264,,20,21,8,1,7043,25,Falco,Y. Link,Yoshi's Story,YS,Netplay Rando
+,KYKY#758,,20,21,28,1,6616,10,Falco,Y. Link,Dreamland 64,DL64,Netplay Rando
+foo/bar/,,,2,9,31,1,12572,14,Fox,Marth,Battlefield,BF,Netplay Rando
+,WANN#751,,20,21,32,1,11454,8,Falco,Y. Link,Final Destination,FD,Netplay Rando

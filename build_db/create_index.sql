@@ -68,7 +68,7 @@ create index if not exists dim_character_cover
 -- Character Color
 
 create index if not exists dim_character_color_id
-  on  dim_character (
+  on  dim_character_color (
     character_id
   , character_color
   )

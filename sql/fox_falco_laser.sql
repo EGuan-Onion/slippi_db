@@ -23,8 +23,8 @@ WITH pgo AS (
 	SELECT 
 		game_id
 	,	player_index
-	,	rpfp.action_state_id
-	, sum(1) as laser_count
+	-- ,	rpfp.action_state_id
+	,	sum(1) as laser_count
 	FROM	raw_player_frames_post  rpfp
 
 	JOIN  dim_action_state_union dasu
@@ -35,19 +35,18 @@ WITH pgo AS (
 		AND state_name like 'Blaster%Loop'
 		-- AND rpfp.character_id in (2,20) --Fox, Falco
 		-- AND rpfp.action_state_id in (342, 345) --Ground laser, air laser
-		-- AND (	(rpfp.character_id = 2  AND  action_state_counter = 5) --fox
-		-- 	OR  (rpfp.character_id = 20  AND  action_state_counter = 8) --falco
-		-- )
+		AND (	(rpfp.character_id = 2  AND  action_state_counter = 5) --fox laser comes out on frame 5
+			OR  (rpfp.character_id = 20  AND  action_state_counter = 8) --falco falco laser comes out on frame 8
+		)
 
 	GROUP BY
-		1,2,3
+		1,2
 )
 
 
 , pgo_lasers AS (
 	SELECT 
 		pgo.*
-	,	action_state_id
 	,	laser_count
 	FROM pgo
 
@@ -58,12 +57,12 @@ WITH pgo AS (
 
 , agg AS (
 	SELECT
-		connect_code
+		dir_path
+	, connect_code
 	,	player_name
 	,	character_id
 	,	character_id_opp
 	,	stage_id
-	,	action_state_id
 	,	sum(1) as game_count
 	,	sum(last_frame) as frame_count
 	,	sum(laser_count) as laser_count
@@ -80,11 +79,17 @@ WITH pgo AS (
 	,	dco.character_name as character_name_opp
 	,	ds.stage_name
 	,	ds.stage_name_short
-	,	dasu.state_name
-	,	dasu.state_description
-	, dasu.state_category
-	, dasu.attack_type
-	, dasu.direction
+	-- ,	dasu.state_name
+	-- ,	dasu.state_description
+	-- ,	dasu.state_category
+	-- ,	dasu.attack_type
+	-- ,	dasu.direction
+  , coalesce(player_name,
+      CASE
+        WHEN dir_path like '%tournament%' THEN 'Tourney Rando'
+        WHEN connect_code is not null THEN 'Netplay Rando'
+      ELSE '???' END
+    ) as player_label
 	FROM agg
 
 	JOIN dim_stage ds 
@@ -96,9 +101,9 @@ WITH pgo AS (
 	JOIN dim_character dco
 	ON  dco.character_id = agg.character_id_opp
 
-	JOIN dim_action_state_union dasu
-	ON 	dasu.character_id = agg.character_id
-		AND dasu.action_state_id = agg.action_state_id
+	-- JOIN dim_action_state_union dasu
+	-- ON 	dasu.character_id = agg.character_id
+	-- 	AND dasu.action_state_id = agg.action_state_id
 
 	WHERE 	TRUE 
 )
