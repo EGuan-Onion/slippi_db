@@ -113,6 +113,7 @@ WITH pgo AS (
 	-- 	AND dasu.action_state_id = agg.action_state_id
 
 	WHERE 	TRUE 
+		AND dco.tier_rank <= 16
 )
 
 SELECT *

@@ -18,6 +18,8 @@ class ParseQueue:
 
 		self.active_slp = None
 
+		# this is slow.  maybe don't need to do every startup.  
+		# or, order the lists to reduce runtime
 		self.remove_duplicates()
 		return
 

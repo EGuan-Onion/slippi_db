@@ -130,8 +130,8 @@ WITH pgo AS (
 	on  dasu.action_state_id = a.action_state_id
 		and dasu.character_id = a.character_id
 
-	AND dc.tier_rank <= 13
-	AND dco.tier_rank <= 13
+	AND dc.tier_rank <= 16 --Y.Link+
+	AND dco.tier_rank <= 16
 )
 
 select *

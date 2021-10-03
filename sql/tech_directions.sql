@@ -140,8 +140,8 @@ WITH pgo AS (
 		and dasu.character_id = a.character_id
 	
 	where TRUE 
-		AND dc.tier_rank <= 13
-		AND dco.tier_rank <= 13
+		AND dc.tier_rank <= 16 --Y.Link+
+		AND dco.tier_rank <= 16
 )
 
 , dim_relabel AS (
