@@ -39,8 +39,8 @@ WITH agg AS (
 , label AS (
   SELECT
   	dim.*
-  , coalesce(player_name,
-    CASE
+  , CASE
+    WHEN player_name is not null THEN player_name
     WHEN dir_path like '%tournament%' THEN 'Tourney Rando'
     WHEN connect_code is not null THEN 'Netplay Rando'
     WHEN dir_path like '%home/%' and connect_code is null 
@@ -50,8 +50,8 @@ WITH agg AS (
           INSTR(dir_path, 'home/') + length('home/')
         ), '/')-1
         ) || ' local play'
-      ELSE '???' END
-      ) as player_label
+      ELSE '???' 
+      END as player_label
   FROM  dim
 )
 

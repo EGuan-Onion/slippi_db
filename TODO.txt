@@ -1,16 +1,6 @@
 TODO
 ----
 
-
-===============
-== Overnight ==
-===============
-
-$python run_sql.py production
-
-insert_player_game_opponent in production (For new tournament data, dada's DK data)
-
-
 ==========
 == Code ==
 ==========
@@ -18,8 +8,6 @@ insert_player_game_opponent in production (For new tournament data, dada's DK da
 - handle boolean text arguments better.  if "False": is evaluating to True
 
 - make subdirectories in setup
-
-- remove ._ file heads from parse_runner
 
 - readme.md
 - - all required packages (python, js)
@@ -33,25 +21,18 @@ insert_player_game_opponent in production (For new tournament data, dada's DK da
 == Data Stuff ==
 ================
 
-- refresh laser report
+- rebuild dim tables in production
+- add zeo, dada, birdperson, frootloop, sponge to map_connect_code_player
 
-- add dada, birdperson to map_connect_code_player
+- process frootloop (queued)
+- process sponge
+- bug grouch,ted,ycz
 
 - is_win remove early ragequits?
 - why more losses than wins?
 
 - player_game_agg add character tier list for easy filtering
 
-- tournament vs. netplay
-- local vs. netplay
-
-- rebuild production
-
-- Shiek Dthrow Techchase decision tree
-
-- Download tournament dumps
-
-- rebuild dim tables
 
 =============
 == On Hold ==
@@ -67,10 +48,6 @@ insert_player_game_opponent in production (For new tournament data, dada's DK da
 NOTES
 ----------------
 
-- player-aggregate table
-- - player-level aggregate
-- - games played
-- - ?player-character and player-stage, etc. as separate tables?  Or as json maps inside here?
 
 - last_hit_by = 6
 - - https://discord.com/channels/328261477372919811/458379033000804393/839328131810066483

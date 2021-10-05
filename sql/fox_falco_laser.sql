@@ -84,19 +84,19 @@ WITH pgo AS (
 	-- ,	dasu.state_category
 	-- ,	dasu.attack_type
 	-- ,	dasu.direction
-	,	coalesce(player_name,
-			CASE
-			WHEN dir_path like '%tournament%' THEN 'Tourney Rando'
-			WHEN connect_code is not null THEN 'Netplay Rando'
-			WHEN dir_path like '%home/%' and connect_code is null 
-				THEN  SUBSTR(dir_path,
-					INSTR(dir_path, 'home/') + length('home/'),
-					INSTR(SUBSTR(dir_path,
-						INSTR(dir_path, 'home/') + length('home/')
-					), '/')-1
-				) || ' local play'
-			ELSE '???' END
-		) as player_label
+	,	CASE
+		WHEN player_name is not null THEN player_name
+		WHEN dir_path like '%tournament%' THEN 'Tourney Rando'
+		WHEN connect_code is not null THEN 'Netplay Rando'
+		WHEN dir_path like '%home/%' and connect_code is null 
+			THEN  SUBSTR(dir_path,
+				INSTR(dir_path, 'home/') + length('home/'),
+				INSTR(SUBSTR(dir_path,
+					INSTR(dir_path, 'home/') + length('home/')
+				), '/')-1
+			  ) || ' local play'
+	    ELSE '???' 
+	    END as player_label
 	FROM agg
 
 	JOIN dim_stage ds 

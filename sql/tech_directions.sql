@@ -1,3 +1,4 @@
+
 --TODO tech towards / away opp
 -- X-coarseness
 
@@ -29,6 +30,8 @@ WITH pgo AS (
 	,	position_y 
 	,	percent 
 	,	stocks_remaining 
+  	,	last_attack_landed
+  	,	last_ground_id
 	FROM  raw_player_frames_post rpfp 
 	WHERE TRUE 
 		AND frame >= 0
@@ -43,12 +46,15 @@ WITH pgo AS (
 	,	pfp.position_y AS Y
 	,	pfp.facing_direction
 	,	pfp.stocks_remaining AS stocks
+	,	pfp.percent
 	,	pfp.action_state_id
 	,	pfp.action_state_counter
+	,	pfp.last_ground_id
 	, 	pfpo.position_x AS X_opp
-	,	pfpo.position_y AS Y_opp
-	,	pfpo.percent AS percent_opp
-	,	pfpo.stocks_remaining AS stocks_opp
+	-- ,	pfpo.position_y AS Y_opp
+	-- ,	pfpo.percent AS percent_opp
+	-- ,	pfpo.stocks_remaining AS stocks_opp
+  	,	pfpo.last_attack_landed
 	from  pgo
 	
 	join  pfp
@@ -64,6 +70,8 @@ WITH pgo AS (
 , frame_tech AS (
 	select
 		*
+	,	X > X_opp as is_right_of_opp
+	,	X > 0 as is_right_of_center
 	from  frame
 	where  TRUE
 		AND action_state_id in (
@@ -77,41 +85,11 @@ WITH pgo AS (
 		AND action_state_counter = 0
 )
 
-, agg AS (
+, frame_label AS (
 	select
-		dir_path
-	,	stage_id
-	,	connect_code
-	,	player_name
-	,	character_id
-	,	character_id_opp
-	,	facing_direction
-	,	X > X_opp as is_right_of_opp
-	,	X > 0 as is_right_of_center
-	,	round(X/20)*20 AS X
-	,	round(Y/10)*10 AS Y
---	,	stocks
-	,	action_state_id
-	,	round(percent_opp/10)*10 AS percent_opp
---	,	stocks_opp
-	,	is_win
-	,   sum(1) AS rowcount
-	from  frame_tech
-	group by
-		1,2,3,4,5,6,7,8,9,10,11,12,13
-)
-
-
-, dim AS (
-	select
-		a.*
-	,	ds.stage_name
-	,	dc.character_name
-	,	dco.character_name AS character_name_opp
-	,   dasu.state_name
-	,	dasu.state_description 
-	,	coalesce(player_name,
-		CASE
+		*
+	,	CASE
+		WHEN player_name is not null THEN player_name
 		WHEN dir_path like '%tournament%' THEN 'Tourney Rando'
 		WHEN connect_code is not null THEN 'Netplay Rando'
 		WHEN dir_path like '%home/%' and connect_code is null 
@@ -121,32 +99,8 @@ WITH pgo AS (
 					INSTR(dir_path, 'home/') + length('home/')
 				), '/')-1
 			  ) || ' local play'
-	    ELSE '???' END
-	    ) as player_label
-	
-	from agg a
-	
-	join dim_stage ds 
-	on	ds.stage_id = a.stage_id
-	
-	join dim_character dc 
-	on  dc.character_id = a.character_id
-	
-	join dim_character dco
-	on  dco.character_id = a.character_id_opp
-	
-	left join dim_action_state_union dasu
-	on  dasu.action_state_id = a.action_state_id
-		and dasu.character_id = a.character_id
-	
-	where TRUE 
-		AND dc.tier_rank <= 16 --Y.Link+
-		AND dco.tier_rank <= 16
-)
-
-, dim_relabel AS (
-	SELECT 
-		dim.*
+	    ELSE '???' 
+	    END as player_label
 	,	CASE facing_direction
 			WHEN 1 THEN	
 				CASE action_state_id
@@ -201,8 +155,64 @@ WITH pgo AS (
 					WHEN 201 THEN 'Tech to Edge' -- facing-dependent
 				ELSE '???' END
 		ELSE '???' END AS tech_center_edge
-	FROM  dim
+	from  frame_tech
+)
+
+, agg AS (
+	select
+		dir_path
+	,	stage_id
+	,	player_label
+	,	character_id
+	,	character_id_opp
+	,	last_ground_id
+	,	round(X/30)*30 AS X
+	,	round(percent/20)*20 AS percent
+	,	tech_left_right
+	,	tech_center_edge
+	,	tech_towards_away
+  	,	last_attack_landed
+	,   sum(1) AS rowcount
+	from  frame_label
+	group by
+		1,2,3,4,5,6,7,8,9,10,11,12
+)
+
+
+, dim AS (
+	select
+		a.*
+	,	ds.stage_name
+	,	dsg.ground_name
+	,	dsg.is_main
+	,	dc.character_name
+	,	dco.character_name AS character_name_opp
+  	,	da.attack_name
+	
+	from agg a
+	
+	join dim_stage ds 
+	on	ds.stage_id = a.stage_id
+
+	join dim_stage_ground dsg
+	on  dsg.stage_id = a.stage_id
+		and dsg.ground_id = a.last_ground_id
+	
+	join dim_character dc 
+	on  dc.character_id = a.character_id
+	
+	join dim_character dco
+	on  dco.character_id = a.character_id_opp
+	
+	left join dim_attack da
+	on  da.attack_id = a.last_attack_landed
+	
+	where TRUE 
+		AND dc.tier_rank <= 16 --Y.Link+
+		AND dco.tier_rank <= 16
 )
 
 select *
-from  dim_relabel
+from  dim
+
+

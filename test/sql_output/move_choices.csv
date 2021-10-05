@@ -1,4 +1,525 @@
 dir_path,stage_id,connect_code,player_name,is_summit,character_id,character_color,character_id_opp,facing_direction,action_state_id,stocks_opp,percent_opp,is_win,rowcount,stage_name,character_name,character_name_opp,state_name,state_description,attack_type,direction,player_label
+,8,EG#164,Onion,0,21,0,20,-1,44,2,0.0,0,1,Yoshi's Story,Y. Link,Falco,Attack11,Jab 1,jab,Neutral,Onion
+,8,EG#164,Onion,0,21,0,20,-1,50,2,10.0,0,1,Yoshi's Story,Y. Link,Falco,AttackDash,Dash attack,dash,Dash,Onion
+,8,EG#164,Onion,0,21,0,20,-1,50,2,20.0,0,1,Yoshi's Story,Y. Link,Falco,AttackDash,Dash attack,dash,Dash,Onion
+,8,EG#164,Onion,0,21,0,20,-1,56,2,10.0,0,1,Yoshi's Story,Y. Link,Falco,AttackHi3,Uptilt,tilt,Up,Onion
+,8,EG#164,Onion,0,21,0,20,-1,56,3,10.0,0,2,Yoshi's Story,Y. Link,Falco,AttackHi3,Uptilt,tilt,Up,Onion
+,8,EG#164,Onion,0,21,0,20,-1,64,4,0.0,0,1,Yoshi's Story,Y. Link,Falco,AttackLw4,Downsmash,smash,Down,Onion
+,8,EG#164,Onion,0,21,0,20,-1,65,2,0.0,0,1,Yoshi's Story,Y. Link,Falco,AttackAirN,Nair,aerial,Neutral,Onion
+,8,EG#164,Onion,0,21,0,20,-1,65,2,10.0,0,1,Yoshi's Story,Y. Link,Falco,AttackAirN,Nair,aerial,Neutral,Onion
+,8,EG#164,Onion,0,21,0,20,-1,66,2,20.0,0,1,Yoshi's Story,Y. Link,Falco,AttackAirF,Fair,aerial,Forward,Onion
+,8,EG#164,Onion,0,21,0,20,-1,66,2,30.0,0,1,Yoshi's Story,Y. Link,Falco,AttackAirF,Fair,aerial,Forward,Onion
+,8,EG#164,Onion,0,21,0,20,-1,67,2,20.0,0,1,Yoshi's Story,Y. Link,Falco,AttackAirB,Bair,aerial,Back,Onion
+,8,EG#164,Onion,0,21,0,20,-1,67,4,0.0,0,1,Yoshi's Story,Y. Link,Falco,AttackAirB,Bair,aerial,Back,Onion
+,8,EG#164,Onion,0,21,0,20,-1,67,4,20.0,0,2,Yoshi's Story,Y. Link,Falco,AttackAirB,Bair,aerial,Back,Onion
+,8,EG#164,Onion,0,21,0,20,-1,68,2,0.0,0,2,Yoshi's Story,Y. Link,Falco,AttackAirHi,Uair,aerial,Up,Onion
+,8,EG#164,Onion,0,21,0,20,-1,68,2,10.0,0,1,Yoshi's Story,Y. Link,Falco,AttackAirHi,Uair,aerial,Up,Onion
+,8,EG#164,Onion,0,21,0,20,-1,68,3,0.0,0,2,Yoshi's Story,Y. Link,Falco,AttackAirHi,Uair,aerial,Up,Onion
+,8,EG#164,Onion,0,21,0,20,-1,212,2,10.0,0,1,Yoshi's Story,Y. Link,Falco,Catch,Grab,grab,Neutral,Onion
+,8,EG#164,Onion,0,21,0,20,-1,214,2,20.0,0,1,Yoshi's Story,Y. Link,Falco,CatchDash,,grab,Dash,Onion
+,8,EG#164,Onion,0,21,0,20,-1,357,2,10.0,0,1,Yoshi's Story,Y. Link,Falco,Spin Attack Air,Up B,special,Up,Onion
+,8,EG#164,Onion,0,21,0,20,-1,357,2,40.0,0,1,Yoshi's Story,Y. Link,Falco,Spin Attack Air,Up B,special,Up,Onion
+,8,EG#164,Onion,0,21,0,20,-1,359,4,0.0,0,2,Yoshi's Story,Y. Link,Falco,Bomb Air,Down B,special,Down,Onion
+,8,EG#164,Onion,0,21,0,20,-1,360,2,10.0,0,1,Yoshi's Story,Y. Link,Falco,Zair,Zair,aerial,Zair,Onion
+,8,EG#164,Onion,0,21,0,20,-1,360,2,30.0,0,3,Yoshi's Story,Y. Link,Falco,Zair,Zair,aerial,Zair,Onion
+,8,EG#164,Onion,0,21,0,20,-1,360,2,40.0,0,1,Yoshi's Story,Y. Link,Falco,Zair,Zair,aerial,Zair,Onion
+,8,EG#164,Onion,0,21,0,20,-1,360,3,0.0,0,1,Yoshi's Story,Y. Link,Falco,Zair,Zair,aerial,Zair,Onion
+,8,EG#164,Onion,0,21,0,20,-1,361,2,10.0,0,1,Yoshi's Story,Y. Link,Falco,Zair Catch,Zair,aerial,Zair,Onion
+,8,EG#164,Onion,0,21,0,20,-1,361,2,40.0,0,1,Yoshi's Story,Y. Link,Falco,Zair Catch,Zair,aerial,Zair,Onion
+,8,EG#164,Onion,0,21,0,20,-1,361,3,0.0,0,1,Yoshi's Story,Y. Link,Falco,Zair Catch,Zair,aerial,Zair,Onion
+,8,EG#164,Onion,0,21,0,20,1,44,4,20.0,0,1,Yoshi's Story,Y. Link,Falco,Attack11,Jab 1,jab,Neutral,Onion
+,8,EG#164,Onion,0,21,0,20,1,50,3,0.0,0,1,Yoshi's Story,Y. Link,Falco,AttackDash,Dash attack,dash,Dash,Onion
+,8,EG#164,Onion,0,21,0,20,1,50,4,20.0,0,2,Yoshi's Story,Y. Link,Falco,AttackDash,Dash attack,dash,Dash,Onion
+,8,EG#164,Onion,0,21,0,20,1,57,2,0.0,0,1,Yoshi's Story,Y. Link,Falco,AttackLw3,Downtilt,tilt,Down,Onion
+,8,EG#164,Onion,0,21,0,20,1,64,2,20.0,0,1,Yoshi's Story,Y. Link,Falco,AttackLw4,Downsmash,smash,Down,Onion
+,8,EG#164,Onion,0,21,0,20,1,65,2,0.0,0,1,Yoshi's Story,Y. Link,Falco,AttackAirN,Nair,aerial,Neutral,Onion
+,8,EG#164,Onion,0,21,0,20,1,65,2,20.0,0,1,Yoshi's Story,Y. Link,Falco,AttackAirN,Nair,aerial,Neutral,Onion
+,8,EG#164,Onion,0,21,0,20,1,65,3,10.0,0,2,Yoshi's Story,Y. Link,Falco,AttackAirN,Nair,aerial,Neutral,Onion
+,8,EG#164,Onion,0,21,0,20,1,65,4,0.0,0,1,Yoshi's Story,Y. Link,Falco,AttackAirN,Nair,aerial,Neutral,Onion
+,8,EG#164,Onion,0,21,0,20,1,65,4,20.0,0,3,Yoshi's Story,Y. Link,Falco,AttackAirN,Nair,aerial,Neutral,Onion
+,8,EG#164,Onion,0,21,0,20,1,67,2,10.0,0,1,Yoshi's Story,Y. Link,Falco,AttackAirB,Bair,aerial,Back,Onion
+,8,EG#164,Onion,0,21,0,20,1,67,2,20.0,0,2,Yoshi's Story,Y. Link,Falco,AttackAirB,Bair,aerial,Back,Onion
+,8,EG#164,Onion,0,21,0,20,1,67,3,0.0,0,1,Yoshi's Story,Y. Link,Falco,AttackAirB,Bair,aerial,Back,Onion
+,8,EG#164,Onion,0,21,0,20,1,67,4,20.0,0,1,Yoshi's Story,Y. Link,Falco,AttackAirB,Bair,aerial,Back,Onion
+,8,EG#164,Onion,0,21,0,20,1,68,2,0.0,0,1,Yoshi's Story,Y. Link,Falco,AttackAirHi,Uair,aerial,Up,Onion
+,8,EG#164,Onion,0,21,0,20,1,68,2,20.0,0,3,Yoshi's Story,Y. Link,Falco,AttackAirHi,Uair,aerial,Up,Onion
+,8,EG#164,Onion,0,21,0,20,1,68,3,10.0,0,1,Yoshi's Story,Y. Link,Falco,AttackAirHi,Uair,aerial,Up,Onion
+,8,EG#164,Onion,0,21,0,20,1,68,4,20.0,0,1,Yoshi's Story,Y. Link,Falco,AttackAirHi,Uair,aerial,Up,Onion
+,8,EG#164,Onion,0,21,0,20,1,69,4,20.0,0,1,Yoshi's Story,Y. Link,Falco,AttackAirLw,Dair,aerial,Down,Onion
+,8,EG#164,Onion,0,21,0,20,1,212,3,0.0,0,1,Yoshi's Story,Y. Link,Falco,Catch,Grab,grab,Neutral,Onion
+,8,EG#164,Onion,0,21,0,20,1,214,4,0.0,0,1,Yoshi's Story,Y. Link,Falco,CatchDash,,grab,Dash,Onion
+,8,EG#164,Onion,0,21,0,20,1,345,2,20.0,0,8,Yoshi's Story,Y. Link,Falco,Fire Bow Ground Fully Charged,Neutral B,special,Neutral,Onion
+,8,EG#164,Onion,0,21,0,20,1,345,4,20.0,0,1,Yoshi's Story,Y. Link,Falco,Fire Bow Ground Fully Charged,Neutral B,special,Neutral,Onion
+,8,EG#164,Onion,0,21,0,20,1,346,2,20.0,0,2,Yoshi's Story,Y. Link,Falco,Fire Bow Ground Fire,Neutral B,special,Neutral,Onion
+,8,EG#164,Onion,0,21,0,20,1,346,4,20.0,0,1,Yoshi's Story,Y. Link,Falco,Fire Bow Ground Fire,Neutral B,special,Neutral,Onion
+,8,EG#164,Onion,0,21,0,20,1,353,2,20.0,0,1,Yoshi's Story,Y. Link,Falco,Boomerang Air Throw,Side B,special,Forward,Onion
+,8,EG#164,Onion,0,21,0,20,1,357,2,10.0,0,1,Yoshi's Story,Y. Link,Falco,Spin Attack Air,Up B,special,Up,Onion
+,8,LAYL#264,,0,20,0,21,-1,50,4,50.0,1,1,Yoshi's Story,Falco,Y. Link,AttackDash,Dash attack,dash,Dash,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,53,3,0.0,1,1,Yoshi's Story,Falco,Y. Link,AttackS3S,Mid Ftilt,tilt,Forward,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,56,3,0.0,1,1,Yoshi's Story,Falco,Y. Link,AttackHi3,Uptilt,tilt,Up,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,56,3,10.0,1,2,Yoshi's Story,Falco,Y. Link,AttackHi3,Uptilt,tilt,Up,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,56,4,50.0,1,1,Yoshi's Story,Falco,Y. Link,AttackHi3,Uptilt,tilt,Up,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,57,3,30.0,1,1,Yoshi's Story,Falco,Y. Link,AttackLw3,Downtilt,tilt,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,57,4,30.0,1,1,Yoshi's Story,Falco,Y. Link,AttackLw3,Downtilt,tilt,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,66,1,100.0,1,1,Yoshi's Story,Falco,Y. Link,AttackAirF,Fair,aerial,Forward,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,67,3,0.0,1,3,Yoshi's Story,Falco,Y. Link,AttackAirB,Bair,aerial,Back,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,69,3,10.0,1,1,Yoshi's Story,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,69,3,30.0,1,1,Yoshi's Story,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,69,3,40.0,1,2,Yoshi's Story,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,69,4,30.0,1,1,Yoshi's Story,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,69,4,60.0,1,1,Yoshi's Story,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,212,3,30.0,1,1,Yoshi's Story,Falco,Y. Link,Catch,Grab,grab,Neutral,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,212,4,40.0,1,1,Yoshi's Story,Falco,Y. Link,Catch,Grab,grab,Neutral,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,341,3,0.0,1,1,Yoshi's Story,Falco,Y. Link,Blaster Ground Startup,Neutral B,special,Neutral,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,342,3,0.0,1,1,Yoshi's Story,Falco,Y. Link,Blaster Ground Loop,Neutral B,special,Neutral,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,343,3,0.0,1,1,Yoshi's Story,Falco,Y. Link,Blaster Ground End,Neutral B,special,Neutral,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,344,1,100.0,1,1,Yoshi's Story,Falco,Y. Link,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,344,4,80.0,1,2,Yoshi's Story,Falco,Y. Link,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,345,1,100.0,1,2,Yoshi's Story,Falco,Y. Link,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,345,4,80.0,1,2,Yoshi's Story,Falco,Y. Link,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,346,1,100.0,1,1,Yoshi's Story,Falco,Y. Link,Blaster Air End,Neutral B,special,Neutral,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,350,1,100.0,1,1,Yoshi's Story,Falco,Y. Link,Phantasm Startup Air,Side B,special,Forward,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,350,1,130.0,1,1,Yoshi's Story,Falco,Y. Link,Phantasm Startup Air,Side B,special,Forward,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,350,4,100.0,1,1,Yoshi's Story,Falco,Y. Link,Phantasm Startup Air,Side B,special,Forward,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,351,1,100.0,1,1,Yoshi's Story,Falco,Y. Link,Phantasm Air,Side B,special,Forward,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,351,4,100.0,1,1,Yoshi's Story,Falco,Y. Link,Phantasm Air,Side B,special,Forward,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,352,1,100.0,1,1,Yoshi's Story,Falco,Y. Link,Phantasm Air End,Side B,special,Forward,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,354,1,130.0,1,1,Yoshi's Story,Falco,Y. Link,Fire Bird Air Startup,Up B,special,Up,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,356,1,130.0,1,1,Yoshi's Story,Falco,Y. Link,Fire Bird Air,Up B,special,Up,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,360,1,100.0,1,5,Yoshi's Story,Falco,Y. Link,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,360,4,30.0,1,1,Yoshi's Story,Falco,Y. Link,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,361,1,100.0,1,1,Yoshi's Story,Falco,Y. Link,Reflector Ground Loop,Down B,special,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,361,4,30.0,1,1,Yoshi's Story,Falco,Y. Link,Reflector Ground Loop,Down B,special,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,363,1,100.0,1,1,Yoshi's Story,Falco,Y. Link,Reflector Ground End,Down B,special,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,-1,364,1,100.0,1,1,Yoshi's Story,Falco,Y. Link,Reflector Ground Change Direction,Down B,special,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,53,4,50.0,1,1,Yoshi's Story,Falco,Y. Link,AttackS3S,Mid Ftilt,tilt,Forward,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,57,4,80.0,1,1,Yoshi's Story,Falco,Y. Link,AttackLw3,Downtilt,tilt,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,60,1,130.0,1,1,Yoshi's Story,Falco,Y. Link,AttackS4S,Mid Fsmash,smash,Forward,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,60,3,20.0,1,2,Yoshi's Story,Falco,Y. Link,AttackS4S,Mid Fsmash,smash,Forward,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,60,4,80.0,1,1,Yoshi's Story,Falco,Y. Link,AttackS4S,Mid Fsmash,smash,Forward,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,64,1,100.0,1,1,Yoshi's Story,Falco,Y. Link,AttackLw4,Downsmash,smash,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,64,3,10.0,1,1,Yoshi's Story,Falco,Y. Link,AttackLw4,Downsmash,smash,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,69,1,100.0,1,1,Yoshi's Story,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,69,1,130.0,1,1,Yoshi's Story,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,69,2,30.0,1,1,Yoshi's Story,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,69,3,20.0,1,2,Yoshi's Story,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,69,4,0.0,1,2,Yoshi's Story,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,212,2,40.0,1,1,Yoshi's Story,Falco,Y. Link,Catch,Grab,grab,Neutral,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,212,3,10.0,1,1,Yoshi's Story,Falco,Y. Link,Catch,Grab,grab,Neutral,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,344,1,100.0,1,1,Yoshi's Story,Falco,Y. Link,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,344,1,130.0,1,1,Yoshi's Story,Falco,Y. Link,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,344,3,0.0,1,8,Yoshi's Story,Falco,Y. Link,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,344,3,10.0,1,2,Yoshi's Story,Falco,Y. Link,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,344,3,20.0,1,1,Yoshi's Story,Falco,Y. Link,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,344,4,0.0,1,5,Yoshi's Story,Falco,Y. Link,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,344,4,50.0,1,2,Yoshi's Story,Falco,Y. Link,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,345,1,100.0,1,2,Yoshi's Story,Falco,Y. Link,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,345,1,130.0,1,1,Yoshi's Story,Falco,Y. Link,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,345,3,0.0,1,8,Yoshi's Story,Falco,Y. Link,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,345,3,10.0,1,2,Yoshi's Story,Falco,Y. Link,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,345,3,20.0,1,1,Yoshi's Story,Falco,Y. Link,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,345,4,0.0,1,5,Yoshi's Story,Falco,Y. Link,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,345,4,50.0,1,2,Yoshi's Story,Falco,Y. Link,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,350,2,80.0,1,1,Yoshi's Story,Falco,Y. Link,Phantasm Startup Air,Side B,special,Forward,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,350,3,50.0,1,1,Yoshi's Story,Falco,Y. Link,Phantasm Startup Air,Side B,special,Forward,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,351,2,80.0,1,1,Yoshi's Story,Falco,Y. Link,Phantasm Air,Side B,special,Forward,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,351,3,50.0,1,1,Yoshi's Story,Falco,Y. Link,Phantasm Air,Side B,special,Forward,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,352,2,80.0,1,1,Yoshi's Story,Falco,Y. Link,Phantasm Air End,Side B,special,Forward,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,352,3,50.0,1,1,Yoshi's Story,Falco,Y. Link,Phantasm Air End,Side B,special,Forward,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,360,2,30.0,1,5,Yoshi's Story,Falco,Y. Link,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,360,4,0.0,1,1,Yoshi's Story,Falco,Y. Link,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,361,2,30.0,1,1,Yoshi's Story,Falco,Y. Link,Reflector Ground Loop,Down B,special,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,361,4,0.0,1,1,Yoshi's Story,Falco,Y. Link,Reflector Ground Loop,Down B,special,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,363,2,30.0,1,1,Yoshi's Story,Falco,Y. Link,Reflector Ground End,Down B,special,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,364,1,100.0,1,1,Yoshi's Story,Falco,Y. Link,Reflector Ground Change Direction,Down B,special,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,365,1,100.0,1,1,Yoshi's Story,Falco,Y. Link,Reflector Air Startup,Down B,special,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,365,4,0.0,1,1,Yoshi's Story,Falco,Y. Link,Reflector Air Startup,Down B,special,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,366,1,100.0,1,1,Yoshi's Story,Falco,Y. Link,Reflector Air Loop,Down B,special,Down,Netplay Rando
+,8,LAYL#264,,0,20,0,21,1,366,4,0.0,1,1,Yoshi's Story,Falco,Y. Link,Reflector Air Loop,Down B,special,Down,Netplay Rando
+,28,EG#164,Onion,0,21,0,20,-1,44,1,120.0,1,1,Dreamland 64,Y. Link,Falco,Attack11,Jab 1,jab,Neutral,Onion
+,28,EG#164,Onion,0,21,0,20,-1,63,1,120.0,1,1,Dreamland 64,Y. Link,Falco,AttackHi4,Upsmash,smash,Up,Onion
+,28,EG#164,Onion,0,21,0,20,-1,64,1,120.0,1,2,Dreamland 64,Y. Link,Falco,AttackLw4,Downsmash,smash,Down,Onion
+,28,EG#164,Onion,0,21,0,20,-1,64,2,90.0,1,1,Dreamland 64,Y. Link,Falco,AttackLw4,Downsmash,smash,Down,Onion
+,28,EG#164,Onion,0,21,0,20,-1,64,3,90.0,1,1,Dreamland 64,Y. Link,Falco,AttackLw4,Downsmash,smash,Down,Onion
+,28,EG#164,Onion,0,21,0,20,-1,64,4,20.0,1,1,Dreamland 64,Y. Link,Falco,AttackLw4,Downsmash,smash,Down,Onion
+,28,EG#164,Onion,0,21,0,20,-1,65,1,120.0,1,1,Dreamland 64,Y. Link,Falco,AttackAirN,Nair,aerial,Neutral,Onion
+,28,EG#164,Onion,0,21,0,20,-1,65,3,90.0,1,1,Dreamland 64,Y. Link,Falco,AttackAirN,Nair,aerial,Neutral,Onion
+,28,EG#164,Onion,0,21,0,20,-1,65,4,40.0,1,1,Dreamland 64,Y. Link,Falco,AttackAirN,Nair,aerial,Neutral,Onion
+,28,EG#164,Onion,0,21,0,20,-1,65,4,50.0,1,1,Dreamland 64,Y. Link,Falco,AttackAirN,Nair,aerial,Neutral,Onion
+,28,EG#164,Onion,0,21,0,20,-1,67,1,0.0,1,1,Dreamland 64,Y. Link,Falco,AttackAirB,Bair,aerial,Back,Onion
+,28,EG#164,Onion,0,21,0,20,-1,67,1,160.0,1,1,Dreamland 64,Y. Link,Falco,AttackAirB,Bair,aerial,Back,Onion
+,28,EG#164,Onion,0,21,0,20,-1,68,4,0.0,1,2,Dreamland 64,Y. Link,Falco,AttackAirHi,Uair,aerial,Up,Onion
+,28,EG#164,Onion,0,21,0,20,-1,212,1,120.0,1,1,Dreamland 64,Y. Link,Falco,Catch,Grab,grab,Neutral,Onion
+,28,EG#164,Onion,0,21,0,20,-1,350,3,90.0,1,1,Dreamland 64,Y. Link,Falco,Boomerang Ground Throw,Side B,special,Forward,Onion
+,28,EG#164,Onion,0,21,0,20,-1,353,3,90.0,1,1,Dreamland 64,Y. Link,Falco,Boomerang Air Throw,Side B,special,Forward,Onion
+,28,EG#164,Onion,0,21,0,20,-1,359,1,90.0,1,1,Dreamland 64,Y. Link,Falco,Bomb Air,Down B,special,Down,Onion
+,28,EG#164,Onion,0,21,0,20,-1,359,2,90.0,1,1,Dreamland 64,Y. Link,Falco,Bomb Air,Down B,special,Down,Onion
+,28,EG#164,Onion,0,21,0,20,-1,359,3,90.0,1,1,Dreamland 64,Y. Link,Falco,Bomb Air,Down B,special,Down,Onion
+,28,EG#164,Onion,0,21,0,20,-1,359,4,10.0,1,1,Dreamland 64,Y. Link,Falco,Bomb Air,Down B,special,Down,Onion
+,28,EG#164,Onion,0,21,0,20,-1,360,1,90.0,1,3,Dreamland 64,Y. Link,Falco,Zair,Zair,aerial,Zair,Onion
+,28,EG#164,Onion,0,21,0,20,1,44,4,40.0,1,1,Dreamland 64,Y. Link,Falco,Attack11,Jab 1,jab,Neutral,Onion
+,28,EG#164,Onion,0,21,0,20,1,45,4,40.0,1,1,Dreamland 64,Y. Link,Falco,Attack12,Jab 2,jab,Neutral,Onion
+,28,EG#164,Onion,0,21,0,20,1,46,4,40.0,1,1,Dreamland 64,Y. Link,Falco,Attack13,Jab 3,jab,Neutral,Onion
+,28,EG#164,Onion,0,21,0,20,1,50,3,90.0,1,3,Dreamland 64,Y. Link,Falco,AttackDash,Dash attack,dash,Dash,Onion
+,28,EG#164,Onion,0,21,0,20,1,56,4,50.0,1,1,Dreamland 64,Y. Link,Falco,AttackHi3,Uptilt,tilt,Up,Onion
+,28,EG#164,Onion,0,21,0,20,1,64,2,90.0,1,1,Dreamland 64,Y. Link,Falco,AttackLw4,Downsmash,smash,Down,Onion
+,28,EG#164,Onion,0,21,0,20,1,65,2,90.0,1,1,Dreamland 64,Y. Link,Falco,AttackAirN,Nair,aerial,Neutral,Onion
+,28,EG#164,Onion,0,21,0,20,1,65,4,20.0,1,1,Dreamland 64,Y. Link,Falco,AttackAirN,Nair,aerial,Neutral,Onion
+,28,EG#164,Onion,0,21,0,20,1,66,4,10.0,1,1,Dreamland 64,Y. Link,Falco,AttackAirF,Fair,aerial,Forward,Onion
+,28,EG#164,Onion,0,21,0,20,1,66,4,40.0,1,2,Dreamland 64,Y. Link,Falco,AttackAirF,Fair,aerial,Forward,Onion
+,28,EG#164,Onion,0,21,0,20,1,67,2,90.0,1,1,Dreamland 64,Y. Link,Falco,AttackAirB,Bair,aerial,Back,Onion
+,28,EG#164,Onion,0,21,0,20,1,67,4,20.0,1,1,Dreamland 64,Y. Link,Falco,AttackAirB,Bair,aerial,Back,Onion
+,28,EG#164,Onion,0,21,0,20,1,68,4,20.0,1,1,Dreamland 64,Y. Link,Falco,AttackAirHi,Uair,aerial,Up,Onion
+,28,EG#164,Onion,0,21,0,20,1,68,4,50.0,1,2,Dreamland 64,Y. Link,Falco,AttackAirHi,Uair,aerial,Up,Onion
+,28,EG#164,Onion,0,21,0,20,1,212,1,120.0,1,1,Dreamland 64,Y. Link,Falco,Catch,Grab,grab,Neutral,Onion
+,28,EG#164,Onion,0,21,0,20,1,212,1,130.0,1,1,Dreamland 64,Y. Link,Falco,Catch,Grab,grab,Neutral,Onion
+,28,EG#164,Onion,0,21,0,20,1,345,3,90.0,1,3,Dreamland 64,Y. Link,Falco,Fire Bow Ground Fully Charged,Neutral B,special,Neutral,Onion
+,28,EG#164,Onion,0,21,0,20,1,346,3,90.0,1,1,Dreamland 64,Y. Link,Falco,Fire Bow Ground Fire,Neutral B,special,Neutral,Onion
+,28,EG#164,Onion,0,21,0,20,1,350,1,120.0,1,1,Dreamland 64,Y. Link,Falco,Boomerang Ground Throw,Side B,special,Forward,Onion
+,28,EG#164,Onion,0,21,0,20,1,350,3,90.0,1,1,Dreamland 64,Y. Link,Falco,Boomerang Ground Throw,Side B,special,Forward,Onion
+,28,EG#164,Onion,0,21,0,20,1,351,3,90.0,1,1,Dreamland 64,Y. Link,Falco,Boomerang Ground Catch,Side B,special,Forward,Onion
+,28,EG#164,Onion,0,21,0,20,1,351,4,0.0,1,1,Dreamland 64,Y. Link,Falco,Boomerang Ground Catch,Side B,special,Forward,Onion
+,28,EG#164,Onion,0,21,0,20,1,353,4,50.0,1,1,Dreamland 64,Y. Link,Falco,Boomerang Air Throw,Side B,special,Forward,Onion
+,28,EG#164,Onion,0,21,0,20,1,358,3,70.0,1,1,Dreamland 64,Y. Link,Falco,Bomb Ground,Down B,special,Down,Onion
+,28,EG#164,Onion,0,21,0,20,1,359,2,90.0,1,1,Dreamland 64,Y. Link,Falco,Bomb Air,Down B,special,Down,Onion
+,28,EG#164,Onion,0,21,0,20,1,360,2,90.0,1,1,Dreamland 64,Y. Link,Falco,Zair,Zair,aerial,Zair,Onion
+,28,EG#164,Onion,0,21,0,20,1,360,3,70.0,1,1,Dreamland 64,Y. Link,Falco,Zair,Zair,aerial,Zair,Onion
+,28,EG#164,Onion,0,21,0,20,1,360,3,90.0,1,1,Dreamland 64,Y. Link,Falco,Zair,Zair,aerial,Zair,Onion
+,28,EG#164,Onion,0,21,0,20,1,360,4,70.0,1,1,Dreamland 64,Y. Link,Falco,Zair,Zair,aerial,Zair,Onion
+,28,EG#164,Onion,0,21,0,20,1,361,4,70.0,1,1,Dreamland 64,Y. Link,Falco,Zair Catch,Zair,aerial,Zair,Onion
+,28,KYKY#758,,0,20,2,21,-1,44,4,10.0,0,1,Dreamland 64,Falco,Y. Link,Attack11,Jab 1,jab,Neutral,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,44,4,20.0,0,1,Dreamland 64,Falco,Y. Link,Attack11,Jab 1,jab,Neutral,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,45,4,10.0,0,1,Dreamland 64,Falco,Y. Link,Attack12,Jab 2,jab,Neutral,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,57,4,20.0,0,1,Dreamland 64,Falco,Y. Link,AttackLw3,Downtilt,tilt,Down,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,57,4,40.0,0,1,Dreamland 64,Falco,Y. Link,AttackLw3,Downtilt,tilt,Down,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,60,4,0.0,0,1,Dreamland 64,Falco,Y. Link,AttackS4S,Mid Fsmash,smash,Forward,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,60,4,20.0,0,1,Dreamland 64,Falco,Y. Link,AttackS4S,Mid Fsmash,smash,Forward,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,60,4,80.0,0,1,Dreamland 64,Falco,Y. Link,AttackS4S,Mid Fsmash,smash,Forward,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,63,4,20.0,0,1,Dreamland 64,Falco,Y. Link,AttackHi4,Upsmash,smash,Up,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,65,4,20.0,0,1,Dreamland 64,Falco,Y. Link,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,66,4,0.0,0,1,Dreamland 64,Falco,Y. Link,AttackAirF,Fair,aerial,Forward,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,66,4,10.0,0,1,Dreamland 64,Falco,Y. Link,AttackAirF,Fair,aerial,Forward,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,66,4,40.0,0,1,Dreamland 64,Falco,Y. Link,AttackAirF,Fair,aerial,Forward,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,67,4,0.0,0,2,Dreamland 64,Falco,Y. Link,AttackAirB,Bair,aerial,Back,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,67,4,20.0,0,3,Dreamland 64,Falco,Y. Link,AttackAirB,Bair,aerial,Back,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,69,4,0.0,0,1,Dreamland 64,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,69,4,10.0,0,1,Dreamland 64,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,69,4,20.0,0,2,Dreamland 64,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,69,4,70.0,0,1,Dreamland 64,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,69,4,80.0,0,1,Dreamland 64,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,214,4,0.0,0,1,Dreamland 64,Falco,Y. Link,CatchDash,,grab,Dash,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,344,4,20.0,0,3,Dreamland 64,Falco,Y. Link,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,344,4,80.0,0,1,Dreamland 64,Falco,Y. Link,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,345,4,20.0,0,3,Dreamland 64,Falco,Y. Link,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,345,4,80.0,0,1,Dreamland 64,Falco,Y. Link,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,346,4,20.0,0,1,Dreamland 64,Falco,Y. Link,Blaster Air End,Neutral B,special,Neutral,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,346,4,80.0,0,1,Dreamland 64,Falco,Y. Link,Blaster Air End,Neutral B,special,Neutral,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,350,4,90.0,0,2,Dreamland 64,Falco,Y. Link,Phantasm Startup Air,Side B,special,Forward,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,351,4,90.0,0,1,Dreamland 64,Falco,Y. Link,Phantasm Air,Side B,special,Forward,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,352,4,90.0,0,1,Dreamland 64,Falco,Y. Link,Phantasm Air End,Side B,special,Forward,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,354,4,100.0,0,1,Dreamland 64,Falco,Y. Link,Fire Bird Air Startup,Up B,special,Up,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,356,4,100.0,0,1,Dreamland 64,Falco,Y. Link,Fire Bird Air,Up B,special,Up,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,358,4,100.0,0,1,Dreamland 64,Falco,Y. Link,Fire Bird Air End,Up B,special,Up,Netplay Rando
+,28,KYKY#758,,0,20,2,21,-1,364,4,10.0,0,1,Dreamland 64,Falco,Y. Link,Reflector Ground Change Direction,Down B,special,Down,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,44,4,20.0,0,1,Dreamland 64,Falco,Y. Link,Attack11,Jab 1,jab,Neutral,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,44,4,40.0,0,1,Dreamland 64,Falco,Y. Link,Attack11,Jab 1,jab,Neutral,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,45,4,20.0,0,1,Dreamland 64,Falco,Y. Link,Attack12,Jab 2,jab,Neutral,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,50,4,0.0,0,1,Dreamland 64,Falco,Y. Link,AttackDash,Dash attack,dash,Dash,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,50,4,10.0,0,1,Dreamland 64,Falco,Y. Link,AttackDash,Dash attack,dash,Dash,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,53,4,10.0,0,1,Dreamland 64,Falco,Y. Link,AttackS3S,Mid Ftilt,tilt,Forward,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,57,4,10.0,0,1,Dreamland 64,Falco,Y. Link,AttackLw3,Downtilt,tilt,Down,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,60,4,0.0,0,2,Dreamland 64,Falco,Y. Link,AttackS4S,Mid Fsmash,smash,Forward,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,60,4,20.0,0,1,Dreamland 64,Falco,Y. Link,AttackS4S,Mid Fsmash,smash,Forward,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,60,4,30.0,0,2,Dreamland 64,Falco,Y. Link,AttackS4S,Mid Fsmash,smash,Forward,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,60,4,50.0,0,1,Dreamland 64,Falco,Y. Link,AttackS4S,Mid Fsmash,smash,Forward,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,63,4,0.0,0,2,Dreamland 64,Falco,Y. Link,AttackHi4,Upsmash,smash,Up,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,66,4,50.0,0,1,Dreamland 64,Falco,Y. Link,AttackAirF,Fair,aerial,Forward,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,67,4,0.0,0,1,Dreamland 64,Falco,Y. Link,AttackAirB,Bair,aerial,Back,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,67,4,10.0,0,1,Dreamland 64,Falco,Y. Link,AttackAirB,Bair,aerial,Back,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,67,4,20.0,0,1,Dreamland 64,Falco,Y. Link,AttackAirB,Bair,aerial,Back,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,69,4,0.0,0,3,Dreamland 64,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,69,4,10.0,0,2,Dreamland 64,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,69,4,20.0,0,2,Dreamland 64,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,214,4,10.0,0,1,Dreamland 64,Falco,Y. Link,CatchDash,,grab,Dash,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,341,4,0.0,0,1,Dreamland 64,Falco,Y. Link,Blaster Ground Startup,Neutral B,special,Neutral,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,342,4,0.0,0,1,Dreamland 64,Falco,Y. Link,Blaster Ground Loop,Neutral B,special,Neutral,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,343,4,0.0,0,1,Dreamland 64,Falco,Y. Link,Blaster Ground End,Neutral B,special,Neutral,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,344,4,0.0,0,3,Dreamland 64,Falco,Y. Link,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,344,4,10.0,0,2,Dreamland 64,Falco,Y. Link,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,344,4,20.0,0,1,Dreamland 64,Falco,Y. Link,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,345,4,0.0,0,3,Dreamland 64,Falco,Y. Link,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,345,4,10.0,0,2,Dreamland 64,Falco,Y. Link,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,345,4,20.0,0,2,Dreamland 64,Falco,Y. Link,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,360,4,10.0,0,1,Dreamland 64,Falco,Y. Link,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+,28,KYKY#758,,0,20,2,21,1,360,4,20.0,0,1,Dreamland 64,Falco,Y. Link,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+,32,EG#0,Onion,0,21,0,20,-1,44,1,50.0,0,1,Final Destination,Y. Link,Falco,Attack11,Jab 1,jab,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,-1,50,1,40.0,0,1,Final Destination,Y. Link,Falco,AttackDash,Dash attack,dash,Dash,Onion
+,32,EG#0,Onion,0,21,0,20,-1,50,2,20.0,0,1,Final Destination,Y. Link,Falco,AttackDash,Dash attack,dash,Dash,Onion
+,32,EG#0,Onion,0,21,0,20,-1,50,3,70.0,0,1,Final Destination,Y. Link,Falco,AttackDash,Dash attack,dash,Dash,Onion
+,32,EG#0,Onion,0,21,0,20,-1,56,3,70.0,0,1,Final Destination,Y. Link,Falco,AttackHi3,Uptilt,tilt,Up,Onion
+,32,EG#0,Onion,0,21,0,20,-1,57,2,30.0,0,1,Final Destination,Y. Link,Falco,AttackLw3,Downtilt,tilt,Down,Onion
+,32,EG#0,Onion,0,21,0,20,-1,57,2,40.0,0,1,Final Destination,Y. Link,Falco,AttackLw3,Downtilt,tilt,Down,Onion
+,32,EG#0,Onion,0,21,0,20,-1,57,3,50.0,0,1,Final Destination,Y. Link,Falco,AttackLw3,Downtilt,tilt,Down,Onion
+,32,EG#0,Onion,0,21,0,20,-1,64,2,50.0,0,1,Final Destination,Y. Link,Falco,AttackLw4,Downsmash,smash,Down,Onion
+,32,EG#0,Onion,0,21,0,20,-1,65,1,0.0,0,1,Final Destination,Y. Link,Falco,AttackAirN,Nair,aerial,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,-1,65,1,20.0,0,1,Final Destination,Y. Link,Falco,AttackAirN,Nair,aerial,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,-1,65,1,60.0,0,1,Final Destination,Y. Link,Falco,AttackAirN,Nair,aerial,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,-1,65,1,70.0,0,1,Final Destination,Y. Link,Falco,AttackAirN,Nair,aerial,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,-1,65,2,10.0,0,1,Final Destination,Y. Link,Falco,AttackAirN,Nair,aerial,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,-1,65,2,30.0,0,1,Final Destination,Y. Link,Falco,AttackAirN,Nair,aerial,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,-1,65,2,50.0,0,2,Final Destination,Y. Link,Falco,AttackAirN,Nair,aerial,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,-1,65,3,50.0,0,2,Final Destination,Y. Link,Falco,AttackAirN,Nair,aerial,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,-1,65,3,70.0,0,2,Final Destination,Y. Link,Falco,AttackAirN,Nair,aerial,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,-1,65,4,30.0,0,1,Final Destination,Y. Link,Falco,AttackAirN,Nair,aerial,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,-1,66,1,30.0,0,1,Final Destination,Y. Link,Falco,AttackAirF,Fair,aerial,Forward,Onion
+,32,EG#0,Onion,0,21,0,20,-1,66,4,50.0,0,1,Final Destination,Y. Link,Falco,AttackAirF,Fair,aerial,Forward,Onion
+,32,EG#0,Onion,0,21,0,20,-1,67,1,0.0,0,1,Final Destination,Y. Link,Falco,AttackAirB,Bair,aerial,Back,Onion
+,32,EG#0,Onion,0,21,0,20,-1,67,1,30.0,0,2,Final Destination,Y. Link,Falco,AttackAirB,Bair,aerial,Back,Onion
+,32,EG#0,Onion,0,21,0,20,-1,67,1,70.0,0,4,Final Destination,Y. Link,Falco,AttackAirB,Bair,aerial,Back,Onion
+,32,EG#0,Onion,0,21,0,20,-1,67,2,20.0,0,1,Final Destination,Y. Link,Falco,AttackAirB,Bair,aerial,Back,Onion
+,32,EG#0,Onion,0,21,0,20,-1,67,2,40.0,0,1,Final Destination,Y. Link,Falco,AttackAirB,Bair,aerial,Back,Onion
+,32,EG#0,Onion,0,21,0,20,-1,67,2,50.0,0,1,Final Destination,Y. Link,Falco,AttackAirB,Bair,aerial,Back,Onion
+,32,EG#0,Onion,0,21,0,20,-1,67,4,30.0,0,1,Final Destination,Y. Link,Falco,AttackAirB,Bair,aerial,Back,Onion
+,32,EG#0,Onion,0,21,0,20,-1,67,4,50.0,0,1,Final Destination,Y. Link,Falco,AttackAirB,Bair,aerial,Back,Onion
+,32,EG#0,Onion,0,21,0,20,-1,68,2,0.0,0,1,Final Destination,Y. Link,Falco,AttackAirHi,Uair,aerial,Up,Onion
+,32,EG#0,Onion,0,21,0,20,-1,68,2,20.0,0,2,Final Destination,Y. Link,Falco,AttackAirHi,Uair,aerial,Up,Onion
+,32,EG#0,Onion,0,21,0,20,-1,68,3,70.0,0,1,Final Destination,Y. Link,Falco,AttackAirHi,Uair,aerial,Up,Onion
+,32,EG#0,Onion,0,21,0,20,-1,69,1,60.0,0,1,Final Destination,Y. Link,Falco,AttackAirLw,Dair,aerial,Down,Onion
+,32,EG#0,Onion,0,21,0,20,-1,212,1,50.0,0,1,Final Destination,Y. Link,Falco,Catch,Grab,grab,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,-1,212,2,20.0,0,1,Final Destination,Y. Link,Falco,Catch,Grab,grab,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,-1,212,2,60.0,0,1,Final Destination,Y. Link,Falco,Catch,Grab,grab,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,-1,212,3,50.0,0,2,Final Destination,Y. Link,Falco,Catch,Grab,grab,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,-1,212,4,50.0,0,1,Final Destination,Y. Link,Falco,Catch,Grab,grab,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,-1,346,1,130.0,0,1,Final Destination,Y. Link,Falco,Fire Bow Ground Fire,Neutral B,special,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,-1,346,3,70.0,0,1,Final Destination,Y. Link,Falco,Fire Bow Ground Fire,Neutral B,special,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,-1,359,1,30.0,0,1,Final Destination,Y. Link,Falco,Bomb Air,Down B,special,Down,Onion
+,32,EG#0,Onion,0,21,0,20,-1,359,2,70.0,0,1,Final Destination,Y. Link,Falco,Bomb Air,Down B,special,Down,Onion
+,32,EG#0,Onion,0,21,0,20,-1,359,3,50.0,0,1,Final Destination,Y. Link,Falco,Bomb Air,Down B,special,Down,Onion
+,32,EG#0,Onion,0,21,0,20,-1,360,2,70.0,0,1,Final Destination,Y. Link,Falco,Zair,Zair,aerial,Zair,Onion
+,32,EG#0,Onion,0,21,0,20,-1,360,2,90.0,0,1,Final Destination,Y. Link,Falco,Zair,Zair,aerial,Zair,Onion
+,32,EG#0,Onion,0,21,0,20,-1,360,4,50.0,0,1,Final Destination,Y. Link,Falco,Zair,Zair,aerial,Zair,Onion
+,32,EG#0,Onion,0,21,0,20,-1,361,4,50.0,0,1,Final Destination,Y. Link,Falco,Zair Catch,Zair,aerial,Zair,Onion
+,32,EG#0,Onion,0,21,0,20,1,50,2,20.0,0,1,Final Destination,Y. Link,Falco,AttackDash,Dash attack,dash,Dash,Onion
+,32,EG#0,Onion,0,21,0,20,1,50,3,70.0,0,1,Final Destination,Y. Link,Falco,AttackDash,Dash attack,dash,Dash,Onion
+,32,EG#0,Onion,0,21,0,20,1,63,3,60.0,0,1,Final Destination,Y. Link,Falco,AttackHi4,Upsmash,smash,Up,Onion
+,32,EG#0,Onion,0,21,0,20,1,64,2,100.0,0,1,Final Destination,Y. Link,Falco,AttackLw4,Downsmash,smash,Down,Onion
+,32,EG#0,Onion,0,21,0,20,1,64,4,50.0,0,1,Final Destination,Y. Link,Falco,AttackLw4,Downsmash,smash,Down,Onion
+,32,EG#0,Onion,0,21,0,20,1,65,1,40.0,0,2,Final Destination,Y. Link,Falco,AttackAirN,Nair,aerial,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,1,65,1,70.0,0,1,Final Destination,Y. Link,Falco,AttackAirN,Nair,aerial,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,1,65,1,100.0,0,1,Final Destination,Y. Link,Falco,AttackAirN,Nair,aerial,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,1,65,2,30.0,0,1,Final Destination,Y. Link,Falco,AttackAirN,Nair,aerial,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,1,65,3,70.0,0,1,Final Destination,Y. Link,Falco,AttackAirN,Nair,aerial,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,1,66,1,60.0,0,1,Final Destination,Y. Link,Falco,AttackAirF,Fair,aerial,Forward,Onion
+,32,EG#0,Onion,0,21,0,20,1,66,1,130.0,0,1,Final Destination,Y. Link,Falco,AttackAirF,Fair,aerial,Forward,Onion
+,32,EG#0,Onion,0,21,0,20,1,66,2,100.0,0,1,Final Destination,Y. Link,Falco,AttackAirF,Fair,aerial,Forward,Onion
+,32,EG#0,Onion,0,21,0,20,1,67,1,10.0,0,1,Final Destination,Y. Link,Falco,AttackAirB,Bair,aerial,Back,Onion
+,32,EG#0,Onion,0,21,0,20,1,67,1,50.0,0,1,Final Destination,Y. Link,Falco,AttackAirB,Bair,aerial,Back,Onion
+,32,EG#0,Onion,0,21,0,20,1,67,1,140.0,0,1,Final Destination,Y. Link,Falco,AttackAirB,Bair,aerial,Back,Onion
+,32,EG#0,Onion,0,21,0,20,1,67,2,100.0,0,1,Final Destination,Y. Link,Falco,AttackAirB,Bair,aerial,Back,Onion
+,32,EG#0,Onion,0,21,0,20,1,67,3,50.0,0,2,Final Destination,Y. Link,Falco,AttackAirB,Bair,aerial,Back,Onion
+,32,EG#0,Onion,0,21,0,20,1,68,1,0.0,0,1,Final Destination,Y. Link,Falco,AttackAirHi,Uair,aerial,Up,Onion
+,32,EG#0,Onion,0,21,0,20,1,68,2,10.0,0,1,Final Destination,Y. Link,Falco,AttackAirHi,Uair,aerial,Up,Onion
+,32,EG#0,Onion,0,21,0,20,1,69,2,30.0,0,1,Final Destination,Y. Link,Falco,AttackAirLw,Dair,aerial,Down,Onion
+,32,EG#0,Onion,0,21,0,20,1,212,1,50.0,0,2,Final Destination,Y. Link,Falco,Catch,Grab,grab,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,1,345,1,40.0,0,1,Final Destination,Y. Link,Falco,Fire Bow Ground Fully Charged,Neutral B,special,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,1,345,2,30.0,0,2,Final Destination,Y. Link,Falco,Fire Bow Ground Fully Charged,Neutral B,special,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,1,345,3,70.0,0,1,Final Destination,Y. Link,Falco,Fire Bow Ground Fully Charged,Neutral B,special,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,1,346,1,40.0,0,1,Final Destination,Y. Link,Falco,Fire Bow Ground Fire,Neutral B,special,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,1,346,2,30.0,0,1,Final Destination,Y. Link,Falco,Fire Bow Ground Fire,Neutral B,special,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,1,346,3,70.0,0,1,Final Destination,Y. Link,Falco,Fire Bow Ground Fire,Neutral B,special,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,1,348,3,70.0,0,1,Final Destination,Y. Link,Falco,Fire Bow Air Fully Charged,Neutral B,special,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,1,349,1,70.0,0,1,Final Destination,Y. Link,Falco,Fire Bow Air Fire,Neutral B,special,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,1,349,2,110.0,0,1,Final Destination,Y. Link,Falco,Fire Bow Air Fire,Neutral B,special,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,1,349,3,70.0,0,1,Final Destination,Y. Link,Falco,Fire Bow Air Fire,Neutral B,special,Neutral,Onion
+,32,EG#0,Onion,0,21,0,20,1,350,1,30.0,0,1,Final Destination,Y. Link,Falco,Boomerang Ground Throw,Side B,special,Forward,Onion
+,32,EG#0,Onion,0,21,0,20,1,353,1,0.0,0,1,Final Destination,Y. Link,Falco,Boomerang Air Throw,Side B,special,Forward,Onion
+,32,EG#0,Onion,0,21,0,20,1,357,1,60.0,0,1,Final Destination,Y. Link,Falco,Spin Attack Air,Up B,special,Up,Onion
+,32,EG#0,Onion,0,21,0,20,1,357,1,110.0,0,1,Final Destination,Y. Link,Falco,Spin Attack Air,Up B,special,Up,Onion
+,32,EG#0,Onion,0,21,0,20,1,357,1,120.0,0,1,Final Destination,Y. Link,Falco,Spin Attack Air,Up B,special,Up,Onion
+,32,EG#0,Onion,0,21,0,20,1,357,1,140.0,0,1,Final Destination,Y. Link,Falco,Spin Attack Air,Up B,special,Up,Onion
+,32,EG#0,Onion,0,21,0,20,1,357,2,0.0,0,1,Final Destination,Y. Link,Falco,Spin Attack Air,Up B,special,Up,Onion
+,32,EG#0,Onion,0,21,0,20,1,357,2,100.0,0,1,Final Destination,Y. Link,Falco,Spin Attack Air,Up B,special,Up,Onion
+,32,EG#0,Onion,0,21,0,20,1,359,2,30.0,0,1,Final Destination,Y. Link,Falco,Bomb Air,Down B,special,Down,Onion
+,32,EG#0,Onion,0,21,0,20,1,359,3,50.0,0,1,Final Destination,Y. Link,Falco,Bomb Air,Down B,special,Down,Onion
+,32,EG#0,Onion,0,21,0,20,1,360,1,100.0,0,2,Final Destination,Y. Link,Falco,Zair,Zair,aerial,Zair,Onion
+,32,EG#0,Onion,0,21,0,20,1,360,1,130.0,0,2,Final Destination,Y. Link,Falco,Zair,Zair,aerial,Zair,Onion
+,32,EG#0,Onion,0,21,0,20,1,360,3,70.0,0,1,Final Destination,Y. Link,Falco,Zair,Zair,aerial,Zair,Onion
+,32,EG#0,Onion,0,21,0,20,1,361,1,130.0,0,1,Final Destination,Y. Link,Falco,Zair Catch,Zair,aerial,Zair,Onion
+,32,WANN#751,,0,20,3,21,-1,50,2,40.0,1,1,Final Destination,Falco,Y. Link,AttackDash,Dash attack,dash,Dash,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,50,4,0.0,1,1,Final Destination,Falco,Y. Link,AttackDash,Dash attack,dash,Dash,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,53,2,70.0,1,1,Final Destination,Falco,Y. Link,AttackS3S,Mid Ftilt,tilt,Forward,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,53,2,110.0,1,1,Final Destination,Falco,Y. Link,AttackS3S,Mid Ftilt,tilt,Forward,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,57,2,70.0,1,1,Final Destination,Falco,Y. Link,AttackLw3,Downtilt,tilt,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,60,1,110.0,1,1,Final Destination,Falco,Y. Link,AttackS4S,Mid Fsmash,smash,Forward,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,60,2,70.0,1,1,Final Destination,Falco,Y. Link,AttackS4S,Mid Fsmash,smash,Forward,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,60,4,10.0,1,1,Final Destination,Falco,Y. Link,AttackS4S,Mid Fsmash,smash,Forward,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,63,2,70.0,1,1,Final Destination,Falco,Y. Link,AttackHi4,Upsmash,smash,Up,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,64,2,20.0,1,1,Final Destination,Falco,Y. Link,AttackLw4,Downsmash,smash,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,64,2,70.0,1,1,Final Destination,Falco,Y. Link,AttackLw4,Downsmash,smash,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,64,4,0.0,1,1,Final Destination,Falco,Y. Link,AttackLw4,Downsmash,smash,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,65,2,60.0,1,1,Final Destination,Falco,Y. Link,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,65,2,70.0,1,3,Final Destination,Falco,Y. Link,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,65,2,80.0,1,1,Final Destination,Falco,Y. Link,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,65,4,0.0,1,1,Final Destination,Falco,Y. Link,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,66,2,60.0,1,1,Final Destination,Falco,Y. Link,AttackAirF,Fair,aerial,Forward,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,67,2,0.0,1,1,Final Destination,Falco,Y. Link,AttackAirB,Bair,aerial,Back,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,67,3,10.0,1,1,Final Destination,Falco,Y. Link,AttackAirB,Bair,aerial,Back,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,68,2,70.0,1,1,Final Destination,Falco,Y. Link,AttackAirHi,Uair,aerial,Up,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,69,2,30.0,1,1,Final Destination,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,69,2,60.0,1,1,Final Destination,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,69,2,70.0,1,2,Final Destination,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,69,3,10.0,1,1,Final Destination,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,69,4,0.0,1,2,Final Destination,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,69,4,40.0,1,1,Final Destination,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,69,4,70.0,1,2,Final Destination,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,69,4,120.0,1,1,Final Destination,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,212,2,70.0,1,1,Final Destination,Falco,Y. Link,Catch,Grab,grab,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,214,3,20.0,1,1,Final Destination,Falco,Y. Link,CatchDash,,grab,Dash,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,344,1,80.0,1,1,Final Destination,Falco,Y. Link,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,344,1,90.0,1,1,Final Destination,Falco,Y. Link,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,344,2,70.0,1,3,Final Destination,Falco,Y. Link,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,344,4,0.0,1,1,Final Destination,Falco,Y. Link,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,344,4,10.0,1,1,Final Destination,Falco,Y. Link,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,344,4,70.0,1,1,Final Destination,Falco,Y. Link,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,345,1,80.0,1,1,Final Destination,Falco,Y. Link,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,345,1,90.0,1,1,Final Destination,Falco,Y. Link,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,345,2,70.0,1,3,Final Destination,Falco,Y. Link,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,345,4,0.0,1,1,Final Destination,Falco,Y. Link,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,345,4,10.0,1,1,Final Destination,Falco,Y. Link,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,345,4,70.0,1,1,Final Destination,Falco,Y. Link,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,350,2,120.0,1,1,Final Destination,Falco,Y. Link,Phantasm Startup Air,Side B,special,Forward,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,350,4,140.0,1,1,Final Destination,Falco,Y. Link,Phantasm Startup Air,Side B,special,Forward,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,351,2,120.0,1,1,Final Destination,Falco,Y. Link,Phantasm Air,Side B,special,Forward,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,351,4,140.0,1,1,Final Destination,Falco,Y. Link,Phantasm Air,Side B,special,Forward,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,352,2,120.0,1,1,Final Destination,Falco,Y. Link,Phantasm Air End,Side B,special,Forward,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,352,4,140.0,1,1,Final Destination,Falco,Y. Link,Phantasm Air End,Side B,special,Forward,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,354,1,100.0,1,1,Final Destination,Falco,Y. Link,Fire Bird Air Startup,Up B,special,Up,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,354,4,10.0,1,1,Final Destination,Falco,Y. Link,Fire Bird Air Startup,Up B,special,Up,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,354,4,120.0,1,1,Final Destination,Falco,Y. Link,Fire Bird Air Startup,Up B,special,Up,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,355,4,10.0,1,1,Final Destination,Falco,Y. Link,Fire Bird Ground,Up B,special,Up,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,356,1,100.0,1,1,Final Destination,Falco,Y. Link,Fire Bird Air,Up B,special,Up,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,356,4,120.0,1,1,Final Destination,Falco,Y. Link,Fire Bird Air,Up B,special,Up,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,357,4,10.0,1,1,Final Destination,Falco,Y. Link,Fire Bird Ground End,Up B,special,Up,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,358,1,100.0,1,1,Final Destination,Falco,Y. Link,Fire Bird Air End,Up B,special,Up,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,358,4,120.0,1,1,Final Destination,Falco,Y. Link,Fire Bird Air End,Up B,special,Up,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,360,2,30.0,1,2,Final Destination,Falco,Y. Link,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,360,2,70.0,1,5,Final Destination,Falco,Y. Link,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,360,3,20.0,1,5,Final Destination,Falco,Y. Link,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,361,2,0.0,1,1,Final Destination,Falco,Y. Link,Reflector Ground Loop,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,361,2,30.0,1,1,Final Destination,Falco,Y. Link,Reflector Ground Loop,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,361,2,70.0,1,2,Final Destination,Falco,Y. Link,Reflector Ground Loop,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,361,3,10.0,1,1,Final Destination,Falco,Y. Link,Reflector Ground Loop,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,361,3,20.0,1,1,Final Destination,Falco,Y. Link,Reflector Ground Loop,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,363,2,0.0,1,1,Final Destination,Falco,Y. Link,Reflector Ground End,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,363,2,70.0,1,1,Final Destination,Falco,Y. Link,Reflector Ground End,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,364,2,0.0,1,1,Final Destination,Falco,Y. Link,Reflector Ground Change Direction,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,364,2,70.0,1,1,Final Destination,Falco,Y. Link,Reflector Ground Change Direction,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,364,2,100.0,1,1,Final Destination,Falco,Y. Link,Reflector Ground Change Direction,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,364,3,10.0,1,1,Final Destination,Falco,Y. Link,Reflector Ground Change Direction,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,365,2,70.0,1,3,Final Destination,Falco,Y. Link,Reflector Air Startup,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,365,2,80.0,1,1,Final Destination,Falco,Y. Link,Reflector Air Startup,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,365,4,0.0,1,1,Final Destination,Falco,Y. Link,Reflector Air Startup,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,365,4,10.0,1,1,Final Destination,Falco,Y. Link,Reflector Air Startup,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,369,2,60.0,1,1,Final Destination,Falco,Y. Link,Reflector Air Change Direction,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,-1,369,4,10.0,1,1,Final Destination,Falco,Y. Link,Reflector Air Change Direction,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,44,2,0.0,1,1,Final Destination,Falco,Y. Link,Attack11,Jab 1,jab,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,44,2,40.0,1,2,Final Destination,Falco,Y. Link,Attack11,Jab 1,jab,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,44,3,60.0,1,1,Final Destination,Falco,Y. Link,Attack11,Jab 1,jab,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,44,4,10.0,1,1,Final Destination,Falco,Y. Link,Attack11,Jab 1,jab,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,45,3,60.0,1,1,Final Destination,Falco,Y. Link,Attack12,Jab 2,jab,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,50,2,40.0,1,2,Final Destination,Falco,Y. Link,AttackDash,Dash attack,dash,Dash,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,50,4,0.0,1,1,Final Destination,Falco,Y. Link,AttackDash,Dash attack,dash,Dash,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,50,4,40.0,1,1,Final Destination,Falco,Y. Link,AttackDash,Dash attack,dash,Dash,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,50,4,80.0,1,1,Final Destination,Falco,Y. Link,AttackDash,Dash attack,dash,Dash,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,53,3,60.0,1,1,Final Destination,Falco,Y. Link,AttackS3S,Mid Ftilt,tilt,Forward,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,53,4,0.0,1,1,Final Destination,Falco,Y. Link,AttackS3S,Mid Ftilt,tilt,Forward,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,56,1,90.0,1,2,Final Destination,Falco,Y. Link,AttackHi3,Uptilt,tilt,Up,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,56,3,60.0,1,1,Final Destination,Falco,Y. Link,AttackHi3,Uptilt,tilt,Up,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,57,3,40.0,1,1,Final Destination,Falco,Y. Link,AttackLw3,Downtilt,tilt,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,57,4,0.0,1,1,Final Destination,Falco,Y. Link,AttackLw3,Downtilt,tilt,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,57,4,10.0,1,1,Final Destination,Falco,Y. Link,AttackLw3,Downtilt,tilt,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,60,1,110.0,1,1,Final Destination,Falco,Y. Link,AttackS4S,Mid Fsmash,smash,Forward,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,60,2,40.0,1,1,Final Destination,Falco,Y. Link,AttackS4S,Mid Fsmash,smash,Forward,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,60,3,20.0,1,1,Final Destination,Falco,Y. Link,AttackS4S,Mid Fsmash,smash,Forward,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,60,4,10.0,1,2,Final Destination,Falco,Y. Link,AttackS4S,Mid Fsmash,smash,Forward,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,64,2,0.0,1,1,Final Destination,Falco,Y. Link,AttackLw4,Downsmash,smash,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,64,3,30.0,1,1,Final Destination,Falco,Y. Link,AttackLw4,Downsmash,smash,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,64,4,30.0,1,1,Final Destination,Falco,Y. Link,AttackLw4,Downsmash,smash,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,65,2,40.0,1,1,Final Destination,Falco,Y. Link,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,65,4,0.0,1,3,Final Destination,Falco,Y. Link,AttackAirN,Nair,aerial,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,66,3,40.0,1,1,Final Destination,Falco,Y. Link,AttackAirF,Fair,aerial,Forward,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,67,1,90.0,1,1,Final Destination,Falco,Y. Link,AttackAirB,Bair,aerial,Back,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,67,2,40.0,1,1,Final Destination,Falco,Y. Link,AttackAirB,Bair,aerial,Back,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,67,2,70.0,1,1,Final Destination,Falco,Y. Link,AttackAirB,Bair,aerial,Back,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,67,3,30.0,1,1,Final Destination,Falco,Y. Link,AttackAirB,Bair,aerial,Back,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,67,4,60.0,1,1,Final Destination,Falco,Y. Link,AttackAirB,Bair,aerial,Back,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,68,4,80.0,1,1,Final Destination,Falco,Y. Link,AttackAirHi,Uair,aerial,Up,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,69,1,80.0,1,3,Final Destination,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,69,1,90.0,1,1,Final Destination,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,69,2,50.0,1,1,Final Destination,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,69,2,70.0,1,4,Final Destination,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,69,3,10.0,1,1,Final Destination,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,69,3,30.0,1,1,Final Destination,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,69,3,60.0,1,1,Final Destination,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,69,3,70.0,1,1,Final Destination,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,69,4,0.0,1,2,Final Destination,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,69,4,20.0,1,1,Final Destination,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,69,4,110.0,1,1,Final Destination,Falco,Y. Link,AttackAirLw,Dair,aerial,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,212,2,100.0,1,1,Final Destination,Falco,Y. Link,Catch,Grab,grab,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,212,3,50.0,1,1,Final Destination,Falco,Y. Link,Catch,Grab,grab,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,212,3,60.0,1,1,Final Destination,Falco,Y. Link,Catch,Grab,grab,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,344,1,80.0,1,4,Final Destination,Falco,Y. Link,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,344,2,70.0,1,1,Final Destination,Falco,Y. Link,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,344,3,10.0,1,1,Final Destination,Falco,Y. Link,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,344,3,20.0,1,1,Final Destination,Falco,Y. Link,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,344,3,60.0,1,1,Final Destination,Falco,Y. Link,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,344,4,10.0,1,1,Final Destination,Falco,Y. Link,Blaster Air Startup,Neutral B,special,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,345,1,80.0,1,4,Final Destination,Falco,Y. Link,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,345,2,70.0,1,1,Final Destination,Falco,Y. Link,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,345,3,20.0,1,1,Final Destination,Falco,Y. Link,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,345,3,60.0,1,1,Final Destination,Falco,Y. Link,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,345,4,10.0,1,1,Final Destination,Falco,Y. Link,Blaster Air Loop,Neutral B,special,Neutral,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,350,1,120.0,1,1,Final Destination,Falco,Y. Link,Phantasm Startup Air,Side B,special,Forward,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,351,1,120.0,1,1,Final Destination,Falco,Y. Link,Phantasm Air,Side B,special,Forward,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,352,1,120.0,1,1,Final Destination,Falco,Y. Link,Phantasm Air End,Side B,special,Forward,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,354,1,130.0,1,1,Final Destination,Falco,Y. Link,Fire Bird Air Startup,Up B,special,Up,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,354,4,10.0,1,1,Final Destination,Falco,Y. Link,Fire Bird Air Startup,Up B,special,Up,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,354,4,110.0,1,1,Final Destination,Falco,Y. Link,Fire Bird Air Startup,Up B,special,Up,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,356,1,130.0,1,1,Final Destination,Falco,Y. Link,Fire Bird Air,Up B,special,Up,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,356,4,10.0,1,1,Final Destination,Falco,Y. Link,Fire Bird Air,Up B,special,Up,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,356,4,110.0,1,1,Final Destination,Falco,Y. Link,Fire Bird Air,Up B,special,Up,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,358,1,130.0,1,1,Final Destination,Falco,Y. Link,Fire Bird Air End,Up B,special,Up,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,358,4,10.0,1,1,Final Destination,Falco,Y. Link,Fire Bird Air End,Up B,special,Up,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,360,1,80.0,1,1,Final Destination,Falco,Y. Link,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,360,1,90.0,1,5,Final Destination,Falco,Y. Link,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,360,2,0.0,1,5,Final Destination,Falco,Y. Link,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,360,2,50.0,1,1,Final Destination,Falco,Y. Link,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,360,2,70.0,1,11,Final Destination,Falco,Y. Link,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,360,2,100.0,1,6,Final Destination,Falco,Y. Link,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,360,3,10.0,1,1,Final Destination,Falco,Y. Link,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,360,4,0.0,1,5,Final Destination,Falco,Y. Link,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,360,4,10.0,1,1,Final Destination,Falco,Y. Link,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,360,4,60.0,1,1,Final Destination,Falco,Y. Link,Reflector Ground Startup,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,361,1,80.0,1,1,Final Destination,Falco,Y. Link,Reflector Ground Loop,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,361,1,90.0,1,1,Final Destination,Falco,Y. Link,Reflector Ground Loop,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,361,2,0.0,1,1,Final Destination,Falco,Y. Link,Reflector Ground Loop,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,361,2,30.0,1,1,Final Destination,Falco,Y. Link,Reflector Ground Loop,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,361,2,50.0,1,1,Final Destination,Falco,Y. Link,Reflector Ground Loop,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,361,2,70.0,1,2,Final Destination,Falco,Y. Link,Reflector Ground Loop,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,361,2,100.0,1,1,Final Destination,Falco,Y. Link,Reflector Ground Loop,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,361,4,10.0,1,1,Final Destination,Falco,Y. Link,Reflector Ground Loop,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,361,4,60.0,1,1,Final Destination,Falco,Y. Link,Reflector Ground Loop,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,364,2,30.0,1,1,Final Destination,Falco,Y. Link,Reflector Ground Change Direction,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,365,2,60.0,1,1,Final Destination,Falco,Y. Link,Reflector Air Startup,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,365,4,10.0,1,1,Final Destination,Falco,Y. Link,Reflector Air Startup,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,366,2,70.0,1,2,Final Destination,Falco,Y. Link,Reflector Air Loop,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,366,2,80.0,1,1,Final Destination,Falco,Y. Link,Reflector Air Loop,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,366,4,10.0,1,1,Final Destination,Falco,Y. Link,Reflector Air Loop,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,368,2,70.0,1,1,Final Destination,Falco,Y. Link,Reflector Air End,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,369,2,70.0,1,3,Final Destination,Falco,Y. Link,Reflector Air Change Direction,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,369,2,80.0,1,1,Final Destination,Falco,Y. Link,Reflector Air Change Direction,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,369,4,0.0,1,1,Final Destination,Falco,Y. Link,Reflector Air Change Direction,Down B,special,Down,Netplay Rando
+,32,WANN#751,,0,20,3,21,1,369,4,10.0,1,1,Final Destination,Falco,Y. Link,Reflector Air Change Direction,Down B,special,Down,Netplay Rando
 foo/,2,EG#0,Onion,0,19,3,0,-1,44,2,30.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Attack11,Jab 1,jab,Neutral,Onion
 foo/,2,EG#0,Onion,0,19,3,0,-1,44,3,20.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Attack11,Jab 1,jab,Neutral,Onion
 foo/,2,EG#0,Onion,0,19,3,0,-1,44,3,30.0,1,2,Fountain of Dreams,Shiek,C. Falcon,Attack11,Jab 1,jab,Neutral,Onion

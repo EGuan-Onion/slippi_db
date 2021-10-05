@@ -1,4 +1,15 @@
 dir_path,stage_id,connect_code,player_name,character_id,character_id_opp,X,Y,stocks,action_state_id,percent_opp,stocks_opp,is_win,rowcount,stage_name,character_name,character_name_opp,state_name,state_description,player_label
+,8,EG#164,Onion,21,20,0.0,0.0,3,222,15.0,3,0,1,Yoshi's Story,Y. Link,Falco,ThrowLw,Down throw,Onion
+,8,EG#164,Onion,21,20,20.0,0.0,2,221,35.0,2,0,1,Yoshi's Story,Y. Link,Falco,ThrowHi,Up throw,Onion
+,8,LAYL#264,,20,21,20.0,0.0,2,219,20.0,3,1,1,Yoshi's Story,Falco,Y. Link,ThrowF,Forward throw,Netplay Rando
+,28,EG#164,Onion,21,20,20.0,0.0,4,222,10.0,1,1,1,Dreamland 64,Y. Link,Falco,ThrowLw,Down throw,Onion
+,28,EG#164,Onion,21,20,60.0,0.0,4,222,0.0,1,1,1,Dreamland 64,Y. Link,Falco,ThrowLw,Down throw,Onion
+,32,EG#0,Onion,21,20,20.0,0.0,2,221,25.0,1,0,1,Final Destination,Y. Link,Falco,ThrowHi,Up throw,Onion
+,32,EG#0,Onion,21,20,60.0,0.0,4,221,40.0,3,0,1,Final Destination,Y. Link,Falco,ThrowHi,Up throw,Onion
+,32,EG#0,Onion,21,20,60.0,0.0,4,222,20.0,3,0,1,Final Destination,Y. Link,Falco,ThrowLw,Down throw,Onion
+,32,EG#0,Onion,21,20,80.0,0.0,4,222,5.0,4,0,1,Final Destination,Y. Link,Falco,ThrowLw,Down throw,Onion
+,32,WANN#751,,20,21,40.0,0.0,2,220,20.0,3,1,1,Final Destination,Falco,Y. Link,ThrowB,Back throw,Netplay Rando
+,32,WANN#751,,20,21,60.0,0.0,2,219,80.0,3,1,1,Final Destination,Falco,Y. Link,ThrowF,Forward throw,Netplay Rando
 foo/,2,EG#0,Onion,19,0,0.0,0.0,3,222,0.0,3,1,1,Fountain of Dreams,Shiek,C. Falcon,ThrowLw,Down throw,Onion
 foo/,2,EG#0,Onion,19,0,0.0,0.0,3,222,10.0,3,1,1,Fountain of Dreams,Shiek,C. Falcon,ThrowLw,Down throw,Onion
 foo/,2,EG#0,Onion,19,0,0.0,0.0,3,222,55.0,3,1,1,Fountain of Dreams,Shiek,C. Falcon,ThrowLw,Down throw,Onion

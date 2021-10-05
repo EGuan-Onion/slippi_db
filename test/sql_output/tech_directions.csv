@@ -1,54 +1,90 @@
-dir_path,stage_id,connect_code,player_name,character_id,character_id_opp,facing_direction,is_right_of_opp,is_right_of_center,X,Y,action_state_id,percent_opp,is_win,rowcount,stage_name,character_name,character_name_opp,state_name,state_description,player_label,tech_left_right,tech_towards_away,tech_center_edge
-foo/,2,JAHN#146,,0,19,-1,0,0,-40.0,30.0,201,20.0,0,1,Fountain of Dreams,C. Falcon,Shiek,PassiveStandB,Backward tech,Netplay Rando,Tech Right,Tech Towards,Tech to Center
-foo/,2,JAHN#146,,0,19,-1,0,0,-20.0,0.0,199,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Passive,Neutral tech,Netplay Rando,Tech In Place,Tech In Place,Tech In Place
-foo/,2,JAHN#146,,0,19,-1,0,0,-20.0,0.0,200,20.0,0,1,Fountain of Dreams,C. Falcon,Shiek,PassiveStandF,Forward tech,Netplay Rando,Tech Left,Tech Away,Tech to Edge
-foo/,2,JAHN#146,,0,19,-1,0,0,0.0,0.0,200,20.0,0,1,Fountain of Dreams,C. Falcon,Shiek,PassiveStandF,Forward tech,Netplay Rando,Tech Left,Tech Away,Tech to Edge
-foo/,2,JAHN#146,,0,19,-1,1,1,20.0,0.0,200,10.0,0,1,Fountain of Dreams,C. Falcon,Shiek,PassiveStandF,Forward tech,Netplay Rando,Tech Left,Tech Towards,Tech to Center
-foo/,2,JAHN#146,,0,19,-1,1,1,20.0,0.0,201,10.0,0,1,Fountain of Dreams,C. Falcon,Shiek,PassiveStandB,Backward tech,Netplay Rando,Tech Right,Tech Away,Tech to Edge
-foo/,2,JAHN#146,,0,19,1,0,0,-40.0,0.0,199,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,Passive,Neutral tech,Netplay Rando,Tech In Place,Tech In Place,Tech In Place
-foo/,2,JAHN#146,,0,19,1,0,0,-20.0,0.0,183,60.0,0,1,Fountain of Dreams,C. Falcon,Shiek,DownBoundU,"The missed tech bounce, facing up",Netplay Rando,Miss Tech,Miss Tech,Miss Tech
-foo/,2,JAHN#146,,0,19,1,0,0,0.0,0.0,201,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,PassiveStandB,Backward tech,Netplay Rando,Tech Left,Tech Away,Tech to Edge
-foo/,2,JAHN#146,,0,19,1,0,1,0.0,0.0,183,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,DownBoundU,"The missed tech bounce, facing up",Netplay Rando,Miss Tech,Miss Tech,Miss Tech
-foo/,2,JAHN#146,,0,19,1,0,1,20.0,0.0,200,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,PassiveStandF,Forward tech,Netplay Rando,Tech Right,Tech Towards,Tech to Edge
-foo/,2,JAHN#146,,0,19,1,1,0,-40.0,0.0,200,30.0,0,1,Fountain of Dreams,C. Falcon,Shiek,PassiveStandF,Forward tech,Netplay Rando,Tech Right,Tech Away,Tech to Center
-foo/bar/,31,,,2,9,-1,0,0,-20.0,50.0,183,100.0,1,1,Battlefield,Fox,Marth,DownBoundU,"The missed tech bounce, facing up",Netplay Rando,Miss Tech,Miss Tech,Miss Tech
-foo/bar/,31,,,2,9,-1,0,0,-20.0,50.0,199,10.0,1,1,Battlefield,Fox,Marth,Passive,Neutral tech,Netplay Rando,Tech In Place,Tech In Place,Tech In Place
-foo/bar/,31,,,2,9,-1,1,0,-20.0,30.0,200,20.0,1,1,Battlefield,Fox,Marth,PassiveStandF,Forward tech,Netplay Rando,Tech Left,Tech Towards,Tech to Edge
-foo/bar/,31,,,2,9,-1,1,1,0.0,50.0,200,110.0,1,1,Battlefield,Fox,Marth,PassiveStandF,Forward tech,Netplay Rando,Tech Left,Tech Towards,Tech to Center
-foo/bar/,31,,,2,9,-1,1,1,20.0,30.0,201,100.0,1,1,Battlefield,Fox,Marth,PassiveStandB,Backward tech,Netplay Rando,Tech Right,Tech Away,Tech to Edge
-foo/bar/,31,,,2,9,-1,1,1,20.0,50.0,200,100.0,1,2,Battlefield,Fox,Marth,PassiveStandF,Forward tech,Netplay Rando,Tech Left,Tech Towards,Tech to Center
-foo/bar/,31,,,2,9,-1,1,1,40.0,0.0,191,10.0,1,1,Battlefield,Fox,Marth,DownBoundD,"The missed tech bounce, facing down",Netplay Rando,Miss Tech,Miss Tech,Miss Tech
-foo/bar/,31,,,2,9,-1,1,1,40.0,0.0,200,100.0,1,1,Battlefield,Fox,Marth,PassiveStandF,Forward tech,Netplay Rando,Tech Left,Tech Towards,Tech to Center
-foo/bar/,31,,,2,9,-1,1,1,40.0,30.0,201,110.0,1,1,Battlefield,Fox,Marth,PassiveStandB,Backward tech,Netplay Rando,Tech Right,Tech Away,Tech to Edge
-foo/bar/,31,,,2,9,-1,1,1,60.0,30.0,183,100.0,1,1,Battlefield,Fox,Marth,DownBoundU,"The missed tech bounce, facing up",Netplay Rando,Miss Tech,Miss Tech,Miss Tech
-foo/bar/,31,,,2,9,-1,1,1,60.0,30.0,200,10.0,1,1,Battlefield,Fox,Marth,PassiveStandF,Forward tech,Netplay Rando,Tech Left,Tech Towards,Tech to Center
-foo/bar/,31,,,2,9,1,0,0,-60.0,0.0,191,100.0,1,1,Battlefield,Fox,Marth,DownBoundD,"The missed tech bounce, facing down",Netplay Rando,Miss Tech,Miss Tech,Miss Tech
-foo/bar/,31,,,2,9,1,0,0,-60.0,30.0,183,70.0,1,1,Battlefield,Fox,Marth,DownBoundU,"The missed tech bounce, facing up",Netplay Rando,Miss Tech,Miss Tech,Miss Tech
-foo/bar/,31,,,2,9,1,0,0,-40.0,0.0,200,0.0,1,1,Battlefield,Fox,Marth,PassiveStandF,Forward tech,Netplay Rando,Tech Right,Tech Towards,Tech to Center
-foo/bar/,31,,,2,9,1,0,0,-20.0,30.0,201,70.0,1,1,Battlefield,Fox,Marth,PassiveStandB,Backward tech,Netplay Rando,Tech Left,Tech Away,Tech to Edge
-foo/bar/,31,,,2,9,1,0,0,0.0,0.0,201,100.0,1,1,Battlefield,Fox,Marth,PassiveStandB,Backward tech,Netplay Rando,Tech Left,Tech Away,Tech to Edge
-foo/bar/,31,,,2,9,1,1,1,20.0,30.0,183,100.0,1,1,Battlefield,Fox,Marth,DownBoundU,"The missed tech bounce, facing up",Netplay Rando,Miss Tech,Miss Tech,Miss Tech
-foo/bar/,31,,,9,2,-1,1,0,-40.0,30.0,183,0.0,0,1,Battlefield,Marth,Fox,DownBoundU,"The missed tech bounce, facing up",Netplay Rando,Miss Tech,Miss Tech,Miss Tech
-foo/bar/,31,,,9,2,1,0,1,0.0,50.0,199,80.0,0,1,Battlefield,Marth,Fox,Passive,Neutral tech,Netplay Rando,Tech In Place,Tech In Place,Tech In Place
-foo/,2,EG#0,Onion,19,0,-1,1,0,0.0,0.0,183,60.0,1,1,Fountain of Dreams,Shiek,C. Falcon,DownBoundU,"The missed tech bounce, facing up",Onion,Miss Tech,Miss Tech,Miss Tech
-foo/,2,EG#0,Onion,19,0,-1,1,1,20.0,0.0,199,60.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Passive,Neutral tech,Onion,Tech In Place,Tech In Place,Tech In Place
-foo/,2,EG#0,Onion,19,0,-1,1,1,40.0,0.0,183,0.0,1,1,Fountain of Dreams,Shiek,C. Falcon,DownBoundU,"The missed tech bounce, facing up",Onion,Miss Tech,Miss Tech,Miss Tech
-foo/,2,EG#0,Onion,19,0,-1,1,1,60.0,0.0,199,0.0,1,1,Fountain of Dreams,Shiek,C. Falcon,Passive,Neutral tech,Onion,Tech In Place,Tech In Place,Tech In Place
-foo/,2,EG#0,Onion,19,0,1,0,0,-20.0,0.0,191,10.0,1,1,Fountain of Dreams,Shiek,C. Falcon,DownBoundD,"The missed tech bounce, facing down",Onion,Miss Tech,Miss Tech,Miss Tech
-foo/,2,EG#0,Onion,19,0,1,0,1,40.0,20.0,200,90.0,1,1,Fountain of Dreams,Shiek,C. Falcon,PassiveStandF,Forward tech,Onion,Tech Right,Tech Towards,Tech to Edge
-foo/bar/,2,EG#0,Onion,19,19,-1,1,0,0.0,40.0,183,70.0,1,1,Fountain of Dreams,Shiek,Shiek,DownBoundU,"The missed tech bounce, facing up",Onion,Miss Tech,Miss Tech,Miss Tech
-foo/bar/,2,EG#0,Onion,19,19,-1,1,1,60.0,0.0,183,40.0,1,1,Fountain of Dreams,Shiek,Shiek,DownBoundU,"The missed tech bounce, facing up",Onion,Miss Tech,Miss Tech,Miss Tech
-foo/bar/,2,EG#0,Onion,19,19,-1,1,1,60.0,0.0,200,20.0,1,1,Fountain of Dreams,Shiek,Shiek,PassiveStandF,Forward tech,Onion,Tech Left,Tech Towards,Tech to Center
-foo/bar/,2,EG#0,Onion,19,19,1,0,1,20.0,20.0,199,120.0,1,1,Fountain of Dreams,Shiek,Shiek,Passive,Neutral tech,Onion,Tech In Place,Tech In Place,Tech In Place
-foo/bar/,2,EG#0,Onion,19,19,1,0,1,40.0,0.0,183,90.0,1,1,Fountain of Dreams,Shiek,Shiek,DownBoundU,"The missed tech bounce, facing up",Onion,Miss Tech,Miss Tech,Miss Tech
-foo/bar/,2,EG#0,Onion,19,19,1,0,1,40.0,0.0,199,20.0,1,1,Fountain of Dreams,Shiek,Shiek,Passive,Neutral tech,Onion,Tech In Place,Tech In Place,Tech In Place
-foo/bar/,2,NINJ#223,,19,19,-1,1,1,40.0,0.0,199,20.0,0,1,Fountain of Dreams,Shiek,Shiek,Passive,Neutral tech,Netplay Rando,Tech In Place,Tech In Place,Tech In Place
-foo/bar/,2,NINJ#223,,19,19,-1,1,1,60.0,0.0,183,20.0,0,1,Fountain of Dreams,Shiek,Shiek,DownBoundU,"The missed tech bounce, facing up",Netplay Rando,Miss Tech,Miss Tech,Miss Tech
-foo/bar/,2,NINJ#223,,19,19,-1,1,1,60.0,0.0,199,20.0,0,1,Fountain of Dreams,Shiek,Shiek,Passive,Neutral tech,Netplay Rando,Tech In Place,Tech In Place,Tech In Place
-foo/bar/,2,NINJ#223,,19,19,1,0,0,-20.0,0.0,191,40.0,0,1,Fountain of Dreams,Shiek,Shiek,DownBoundD,"The missed tech bounce, facing down",Netplay Rando,Miss Tech,Miss Tech,Miss Tech
-foo/bar/,2,NINJ#223,,19,19,1,0,0,-20.0,0.0,201,20.0,0,1,Fountain of Dreams,Shiek,Shiek,PassiveStandB,Backward tech,Netplay Rando,Tech Left,Tech Away,Tech to Edge
-foo/bar/,2,NINJ#223,,19,19,1,0,0,0.0,0.0,201,90.0,0,1,Fountain of Dreams,Shiek,Shiek,PassiveStandB,Backward tech,Netplay Rando,Tech Left,Tech Away,Tech to Edge
-foo/bar/,2,NINJ#223,,19,19,1,0,1,0.0,0.0,183,120.0,0,1,Fountain of Dreams,Shiek,Shiek,DownBoundU,"The missed tech bounce, facing up",Netplay Rando,Miss Tech,Miss Tech,Miss Tech
-foo/bar/,2,NINJ#223,,19,19,1,0,1,0.0,0.0,191,20.0,0,1,Fountain of Dreams,Shiek,Shiek,DownBoundD,"The missed tech bounce, facing down",Netplay Rando,Miss Tech,Miss Tech,Miss Tech
-foo/bar/,2,NINJ#223,,19,19,1,0,1,0.0,0.0,200,120.0,0,1,Fountain of Dreams,Shiek,Shiek,PassiveStandF,Forward tech,Netplay Rando,Tech Right,Tech Towards,Tech to Edge
-foo/bar/,2,NINJ#223,,19,19,1,1,1,20.0,0.0,200,110.0,0,1,Fountain of Dreams,Shiek,Shiek,PassiveStandF,Forward tech,Netplay Rando,Tech Right,Tech Away,Tech to Edge
+dir_path,stage_id,player_label,character_id,character_id_opp,last_ground_id,X,percent,tech_left_right,tech_center_edge,tech_towards_away,last_attack_landed,rowcount,stage_name,ground_name,is_main,character_name,character_name_opp,attack_name
+foo/,2,Netplay Rando,0,19,0,-30.0,100.0,Tech Right,Tech to Center,Tech Towards,6,1,Fountain of Dreams,left platform,0,C. Falcon,Shiek,Dash Attack
+foo/,2,Netplay Rando,0,19,5,-30.0,40.0,Tech In Place,Tech In Place,Tech In Place,6,1,Fountain of Dreams,main center,1,C. Falcon,Shiek,Dash Attack
+foo/,2,Netplay Rando,0,19,5,-30.0,60.0,Miss Tech,Miss Tech,Miss Tech,6,1,Fountain of Dreams,main center,1,C. Falcon,Shiek,Dash Attack
+foo/,2,Netplay Rando,0,19,5,-30.0,60.0,Tech In Place,Tech In Place,Tech In Place,56,1,Fountain of Dreams,main center,1,C. Falcon,Shiek,Down Throw
+foo/,2,Netplay Rando,0,19,5,-30.0,60.0,Tech Right,Tech to Center,Tech Away,6,1,Fountain of Dreams,main center,1,C. Falcon,Shiek,Dash Attack
+foo/,2,Netplay Rando,0,19,5,0.0,0.0,Miss Tech,Miss Tech,Miss Tech,56,1,Fountain of Dreams,main center,1,C. Falcon,Shiek,Down Throw
+foo/,2,Netplay Rando,0,19,5,0.0,0.0,Tech Left,Tech to Edge,Tech Away,56,1,Fountain of Dreams,main center,1,C. Falcon,Shiek,Down Throw
+foo/,2,Netplay Rando,0,19,5,0.0,20.0,Tech Left,Tech to Center,Tech Towards,56,1,Fountain of Dreams,main center,1,C. Falcon,Shiek,Down Throw
+foo/,2,Netplay Rando,0,19,5,0.0,20.0,Tech Left,Tech to Edge,Tech Away,56,1,Fountain of Dreams,main center,1,C. Falcon,Shiek,Down Throw
+foo/,2,Netplay Rando,0,19,5,0.0,20.0,Tech Right,Tech to Edge,Tech Towards,56,1,Fountain of Dreams,main center,1,C. Falcon,Shiek,Down Throw
+foo/,2,Netplay Rando,0,19,5,0.0,60.0,Tech Left,Tech to Edge,Tech Away,56,1,Fountain of Dreams,main center,1,C. Falcon,Shiek,Down Throw
+foo/,2,Netplay Rando,0,19,5,30.0,40.0,Tech Right,Tech to Edge,Tech Away,56,1,Fountain of Dreams,main center,1,C. Falcon,Shiek,Down Throw
+foo/bar/,31,Netplay Rando,2,9,1,-60.0,120.0,Miss Tech,Miss Tech,Miss Tech,9,1,Battlefield,main center,1,Fox,Marth,Down Tilt
+foo/bar/,31,Netplay Rando,2,9,1,-30.0,120.0,Tech Right,Tech to Center,Tech Towards,53,1,Battlefield,main center,1,Fox,Marth,Forward Throw
+foo/bar/,31,Netplay Rando,2,9,1,0.0,60.0,Tech Left,Tech to Edge,Tech Away,14,1,Battlefield,main center,1,Fox,Marth,Fair
+foo/bar/,31,Netplay Rando,2,9,1,30.0,20.0,Tech Left,Tech to Center,Tech Towards,56,1,Battlefield,main center,1,Fox,Marth,Down Throw
+foo/bar/,31,Netplay Rando,2,9,1,30.0,40.0,Miss Tech,Miss Tech,Miss Tech,13,1,Battlefield,main center,1,Fox,Marth,Nair
+foo/bar/,31,Netplay Rando,2,9,2,-60.0,40.0,Miss Tech,Miss Tech,Miss Tech,14,1,Battlefield,left platform,0,Fox,Marth,Fair
+foo/bar/,31,Netplay Rando,2,9,2,-30.0,40.0,Tech Left,Tech to Edge,Tech Away,55,1,Battlefield,left platform,0,Fox,Marth,Up Throw
+foo/bar/,31,Netplay Rando,2,9,2,-30.0,40.0,Tech Left,Tech to Edge,Tech Towards,55,1,Battlefield,left platform,0,Fox,Marth,Up Throw
+foo/bar/,31,Netplay Rando,2,9,3,-30.0,80.0,Miss Tech,Miss Tech,Miss Tech,16,1,Battlefield,top platform,0,Fox,Marth,Uair
+foo/bar/,31,Netplay Rando,2,9,3,0.0,60.0,Tech In Place,Tech In Place,Tech In Place,8,1,Battlefield,top platform,0,Fox,Marth,Up Tilt
+foo/bar/,31,Netplay Rando,2,9,3,0.0,100.0,Tech Left,Tech to Center,Tech Towards,16,1,Battlefield,top platform,0,Fox,Marth,Uair
+foo/bar/,31,Netplay Rando,2,9,3,0.0,120.0,Tech Left,Tech to Center,Tech Towards,55,1,Battlefield,top platform,0,Fox,Marth,Up Throw
+foo/bar/,31,Netplay Rando,2,9,3,30.0,80.0,Tech Left,Tech to Center,Tech Towards,16,1,Battlefield,top platform,0,Fox,Marth,Uair
+foo/bar/,31,Netplay Rando,2,9,4,30.0,20.0,Tech Right,Tech to Edge,Tech Away,55,1,Battlefield,right platform,0,Fox,Marth,Up Throw
+foo/bar/,31,Netplay Rando,2,9,4,30.0,60.0,Miss Tech,Miss Tech,Miss Tech,8,1,Battlefield,right platform,0,Fox,Marth,Up Tilt
+foo/bar/,31,Netplay Rando,2,9,4,30.0,120.0,Tech Right,Tech to Edge,Tech Away,14,1,Battlefield,right platform,0,Fox,Marth,Fair
+foo/bar/,31,Netplay Rando,2,9,4,60.0,40.0,Miss Tech,Miss Tech,Miss Tech,16,1,Battlefield,right platform,0,Fox,Marth,Uair
+foo/bar/,31,Netplay Rando,2,9,4,60.0,40.0,Tech Left,Tech to Center,Tech Towards,55,1,Battlefield,right platform,0,Fox,Marth,Up Throw
+foo/bar/,31,Netplay Rando,9,2,2,-60.0,40.0,Miss Tech,Miss Tech,Miss Tech,16,1,Battlefield,left platform,0,Marth,Fox,Uair
+foo/bar/,31,Netplay Rando,9,2,3,0.0,120.0,Tech In Place,Tech In Place,Tech In Place,20,1,Battlefield,top platform,0,Marth,Fox,Up Special
+foo/,2,Onion,19,0,1,30.0,0.0,Tech Right,Tech to Edge,Tech Towards,56,1,Fountain of Dreams,right platform,0,Shiek,C. Falcon,Down Throw
+foo/,2,Onion,19,0,5,0.0,40.0,Miss Tech,Miss Tech,Miss Tech,13,1,Fountain of Dreams,main center,1,Shiek,C. Falcon,Nair
+foo/,2,Onion,19,0,5,0.0,40.0,Tech In Place,Tech In Place,Tech In Place,21,1,Fountain of Dreams,main center,1,Shiek,C. Falcon,Down Special
+foo/,2,Onion,19,0,5,0.0,80.0,Miss Tech,Miss Tech,Miss Tech,20,1,Fountain of Dreams,main center,1,Shiek,C. Falcon,Up Special
+foo/,2,Onion,19,0,5,30.0,60.0,Miss Tech,Miss Tech,Miss Tech,14,1,Fountain of Dreams,main center,1,Shiek,C. Falcon,Fair
+foo/,2,Onion,19,0,7,60.0,0.0,Tech In Place,Tech In Place,Tech In Place,56,1,Fountain of Dreams,main right,1,Shiek,C. Falcon,Down Throw
+foo/bar/,2,Netplay Rando,19,19,5,-30.0,0.0,Tech Left,Tech to Edge,Tech Away,56,1,Fountain of Dreams,main center,1,Shiek,Shiek,Down Throw
+foo/bar/,2,Netplay Rando,19,19,5,-30.0,60.0,Miss Tech,Miss Tech,Miss Tech,12,1,Fountain of Dreams,main center,1,Shiek,Shiek,Down Smash
+foo/bar/,2,Netplay Rando,19,19,5,0.0,40.0,Miss Tech,Miss Tech,Miss Tech,10,1,Fountain of Dreams,main center,1,Shiek,Shiek,Side Smash
+foo/bar/,2,Netplay Rando,19,19,5,0.0,40.0,Tech Right,Tech to Edge,Tech Away,56,1,Fountain of Dreams,main center,1,Shiek,Shiek,Down Throw
+foo/bar/,2,Netplay Rando,19,19,5,0.0,60.0,Miss Tech,Miss Tech,Miss Tech,14,1,Fountain of Dreams,main center,1,Shiek,Shiek,Fair
+foo/bar/,2,Netplay Rando,19,19,5,0.0,60.0,Tech Left,Tech to Edge,Tech Away,56,1,Fountain of Dreams,main center,1,Shiek,Shiek,Down Throw
+foo/bar/,2,Netplay Rando,19,19,5,0.0,80.0,Tech Right,Tech to Edge,Tech Towards,56,1,Fountain of Dreams,main center,1,Shiek,Shiek,Down Throw
+foo/bar/,2,Netplay Rando,19,19,5,30.0,20.0,Tech In Place,Tech In Place,Tech In Place,56,1,Fountain of Dreams,main center,1,Shiek,Shiek,Down Throw
+foo/bar/,2,Netplay Rando,19,19,5,60.0,40.0,Tech In Place,Tech In Place,Tech In Place,56,1,Fountain of Dreams,main center,1,Shiek,Shiek,Down Throw
+foo/bar/,2,Netplay Rando,19,19,7,60.0,140.0,Miss Tech,Miss Tech,Miss Tech,12,1,Fountain of Dreams,main right,1,Shiek,Shiek,Down Smash
+foo/bar/,2,Onion,19,19,1,30.0,40.0,Tech In Place,Tech In Place,Tech In Place,17,1,Fountain of Dreams,right platform,0,Shiek,Shiek,Dair
+foo/bar/,2,Onion,19,19,2,0.0,60.0,Miss Tech,Miss Tech,Miss Tech,8,1,Fountain of Dreams,top platform,0,Shiek,Shiek,Up Tilt
+foo/bar/,2,Onion,19,19,5,30.0,80.0,Tech In Place,Tech In Place,Tech In Place,15,1,Fountain of Dreams,main center,1,Shiek,Shiek,Bair
+foo/bar/,2,Onion,19,19,5,30.0,100.0,Miss Tech,Miss Tech,Miss Tech,14,1,Fountain of Dreams,main center,1,Shiek,Shiek,Fair
+foo/bar/,2,Onion,19,19,7,60.0,80.0,Tech Left,Tech to Center,Tech Towards,15,1,Fountain of Dreams,main right,1,Shiek,Shiek,Bair
+foo/bar/,2,Onion,19,19,7,60.0,120.0,Miss Tech,Miss Tech,Miss Tech,14,1,Fountain of Dreams,main right,1,Shiek,Shiek,Fair
+,8,Netplay Rando,20,21,2,-60.0,80.0,Miss Tech,Miss Tech,Miss Tech,13,1,Yoshi's Story,main left,1,Falco,Y. Link,Nair
+,8,Netplay Rando,20,21,3,0.0,20.0,Miss Tech,Miss Tech,Miss Tech,56,1,Yoshi's Story,main right,1,Falco,Y. Link,Down Throw
+,8,Netplay Rando,20,21,3,0.0,80.0,Tech Right,Tech to Edge,Tech Away,13,1,Yoshi's Story,main right,1,Falco,Y. Link,Nair
+,8,Netplay Rando,20,21,3,30.0,40.0,Tech In Place,Tech In Place,Tech In Place,55,1,Yoshi's Story,main right,1,Falco,Y. Link,Up Throw
+,8,Netplay Rando,20,21,3,30.0,60.0,Miss Tech,Miss Tech,Miss Tech,8,1,Yoshi's Story,main right,1,Falco,Y. Link,Up Tilt
+,8,Netplay Rando,20,21,5,60.0,60.0,Tech In Place,Tech In Place,Tech In Place,13,1,Yoshi's Story,right platform,0,Falco,Y. Link,Nair
+,8,Netplay Rando,20,21,5,60.0,120.0,Miss Tech,Miss Tech,Miss Tech,18,1,Yoshi's Story,right platform,0,Falco,Y. Link,Neutral Special
+,28,Netplay Rando,20,21,0,-60.0,60.0,Miss Tech,Miss Tech,Miss Tech,16,1,Dreamland 64,left platform,0,Falco,Y. Link,Uair
+,28,Netplay Rando,20,21,3,-90.0,80.0,Miss Tech,Miss Tech,Miss Tech,13,1,Dreamland 64,main left,1,Falco,Y. Link,Nair
+,28,Netplay Rando,20,21,4,-30.0,40.0,Miss Tech,Miss Tech,Miss Tech,12,2,Dreamland 64,main center,1,Falco,Y. Link,Down Smash
+,28,Netplay Rando,20,21,4,30.0,20.0,Tech Left,Tech to Center,Tech Away,56,1,Dreamland 64,main center,1,Falco,Y. Link,Down Throw
+,28,Netplay Rando,20,21,4,30.0,80.0,Miss Tech,Miss Tech,Miss Tech,6,2,Dreamland 64,main center,1,Falco,Y. Link,Dash Attack
+,28,Netplay Rando,20,21,4,60.0,0.0,Miss Tech,Miss Tech,Miss Tech,56,1,Dreamland 64,main center,1,Falco,Y. Link,Down Throw
+,32,Netplay Rando,20,21,1,-60.0,80.0,Miss Tech,Miss Tech,Miss Tech,14,1,Final Destination,main center,1,Falco,Y. Link,Fair
+,32,Netplay Rando,20,21,1,-60.0,80.0,Tech In Place,Tech In Place,Tech In Place,11,1,Final Destination,main center,1,Falco,Y. Link,Up Smash
+,32,Netplay Rando,20,21,1,-30.0,60.0,Tech In Place,Tech In Place,Tech In Place,13,1,Final Destination,main center,1,Falco,Y. Link,Nair
+,32,Netplay Rando,20,21,1,-30.0,100.0,Miss Tech,Miss Tech,Miss Tech,6,1,Final Destination,main center,1,Falco,Y. Link,Dash Attack
+,32,Netplay Rando,20,21,1,-30.0,120.0,Miss Tech,Miss Tech,Miss Tech,6,1,Final Destination,main center,1,Falco,Y. Link,Dash Attack
+,32,Netplay Rando,20,21,1,30.0,40.0,Miss Tech,Miss Tech,Miss Tech,9,1,Final Destination,main center,1,Falco,Y. Link,Down Tilt
+,32,Netplay Rando,20,21,1,30.0,60.0,Miss Tech,Miss Tech,Miss Tech,13,1,Final Destination,main center,1,Falco,Y. Link,Nair
+,32,Netplay Rando,20,21,1,30.0,60.0,Miss Tech,Miss Tech,Miss Tech,15,1,Final Destination,main center,1,Falco,Y. Link,Bair
+,32,Netplay Rando,20,21,1,30.0,80.0,Miss Tech,Miss Tech,Miss Tech,8,1,Final Destination,main center,1,Falco,Y. Link,Up Tilt
+,32,Netplay Rando,20,21,1,60.0,20.0,Tech In Place,Tech In Place,Tech In Place,56,2,Final Destination,main center,1,Falco,Y. Link,Down Throw
+,32,Netplay Rando,20,21,1,60.0,100.0,Tech In Place,Tech In Place,Tech In Place,13,1,Final Destination,main center,1,Falco,Y. Link,Nair
+,32,Netplay Rando,20,21,1,60.0,100.0,Tech In Place,Tech In Place,Tech In Place,15,1,Final Destination,main center,1,Falco,Y. Link,Bair
+,32,Netplay Rando,20,21,1,60.0,120.0,Miss Tech,Miss Tech,Miss Tech,6,1,Final Destination,main center,1,Falco,Y. Link,Dash Attack
+,32,Netplay Rando,20,21,2,90.0,40.0,Miss Tech,Miss Tech,Miss Tech,12,1,Final Destination,main right,1,Falco,Y. Link,Down Smash
+,32,Netplay Rando,20,21,2,90.0,120.0,Miss Tech,Miss Tech,Miss Tech,18,1,Final Destination,main right,1,Falco,Y. Link,Neutral Special
+,8,Onion,21,20,3,30.0,40.0,Miss Tech,Miss Tech,Miss Tech,10,1,Yoshi's Story,main right,1,Y. Link,Falco,Side Smash
+,8,Onion,21,20,4,0.0,0.0,Miss Tech,Miss Tech,Miss Tech,21,1,Yoshi's Story,top platform,0,Y. Link,Falco,Down Special
+,28,Onion,21,20,0,-30.0,60.0,Tech In Place,Tech In Place,Tech In Place,9,1,Dreamland 64,left platform,0,Y. Link,Falco,Down Tilt
+,32,Onion,21,20,1,-60.0,80.0,Miss Tech,Miss Tech,Miss Tech,13,2,Final Destination,main center,1,Y. Link,Falco,Nair
+,32,Onion,21,20,1,-30.0,60.0,Tech In Place,Tech In Place,Tech In Place,50,1,Final Destination,main center,1,Y. Link,Falco,Get Up Attack (From Back)
+,32,Onion,21,20,1,30.0,80.0,Miss Tech,Miss Tech,Miss Tech,17,1,Final Destination,main center,1,Y. Link,Falco,Dair
+,32,Onion,21,20,1,60.0,60.0,Miss Tech,Miss Tech,Miss Tech,17,1,Final Destination,main center,1,Y. Link,Falco,Dair

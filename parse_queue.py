@@ -18,9 +18,6 @@ class ParseQueue:
 
 		self.active_slp = None
 
-		# this is slow.  maybe don't need to do every startup.  
-		# or, order the lists to reduce runtime
-		self.remove_duplicates()
 		return
 
 	## read the current log
@@ -54,7 +51,13 @@ class ParseQueue:
 		else:
 			path_list = p.glob('*.slp')
 
-		slp_list = [ str(path.relative_to(self.replay_dir_path)) for path in path_list ]
+
+		slp_list = [ str(path.relative_to(self.replay_dir_path)) 
+						for path in path_list 
+						if not path.match('._*')
+					]
+
+		print(len(slp_list))
 
 		if shuffle:
 			random.seed(0)
@@ -66,11 +69,17 @@ class ParseQueue:
 		if force_requeue:
 			slp_list_new = slp_list
 
+		print('{} files queued'.format(len(slp_list_new)))
+
 		#since the queue pops from the end, 'prepending' really means putting at the end
 		if prepend:
 			self.slp_dict['queue'] = self.slp_dict['queue'] + slp_list_new
 		else:
 			self.slp_dict['queue'] = slp_list_new + self.slp_dict['queue']
+
+		#remove duplicates
+		#TODO order lists and reduce runtime
+		self.remove_duplicates()
 
 		return self
 

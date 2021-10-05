@@ -1,0 +1,38 @@
+stage_id,stage_name_short,stage_name,ground_id,ground_name,is_main,is_side_platform,is_top_platform
+2,FoD,Fountain of Dreams,3,main left,1,0,0
+2,FoD,Fountain of Dreams,4,main left grass,1,0,0
+2,FoD,Fountain of Dreams,5,main center,1,0,0
+2,FoD,Fountain of Dreams,6,main right grass,1,0,0
+2,FoD,Fountain of Dreams,7,main right,1,0,0
+2,FoD,Fountain of Dreams,0,left platform,0,1,0
+2,FoD,Fountain of Dreams,1,right platform,0,1,0
+2,FoD,Fountain of Dreams,2,top platform,0,0,1
+3,PS1,Pokemon Stadium,34,main center,1,0,0
+3,PS1,Pokemon Stadium,51,main left,1,0,0
+3,PS1,Pokemon Stadium,52,main left divot,1,0,0
+3,PS1,Pokemon Stadium,53,main right divot,1,0,0
+3,PS1,Pokemon Stadium,54,main right,1,0,0
+3,PS1,Pokemon Stadium,35,left platform,0,1,0
+3,PS1,Pokemon Stadium,36,right platform,0,1,0
+8,YS,Yoshi's Story,2,main left,1,0,0
+8,YS,Yoshi's Story,3,main right,1,0,0
+8,YS,Yoshi's Story,6,main platform,1,0,0
+8,YS,Yoshi's Story,0,Randall,0,0,0
+8,YS,Yoshi's Story,1,left platform,0,1,0
+8,YS,Yoshi's Story,5,right platform,0,1,0
+8,YS,Yoshi's Story,4,top platform,0,0,1
+28,DL64,Dreamland 64,3,main left,1,0,0
+28,DL64,Dreamland 64,4,main center,1,0,0
+28,DL64,Dreamland 64,5,main right,1,0,0
+28,DL64,Dreamland 64,0,left platform,0,1,0
+28,DL64,Dreamland 64,1,right platform,0,1,0
+28,DL64,Dreamland 64,2,top platform,0,0,1
+31,BF,Battlefield,0,main left,1,0,0
+31,BF,Battlefield,1,main center,1,0,0
+31,BF,Battlefield,5,main right,1,0,0
+31,BF,Battlefield,2,left platform,0,1,0
+31,BF,Battlefield,4,right platform,0,1,0
+31,BF,Battlefield,3,top platform,0,0,1
+32,FD,Final Destination,0,main left,1,0,0
+32,FD,Final Destination,1,main center,1,0,0
+32,FD,Final Destination,2,main right,1,0,0
